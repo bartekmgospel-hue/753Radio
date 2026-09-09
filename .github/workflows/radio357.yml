@@ -1,9 +1,10 @@
 name: Radio 357 -> Spotify
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *'
+    # Co 15 minut. GitHub Actions może uruchomić zadanie z niewielkim opóźnieniem.
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -12,15 +13,12 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12"
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -30,6 +28,7 @@ jobs:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
-          PLAYLIST_NAME: '753Radio'
-          MAX_TRACKS: '5000'
+          SPOTIFY_PLAYLIST_ID: ${{ secrets.SPOTIFY_PLAYLIST_ID }}
+          PLAYLIST_NAME: "753Radio"
+          MAX_TRACKS: "5000"
         run: python sync_radio357.py
