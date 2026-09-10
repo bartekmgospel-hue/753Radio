@@ -2,10 +2,6 @@ name: Radio 357 -> Spotify
 
 on:
   workflow_dispatch: {}
-  schedule:
-    # Co 30 minut, z dala od pełnej godziny.
-    - cron: "7,37 * * * *"
-      timezone: "Europe/Warsaw"
      
 concurrency:
   group: 753radio-sync
