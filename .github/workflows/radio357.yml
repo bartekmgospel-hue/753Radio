@@ -3,7 +3,7 @@ name: Radio 357 -> Spotify
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7,37 * * * *"
+    - cron: "*/5 * * * *"
 
 concurrency:
   group: 753radio-sync
