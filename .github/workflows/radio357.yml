@@ -1,10 +1,9 @@
 name: Radio 357 -> Spotify
 
 on:
- workflow_dispatch:
- schedule:
-    # Co 15 minut. GitHub Actions może uruchomić zadanie z niewielkim opóźnieniem.
-    - cron: "*/7,37 * * * *"
+  workflow_dispatch:
+  schedule:
+    - cron: "7,37 * * * *"
 
 concurrency:
   group: 753radio-sync
