@@ -4,7 +4,7 @@ on:
 workflow_dispatch:
   schedule:
     # Co 15 minut. GitHub Actions może uruchomić zadanie z niewielkim opóźnieniem.
-    - cron: "*/15 * * * *"
+    - cron: "*/30 * * * *"
 
 concurrency:
   group: 753radio-sync
