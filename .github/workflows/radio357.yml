@@ -1,9 +1,10 @@
 name: Radio 357 -> Spotify
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: {}
   schedule:
-    - cron: "*/5 * * * *"
+    # Co 30 minut, z dala od pełnej godziny.
+    - cron: "7,37 * * * *"
 
 concurrency:
   group: 753radio-sync
@@ -15,7 +16,7 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 35
 
     steps:
       - name: Checkout repository
@@ -34,8 +35,20 @@ jobs:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+
           PLAYLIST_NAME: "753Radio"
           MAX_TRACKS: "5000"
+
+          # Podczas zapełniania playlisty cofamy archiwum o 1 dzień na run.
           BACKFILL_DAYS_PER_RUN: "1"
-        run: python sync_radio357.py
-        
+
+          # Skrypt kończy się sam po 25 min, zamiast dać GitHubowi go anulować.
+          MAX_RUNTIME_SECONDS: "1500"
+
+          # Przy bardzo długim Retry-After kończymy run i próbujemy później.
+          MAX_RETRY_AFTER: "90"
+
+          # Przy LIVE ponownie sprawdzamy ostatnie 90 min.
+          LIVE_OVERLAP_MINUTES: "90"
+
+        run: python -u sync_radio357.py
