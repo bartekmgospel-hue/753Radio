@@ -1,68 +1,58 @@
 #!/usr/bin/env python3
 """
-753Radio v4 — Radio 357 -> Spotify
+753Radio v5 — Radio 357 -> Spotify
 
-Najważniejsze zmiany:
-- oficjalna playlista Radio 357: dziś + archiwum dzienne,
-- marker LIVE w opisie playlisty: kolejne uruchomienia analizują tylko nowe pozycje
-  (z bezpiecznym 90-minutowym nakładaniem),
-- sprawdzenie istniejących utworów PRZED Spotify Search,
-- zwykle 1 zapytanie Search na nowy utwór; drugie tylko jako fallback,
-- kontrolowany limit czasu skryptu, zanim GitHub Actions zabije job,
-- bez wielominutowego czekania na Spotify 429,
-- niebuforowane logi — w Actions od razu widać postęp,
-- backfill kontynuuje dzień po dniu aż do 5000 unikalnych utworów.
+Tryby:
+  SYNC_MODE=live      -> tylko nowe utwory z bieżącego dnia
+  SYNC_MODE=backfill  -> tylko archiwum, dzień po dniu
+
+v5 używa trwałego pliku .753radio_state.json, żeby ograniczyć liczbę
+zapytań Spotify i kontynuować pracę po limitach 429.
 """
 
+import json
 import os
 import re
 import sys
 import time
 import random
 import unicodedata
-from datetime import datetime, date, timedelta
+from datetime import datetime, date, timedelta, timezone
 from difflib import SequenceMatcher
+from pathlib import Path
 from urllib.parse import quote
 from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
 
-
 TODAY_URL = "https://radio357.pl/twoje-357/playlista/"
 DAY_URL = "https://radio357.pl/twoje-357/playlista/dzien/{day}/"
-
 SPOTIFY_API = "https://api.spotify.com/v1"
 SPOTIFY_TOKEN_URL = "https://accounts.spotify.com/api/token"
-
 WARSAW = ZoneInfo("Europe/Warsaw")
 
 CLIENT_ID = os.environ["SPOTIFY_CLIENT_ID"]
 CLIENT_SECRET = os.environ["SPOTIFY_CLIENT_SECRET"]
 REFRESH_TOKEN = os.environ["SPOTIFY_REFRESH_TOKEN"]
 
-PLAYLIST_ID = os.getenv("SPOTIFY_PLAYLIST_ID", "").strip()
+SYNC_MODE = os.getenv("SYNC_MODE", "live").strip().lower()
+if SYNC_MODE not in {"live", "backfill"}:
+    raise SystemExit("SYNC_MODE musi mieć wartość live albo backfill")
+
 PLAYLIST_NAME = os.getenv("PLAYLIST_NAME", "753Radio").strip() or "753Radio"
+PLAYLIST_ID_ENV = os.getenv("SPOTIFY_PLAYLIST_ID", "").strip()
 MAX_TRACKS = int(os.getenv("MAX_TRACKS", "5000"))
-
-# Ile pełnych dni archiwum próbujemy dołożyć w jednym uruchomieniu.
-BACKFILL_DAYS_PER_RUN = int(os.getenv("BACKFILL_DAYS_PER_RUN", "1"))
-
-# Skrypt sam kończy się przed timeoutem GitHub Actions.
-MAX_RUNTIME_SECONDS = int(os.getenv("MAX_RUNTIME_SECONDS", "1500"))  # 25 minut
-
-# Jeśli Spotify każe czekać dłużej, kończymy run bez błędu i próbujemy następnym razem.
-MAX_RETRY_AFTER = int(os.getenv("MAX_RETRY_AFTER", "90"))
-
-# Ponownie sprawdzamy niewielkie okno wstecz, żeby nie zgubić utworu
-# przy tej samej minucie albo opóźnionej aktualizacji strony.
+MAX_SEARCH_REQUESTS = int(os.getenv("MAX_SEARCH_REQUESTS", "30"))
+MAX_RUNTIME_SECONDS = int(os.getenv("MAX_RUNTIME_SECONDS", "900"))
+MAX_INLINE_RETRY_SECONDS = int(os.getenv("MAX_INLINE_RETRY_SECONDS", "15"))
+MISS_RETRY_DAYS = int(os.getenv("MISS_RETRY_DAYS", "7"))
 LIVE_OVERLAP_MINUTES = int(os.getenv("LIVE_OVERLAP_MINUTES", "90"))
-
-DRY_RUN = os.getenv("DRY_RUN", "0") == "1"
+BACKFILL_DAYS_PER_RUN = int(os.getenv("BACKFILL_DAYS_PER_RUN", "1"))
+STATE_PATH = Path(os.getenv("STATE_PATH", ".753radio_state.json"))
 
 BACKFILL_RE = re.compile(r"\[753Radio-backfill:(\d{4}-\d{2}-\d{2})\]")
 LIVE_RE = re.compile(r"\[753Radio-live:(\d{4}-\d{2}-\d{2})T(\d{2}:\d{2})\]")
-
 STARTED = time.monotonic()
 
 try:
@@ -72,47 +62,168 @@ except Exception:
     pass
 
 http = requests.Session()
-http.headers.update({
-    "User-Agent": "Mozilla/5.0 (compatible; 753RadioSpotify/4.0)"
-})
+http.headers.update({"User-Agent": "Mozilla/5.0 (compatible; 753RadioSpotify/5.0)"})
+ACCESS_TOKEN = None
 
 
-class GracefulStop(Exception):
-    """Kontrolowane zakończenie przed timeoutem GitHub Actions."""
+class SearchBudgetStop(Exception):
+    pass
+
+
+class RuntimeStop(Exception):
+    pass
+
+
+class RateLimited(Exception):
+    def __init__(self, retry_after=60, reason=None, message=None):
+        super().__init__(message or "Spotify rate limit")
+        self.retry_after = max(1, int(retry_after or 60))
+        self.reason = reason or ""
+        self.message = message or ""
 
 
 def now_pl():
     return datetime.now(WARSAW)
 
 
+def now_utc():
+    return datetime.now(timezone.utc)
+
+
+def iso_utc(dt):
+    return dt.astimezone(timezone.utc).isoformat(timespec="seconds")
+
+
+def parse_iso_datetime(value):
+    if not value:
+        return None
+    try:
+        dt = datetime.fromisoformat(value)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt
+    except Exception:
+        return None
+
+
+def default_state():
+    return {
+        "version": 5,
+        "playlist_id": "",
+        "playlist_name": PLAYLIST_NAME,
+        "uris": [],
+        "keys": {},
+        "misses": {},
+        "pending_live": [],
+        "pending_backfill": [],
+        "backfill_last_completed": None,
+        "live_day": None,
+        "live_time": None,
+        "blocked_until": None,
+        "last_429": None,
+    }
+
+
+def load_state():
+    state = default_state()
+    if STATE_PATH.exists():
+        try:
+            loaded = json.loads(STATE_PATH.read_text(encoding="utf-8"))
+            if isinstance(loaded, dict):
+                state.update(loaded)
+        except Exception as exc:
+            print(f"UWAGA: nie mogę odczytać {STATE_PATH}: {exc}")
+
+    state["version"] = 5
+    state["playlist_name"] = PLAYLIST_NAME
+    state["uris"] = list(dict.fromkeys(state.get("uris") or []))
+    state["keys"] = dict(state.get("keys") or {})
+    state["misses"] = dict(state.get("misses") or {})
+    state["pending_live"] = list(dict.fromkeys(state.get("pending_live") or []))
+    state["pending_backfill"] = list(dict.fromkeys(state.get("pending_backfill") or []))
+    return state
+
+
+def save_state(state):
+    tmp = STATE_PATH.with_suffix(STATE_PATH.suffix + ".tmp")
+    tmp.write_text(json.dumps(state, ensure_ascii=False, indent=2, sort_keys=True), encoding="utf-8")
+    tmp.replace(STATE_PATH)
+
+
 def runtime_guard():
-    elapsed = time.monotonic() - STARTED
-    if elapsed >= MAX_RUNTIME_SECONDS:
-        raise GracefulStop(
-            f"Osiągnięto limit {MAX_RUNTIME_SECONDS}s dla tego uruchomienia."
-        )
+    if time.monotonic() - STARTED >= MAX_RUNTIME_SECONDS:
+        raise RuntimeStop(f"Osiągnięto limit czasu {MAX_RUNTIME_SECONDS}s dla tego runu.")
 
 
-def refresh_access_token():
+def blocked_by_previous_429(state):
+    until = parse_iso_datetime(state.get("blocked_until"))
+    if not until:
+        return False
+    if now_utc() < until:
+        left = int((until - now_utc()).total_seconds())
+        print(f"Spotify nadal w okresie blokady po 429. Pozostało około {max(0, left)}s.")
+        return True
+    state["blocked_until"] = None
+    save_state(state)
+    return False
+
+
+def remember_rate_limit(state, exc):
+    blocked_until = now_utc() + timedelta(seconds=exc.retry_after + 5)
+    state["blocked_until"] = iso_utc(blocked_until)
+    state["last_429"] = {
+        "at": iso_utc(now_utc()),
+        "retry_after": exc.retry_after,
+        "reason": exc.reason or None,
+        "message": exc.message or None,
+        "mode": SYNC_MODE,
+    }
+    save_state(state)
+    print(
+        f"429 zapisany: Retry-After={exc.retry_after}s, "
+        f"reason={exc.reason or 'brak'}, blocked_until={state['blocked_until']}"
+    )
+
+
+def ensure_access_token():
+    global ACCESS_TOKEN
+    if ACCESS_TOKEN:
+        return
     r = http.post(
         SPOTIFY_TOKEN_URL,
-        data={
-            "grant_type": "refresh_token",
-            "refresh_token": REFRESH_TOKEN,
-        },
+        data={"grant_type": "refresh_token", "refresh_token": REFRESH_TOKEN},
         auth=(CLIENT_ID, CLIENT_SECRET),
         timeout=30,
     )
     r.raise_for_status()
-    return r.json()["access_token"]
+    ACCESS_TOKEN = r.json()["access_token"]
+    http.headers.update({"Authorization": f"Bearer {ACCESS_TOKEN}"})
 
 
-ACCESS_TOKEN = refresh_access_token()
-http.headers.update({"Authorization": f"Bearer {ACCESS_TOKEN}"})
+def parse_spotify_error(response):
+    reason = ""
+    message = ""
+    try:
+        payload = response.json()
+    except Exception:
+        payload = {}
+
+    if isinstance(payload, dict):
+        error = payload.get("error")
+        if isinstance(error, dict):
+            reason = error.get("reason") or error.get("code") or ""
+            message = error.get("message") or error.get("description") or ""
+        elif isinstance(error, str):
+            message = error
+        reason = reason or payload.get("reason") or ""
+        message = message or payload.get("message") or ""
+
+    reason = reason or response.headers.get("X-RateLimit-Reason", "")
+    return str(reason), str(message)
 
 
 def spotify(method, path, **kwargs):
-    """Spotify request z retry, ale bez czekania dłuższego niż rozsądny limit."""
+    ensure_access_token()
     url = SPOTIFY_API + path
 
     for attempt in range(1, 6):
@@ -120,44 +231,34 @@ def spotify(method, path, **kwargs):
         r = http.request(method, url, timeout=30, **kwargs)
 
         if r.status_code == 429:
-            raw_retry = r.headers.get("Retry-After", "5")
+            raw_retry = r.headers.get("Retry-After", "60")
             try:
-                delay = max(1, int(float(raw_retry)))
-            except ValueError:
-                delay = 5
-
-            print(f"Spotify 429 — Retry-After={delay}s")
-
-            if delay > MAX_RETRY_AFTER:
-                raise GracefulStop(
-                    f"Spotify ograniczył zapytania na {delay}s. "
-                    "Kończę ten run bez błędu; następny będzie kontynuował."
-                )
-
-            time.sleep(delay)
-            continue
+                retry_after = max(1, int(float(raw_retry)))
+            except Exception:
+                retry_after = 60
+            reason, message = parse_spotify_error(r)
+            print(
+                f"Spotify 429 — Retry-After={retry_after}s, "
+                f"reason={reason or 'brak'}, message={message or 'brak'}"
+            )
+            is_quota = reason.upper() == "QUOTA_EXCEEDED"
+            if not is_quota and retry_after <= MAX_INLINE_RETRY_SECONDS and attempt < 3:
+                print(f"Czekam {retry_after}s i ponawiam...")
+                time.sleep(retry_after)
+                continue
+            raise RateLimited(retry_after, reason, message)
 
         if r.status_code in (500, 502, 503, 504):
             if attempt == 5:
-                print(
-                    f"Spotify {r.status_code}: {r.text[:800]}",
-                    file=sys.stderr,
-                )
+                print(f"Spotify {r.status_code}: {r.text[:800]}", file=sys.stderr)
                 r.raise_for_status()
-
             delay = min(20, (2 ** (attempt - 1)) + random.random())
-            print(
-                f"Spotify {r.status_code} — próba {attempt}/5, "
-                f"ponawiam za {delay:.1f}s"
-            )
+            print(f"Spotify {r.status_code} — próba {attempt}/5, retry za {delay:.1f}s")
             time.sleep(delay)
             continue
 
         if r.status_code >= 400:
-            print(
-                f"Spotify {r.status_code}: {r.text[:1000]}",
-                file=sys.stderr,
-            )
+            print(f"Spotify {r.status_code}: {r.text[:1000]}", file=sys.stderr)
             r.raise_for_status()
 
         return r
@@ -189,23 +290,18 @@ def title_key(title):
 
 
 def source_key(artist, title):
-    return normalize(artist), title_key(title)
+    return f"{normalize(artist)}|||{title_key(title)}"
 
 
 def parse_radio357_page(url):
     runtime_guard()
-
     r = requests.get(
         url,
-        headers={
-            "User-Agent": "Mozilla/5.0 (compatible; 753RadioSpotify/4.0)"
-        },
+        headers={"User-Agent": "Mozilla/5.0 (compatible; 753RadioSpotify/5.0)"},
         timeout=30,
     )
-
     if r.status_code == 404:
         return []
-
     r.raise_for_status()
 
     soup = BeautifulSoup(r.text, "html.parser")
@@ -217,151 +313,23 @@ def parse_radio357_page(url):
             continue
         if i + 2 >= len(lines):
             continue
-
         artist = lines[i + 1].strip()
         title = lines[i + 2].strip()
-
-        if not artist or not title:
+        if not artist or not title or re.fullmatch(r"\d{1,2}:\d{2}", artist):
             continue
-        if re.fullmatch(r"\d{1,2}:\d{2}", artist):
-            continue
-
         hh, mm = map(int, line.split(":"))
         if not (0 <= hh <= 23 and 0 <= mm <= 59):
             continue
+        rows.append((f"{hh:02d}:{mm:02d}", artist, title))
 
-        hhmm = f"{hh:02d}:{mm:02d}"
-        rows.append((hhmm, artist, title))
-
-    # Usuwamy identyczne duplikaty z HTML.
     unique = []
     seen = set()
-
     for hhmm, artist, title in rows:
         key = (hhmm, normalize(artist), title_key(title))
-        if key in seen:
-            continue
-        seen.add(key)
-        unique.append((hhmm, artist, title))
-
+        if key not in seen:
+            seen.add(key)
+            unique.append((hhmm, artist, title))
     return unique
-
-
-def get_or_create_playlist():
-    global PLAYLIST_ID
-
-    if PLAYLIST_ID:
-        return PLAYLIST_ID
-
-    offset = 0
-
-    while True:
-        data = spotify(
-            "GET",
-            f"/me/playlists?limit=50&offset={offset}",
-        ).json()
-
-        items = data.get("items", [])
-
-        for playlist in items:
-            if playlist and playlist.get("name") == PLAYLIST_NAME:
-                PLAYLIST_ID = playlist["id"]
-                print(f"Znaleziono playlistę: {PLAYLIST_NAME} ({PLAYLIST_ID})")
-                return PLAYLIST_ID
-
-        if not data.get("next"):
-            break
-
-        offset += len(items)
-
-    if DRY_RUN:
-        print(f"[DRY RUN] Utworzyłbym playlistę {PLAYLIST_NAME}")
-        return "DRY_RUN"
-
-    data = spotify(
-        "POST",
-        "/me/playlists",
-        json={
-            "name": PLAYLIST_NAME,
-            "public": False,
-            "description": (
-                "Automatyczna playlista utworów granych w Radio 357."
-            ),
-        },
-    ).json()
-
-    PLAYLIST_ID = data["id"]
-    print(f"Utworzono playlistę: {PLAYLIST_NAME} ({PLAYLIST_ID})")
-    return PLAYLIST_ID
-
-
-def get_playlist_meta(pid):
-    return spotify("GET", f"/playlists/{pid}").json()
-
-
-def playlist_items(pid):
-    """Pobiera URI + metadane potrzebne do sprawdzania duplikatów bez Search."""
-    output = []
-    offset = 0
-
-    while True:
-        runtime_guard()
-
-        data = spotify(
-            "GET",
-            f"/playlists/{pid}/items?limit=100&offset={offset}",
-        ).json()
-
-        batch = data.get("items", [])
-
-        for row in batch:
-            item = row.get("item") or row.get("track") or {}
-            uri = item.get("uri")
-
-            if not uri:
-                continue
-
-            artists = [
-                a.get("name", "")
-                for a in item.get("artists", [])
-                if a.get("name")
-            ]
-
-            output.append({
-                "uri": uri,
-                "artists": artists,
-                "title": item.get("name", ""),
-            })
-
-        if not data.get("next"):
-            break
-
-        offset += len(batch)
-
-    return output
-
-
-def build_existing_keys(items):
-    keys = set()
-
-    for item in items:
-        title = title_key(item.get("title", ""))
-        artists = item.get("artists", [])
-
-        if not title or not artists:
-            continue
-
-        # Główny artysta.
-        keys.add((normalize(artists[0]), title))
-
-        # Pełna lista artystów.
-        keys.add((normalize(", ".join(artists)), title))
-
-        # Każdy artysta osobno — pomaga przy feat./duetach.
-        for artist in artists:
-            keys.add((normalize(artist), title))
-
-    return keys
 
 
 def score_candidate(target_artist, target_title, item):
@@ -380,241 +348,277 @@ def score_candidate(target_artist, target_title, item):
         SequenceMatcher(None, a1, a2_first).ratio(),
         SequenceMatcher(None, a1, a2_all).ratio(),
     )
-
     title_score = SequenceMatcher(None, t1, t2).ratio()
+    score = 0.32 * artist_score + 0.68 * title_score
 
-    score = (0.32 * artist_score) + (0.68 * title_score)
-
-    if a1 and (
-        a1 in a2_first
-        or a2_first in a1
-        or a1 in a2_all
-    ):
+    if a1 and (a1 in a2_first or a2_first in a1 or a1 in a2_all):
         score += 0.06
-
     if t1 and (t1 in t2 or t2 in t1):
         score += 0.08
-
     return min(1.0, score)
 
 
-def search_track(artist, title):
-    """
-    Najpierw jedno precyzyjne wyszukiwanie.
-    Drugie wykonujemy wyłącznie, gdy pierwsze nie daje dobrego dopasowania.
-    """
+class SearchBudget:
+    def __init__(self, maximum):
+        self.maximum = max(0, maximum)
+        self.used = 0
+
+    def take(self):
+        if self.used >= self.maximum:
+            raise SearchBudgetStop(f"Osiągnięto limit {self.maximum} zapytań Spotify Search.")
+        self.used += 1
+
+
+def search_track(artist, title, budget):
     simple_title = clean_title_for_search(title)
-
-    queries = [
-        f'track:"{simple_title}" artist:"{artist}"',
-        f"{artist} {simple_title}",
-    ]
-
+    queries = [f'track:"{simple_title}" artist:"{artist}"', f"{artist} {simple_title}"]
     best = None
     best_score = 0.0
 
     for index, query in enumerate(dict.fromkeys(queries)):
-        runtime_guard()
-
-        data = spotify(
-            "GET",
-            f"/search?q={quote(query)}&type=track&limit=10",
-        ).json()
-
+        budget.take()
+        data = spotify("GET", f"/search?q={quote(query)}&type=track&limit=10").json()
         for item in data.get("tracks", {}).get("items", []):
             score = score_candidate(artist, title, item)
             if score > best_score:
                 best = item
                 best_score = score
-
-        # Przy dobrym wyniku nie robimy drugiego requestu.
         if best is not None and best_score >= 0.82:
             break
-
         if index >= 1:
             break
 
     if best is not None and best_score >= 0.76:
         return best, best_score
-
     return None, best_score
 
 
-def resolve_rows(rows, existing_uris, existing_keys):
-    new_uris = []
-    misses = []
-    skipped_existing = 0
-    searched = 0
+def find_playlist_id():
+    if PLAYLIST_ID_ENV:
+        return PLAYLIST_ID_ENV
 
-    for hhmm, artist, title in rows:
+    offset = 0
+    while True:
+        data = spotify("GET", f"/me/playlists?limit=50&offset={offset}").json()
+        items = data.get("items", [])
+        for playlist in items:
+            if playlist and playlist.get("name") == PLAYLIST_NAME:
+                return playlist["id"]
+        if not data.get("next"):
+            break
+        offset += len(items)
+
+    data = spotify(
+        "POST",
+        "/me/playlists",
+        json={"name": PLAYLIST_NAME, "public": False, "description": "Automatyczna playlista utworów granych w Radio 357."},
+    ).json()
+    return data["id"]
+
+
+def get_playlist_meta(pid):
+    return spotify("GET", f"/playlists/{pid}").json()
+
+
+def fetch_playlist_items(pid):
+    output = []
+    offset = 0
+    while True:
         runtime_guard()
+        data = spotify("GET", f"/playlists/{pid}/items?limit=100&offset={offset}").json()
+        batch = data.get("items", [])
+        for row in batch:
+            item = row.get("item") or row.get("track") or {}
+            uri = item.get("uri")
+            if not uri:
+                continue
+            artists = [a.get("name", "") for a in item.get("artists", []) if a.get("name")]
+            output.append({"uri": uri, "artists": artists, "title": item.get("name", "")})
+        if not data.get("next"):
+            break
+        offset += len(batch)
+    return output
 
-        key = source_key(artist, title)
 
-        # Najważniejsza optymalizacja:
-        # jeżeli wykonawca + tytuł są już na playliście,
-        # NIE wykonujemy Spotify Search.
-        if key in existing_keys:
-            skipped_existing += 1
-            continue
+def add_bootstrap_keys(state, uri, artists, title):
+    if not title_key(title) or not artists:
+        return
+    for artist in artists:
+        state["keys"][source_key(artist, title)] = uri
+    state["keys"][source_key(", ".join(artists), title)] = uri
 
-        searched += 1
 
-        try:
-            track, score = search_track(artist, title)
-        except requests.RequestException as exc:
-            print(f"SKIP {hhmm} | {artist} - {title} | {exc}")
-            continue
+def migrate_markers_from_description(state, description):
+    m = BACKFILL_RE.search(description or "")
+    if m and not state.get("backfill_last_completed"):
+        state["backfill_last_completed"] = m.group(1)
+    m = LIVE_RE.search(description or "")
+    if m and not state.get("live_day"):
+        state["live_day"] = m.group(1)
+        state["live_time"] = m.group(2)
 
-        if not track:
-            misses.append((hhmm, artist, title, score))
-            print(f"MISS {hhmm} | {artist} - {title} ({score:.2f})")
-            continue
 
-        uri = track["uri"]
-        matched_artists = [
-            a.get("name", "")
-            for a in track.get("artists", [])
-            if a.get("name")
-        ]
-        matched_title = track.get("name", "")
+def bootstrap_state_if_needed(state):
+    if state.get("playlist_id") and isinstance(state.get("uris"), list) and state.get("uris"):
+        return state["playlist_id"]
 
-        # Zapamiętujemy również klucz źródłowy.
-        existing_keys.add(key)
+    print("Pierwszy run v5: buduję stan z istniejącej playlisty Spotify.")
+    pid = find_playlist_id()
+    meta = get_playlist_meta(pid)
+    items = fetch_playlist_items(pid)
 
-        if matched_artists:
-            matched_title_key = title_key(matched_title)
-            existing_keys.add(
-                (normalize(matched_artists[0]), matched_title_key)
-            )
-            existing_keys.add(
-                (normalize(", ".join(matched_artists)), matched_title_key)
-            )
-            for matched_artist in matched_artists:
-                existing_keys.add(
-                    (normalize(matched_artist), matched_title_key)
-                )
+    state["playlist_id"] = pid
+    state["playlist_name"] = PLAYLIST_NAME
+    state["uris"] = []
+    state["keys"] = state.get("keys") or {}
 
-        if uri in existing_uris:
-            continue
+    seen = set()
+    for item in items:
+        uri = item["uri"]
+        if uri not in seen:
+            seen.add(uri)
+            state["uris"].append(uri)
+        add_bootstrap_keys(state, uri, item.get("artists") or [], item.get("title") or "")
 
-        existing_uris.add(uri)
-        new_uris.append(uri)
+    migrate_markers_from_description(state, meta.get("description") or "")
+    save_state(state)
+    print(f"Bootstrap gotowy: {len(state['uris'])} pozycji, {len(state['keys'])} kluczy.")
+    return pid
 
-        artists_text = ", ".join(matched_artists)
-        print(
-            f"ADD  {hhmm} | {artist} - {title} "
-            f"-> {artists_text} - {matched_title} ({score:.2f})"
-        )
 
-    print(
-        f"Podsumowanie: search={searched}, "
-        f"pominięte_jako_istniejące={skipped_existing}, "
-        f"nowe={len(new_uris)}, miss={len(misses)}"
-    )
+def miss_is_active(state, key):
+    value = state.get("misses", {}).get(key)
+    if not value:
+        return False
+    try:
+        when = date.fromisoformat(value)
+    except Exception:
+        return False
+    return (now_pl().date() - when).days < MISS_RETRY_DAYS
 
-    return new_uris, misses
+
+def mark_miss(state, key):
+    state.setdefault("misses", {})[key] = now_pl().date().isoformat()
+    save_state(state)
+
+
+def all_pending_uris(state):
+    return set((state.get("pending_live") or []) + (state.get("pending_backfill") or []))
+
+
+def queue_uri(state, queue_name, uri):
+    if uri in set(state.get("uris") or []) or uri in all_pending_uris(state):
+        return False
+    state.setdefault(queue_name, []).append(uri)
+    save_state(state)
+    return True
 
 
 def add_items(pid, uris, position=None):
-    if not uris:
-        return
-
+    inserted = 0
     for i in range(0, len(uris), 100):
         runtime_guard()
-
         batch = uris[i:i + 100]
         body = {"uris": batch}
-
         if position is not None:
-            body["position"] = position
-
-        if DRY_RUN:
-            print(f"[DRY RUN] add {len(batch)}")
-        else:
-            spotify(
-                "POST",
-                f"/playlists/{pid}/items",
-                json=body,
-            )
+            body["position"] = position + inserted
+        spotify("POST", f"/playlists/{pid}/items", json=body)
+        inserted += len(batch)
 
 
-def replace_items(pid, uris):
-    if DRY_RUN:
+def remove_items(pid, uris):
+    for i in range(0, len(uris), 100):
+        runtime_guard()
+        batch = uris[i:i + 100]
+        spotify("DELETE", f"/playlists/{pid}/items", json={"items": [{"uri": uri} for uri in batch]})
+
+
+def flush_pending(pid, state):
+    live = list(dict.fromkeys(state.get("pending_live") or []))
+    if live:
+        print(f"Pending LIVE: dodaję {len(live)} pozycji.")
+        add_items(pid, live, position=0)
+        live_set = set(live)
+        state["uris"] = live + [uri for uri in state["uris"] if uri not in live_set]
+        state["pending_live"] = []
+        save_state(state)
+
+    backfill = list(dict.fromkeys(state.get("pending_backfill") or []))
+    if backfill:
+        print(f"Pending BACKFILL: dodaję {len(backfill)} pozycji.")
+        add_items(pid, backfill)
+        existing = set(state["uris"])
+        for uri in backfill:
+            if uri not in existing:
+                state["uris"].append(uri)
+                existing.add(uri)
+        state["pending_backfill"] = []
+        save_state(state)
+
+
+def enforce_max_tracks(pid, state):
+    if len(state["uris"]) <= MAX_TRACKS:
         return
+    to_remove = state["uris"][MAX_TRACKS:]
+    print(f"Limit {MAX_TRACKS}: usuwam {len(to_remove)} najstarszych pozycji.")
+    remove_items(pid, to_remove)
+    state["uris"] = state["uris"][:MAX_TRACKS]
+    save_state(state)
 
-    runtime_guard()
-    spotify(
-        "PUT",
-        f"/playlists/{pid}/items",
-        json={"uris": uris[:100]},
+
+def process_rows(rows, state, queue_name, budget):
+    stats = {"rows": 0, "known": 0, "miss_cache": 0, "matched": 0, "miss": 0, "queued": 0}
+    start_budget = budget.used
+
+    for hhmm, artist, title in rows:
+        runtime_guard()
+        stats["rows"] += 1
+        key = source_key(artist, title)
+
+        if key in state["keys"]:
+            stats["known"] += 1
+            if queue_uri(state, queue_name, state["keys"][key]):
+                stats["queued"] += 1
+            continue
+
+        if miss_is_active(state, key):
+            stats["miss_cache"] += 1
+            continue
+
+        try:
+            track, score = search_track(artist, title, budget)
+        except (SearchBudgetStop, RateLimited, RuntimeStop) as exc:
+            stats["search_requests"] = budget.used - start_budget
+            return False, exc, stats
+
+        if not track:
+            stats["miss"] += 1
+            print(f"MISS {hhmm} | {artist} - {title} ({score:.2f})")
+            mark_miss(state, key)
+            continue
+
+        uri = track["uri"]
+        state["keys"][key] = uri
+        save_state(state)
+        stats["matched"] += 1
+
+        if queue_uri(state, queue_name, uri):
+            stats["queued"] += 1
+
+        matched_artists = ", ".join(a.get("name", "") for a in track.get("artists", []))
+        print(f"MATCH {hhmm} | {artist} - {title} -> {matched_artists} - {track.get('name', '')} ({score:.2f})")
+
+    stats["search_requests"] = budget.used - start_budget
+    return True, None, stats
+
+
+def print_stats(label, stats, budget):
+    print(
+        f"{label}: rows={stats.get('rows',0)}, search={stats.get('search_requests',0)}, "
+        f"known={stats.get('known',0)}, miss_cache={stats.get('miss_cache',0)}, "
+        f"matched={stats.get('matched',0)}, miss={stats.get('miss',0)}, "
+        f"queued={stats.get('queued',0)}, search_total={budget.used}/{budget.maximum}"
     )
-
-    for i in range(100, len(uris), 100):
-        add_items(pid, uris[i:i + 100])
-
-
-def parse_markers(description):
-    backfill = None
-    live_day = None
-    live_time = None
-
-    match = BACKFILL_RE.search(description or "")
-    if match:
-        backfill = date.fromisoformat(match.group(1))
-
-    match = LIVE_RE.search(description or "")
-    if match:
-        live_day = date.fromisoformat(match.group(1))
-        live_time = match.group(2)
-
-    return backfill, live_day, live_time
-
-
-def build_description(backfill_day=None, live_day=None, live_time=None):
-    parts = [
-        "Automatyczna playlista utworów granych w Radio 357."
-    ]
-
-    if backfill_day:
-        parts.append(f"[753Radio-backfill:{backfill_day.isoformat()}]")
-
-    if live_day and live_time:
-        parts.append(
-            f"[753Radio-live:{live_day.isoformat()}T{live_time}]"
-        )
-
-    return " ".join(parts)
-
-
-def update_markers(
-    pid,
-    *,
-    backfill_day=None,
-    live_day=None,
-    live_time=None,
-):
-    if DRY_RUN:
-        return
-
-    description = build_description(
-        backfill_day=backfill_day,
-        live_day=live_day,
-        live_time=live_time,
-    )
-
-    spotify(
-        "PUT",
-        f"/playlists/{pid}",
-        json={"description": description},
-    )
-
-
-def next_backfill_day(last_backfill_day):
-    if last_backfill_day:
-        return last_backfill_day - timedelta(days=1)
-
-    return now_pl().date() - timedelta(days=1)
 
 
 def minutes_from_hhmm(hhmm):
@@ -622,222 +626,132 @@ def minutes_from_hhmm(hhmm):
     return hh * 60 + mm
 
 
-def rows_since_live_marker(rows, marker_day, marker_time):
-    """
-    Pierwszy run dnia: wszystkie pozycje.
-    Kolejne runy: marker minus LIVE_OVERLAP_MINUTES.
-    """
-    today = now_pl().date()
-
-    if marker_day != today or not marker_time:
-        return rows
-
-    threshold = max(
-        0,
-        minutes_from_hhmm(marker_time) - LIVE_OVERLAP_MINUTES,
-    )
-
-    filtered = [
-        row
-        for row in rows
-        if minutes_from_hhmm(row[0]) >= threshold
-    ]
-
-    return filtered
-
-
 def newest_time(rows):
     if not rows:
         return None
+    return max((row[0] for row in rows), key=minutes_from_hhmm)
 
-    return max(
-        (row[0] for row in rows),
-        key=minutes_from_hhmm,
-    )
+
+def filter_live_rows(rows, state):
+    today = now_pl().date().isoformat()
+    if state.get("live_day") != today or not state.get("live_time"):
+        return rows
+    threshold = max(0, minutes_from_hhmm(state["live_time"]) - LIVE_OVERLAP_MINUTES)
+    return [row for row in rows if minutes_from_hhmm(row[0]) >= threshold]
+
+
+def run_live(pid, state, budget):
+    rows_all = parse_radio357_page(TODAY_URL)
+    rows = filter_live_rows(rows_all, state)
+    print(f"LIVE: strona={len(rows_all)}, do_sprawdzenia={len(rows)}, marker={state.get('live_day')} {state.get('live_time')}")
+
+    completed, stop_exc, stats = process_rows(rows, state, "pending_live", budget)
+    print_stats("LIVE", stats, budget)
+
+    if not isinstance(stop_exc, RateLimited):
+        flush_pending(pid, state)
+        enforce_max_tracks(pid, state)
+
+    if completed:
+        latest = newest_time(rows_all)
+        if latest:
+            state["live_day"] = now_pl().date().isoformat()
+            state["live_time"] = latest
+            save_state(state)
+            print(f"LIVE marker zapisany: {state['live_day']} {state['live_time']}")
+
+    return completed, stop_exc
+
+
+def next_backfill_day(state):
+    value = state.get("backfill_last_completed")
+    if value:
+        return date.fromisoformat(value) - timedelta(days=1)
+    return now_pl().date() - timedelta(days=1)
+
+
+def run_backfill(pid, state, budget):
+    if len(state["uris"]) >= MAX_TRACKS:
+        print(f"BACKFILL: playlista ma już {len(state['uris'])} pozycji — nic do zrobienia.")
+        return True, None
+
+    day = next_backfill_day(state)
+
+    for _ in range(BACKFILL_DAYS_PER_RUN):
+        runtime_guard()
+        if len(state["uris"]) >= MAX_TRACKS:
+            break
+
+        rows = parse_radio357_page(DAY_URL.format(day=day.isoformat()))
+        print(f"BACKFILL {day}: odczytano {len(rows)} pozycji. Marker={state.get('backfill_last_completed')}")
+
+        completed, stop_exc, stats = process_rows(rows, state, "pending_backfill", budget)
+        print_stats(f"BACKFILL {day}", stats, budget)
+
+        if not isinstance(stop_exc, RateLimited):
+            flush_pending(pid, state)
+            enforce_max_tracks(pid, state)
+
+        if not completed:
+            print(f"BACKFILL {day}: dzień nieukończony — następny run wróci do tego samego dnia.")
+            return False, stop_exc
+
+        state["backfill_last_completed"] = day.isoformat()
+        save_state(state)
+        print(f"BACKFILL marker zapisany: {day}")
+        day -= timedelta(days=1)
+
+    return True, None
 
 
 def main():
-    print("=== 753Radio v4 ===")
+    print("=== 753Radio v5 ===")
+    print(f"Tryb: {SYNC_MODE.upper()}")
     print(f"Czas PL: {now_pl().isoformat(timespec='seconds')}")
+    print(f"Search budget: {MAX_SEARCH_REQUESTS}, runtime: {MAX_RUNTIME_SECONDS}s")
 
-    pid = get_or_create_playlist()
+    state = load_state()
 
-    if DRY_RUN and pid == "DRY_RUN":
-        items = []
-        meta = {"description": ""}
-    else:
-        items = playlist_items(pid)
-        meta = get_playlist_meta(pid)
+    if blocked_by_previous_429(state):
+        print("GOTOWE — run pominięty przez aktywny blocked_until.")
+        return
 
-    existing_list = [item["uri"] for item in items]
-    existing_uris = set(existing_list)
-    existing_keys = build_existing_keys(items)
-
-    last_backfill_day, live_day, live_time = parse_markers(
-        meta.get("description") or ""
-    )
-
-    print(f"Spotify: playlista ma {len(existing_list)} pozycji.")
-    print(
-        f"Markery: backfill={last_backfill_day}, "
-        f"live={live_day} {live_time}"
-    )
-
-    live_misses = []
-    archive_misses = []
-
-    # Markery, które mamy zapisać po wykonaniu danego etapu.
-    current_backfill_marker = last_backfill_day
-    current_live_day = live_day
-    current_live_time = live_time
+    budget = SearchBudget(MAX_SEARCH_REQUESTS)
 
     try:
-        # ---------------------------------------------------------
-        # 1. BIEŻĄCY DZIEŃ
-        # ---------------------------------------------------------
-        today_rows_all = parse_radio357_page(TODAY_URL)
-
+        pid = bootstrap_state_if_needed(state)
         print(
-            f"Dzisiaj: strona zawiera {len(today_rows_all)} pozycji."
+            f"Stan v5: playlist={len(state['uris'])}, keys={len(state['keys'])}, "
+            f"misses={len(state['misses'])}, pending_live={len(state['pending_live'])}, "
+            f"pending_backfill={len(state['pending_backfill'])}"
         )
 
-        today_rows = rows_since_live_marker(
-            today_rows_all,
-            live_day,
-            live_time,
-        )
+        flush_pending(pid, state)
+        enforce_max_tracks(pid, state)
 
-        print(
-            f"Dzisiaj: do sprawdzenia po markerze/overlapie "
-            f"{len(today_rows)} pozycji."
-        )
+        if SYNC_MODE == "live":
+            _, stop_exc = run_live(pid, state, budget)
+        else:
+            _, stop_exc = run_backfill(pid, state, budget)
 
-        # Radio 357 zwykle pokazuje najnowsze pozycje u góry.
-        # Przetwarzamy je w kolejności widocznej na stronie.
-        live_new, live_misses = resolve_rows(
-            today_rows,
-            existing_uris,
-            existing_keys,
-        )
+        if isinstance(stop_exc, RateLimited):
+            remember_rate_limit(state, stop_exc)
+            print("STOP KONTROLOWANY: Spotify 429. Stan i pending zostały zachowane.")
+        elif isinstance(stop_exc, SearchBudgetStop):
+            print(f"STOP KONTROLOWANY: {stop_exc} Następny run będzie kontynuował.")
+        elif isinstance(stop_exc, RuntimeStop):
+            print(f"STOP KONTROLOWANY: {stop_exc} Następny run będzie kontynuował.")
 
-        if live_new:
-            add_items(pid, live_new, position=0)
-            existing_list = live_new + existing_list
-            print(f"Dodano bieżących: {len(live_new)}")
-
-        # Marker LIVE przesuwamy dopiero po pełnym przetworzeniu tego etapu.
-        latest = newest_time(today_rows_all)
-
-        if latest:
-            current_live_day = now_pl().date()
-            current_live_time = latest
-
-            update_markers(
-                pid,
-                backfill_day=current_backfill_marker,
-                live_day=current_live_day,
-                live_time=current_live_time,
-            )
-
-            print(
-                f"Zapisano marker LIVE: "
-                f"{current_live_day} {current_live_time}"
-            )
-
-        # ---------------------------------------------------------
-        # 2. ARCHIWUM
-        # ---------------------------------------------------------
-        if (
-            len(existing_list) < MAX_TRACKS
-            and BACKFILL_DAYS_PER_RUN > 0
-        ):
-            day = next_backfill_day(current_backfill_marker)
-
-            for _ in range(BACKFILL_DAYS_PER_RUN):
-                runtime_guard()
-
-                if len(existing_list) >= MAX_TRACKS:
-                    break
-
-                rows = parse_radio357_page(
-                    DAY_URL.format(day=day.isoformat())
-                )
-
-                print(
-                    f"Archiwum {day}: odczytano {len(rows)} pozycji."
-                )
-
-                archive_new = []
-                misses = []
-
-                if rows:
-                    archive_new, misses = resolve_rows(
-                        rows,
-                        existing_uris,
-                        existing_keys,
-                    )
-
-                    archive_misses.extend(misses)
-
-                    remaining = MAX_TRACKS - len(existing_list)
-                    archive_new = archive_new[:remaining]
-
-                    if archive_new:
-                        add_items(pid, archive_new)
-                        existing_list.extend(archive_new)
-
-                        print(
-                            f"Archiwum {day}: "
-                            f"dodano {len(archive_new)}"
-                        )
-
-                # Tylko po pełnym przejściu dnia przesuwamy marker.
-                current_backfill_marker = day
-
-                update_markers(
-                    pid,
-                    backfill_day=current_backfill_marker,
-                    live_day=current_live_day,
-                    live_time=current_live_time,
-                )
-
-                print(
-                    f"Zapisano marker BACKFILL: "
-                    f"{current_backfill_marker}"
-                )
-
-                day -= timedelta(days=1)
-
-    except GracefulStop as exc:
-        print(f"STOP KONTROLOWANY: {exc}")
-        print(
-            "Stan playlisty został zachowany. "
-            "Następne uruchomienie będzie kontynuować."
-        )
-
-    # -------------------------------------------------------------
-    # 3. LIMIT 5000
-    # -------------------------------------------------------------
-    try:
-        if len(existing_list) > MAX_TRACKS:
-            existing_list = existing_list[:MAX_TRACKS]
-            replace_items(pid, existing_list)
-            print(
-                f"Przycięto playlistę do {MAX_TRACKS} utworów."
-            )
-    except GracefulStop as exc:
-        print(f"Pomijam przycięcie w tym runie: {exc}")
+    except RateLimited as exc:
+        remember_rate_limit(state, exc)
+        print("STOP KONTROLOWANY: Spotify 429 podczas operacji playlisty.")
+    except RuntimeStop as exc:
+        print(f"STOP KONTROLOWANY: {exc} Stan został zachowany.")
 
     elapsed = int(time.monotonic() - STARTED)
-
     print(
-        f"GOTOWE. 753Radio: {len(existing_list)} utworów. "
-        f"Czas: {elapsed}s."
-    )
-
-    print(
-        "Niedopasowane w tym uruchomieniu: "
-        f"{len(live_misses) + len(archive_misses)}"
+        f"GOTOWE. Tryb={SYNC_MODE}, playlist={len(state.get('uris') or [])}, "
+        f"search={budget.used}/{budget.maximum}, czas={elapsed}s."
     )
 
 
