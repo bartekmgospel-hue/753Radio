@@ -1,0 +1,67 @@
+name: 753Radio LIVE
+
+on:
+  workflow_dispatch: {}
+
+concurrency:
+  group: 753radio-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Sync Radio 357 LIVE
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+          SYNC_MODE: "live"
+          PLAYLIST_NAME: "753Radio"
+          MAX_TRACKS: "5000"
+          MAX_SEARCH_REQUESTS: "30"
+          MAX_RUNTIME_SECONDS: "600"
+          MAX_INLINE_RETRY_SECONDS: "15"
+          MISS_RETRY_DAYS: "7"
+          LIVE_OVERLAP_MINUTES: "90"
+        run: python -u sync_radio357.py
+
+      - name: Persist 753Radio state
+        if: always()
+        shell: bash
+        run: |
+          if [ ! -f .753radio_state.json ]; then
+            echo "No state file to persist."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .753radio_state.json
+
+          if git diff --cached --quiet; then
+            echo "State unchanged."
+            exit 0
+          fi
+
+          git commit -m "Update 753Radio state [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main
