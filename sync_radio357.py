@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-753Radio v5 — Radio 357 -> Spotify
+753Radio v5.1 — Radio 357 -> Spotify
 
 Tryby:
   SYNC_MODE=live      -> tylko nowe utwory z bieżącego dnia
   SYNC_MODE=backfill  -> tylko archiwum, dzień po dniu
 
-v5 używa trwałego pliku .753radio_state.json, żeby ograniczyć liczbę
-zapytań Spotify i kontynuować pracę po limitach 429.
+v5.1 używa trwałego pliku .753radio_state.json, automatycznego fallbacku
+Radio111 dla LIVE oraz zabezpieczenia markera czasu.
 """
 
 import json
@@ -28,6 +28,7 @@ from bs4 import BeautifulSoup
 
 TODAY_URL = "https://radio357.pl/twoje-357/playlista/"
 DAY_URL = "https://radio357.pl/twoje-357/playlista/dzien/{day}/"
+RADIO111_TODAY_URL = "https://radio111.pl/stations/radio357-pl-radio-357/playlist/"
 SPOTIFY_API = "https://api.spotify.com/v1"
 SPOTIFY_TOKEN_URL = "https://accounts.spotify.com/api/token"
 WARSAW = ZoneInfo("Europe/Warsaw")
@@ -48,6 +49,7 @@ MAX_RUNTIME_SECONDS = int(os.getenv("MAX_RUNTIME_SECONDS", "900"))
 MAX_INLINE_RETRY_SECONDS = int(os.getenv("MAX_INLINE_RETRY_SECONDS", "15"))
 MISS_RETRY_DAYS = int(os.getenv("MISS_RETRY_DAYS", "7"))
 LIVE_OVERLAP_MINUTES = int(os.getenv("LIVE_OVERLAP_MINUTES", "90"))
+LIVE_FUTURE_TOLERANCE_MINUTES = int(os.getenv("LIVE_FUTURE_TOLERANCE_MINUTES", "15"))
 BACKFILL_DAYS_PER_RUN = int(os.getenv("BACKFILL_DAYS_PER_RUN", "1"))
 STATE_PATH = Path(os.getenv("STATE_PATH", ".753radio_state.json"))
 
@@ -108,7 +110,7 @@ def parse_iso_datetime(value):
 
 def default_state():
     return {
-        "version": 5,
+        "version": "5.1",
         "playlist_id": "",
         "playlist_name": PLAYLIST_NAME,
         "uris": [],
@@ -134,7 +136,7 @@ def load_state():
         except Exception as exc:
             print(f"UWAGA: nie mogę odczytać {STATE_PATH}: {exc}")
 
-    state["version"] = 5
+    state["version"] = "5.1"
     state["playlist_name"] = PLAYLIST_NAME
     state["uris"] = list(dict.fromkeys(state.get("uris") or []))
     state["keys"] = dict(state.get("keys") or {})
@@ -293,11 +295,64 @@ def source_key(artist, title):
     return f"{normalize(artist)}|||{title_key(title)}"
 
 
+def _dedupe_rows(rows):
+    unique = []
+    seen = set()
+    for hhmm, artist, title in rows:
+        key = (hhmm, normalize(artist), title_key(title))
+        if key in seen:
+            continue
+        seen.add(key)
+        unique.append((hhmm, artist, title))
+    return unique
+
+
+def _trim_live_rows_to_today(rows):
+    """
+    Odcina wpisy z przyszłą godziną i starsze wpisy po przejściu przez północ.
+    Źródła LIVE zwykle pokazują wpisy od najnowszego do najstarszego.
+    """
+    if not rows:
+        return []
+
+    now_dt = now_pl()
+    now_minutes = now_dt.hour * 60 + now_dt.minute
+    latest_allowed = min(23 * 60 + 59, now_minutes + LIVE_FUTURE_TOLERANCE_MINUTES)
+
+    output = []
+    previous_minutes = None
+
+    for hhmm, artist, title in rows:
+        minutes = minutes_from_hhmm(hhmm)
+
+        # Typowy rollover: 00:xx -> 23:xx = zaczyna się poprzedni dzień.
+        if previous_minutes is not None and minutes > previous_minutes + 12 * 60:
+            print(
+                f"LIVE: wykryto granicę dnia przy {hhmm}; "
+                "starsze wpisy z poprzedniego dnia pomijam."
+            )
+            break
+
+        previous_minutes = minutes
+
+        if minutes > latest_allowed:
+            print(
+                f"LIVE: pomijam przyszłą godzinę {hhmm} "
+                f"(teraz {now_dt.strftime('%H:%M')})."
+            )
+            continue
+
+        output.append((hhmm, artist, title))
+
+    return _dedupe_rows(output)
+
+
 def parse_radio357_page(url):
+    """Oficjalna strona Radio 357 — pierwszy wybór oraz archiwum."""
     runtime_guard()
     r = requests.get(
         url,
-        headers={"User-Agent": "Mozilla/5.0 (compatible; 753RadioSpotify/5.0)"},
+        headers={"User-Agent": "Mozilla/5.0 (compatible; 753RadioSpotify/5.1)"},
         timeout=30,
     )
     if r.status_code == 404:
@@ -313,23 +368,106 @@ def parse_radio357_page(url):
             continue
         if i + 2 >= len(lines):
             continue
+
         artist = lines[i + 1].strip()
         title = lines[i + 2].strip()
+
         if not artist or not title or re.fullmatch(r"\d{1,2}:\d{2}", artist):
             continue
+
         hh, mm = map(int, line.split(":"))
         if not (0 <= hh <= 23 and 0 <= mm <= 59):
             continue
+
         rows.append((f"{hh:02d}:{mm:02d}", artist, title))
 
-    unique = []
-    seen = set()
-    for hhmm, artist, title in rows:
-        key = (hhmm, normalize(artist), title_key(title))
-        if key not in seen:
-            seen.add(key)
-            unique.append((hhmm, artist, title))
-    return unique
+    return _dedupe_rows(rows)
+
+
+def parse_radio111_live_page(url=RADIO111_TODAY_URL):
+    """
+    Fallback LIVE.
+    Radio111 publikuje pozycje jako: HH:MM Wykonawca - Tytuł.
+    Parser kończy się przed sekcjami innych stacji.
+    """
+    runtime_guard()
+    r = requests.get(
+        url,
+        headers={"User-Agent": "Mozilla/5.0 (compatible; 753RadioSpotify/5.1)"},
+        timeout=30,
+    )
+    r.raise_for_status()
+
+    soup = BeautifulSoup(r.text, "html.parser")
+    rows = []
+
+    stop_headings = (
+        "popularne stacje radiowe",
+        "teraz na stacjach radiowych",
+        "inne kanały radiowe",
+        "radio111.pl radio internetowe online",
+    )
+
+    for raw in soup.stripped_strings:
+        text = " ".join(str(raw).split())
+        lowered = normalize(text)
+
+        if any(lowered.startswith(normalize(x)) for x in stop_headings):
+            break
+
+        match = re.match(r"^(\d{1,2}:\d{2})\s+(.+?)\s+-\s+(.+)$", text)
+        if not match:
+            continue
+
+        hhmm, artist, title = match.groups()
+
+        try:
+            hh, mm = map(int, hhmm.split(":"))
+        except ValueError:
+            continue
+
+        if not (0 <= hh <= 23 and 0 <= mm <= 59):
+            continue
+
+        artist = artist.strip()
+        title = title.strip()
+        if not artist or not title:
+            continue
+
+        rows.append((f"{hh:02d}:{mm:02d}", artist, title))
+
+    return _trim_live_rows_to_today(rows)
+
+
+def get_live_rows():
+    """
+    LIVE:
+    1) oficjalne Radio 357,
+    2) automatyczny fallback Radio111, jeśli oficjalna lista jest pusta.
+    """
+    official = _trim_live_rows_to_today(parse_radio357_page(TODAY_URL))
+
+    if official:
+        print(f"LIVE source: Radio357 ({len(official)} pozycji)")
+        return official, "Radio357"
+
+    print(
+        "LIVE source: Radio357 zwróciło 0 utworów; "
+        "przełączam na Radio111 fallback."
+    )
+
+    try:
+        fallback = parse_radio111_live_page()
+    except Exception as exc:
+        print(f"LIVE source: Radio111 fallback ERROR: {exc}")
+        return [], "none"
+
+    if fallback:
+        print(f"LIVE source: Radio111 fallback ({len(fallback)} pozycji)")
+        return fallback, "Radio111"
+
+    print("LIVE source: oba źródła zwróciły 0 utworów.")
+    return [], "none"
 
 
 def score_candidate(target_artist, target_title, item):
@@ -629,23 +767,95 @@ def minutes_from_hhmm(hhmm):
 def newest_time(rows):
     if not rows:
         return None
-    return max((row[0] for row in rows), key=minutes_from_hhmm)
+
+    now_dt = now_pl()
+    latest_allowed = min(
+        23 * 60 + 59,
+        now_dt.hour * 60 + now_dt.minute + LIVE_FUTURE_TOLERANCE_MINUTES,
+    )
+
+    candidates = [
+        row[0]
+        for row in rows
+        if minutes_from_hhmm(row[0]) <= latest_allowed
+    ]
+
+    return max(candidates, key=minutes_from_hhmm) if candidates else None
+
+
+def sanitize_live_marker(state):
+    """Resetuje LIVE marker, jeśli wskazuje godzinę z przyszłości."""
+    today = now_pl().date().isoformat()
+
+    if state.get("live_day") != today:
+        return
+
+    marker = state.get("live_time")
+    if not marker:
+        return
+
+    try:
+        marker_minutes = minutes_from_hhmm(marker)
+    except Exception:
+        print(f"LIVE: nieprawidłowy marker {marker!r}; resetuję.")
+        state["live_time"] = None
+        save_state(state)
+        return
+
+    now_dt = now_pl()
+    now_minutes = now_dt.hour * 60 + now_dt.minute
+
+    if marker_minutes > now_minutes + LIVE_FUTURE_TOLERANCE_MINUTES:
+        print(
+            f"LIVE: marker {marker} jest z przyszłości "
+            f"(teraz {now_dt.strftime('%H:%M')}); resetuję marker."
+        )
+        state["live_time"] = None
+        save_state(state)
 
 
 def filter_live_rows(rows, state):
+    sanitize_live_marker(state)
+
     today = now_pl().date().isoformat()
     if state.get("live_day") != today or not state.get("live_time"):
         return rows
-    threshold = max(0, minutes_from_hhmm(state["live_time"]) - LIVE_OVERLAP_MINUTES)
-    return [row for row in rows if minutes_from_hhmm(row[0]) >= threshold]
+
+    threshold = max(
+        0,
+        minutes_from_hhmm(state["live_time"]) - LIVE_OVERLAP_MINUTES,
+    )
+
+    return [
+        row
+        for row in rows
+        if minutes_from_hhmm(row[0]) >= threshold
+    ]
 
 
 def run_live(pid, state, budget):
-    rows_all = parse_radio357_page(TODAY_URL)
+    rows_all, live_source = get_live_rows()
     rows = filter_live_rows(rows_all, state)
-    print(f"LIVE: strona={len(rows_all)}, do_sprawdzenia={len(rows)}, marker={state.get('live_day')} {state.get('live_time')}")
 
-    completed, stop_exc, stats = process_rows(rows, state, "pending_live", budget)
+    print(
+        f"LIVE: source={live_source}, strona={len(rows_all)}, "
+        f"do_sprawdzenia={len(rows)}, "
+        f"marker={state.get('live_day')} {state.get('live_time')}"
+    )
+
+    if not rows_all:
+        print(
+            "LIVE: brak danych źródłowych. Marker pozostaje bez zmian; "
+            "następny run spróbuje ponownie."
+        )
+        return True, None
+
+    completed, stop_exc, stats = process_rows(
+        rows,
+        state,
+        "pending_live",
+        budget,
+    )
     print_stats("LIVE", stats, budget)
 
     if not isinstance(stop_exc, RateLimited):
@@ -658,7 +868,11 @@ def run_live(pid, state, budget):
             state["live_day"] = now_pl().date().isoformat()
             state["live_time"] = latest
             save_state(state)
-            print(f"LIVE marker zapisany: {state['live_day']} {state['live_time']}")
+            print(
+                f"LIVE marker zapisany: "
+                f"{state['live_day']} {state['live_time']} "
+                f"(source={live_source})"
+            )
 
     return completed, stop_exc
 
@@ -685,6 +899,13 @@ def run_backfill(pid, state, budget):
         rows = parse_radio357_page(DAY_URL.format(day=day.isoformat()))
         print(f"BACKFILL {day}: odczytano {len(rows)} pozycji. Marker={state.get('backfill_last_completed')}")
 
+        if not rows:
+            print(
+                f"BACKFILL {day}: źródło zwróciło 0 pozycji. "
+                "Nie przesuwam markera, żeby nie pominąć dnia."
+            )
+            return False, None
+
         completed, stop_exc, stats = process_rows(rows, state, "pending_backfill", budget)
         print_stats(f"BACKFILL {day}", stats, budget)
 
@@ -705,7 +926,7 @@ def run_backfill(pid, state, budget):
 
 
 def main():
-    print("=== 753Radio v5 ===")
+    print("=== 753Radio v5.1 ===")
     print(f"Tryb: {SYNC_MODE.upper()}")
     print(f"Czas PL: {now_pl().isoformat(timespec='seconds')}")
     print(f"Search budget: {MAX_SEARCH_REQUESTS}, runtime: {MAX_RUNTIME_SECONDS}s")
@@ -721,7 +942,7 @@ def main():
     try:
         pid = bootstrap_state_if_needed(state)
         print(
-            f"Stan v5: playlist={len(state['uris'])}, keys={len(state['keys'])}, "
+            f"Stan v5.1: playlist={len(state['uris'])}, keys={len(state['keys'])}, "
             f"misses={len(state['misses'])}, pending_live={len(state['pending_live'])}, "
             f"pending_backfill={len(state['pending_backfill'])}"
         )
