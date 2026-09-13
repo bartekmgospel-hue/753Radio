@@ -278,6 +278,7 @@
     "david guetta|||gone gone gone": "spotify:track:3Dy4xsff7c0fRaTJpA54yd",
     "dawid podsiad o|||sezon": "spotify:track:5CvvWZp4Lsw97zYMg30PyL",
     "dawid podsiad o|||ulek i dawcia": "spotify:track:5T8U0S9VDlzyVOKb4pRRPP",
+    "dawniej niz wczoraj|||22 00": "spotify:track:4s0LlMTMlsd6OrrcWJeKMI",
     "dayna stephens|||glimmer of hope": "spotify:track:0HQhAfMB6stzjG9SNZ5HL2",
     "dayna stephens|||wetlina": "spotify:track:6qlQNyZnb9tuGsazihcqoK",
     "de la soul|||superfast jellyfish": "spotify:track:1UJNbgfTzG1gZZTWFJdMf1",
@@ -526,6 +527,8 @@
     "jesse welles|||freedom bus": "spotify:track:6WIG59dsRrXkkJGoMUt1Xo",
     "jethro tull|||life is a long song": "spotify:track:1ql35N6jbGPcMR9tC0t9zp",
     "jhene aiko|||from time": "spotify:track:2WC4sK0ryyysQhtDok9Ytr",
+    "jimmy scott|||nothing compares 2 u": "spotify:track:3R3qPpiWfYbSqwgS7A8Ypy",
+    "jimmy scott|||sometimes i feel like a motherless child": "spotify:track:7K2KpvkQhrNaJnseqFJzYg",
     "jitka zelenkova|||mam chut psat roman": "spotify:track:6WawsVlq20RAt43lmWr4cX",
     "joan thiele|||eco": "spotify:track:3ycj36w66i2rIGJli4Ruhi",
     "joe cocker|||first we take manhattan": "spotify:track:1a8NJ8zBS7zNH9j9GzVmZO",
@@ -817,6 +820,7 @@
     "noni mouse sarathy korwar|||mitra": "spotify:track:0dZhSZj2dexHEGgkX1TflP",
     "noni mouse|||mitra": "spotify:track:0dZhSZj2dexHEGgkX1TflP",
     "norbi wika|||dzisiaj na my": "spotify:track:6W2wEJmYbDSWZaUAGMlOGF",
+    "norwegian baroque orchestra alexandra opsahl gottfried von der goltz|||sinfonia a 5 for cornetto and strings in d major i allegro": "spotify:track:4Umw1yEECHNkizF2mfr7yv",
     "nosowska|||jesli wiesz co chce powiedziec": "spotify:track:4QvRsDjHDB0l5NVdG1uZr8",
     "nosowska|||kasitet romans": "spotify:track:7EfRC85dG0SRg0eWiTrF3f",
     "nosowska|||pani pasztetowa": "spotify:track:0updNvGYRU6tglVqs4SNQq",
@@ -1294,7 +1298,7 @@
     "retry_after": 45840
   },
   "live_day": "2026-09-13",
-  "live_time": "21:39",
+  "live_time": "22:00",
   "misses": {
     "3 5 7 start|||18 13": "2026-09-13",
     "3 5 7 start|||18 26": "2026-09-13",
@@ -1377,6 +1381,9 @@
   "playlist_id": "6rDKLhMlP4IGNOIhdCHWX4",
   "playlist_name": "753Radio",
   "uris": [
+    "spotify:track:4Umw1yEECHNkizF2mfr7yv",
+    "spotify:track:7K2KpvkQhrNaJnseqFJzYg",
+    "spotify:track:3R3qPpiWfYbSqwgS7A8Ypy",
     "spotify:track:7p15y2xd7XRsYmOC2FxYWd",
     "spotify:track:7DD4w8YA5UztO4FnfwmwIQ",
     "spotify:track:67xdB7yDmE5AFWTuWH9Ixn",
