@@ -1556,7 +1556,7 @@
     "retry_after": 45840
   },
   "live_day": "2026-09-15",
-  "live_time": "17:09",
+  "live_time": "17:28",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -1639,6 +1639,7 @@
     "popo udniowka 357|||16 21": "2026-09-15",
     "popo udniowka 357|||16 48": "2026-09-14",
     "popo udniowka 357|||17 09": "2026-09-15",
+    "popo udniowka 357|||17 28": "2026-09-15",
     "popo udniowka 357|||17 54": "2026-09-14",
     "popo udniowka w piatek|||18 56": "2026-09-11",
     "rajery zo|||amorom patana": "2026-09-13",
