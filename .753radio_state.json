@@ -1517,7 +1517,7 @@
     "retry_after": 45840
   },
   "live_day": "2026-09-15",
-  "live_time": "06:40",
+  "live_time": "11:51",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -1566,6 +1566,7 @@
     "kieruj sie na po udnie|||10 11": "2026-09-15",
     "kieruj sie na po udnie|||10 54": "2026-09-14",
     "kieruj sie na po udnie|||11 22": "2026-09-15",
+    "kieruj sie na po udnie|||11 51": "2026-09-15",
     "kieruj sie na po udnie|||11 55": "2026-09-14",
     "klucz do autostrady|||20 00": "2026-09-15",
     "klucz do autostrady|||20 21": "2026-09-13",
@@ -1600,6 +1601,7 @@
     "ranek|||07 24": "2026-09-15",
     "ranek|||08 10": "2026-09-14",
     "ranek|||08 11": "2026-09-15",
+    "ranek|||08 56": "2026-09-15",
     "recordstore|||19 58": "2026-09-14",
     "recordstore|||20 18": "2026-09-14",
     "recordstore|||20 53": "2026-09-14",
