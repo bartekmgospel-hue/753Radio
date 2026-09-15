@@ -1589,7 +1589,7 @@
     "retry_after": 45840
   },
   "live_day": "2026-09-15",
-  "live_time": "15:46",
+  "live_time": "19:20",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -1629,6 +1629,7 @@
     "gra podwojna|||09 19": "2026-09-13",
     "gra podwojna|||09 52": "2026-09-13",
     "gra podwojna|||10 56": "2026-09-13",
+    "gruzja|||19 20": "2026-09-15",
     "gruzja|||20 26": "2026-09-15",
     "gruzja|||20 56": "2026-09-15",
     "guido maurizio de angelis|||drivin all around georgia special version 2": "2026-09-15",
