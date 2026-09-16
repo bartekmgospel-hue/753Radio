@@ -122,6 +122,7 @@
     "ayumi tanaka|||driftwood": "spotify:track:6NQsQRrda34e7l0HjCeEiv",
     "b azej krol|||mia em zabrac cie nad rzeke": "spotify:track:7BqPCsnVj0DBiG1noMYyCf",
     "b azej krol|||za tatusia i mamusie": "spotify:track:087AIuM60EAgZD0gsMyAnn",
+    "b b king eric clapton|||riding with the king": "spotify:track:0U6wNkZaQUTBrCLbhbbRgS",
     "babyshambles|||delivery": "spotify:track:5T9ir6tlqhhbKVzIC0ssbs",
     "bad english|||when i see you smile": "spotify:track:0tKjVEJlX3IZ5L1rEJc5hh",
     "bajm|||nagie ska y": "spotify:track:5HxkvOuxWUSMBPKTIUIxHR",
@@ -1645,7 +1646,7 @@
     "retry_after": 45840
   },
   "live_day": "2026-09-16",
-  "live_time": "08:41",
+  "live_time": "08:56",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -1808,6 +1809,7 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:0U6wNkZaQUTBrCLbhbbRgS",
     "spotify:track:5GbVzc6Ex5LYlLJqzRQhuy",
     "spotify:track:5MCiJgrbXyO7qU1KmrpBxS",
     "spotify:track:6J9VkPveNBXDC7ybLPOrLJ",
