@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-753Radio v5.1 — Radio 357 -> Spotify
+753Radio v5.2 — Radio 357 -> Spotify
 
 Tryby:
   SYNC_MODE=live      -> tylko nowe utwory z bieżącego dnia
   SYNC_MODE=backfill  -> tylko archiwum, dzień po dniu
 
-v5.1 używa trwałego pliku .753radio_state.json, automatycznego fallbacku
-Radio111 dla LIVE oraz zabezpieczenia markera czasu.
+v5.2 używa odsluchane.eu jako głównego źródła LIVE i BACKFILL,
+z fallbackami awaryjnymi oraz trwałym stanem .753radio_state.json.
 """
 
 import json
@@ -29,6 +29,9 @@ from bs4 import BeautifulSoup
 TODAY_URL = "https://radio357.pl/twoje-357/playlista/"
 DAY_URL = "https://radio357.pl/twoje-357/playlista/dzien/{day}/"
 RADIO111_TODAY_URL = "https://radio111.pl/stations/radio357-pl-radio-357/playlist/"
+ODSLUCHANE_URL = "https://www.odsluchane.eu/szukaj.php"
+ODSLUCHANE_STATION_ID = os.getenv("ODSLUCHANE_STATION_ID", "390")
+SOURCE_GENERATION = "odsluchane-v1"
 SPOTIFY_API = "https://api.spotify.com/v1"
 SPOTIFY_TOKEN_URL = "https://accounts.spotify.com/api/token"
 WARSAW = ZoneInfo("Europe/Warsaw")
@@ -110,7 +113,7 @@ def parse_iso_datetime(value):
 
 def default_state():
     return {
-        "version": "5.1",
+        "version": "5.2",
         "playlist_id": "",
         "playlist_name": PLAYLIST_NAME,
         "uris": [],
@@ -123,6 +126,7 @@ def default_state():
         "live_time": None,
         "blocked_until": None,
         "last_429": None,
+        "source_generation": None,
     }
 
 
@@ -136,13 +140,24 @@ def load_state():
         except Exception as exc:
             print(f"UWAGA: nie mogę odczytać {STATE_PATH}: {exc}")
 
-    state["version"] = "5.1"
+    state["version"] = "5.2"
     state["playlist_name"] = PLAYLIST_NAME
     state["uris"] = list(dict.fromkeys(state.get("uris") or []))
     state["keys"] = dict(state.get("keys") or {})
     state["misses"] = dict(state.get("misses") or {})
     state["pending_live"] = list(dict.fromkeys(state.get("pending_live") or []))
     state["pending_backfill"] = list(dict.fromkeys(state.get("pending_backfill") or []))
+
+    if state.get("source_generation") != SOURCE_GENERATION:
+        print(
+            "Migracja źródła -> odsluchane.eu: resetuję markery LIVE/BACKFILL "
+            "do ponownego skanowania bez kasowania playlisty."
+        )
+        state["source_generation"] = SOURCE_GENERATION
+        state["backfill_last_completed"] = None
+        state["live_day"] = None
+        state["live_time"] = None
+
     return state
 
 
@@ -347,6 +362,139 @@ def _trim_live_rows_to_today(rows):
     return _dedupe_rows(output)
 
 
+def _split_artist_title(text):
+    text = " ".join((text or "").split()).strip()
+    if " - " not in text:
+        return None
+    artist, title = text.split(" - ", 1)
+    artist = artist.strip()
+    title = title.strip()
+    if not artist or not title:
+        return None
+    return artist, title
+
+
+def parse_odsluchane_html(html):
+    """Parsuje playlistę odsluchane.eu: HH:MM | Wykonawca - Tytuł."""
+    soup = BeautifulSoup(html, "html.parser")
+    rows = []
+
+    for tr in soup.find_all("tr"):
+        cells = tr.find_all(["td", "th"])
+        if len(cells) < 2:
+            continue
+
+        hhmm = " ".join(cells[0].stripped_strings).strip()
+        if not re.fullmatch(r"\d{1,2}:\d{2}", hhmm):
+            continue
+
+        song = " ".join(cells[1].stripped_strings).strip()
+        parsed = _split_artist_title(song)
+        if not parsed:
+            continue
+
+        hh, mm = map(int, hhmm.split(":"))
+        if not (0 <= hh <= 23 and 0 <= mm <= 59):
+            continue
+
+        artist, title = parsed
+        rows.append((f"{hh:02d}:{mm:02d}", artist, title))
+
+    if rows:
+        return _dedupe_rows(rows)
+
+    # Fallback tekstowy, gdyby HTML serwisu się zmienił.
+    strings = [" ".join(x.split()) for x in soup.stripped_strings]
+    for i, text in enumerate(strings):
+        if not re.fullmatch(r"\d{1,2}:\d{2}", text):
+            continue
+        if i + 1 >= len(strings):
+            continue
+
+        parsed = _split_artist_title(strings[i + 1])
+        if not parsed:
+            continue
+
+        artist, title = parsed
+        rows.append((text.zfill(5), artist, title))
+
+    return _dedupe_rows(rows)
+
+
+def fetch_odsluchane_window(day, time_from, time_to):
+    runtime_guard()
+
+    params = {
+        "date": day.strftime("%d-%m-%Y"),
+        "r": ODSLUCHANE_STATION_ID,
+        "time_from": int(time_from),
+        "time_to": int(time_to),
+    }
+
+    r = requests.get(
+        ODSLUCHANE_URL,
+        params=params,
+        headers={"User-Agent": "Mozilla/5.0 (compatible; 753RadioSpotify/5.2)"},
+        timeout=30,
+    )
+    r.raise_for_status()
+
+    rows = parse_odsluchane_html(r.text)
+
+    print(
+        f"odsluchane.eu {params['date']} "
+        f"{int(time_from):02d}:00-{int(time_to):02d}:00 -> {len(rows)} pozycji"
+    )
+
+    return rows
+
+
+def get_odsluchane_live_rows(state):
+    today = now_pl().date()
+    now_hour = now_pl().hour
+
+    marker_hour = None
+    if state.get("live_day") == today.isoformat() and state.get("live_time"):
+        try:
+            marker_hour = int(state["live_time"].split(":", 1)[0])
+        except Exception:
+            marker_hour = None
+
+    # Pierwszy run dnia: od północy. Kolejne: ok. 3h przed markerem.
+    start_hour = 0 if marker_hour is None else max(0, marker_hour - 3)
+    end_hour = min(24, now_hour + 1)
+    if end_hour <= start_hour:
+        end_hour = min(24, start_hour + 1)
+
+    return _trim_live_rows_to_today(
+        fetch_odsluchane_window(today, start_hour, end_hour)
+    )
+
+
+def get_odsluchane_day_rows(day):
+    """
+    Archiwum pełnego dnia w 6 oknach po 4h.
+    Zwraca (rows, complete). Marker nie przesunie się po niepełnym dniu.
+    """
+    all_rows = []
+    complete = True
+
+    for start_hour in range(0, 24, 4):
+        end_hour = min(24, start_hour + 4)
+        try:
+            all_rows.extend(
+                fetch_odsluchane_window(day, start_hour, end_hour)
+            )
+        except Exception as exc:
+            complete = False
+            print(
+                f"odsluchane.eu ERROR {day} "
+                f"{start_hour:02d}:00-{end_hour:02d}:00: {exc}"
+            )
+
+    return _dedupe_rows(all_rows), complete
+
+
 def parse_radio357_page(url):
     """Oficjalna strona Radio 357 — pierwszy wybór oraz archiwum."""
     runtime_guard()
@@ -439,34 +587,48 @@ def parse_radio111_live_page(url=RADIO111_TODAY_URL):
     return _trim_live_rows_to_today(rows)
 
 
-def get_live_rows():
+def get_live_rows(state):
     """
     LIVE:
-    1) oficjalne Radio 357,
-    2) automatyczny fallback Radio111, jeśli oficjalna lista jest pusta.
+    1. odsluchane.eu
+    2. Radio111 fallback
+    3. oficjalne Radio357 fallback
     """
-    official = _trim_live_rows_to_today(parse_radio357_page(TODAY_URL))
+    try:
+        rows = get_odsluchane_live_rows(state)
+    except Exception as exc:
+        print(f"LIVE source: odsluchane.eu ERROR: {exc}")
+        rows = []
 
-    if official:
-        print(f"LIVE source: Radio357 ({len(official)} pozycji)")
-        return official, "Radio357"
+    if rows:
+        print(f"LIVE source: odsluchane.eu ({len(rows)} pozycji)")
+        return rows, "odsluchane.eu"
 
-    print(
-        "LIVE source: Radio357 zwróciło 0 utworów; "
-        "przełączam na Radio111 fallback."
-    )
+    print("LIVE source: odsluchane.eu zwróciło 0; próbuję Radio111.")
 
     try:
         fallback = parse_radio111_live_page()
     except Exception as exc:
-        print(f"LIVE source: Radio111 fallback ERROR: {exc}")
-        return [], "none"
+        print(f"LIVE source: Radio111 ERROR: {exc}")
+        fallback = []
 
     if fallback:
         print(f"LIVE source: Radio111 fallback ({len(fallback)} pozycji)")
         return fallback, "Radio111"
 
-    print("LIVE source: oba źródła zwróciły 0 utworów.")
+    print("LIVE source: Radio111 zwróciło 0; próbuję oficjalne Radio357.")
+
+    try:
+        official = _trim_live_rows_to_today(parse_radio357_page(TODAY_URL))
+    except Exception as exc:
+        print(f"LIVE source: Radio357 ERROR: {exc}")
+        official = []
+
+    if official:
+        print(f"LIVE source: Radio357 fallback ({len(official)} pozycji)")
+        return official, "Radio357"
+
+    print("LIVE source: wszystkie źródła zwróciły 0.")
     return [], "none"
 
 
@@ -600,7 +762,7 @@ def bootstrap_state_if_needed(state):
     if state.get("playlist_id") and isinstance(state.get("uris"), list) and state.get("uris"):
         return state["playlist_id"]
 
-    print("Pierwszy run v5: buduję stan z istniejącej playlisty Spotify.")
+    print("Pierwszy run v5.2: buduję stan z istniejącej playlisty Spotify.")
     pid = find_playlist_id()
     meta = get_playlist_meta(pid)
     items = fetch_playlist_items(pid)
@@ -834,7 +996,7 @@ def filter_live_rows(rows, state):
 
 
 def run_live(pid, state, budget):
-    rows_all, live_source = get_live_rows()
+    rows_all, live_source = get_live_rows(state)
     rows = filter_live_rows(rows_all, state)
 
     print(
@@ -896,13 +1058,32 @@ def run_backfill(pid, state, budget):
         if len(state["uris"]) >= MAX_TRACKS:
             break
 
-        rows = parse_radio357_page(DAY_URL.format(day=day.isoformat()))
-        print(f"BACKFILL {day}: odczytano {len(rows)} pozycji. Marker={state.get('backfill_last_completed')}")
+        rows, complete = get_odsluchane_day_rows(day)
+        source_name = "odsluchane.eu"
 
         if not rows:
             print(
-                f"BACKFILL {day}: źródło zwróciło 0 pozycji. "
-                "Nie przesuwam markera, żeby nie pominąć dnia."
+                f"BACKFILL {day}: odsluchane.eu zwróciło 0; "
+                "próbuję oficjalne archiwum Radio357."
+            )
+            try:
+                rows = parse_radio357_page(DAY_URL.format(day=day.isoformat()))
+                source_name = "Radio357 fallback"
+                complete = True
+            except Exception as exc:
+                print(f"BACKFILL {day}: Radio357 fallback ERROR: {exc}")
+                rows = []
+
+        print(
+            f"BACKFILL {day}: source={source_name}, "
+            f"odczytano {len(rows)} pozycji. "
+            f"Marker={state.get('backfill_last_completed')}"
+        )
+
+        if not rows or not complete:
+            print(
+                f"BACKFILL {day}: źródło puste lub niekompletne. "
+                "Nie przesuwam markera."
             )
             return False, None
 
@@ -926,7 +1107,7 @@ def run_backfill(pid, state, budget):
 
 
 def main():
-    print("=== 753Radio v5.1 ===")
+    print("=== 753Radio v5.2 ===")
     print(f"Tryb: {SYNC_MODE.upper()}")
     print(f"Czas PL: {now_pl().isoformat(timespec='seconds')}")
     print(f"Search budget: {MAX_SEARCH_REQUESTS}, runtime: {MAX_RUNTIME_SECONDS}s")
@@ -942,7 +1123,7 @@ def main():
     try:
         pid = bootstrap_state_if_needed(state)
         print(
-            f"Stan v5.1: playlist={len(state['uris'])}, keys={len(state['keys'])}, "
+            f"Stan v5.2: playlist={len(state['uris'])}, keys={len(state['keys'])}, "
             f"misses={len(state['misses'])}, pending_live={len(state['pending_live'])}, "
             f"pending_backfill={len(state['pending_backfill'])}"
         )
