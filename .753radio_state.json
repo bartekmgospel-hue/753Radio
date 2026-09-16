@@ -394,6 +394,7 @@
     "def leppard|||let s get rocked": "spotify:track:0LoH6lFQLNscy3RyljAewK",
     "del amitri|||nothing ever happens": "spotify:track:2eA065kKqvI6WMBCCE6kSl",
     "del water gap|||sailor song triple j like a version": "spotify:track:3AYkxnOvNQ2zkZgGv0sTks",
+    "depeche mode|||in the end from the memento mori sessions": "spotify:track:7bHzLpZBL0gl71VYoTqgpF",
     "depeche mode|||just can t get enough": "spotify:track:0qi4b1l0eT3jpzeNHeFXDT",
     "depeche mode|||strangelove single edit": "spotify:track:6ZCyDN2ArlWB4GKAj644Cd",
     "derek rydquist|||labyrinth charm": "spotify:track:2Tn4UKvECPU7LPUoe487Zf",
@@ -468,6 +469,7 @@
     "electric light orchestra|||21st century man": "spotify:track:5phU2LUvJJkFKv1KWf0hMA",
     "electric light orchestra|||livin thing": "spotify:track:2hdNya0b6Cc2YJ8IyaQIWp",
     "electric light orchestra|||mr blue sky": "spotify:track:2RlgNHKcydI9sayD2Df2xp",
+    "electric light orchestra|||the diary of horace wimp": "spotify:track:3hfqwHXcRLq6BSneRpEdtm",
     "electric light orchestra|||twilight": "spotify:track:03ZVEpSeeJfROJW65OHgsf",
     "elliott smith|||ballad of big nothing": "spotify:track:4HqRhdpxH9zFUkf1kzbr3H",
     "elliott smith|||miss misery": "spotify:track:4zetUxeSCCDwrr1jJT0SuD",
@@ -1238,6 +1240,7 @@
     "portishead|||biscuit": "spotify:track:6dDcfbMUFkFDk6x93kITY7",
     "portugal the man|||feel it still": "spotify:track:6QgjcU0zLnzq5OrUoSZ3OK",
     "prefab sprout|||bonny": "spotify:track:3x7LTEzj8V3egWqwf43SEF",
+    "prefab sprout|||jesse james bolero": "spotify:track:6Q01bKRgMIEaqELcDCGs2Y",
     "pretenders|||brass in pocket": "spotify:track:6YrHQ3Uv9YXK2gJNVTlT8P",
     "pretenders|||the buzz": "spotify:track:4ajcywJzXoL0S5x4LNQF74",
     "primal scream|||movin on up": "spotify:track:67ncFJWaIbJdqZl1bpEppz",
@@ -1755,7 +1758,7 @@
     "retry_after": 45840
   },
   "live_day": "2026-09-17",
-  "live_time": "00:17",
+  "live_time": "00:56",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -1923,6 +1926,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:6Q01bKRgMIEaqELcDCGs2Y",
+    "spotify:track:3hfqwHXcRLq6BSneRpEdtm",
+    "spotify:track:7bHzLpZBL0gl71VYoTqgpF",
     "spotify:track:4fJGiLOU3etMQTOE3HFIEz",
     "spotify:track:7BzfqlcZzFr2bjTbLfxx1a",
     "spotify:track:173v3Q633bAXjdlAnA6rSi",
