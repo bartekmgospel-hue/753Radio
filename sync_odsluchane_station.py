@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Radio -> Spotify v1.0 — automatyczne playlisty z odsluchane.eu
+Radio -> Spotify v1.1 — automatyczne playlisty z odsluchane.eu
 
 Obsługiwane stacje:
 - Radio Nowy Świat
@@ -72,7 +72,7 @@ if STATION_KEY not in STATIONS:
 STATION = STATIONS[STATION_KEY]
 ODSLUCHANE_STATION_ID = STATION["id"]
 STATION_DISPLAY = STATION["display"]
-SOURCE_GENERATION = f"odsluchane-multi-v1:{ODSLUCHANE_STATION_ID}"
+SOURCE_GENERATION = f"odsluchane-multi-v1.1:{ODSLUCHANE_STATION_ID}"
 SPOTIFY_API = "https://api.spotify.com/v1"
 SPOTIFY_TOKEN_URL = "https://accounts.spotify.com/api/token"
 WARSAW = ZoneInfo("Europe/Warsaw")
@@ -108,7 +108,7 @@ except Exception:
     pass
 
 http = requests.Session()
-http.headers.update({"User-Agent": "Mozilla/5.0 (compatible; RadioSpotifyMulti/1.0)"})
+http.headers.update({"User-Agent": "Mozilla/5.0 (compatible; RadioSpotifyMulti/1.1)"})
 ACCESS_TOKEN = None
 
 
@@ -154,7 +154,7 @@ def parse_iso_datetime(value):
 
 def default_state():
     return {
-        "version": "1.0",
+        "version": "1.1",
         "playlist_id": "",
         "playlist_name": PLAYLIST_NAME,
         "uris": [],
@@ -181,7 +181,7 @@ def load_state():
         except Exception as exc:
             print(f"UWAGA: nie mogę odczytać {STATE_PATH}: {exc}")
 
-    state["version"] = "1.0"
+    state["version"] = "1.1"
     state["playlist_name"] = PLAYLIST_NAME
     state["uris"] = list(dict.fromkeys(state.get("uris") or []))
     state["keys"] = dict(state.get("keys") or {})
@@ -416,48 +416,73 @@ def _split_artist_title(text):
 
 
 def parse_odsluchane_html(html):
-    """Parsuje playlistę odsluchane.eu: HH:MM | Wykonawca - Tytuł."""
+    """
+    Parsuje playlistę odsluchane.eu.
+
+    Serwis ma również wiersze nagłówkowe typu "18:00", dlatego parser
+    akceptuje tylko wpisy, w których da się znaleźć jednocześnie godzinę
+    i nazwę utworu "Wykonawca - Tytuł".
+    """
     soup = BeautifulSoup(html, "html.parser")
     rows = []
 
+    # 1) Tabela HTML — najdokładniejszy wariant.
     for tr in soup.find_all("tr"):
         cells = tr.find_all(["td", "th"])
-        if len(cells) < 2:
+        if not cells:
             continue
 
-        hhmm = " ".join(cells[0].stripped_strings).strip()
-        if not re.fullmatch(r"\d{1,2}:\d{2}", hhmm):
-            continue
+        cell_texts = [" ".join(c.stripped_strings).strip() for c in cells]
 
-        song = " ".join(cells[1].stripped_strings).strip()
-        parsed = _split_artist_title(song)
-        if not parsed:
+        hhmm = None
+        song = None
+
+        for idx, text in enumerate(cell_texts):
+            if re.fullmatch(r"\d{1,2}:\d{2}", text):
+                # Sam wiersz godzinowy, np. 18:00, nie jest utworem.
+                # Szukamy tekstu utworu w którejkolwiek z kolejnych komórek.
+                for candidate in cell_texts[idx + 1:]:
+                    if _split_artist_title(candidate):
+                        hhmm = text
+                        song = candidate
+                        break
+                if hhmm:
+                    break
+
+        if not hhmm or not song:
             continue
 
         hh, mm = map(int, hhmm.split(":"))
         if not (0 <= hh <= 23 and 0 <= mm <= 59):
             continue
 
-        artist, title = parsed
+        artist, title = _split_artist_title(song)
         rows.append((f"{hh:02d}:{mm:02d}", artist, title))
 
     if rows:
         return _dedupe_rows(rows)
 
-    # Fallback tekstowy, gdyby HTML serwisu się zmienił.
+    # 2) Fallback tekstowy.
     strings = [" ".join(x.split()) for x in soup.stripped_strings]
+
     for i, text in enumerate(strings):
         if not re.fullmatch(r"\d{1,2}:\d{2}", text):
             continue
-        if i + 1 >= len(strings):
-            continue
 
-        parsed = _split_artist_title(strings[i + 1])
-        if not parsed:
-            continue
+        # Na stronie pomiędzy godziną a tytułem mogą pojawić się dodatkowe
+        # elementy, więc sprawdzamy kilka kolejnych tekstów.
+        for j in range(i + 1, min(len(strings), i + 6)):
+            parsed = _split_artist_title(strings[j])
+            if not parsed:
+                continue
 
-        artist, title = parsed
-        rows.append((text.zfill(5), artist, title))
+            hh, mm = map(int, text.split(":"))
+            if not (0 <= hh <= 23 and 0 <= mm <= 59):
+                break
+
+            artist, title = parsed
+            rows.append((f"{hh:02d}:{mm:02d}", artist, title))
+            break
 
     return _dedupe_rows(rows)
 
@@ -475,7 +500,7 @@ def fetch_odsluchane_window(day, time_from, time_to):
     r = requests.get(
         ODSLUCHANE_URL,
         params=params,
-        headers={"User-Agent": "Mozilla/5.0 (compatible; RadioSpotifyMulti/1.0)"},
+        headers={"User-Agent": "Mozilla/5.0 (compatible; RadioSpotifyMulti/1.1)"},
         timeout=30,
     )
     r.raise_for_status()
@@ -484,10 +509,53 @@ def fetch_odsluchane_window(day, time_from, time_to):
 
     print(
         f"odsluchane.eu {params['date']} "
-        f"{int(time_from):02d}:00-{int(time_to):02d}:00 -> {len(rows)} pozycji"
+        f"{int(time_from):02d}:00-{int(time_to):02d}:00 -> {len(rows)} pozycji "
+        f"(HTTP {r.status_code}, html={len(r.text)})"
     )
 
+    if not rows:
+        # Lekka diagnostyka bez wyrzucania całego HTML do logu.
+        soup = BeautifulSoup(r.text, "html.parser")
+        title = " ".join(soup.title.stripped_strings) if soup.title else ""
+        text = " ".join(soup.stripped_strings)
+        print(
+            "odsluchane.eu DEBUG: "
+            f"title={title[:120]!r}, "
+            f"ma_Playlista={'Playlista' in text}, "
+            f"ma_Godzina={'Godzina' in text}, "
+            f"sample={text[:220]!r}"
+        )
+
     return rows
+
+
+def fetch_odsluchane_range(day, start_hour, end_hour, chunk_hours=2):
+    """
+    odsluchane.eu najlepiej działa na krótkich przedziałach godzinowych.
+    Pobieramy zakres w 2-godzinnych oknach i łączymy wyniki.
+    """
+    all_rows = []
+    complete = True
+
+    start_hour = max(0, int(start_hour))
+    end_hour = min(24, int(end_hour))
+
+    current = start_hour
+    while current < end_hour:
+        chunk_end = min(end_hour, current + chunk_hours)
+        try:
+            all_rows.extend(
+                fetch_odsluchane_window(day, current, chunk_end)
+            )
+        except Exception as exc:
+            complete = False
+            print(
+                f"odsluchane.eu ERROR {day} "
+                f"{current:02d}:00-{chunk_end:02d}:00: {exc}"
+            )
+        current = chunk_end
+
+    return _dedupe_rows(all_rows), complete
 
 
 def get_odsluchane_live_rows(state):
@@ -501,39 +569,41 @@ def get_odsluchane_live_rows(state):
         except Exception:
             marker_hour = None
 
-    # Pierwszy run dnia: od północy. Kolejne: ok. 3h przed markerem.
+    # Pierwszy run dnia: od północy do teraz.
+    # Kolejne runy: ok. 3h przed markerem do teraz.
     start_hour = 0 if marker_hour is None else max(0, marker_hour - 3)
     end_hour = min(24, now_hour + 1)
+
     if end_hour <= start_hour:
         end_hour = min(24, start_hour + 1)
 
-    return _trim_live_rows_to_today(
-        fetch_odsluchane_window(today, start_hour, end_hour)
+    rows, complete = fetch_odsluchane_range(
+        today,
+        start_hour,
+        end_hour,
+        chunk_hours=2,
     )
+
+    if not complete:
+        print(
+            "LIVE: część 2-godzinnych okien odsluchane.eu nie została pobrana; "
+            "wynik może być niepełny."
+        )
+
+    return _trim_live_rows_to_today(rows)
 
 
 def get_odsluchane_day_rows(day):
     """
-    Archiwum pełnego dnia w 6 oknach po 4h.
-    Zwraca (rows, complete). Marker nie przesunie się po niepełnym dniu.
+    Pełny dzień archiwalny w 12 oknach po 2h.
     """
-    all_rows = []
-    complete = True
+    return fetch_odsluchane_range(
+        day,
+        0,
+        24,
+        chunk_hours=2,
+    )
 
-    for start_hour in range(0, 24, 4):
-        end_hour = min(24, start_hour + 4)
-        try:
-            all_rows.extend(
-                fetch_odsluchane_window(day, start_hour, end_hour)
-            )
-        except Exception as exc:
-            complete = False
-            print(
-                f"odsluchane.eu ERROR {day} "
-                f"{start_hour:02d}:00-{end_hour:02d}:00: {exc}"
-            )
-
-    return _dedupe_rows(all_rows), complete
 
 
 def get_live_rows(state):
@@ -1020,7 +1090,7 @@ def run_backfill(pid, state, budget):
 
 
 def main():
-    print(f"=== Radio -> Spotify Multi v1.0 | {STATION_DISPLAY} ===")
+    print(f"=== Radio -> Spotify Multi v1.1 | {STATION_DISPLAY} ===")
     print(f"Tryb: {SYNC_MODE.upper()}")
     print(f"Czas PL: {now_pl().isoformat(timespec='seconds')}")
     print(f"Search budget: {MAX_SEARCH_REQUESTS}, runtime: {MAX_RUNTIME_SECONDS}s")
