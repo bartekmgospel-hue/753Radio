@@ -244,6 +244,7 @@
     "broken bells|||we re not in orbit yet": "spotify:track:4fh5VBuf6M62Bnd0vq68lT",
     "broken social scene|||skyline": "spotify:track:19LKIf8lH2hxHOWWtPyGKM",
     "bronski beat|||smalltown boy": "spotify:track:5vmRQ3zELMLUQPo2FLQ76x",
+    "bronski beat|||smalltown boy 12 version": "spotify:track:3Ovk5FUK5YUnHX5aJXHcqW",
     "brooke combe|||love was made of stone": "spotify:track:5HXoQhJCu7Axg0J1pBsCj2",
     "brooke combe|||tears won t lie": "spotify:track:07LUwalhQE7iHMxr1r3HIq",
     "bruce hornsby the range|||every little kiss": "spotify:track:0WCXFE3RTTUzhufeeee227",
@@ -1285,6 +1286,7 @@
     "pet shop boys|||hallo spaceboy with pet shop boys pet shop boys remix": "spotify:track:3UCBsQVpJep4eilYQgapkr",
     "pet shop boys|||king s cross live in rio": "spotify:track:2jw0mQd9rjJlIeUVgAW5a1",
     "pet shop boys|||rent": "spotify:track:6dmcYfXsRnedky3yqWzrLg",
+    "pet shop boys|||the way it used to be": "spotify:track:1FbsyasutQroYMpRWvTuD4",
     "pete murray|||time to burn": "spotify:track:0gj89L0a40ALeEAf7Nx2lS",
     "peter bjorn and john|||young folks": "spotify:track:4dyx5SzxPPaD8xQIid5Wjj",
     "peter frampton|||baby i love your way live": "spotify:track:1ksayCHVLH4eKFm43GFokU",
@@ -1869,7 +1871,7 @@
     "retry_after": 45840
   },
   "live_day": "2026-09-17",
-  "live_time": "19:27",
+  "live_time": "19:49",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2045,6 +2047,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:1FbsyasutQroYMpRWvTuD4",
+    "spotify:track:3Ovk5FUK5YUnHX5aJXHcqW",
     "spotify:track:1rCPg5GOtes0FIo1BzgvUi",
     "spotify:track:6YZ1sUhplByjZopEkptn3b",
     "spotify:track:4c25j3zuNOJNkaMqtEtyoU",
