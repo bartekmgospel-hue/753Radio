@@ -1,0 +1,42 @@
+{
+  "backfill_last_completed": null,
+  "blocked_until": null,
+  "keys": {
+    "all saints|||pure shores": "spotify:track:6ZLGthToczpvnL5Eoy6yrY",
+    "barrie|||jersey": "spotify:track:7cuXfrCsbCOfHIj6iZUn3P",
+    "benny blanco the marias|||memoria de paz": "spotify:track:1GSq4WFwPcqRNObLWhqGC3",
+    "dawid podsiad o|||matylda": "spotify:track:0K2roqsVJ9BBw7lnfoFDia",
+    "durand jones the indications|||flower moon": "spotify:track:16fiL1QD7x9FeoGu8ktxrz",
+    "nia smith|||limit": "spotify:track:6NkJkPVDH8BRWTJXerQU2t",
+    "obongjayar|||sweet danger": "spotify:track:4KtomzdHDbrwTApmqEaCc7",
+    "olivia rodrigo robert smith|||what s wrong with me": "spotify:track:1W7023CuJrWPbD4q2Sipoh",
+    "przebisniegi|||ostatni dom": "spotify:track:016zxQCxGLpCC1bCANSXIJ",
+    "rex orange county|||2008": "spotify:track:5S2fYAHI2zwSIc2RWcFL7V",
+    "ritual|||josephine": "spotify:track:2V5vmvIwxqVizuaYJgrmlE",
+    "zes|||seahaven": "spotify:track:3o8Fw0fQsPD3CsAjHzH8eC"
+  },
+  "last_429": null,
+  "live_day": "2026-09-17",
+  "live_time": "19:48",
+  "misses": {},
+  "pending_backfill": [],
+  "pending_live": [],
+  "playlist_id": "1bs7PdfLounhNUU4ZeRIdH",
+  "playlist_name": "Chillizet",
+  "source_generation": "odsluchane-multi-v1.1:40",
+  "uris": [
+    "spotify:track:6NkJkPVDH8BRWTJXerQU2t",
+    "spotify:track:0K2roqsVJ9BBw7lnfoFDia",
+    "spotify:track:16fiL1QD7x9FeoGu8ktxrz",
+    "spotify:track:3o8Fw0fQsPD3CsAjHzH8eC",
+    "spotify:track:2V5vmvIwxqVizuaYJgrmlE",
+    "spotify:track:5S2fYAHI2zwSIc2RWcFL7V",
+    "spotify:track:1W7023CuJrWPbD4q2Sipoh",
+    "spotify:track:1GSq4WFwPcqRNObLWhqGC3",
+    "spotify:track:016zxQCxGLpCC1bCANSXIJ",
+    "spotify:track:7cuXfrCsbCOfHIj6iZUn3P",
+    "spotify:track:4KtomzdHDbrwTApmqEaCc7",
+    "spotify:track:6ZLGthToczpvnL5Eoy6yrY"
+  ],
+  "version": "1.2"
+}
