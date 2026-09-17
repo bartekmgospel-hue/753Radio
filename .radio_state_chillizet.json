@@ -29,7 +29,9 @@
     "ibibio sound machine|||wanna see your face again": "spotify:track:6WF2rJOQj5xdr04LZlftVg",
     "iza kowalewska|||zapalenie uczuc": "spotify:track:1zl0cJZq9tZzcUFEISH563",
     "jessie ware|||sauna": "spotify:track:4tydTipPThewhJGmlxdcC5",
+    "john klemmer|||touch": "spotify:track:2gUxpKjbDDMbD04LU7IejF",
     "jungle|||back on 74": "spotify:track:19kHhX6f6EfLU7rcO3RqjO",
+    "kamasi washington|||cherokee": "spotify:track:6jXAdaU4wshOAHXCUVvkn3",
     "karolina artymowicz|||dalej": "spotify:track:2dT3Q963P48EWVSOFoIqZq",
     "kaska sochacka|||nie by o cie": "spotify:track:14ft4oEUv3SaeRseZGMcQE",
     "mac demarco ryan paris|||simply paradise": "spotify:track:1EKpwGoisV5nUOqqMZ7gAJ",
@@ -67,8 +69,8 @@
     "zes|||seahaven": "spotify:track:3o8Fw0fQsPD3CsAjHzH8eC"
   },
   "last_429": null,
-  "live_day": "2026-09-17",
-  "live_time": "22:22",
+  "live_day": "2026-09-18",
+  "live_time": "00:13",
   "misses": {
     "iza kowalewska|||ciemny typ": "2026-09-17",
     "iza kowalewska|||gdy nie ma ciebie": "2026-09-17",
@@ -81,6 +83,8 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:2gUxpKjbDDMbD04LU7IejF",
+    "spotify:track:6jXAdaU4wshOAHXCUVvkn3",
     "spotify:track:3qqmGOkdVguuWBm754a5g8",
     "spotify:track:5jM84z7GdWJ7Ce6O3iySgQ",
     "spotify:track:7f1qQ6bzCWSh3hiaeVRyHK",
