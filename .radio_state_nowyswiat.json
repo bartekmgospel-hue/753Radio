@@ -28,6 +28,7 @@
     "martox|||cenizas en el desierto": "spotify:track:7hFlh0com3AGle40jYsPiU",
     "monsta|||terapia do soldado": "spotify:track:3KJDlIfGjNIMVz4SZnoT0b",
     "pekko kappi k h h l|||oi dai dai": "spotify:track:5BHkBS409dlX6BFz3HowMh",
+    "queens of the stone age|||insignificant other": "spotify:track:3NdLNUPkumBUIcacNxPlVE",
     "shkodra elektronike redi hasa|||stuhi": "spotify:track:1wUXqn3nEG6Vv96UgmEZGs",
     "stanis aw soyka|||i ve know rivers": "spotify:track:1jYyBhL8VEbS4IFrNHxCzF",
     "stanis aw soyka|||satin doll": "spotify:track:5qacxbnDIVQdFwyHZXPO9I",
@@ -40,8 +41,8 @@
     "|||one girl one boy": "spotify:track:7pskYSHhRTH1TFtVdQevG5"
   },
   "last_429": null,
-  "live_day": "2026-09-17",
-  "live_time": "23:05",
+  "live_day": "2026-09-18",
+  "live_time": "00:02",
   "misses": {
     "fume|||to cleave the tail of kalameet": "2026-09-17",
     "karolak szukalski bartkowski|||bouble b": "2026-09-17"
@@ -52,6 +53,7 @@
   "playlist_name": "Radio Nowy Świat",
   "source_generation": "odsluchane-multi-v1.1:105",
   "uris": [
+    "spotify:track:3NdLNUPkumBUIcacNxPlVE",
     "spotify:track:0CLbmkYmQIWiEwnsbOkLpd",
     "spotify:track:7unF2ARDGldwWxZWCmlwDM",
     "spotify:track:6WmIyn2fx1PKQ0XDpYj4VR",
