@@ -1566,6 +1566,7 @@
     "tantfreaky|||goodbye": "spotify:track:1bdfTuziYDo3FCKv2DoyR0",
     "tantfreaky|||open hearts circle live at montreux": "spotify:track:2QKHwQtG3BuivXZd4aEb1t",
     "tantfreaky|||sex with m": "spotify:track:35w7FZ0EuYXuXMu0BddSyo",
+    "tara clerkin trio|||there was a nice sunset": "spotify:track:3298Ix0AkKdP1ZpxSjZSlq",
     "tash sultana|||jungle": "spotify:track:1KTObLMW9mwk2iPjP3daHb",
     "taylor swift|||our song": "spotify:track:1j6gmK6u4WNI33lMZ8dC1s",
     "tears for fears|||raoul and the kings of spain": "spotify:track:6X2Nnc5wBO5RNs7fdvvTk5",
@@ -1798,6 +1799,7 @@
     "warhaus|||simple pleasures": "spotify:track:2WrxJ6w8SWXFtCRs14cpso",
     "warhaus|||the baby": "spotify:track:7FUtL3d3MKWm9u24v6bcm2",
     "warpaint|||like sweetness": "spotify:track:6m5xBvhtMh5X6ZuqE4HIVj",
+    "weed420|||vamonos de aqui": "spotify:track:2sgP43rUXY5SEWaocqKzS0",
     "wet wet wet|||love is all around": "spotify:track:5vCQBUIWzPj0MnRcqhHJfs",
     "wham|||club tropicana": "spotify:track:6tASfEUyB7lE2r6DLzURji",
     "white lies|||is my love enough": "spotify:track:7bE9oYQzpNmaTcPHv2t7DL",
@@ -1863,7 +1865,7 @@
     "retry_after": 45840
   },
   "live_day": "2026-09-17",
-  "live_time": "18:28",
+  "live_time": "18:54",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2038,6 +2040,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:3298Ix0AkKdP1ZpxSjZSlq",
+    "spotify:track:2sgP43rUXY5SEWaocqKzS0",
     "spotify:track:3RzklnCLyC35UhTN7WkVEr",
     "spotify:track:6obNy7B5XA36BEDt8zIO19",
     "spotify:track:6AtRvRFkhSiP9518S48WBj",
