@@ -551,6 +551,7 @@
     "fisz emade tworzywo|||duchy": "spotify:track:2f0kDGtEEvs3nuvAt4VIvL",
     "flapjack|||soccer kids from africa": "spotify:track:7a3VlDQaap6I7MmBjHg3Tl",
     "fleetwood mac|||dreams": "spotify:track:1lbXEepatjRVjoG8pZMtdp",
+    "fleetwood mac|||everywhere": "spotify:track:1prZ0pr6XoRCxcrC3MCL0M",
     "fleetwood mac|||future games": "spotify:track:021JldNpXGATNSC69edcBT",
     "fleetwood mac|||go your own way": "spotify:track:15rjQH7nTcTomKwfVMd4xl",
     "fleetwood mac|||illume": "spotify:track:3BoH0VPwnxdnCfoMJxLJud",
@@ -1784,7 +1785,7 @@
     "retry_after": 45840
   },
   "live_day": "2026-09-17",
-  "live_time": "06:27",
+  "live_time": "06:57",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -1952,6 +1953,7 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:1prZ0pr6XoRCxcrC3MCL0M",
     "spotify:track:2loMPlz3JWjFGF6fPoiSoo",
     "spotify:track:5K3Q1gue9nWLLwh6bYQFoB",
     "spotify:track:31AOj9sFz2gM0O3hMARRBx",
