@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Radio -> Spotify v1.1 — automatyczne playlisty z odsluchane.eu
+Radio -> Spotify v1.2 — automatyczne playlisty z odsluchane.eu
 
 Obsługiwane stacje:
 - Radio Nowy Świat
@@ -93,6 +93,7 @@ MAX_RUNTIME_SECONDS = int(os.getenv("MAX_RUNTIME_SECONDS", "900"))
 MAX_INLINE_RETRY_SECONDS = int(os.getenv("MAX_INLINE_RETRY_SECONDS", "15"))
 MISS_RETRY_DAYS = int(os.getenv("MISS_RETRY_DAYS", "7"))
 LIVE_OVERLAP_MINUTES = int(os.getenv("LIVE_OVERLAP_MINUTES", "90"))
+LIVE_INITIAL_HOURS = int(os.getenv("LIVE_INITIAL_HOURS", "3"))
 LIVE_FUTURE_TOLERANCE_MINUTES = int(os.getenv("LIVE_FUTURE_TOLERANCE_MINUTES", "15"))
 BACKFILL_DAYS_PER_RUN = int(os.getenv("BACKFILL_DAYS_PER_RUN", "1"))
 STATE_PATH = Path(os.getenv("STATE_PATH", f".radio_state_{STATION_KEY}.json"))
@@ -108,7 +109,7 @@ except Exception:
     pass
 
 http = requests.Session()
-http.headers.update({"User-Agent": "Mozilla/5.0 (compatible; RadioSpotifyMulti/1.1)"})
+http.headers.update({"User-Agent": "Mozilla/5.0 (compatible; RadioSpotifyMulti/1.2)"})
 ACCESS_TOKEN = None
 
 
@@ -154,7 +155,7 @@ def parse_iso_datetime(value):
 
 def default_state():
     return {
-        "version": "1.1",
+        "version": "1.2",
         "playlist_id": "",
         "playlist_name": PLAYLIST_NAME,
         "uris": [],
@@ -181,7 +182,7 @@ def load_state():
         except Exception as exc:
             print(f"UWAGA: nie mogę odczytać {STATE_PATH}: {exc}")
 
-    state["version"] = "1.1"
+    state["version"] = "1.2"
     state["playlist_name"] = PLAYLIST_NAME
     state["uris"] = list(dict.fromkeys(state.get("uris") or []))
     state["keys"] = dict(state.get("keys") or {})
@@ -500,7 +501,7 @@ def fetch_odsluchane_window(day, time_from, time_to):
     r = requests.get(
         ODSLUCHANE_URL,
         params=params,
-        headers={"User-Agent": "Mozilla/5.0 (compatible; RadioSpotifyMulti/1.1)"},
+        headers={"User-Agent": "Mozilla/5.0 (compatible; RadioSpotifyMulti/1.2)"},
         timeout=30,
     )
     r.raise_for_status()
@@ -559,21 +560,45 @@ def fetch_odsluchane_range(day, start_hour, end_hour, chunk_hours=2):
 
 
 def get_odsluchane_live_rows(state):
-    today = now_pl().date()
-    now_hour = now_pl().hour
+    """
+    LIVE v1.2:
+    - pierwszy run danego dnia: tylko ostatnie LIVE_INITIAL_HOURS godzin,
+    - kolejne runy: od markera z overlapem,
+    - archiwalne/poranne utwory uzupełnia BACKFILL.
+    """
+    now_dt = now_pl()
+    today = now_dt.date()
+    now_minutes = now_dt.hour * 60 + now_dt.minute
 
-    marker_hour = None
+    marker_minutes = None
     if state.get("live_day") == today.isoformat() and state.get("live_time"):
         try:
-            marker_hour = int(state["live_time"].split(":", 1)[0])
+            marker_minutes = minutes_from_hhmm(state["live_time"])
         except Exception:
-            marker_hour = None
+            marker_minutes = None
 
-    # Pierwszy run dnia: od północy do teraz.
-    # Kolejne runy: ok. 3h przed markerem do teraz.
-    start_hour = 0 if marker_hour is None else max(0, marker_hour - 3)
-    end_hour = min(24, now_hour + 1)
+    if marker_minutes is None:
+        # Pierwsze uruchomienie dnia: tylko świeży fragment.
+        threshold_minutes = max(
+            0,
+            now_minutes - max(1, LIVE_INITIAL_HOURS) * 60,
+        )
+        start_hour = threshold_minutes // 60
+        print(
+            f"LIVE: brak bieżącego markera — pobieram tylko ostatnie "
+            f"{LIVE_INITIAL_HOURS}h (od ok. "
+            f"{threshold_minutes // 60:02d}:{threshold_minutes % 60:02d})."
+        )
+    else:
+        # Kolejne runy: cofamy się o overlap, ale marker przesuwa się
+        # również po częściowo przetworzonym runie.
+        threshold_minutes = max(
+            0,
+            marker_minutes - LIVE_OVERLAP_MINUTES,
+        )
+        start_hour = threshold_minutes // 60
 
+    end_hour = min(24, now_dt.hour + 1)
     if end_hour <= start_hour:
         end_hour = min(24, start_hour + 1)
 
@@ -584,13 +609,22 @@ def get_odsluchane_live_rows(state):
         chunk_hours=2,
     )
 
+    # Dokładny filtr minutowy, bo request do odsluchane.eu działa godzinami.
+    rows = [
+        row for row in _trim_live_rows_to_today(rows)
+        if minutes_from_hhmm(row[0]) >= threshold_minutes
+    ]
+
+    # Jawne sortowanie chronologiczne jest ważne dla progresywnego markera.
+    rows.sort(key=lambda row: minutes_from_hhmm(row[0]))
+
     if not complete:
         print(
             "LIVE: część 2-godzinnych okien odsluchane.eu nie została pobrana; "
             "wynik może być niepełny."
         )
 
-    return _trim_live_rows_to_today(rows)
+    return rows
 
 
 def get_odsluchane_day_rows(day):
@@ -863,7 +897,15 @@ def enforce_max_tracks(pid, state):
 
 
 def process_rows(rows, state, queue_name, budget):
-    stats = {"rows": 0, "known": 0, "miss_cache": 0, "matched": 0, "miss": 0, "queued": 0}
+    stats = {
+        "rows": 0,
+        "known": 0,
+        "miss_cache": 0,
+        "matched": 0,
+        "miss": 0,
+        "queued": 0,
+        "last_processed_hhmm": None,
+    }
     start_budget = budget.used
 
     for hhmm, artist, title in rows:
@@ -875,10 +917,12 @@ def process_rows(rows, state, queue_name, budget):
             stats["known"] += 1
             if queue_uri(state, queue_name, state["keys"][key]):
                 stats["queued"] += 1
+            stats["last_processed_hhmm"] = hhmm
             continue
 
         if miss_is_active(state, key):
             stats["miss_cache"] += 1
+            stats["last_processed_hhmm"] = hhmm
             continue
 
         try:
@@ -891,6 +935,7 @@ def process_rows(rows, state, queue_name, budget):
             stats["miss"] += 1
             print(f"MISS {hhmm} | {artist} - {title} ({score:.2f})")
             mark_miss(state, key)
+            stats["last_processed_hhmm"] = hhmm
             continue
 
         uri = track["uri"]
@@ -901,8 +946,16 @@ def process_rows(rows, state, queue_name, budget):
         if queue_uri(state, queue_name, uri):
             stats["queued"] += 1
 
-        matched_artists = ", ".join(a.get("name", "") for a in track.get("artists", []))
-        print(f"MATCH {hhmm} | {artist} - {title} -> {matched_artists} - {track.get('name', '')} ({score:.2f})")
+        matched_artists = ", ".join(
+            a.get("name", "") for a in track.get("artists", [])
+        )
+        print(
+            f"MATCH {hhmm} | {artist} - {title} -> "
+            f"{matched_artists} - {track.get('name', '')} ({score:.2f})"
+        )
+
+        # Marker postępu ustawiamy dopiero po pełnym obsłużeniu wpisu.
+        stats["last_processed_hhmm"] = hhmm
 
     stats["search_requests"] = budget.used - start_budget
     return True, None, stats
@@ -913,7 +966,9 @@ def print_stats(label, stats, budget):
         f"{label}: rows={stats.get('rows',0)}, search={stats.get('search_requests',0)}, "
         f"known={stats.get('known',0)}, miss_cache={stats.get('miss_cache',0)}, "
         f"matched={stats.get('matched',0)}, miss={stats.get('miss',0)}, "
-        f"queued={stats.get('queued',0)}, search_total={budget.used}/{budget.maximum}"
+        f"queued={stats.get('queued',0)}, "
+        f"last={stats.get('last_processed_hhmm')}, "
+        f"search_total={budget.used}/{budget.maximum}"
     )
 
 
@@ -995,6 +1050,9 @@ def run_live(pid, state, budget):
     rows_all, live_source = get_live_rows(state)
     rows = filter_live_rows(rows_all, state)
 
+    # Chronologicznie: marker może bezpiecznie iść do przodu.
+    rows.sort(key=lambda row: minutes_from_hhmm(row[0]))
+
     print(
         f"LIVE: source={live_source}, strona={len(rows_all)}, "
         f"do_sprawdzenia={len(rows)}, "
@@ -1020,6 +1078,22 @@ def run_live(pid, state, budget):
         flush_pending(pid, state)
         enforce_max_tracks(pid, state)
 
+    # v1.2: nawet jeśli skończył się Search budget, zapamiętujemy
+    # ostatni w pełni obsłużony wpis. Dzięki temu następny run nie zaczyna
+    # od początku tego samego 3-godzinnego okna.
+    progress_hhmm = stats.get("last_processed_hhmm")
+    if progress_hhmm:
+        state["live_day"] = now_pl().date().isoformat()
+        state["live_time"] = progress_hhmm
+        save_state(state)
+        print(
+            f"LIVE marker postępu: "
+            f"{state['live_day']} {state['live_time']} "
+            f"(source={live_source}, completed={completed})"
+        )
+
+    # Po całkowitym przetworzeniu możemy ustawić marker na najnowszy
+    # wpis ze źródła (zwykle to samo albo kilka minut dalej).
     if completed:
         latest = newest_time(rows_all)
         if latest:
@@ -1027,7 +1101,7 @@ def run_live(pid, state, budget):
             state["live_time"] = latest
             save_state(state)
             print(
-                f"LIVE marker zapisany: "
+                f"LIVE marker końcowy: "
                 f"{state['live_day']} {state['live_time']} "
                 f"(source={live_source})"
             )
@@ -1090,7 +1164,7 @@ def run_backfill(pid, state, budget):
 
 
 def main():
-    print(f"=== Radio -> Spotify Multi v1.1 | {STATION_DISPLAY} ===")
+    print(f"=== Radio -> Spotify Multi v1.2 | {STATION_DISPLAY} ===")
     print(f"Tryb: {SYNC_MODE.upper()}")
     print(f"Czas PL: {now_pl().isoformat(timespec='seconds')}")
     print(f"Search budget: {MAX_SEARCH_REQUESTS}, runtime: {MAX_RUNTIME_SECONDS}s")
