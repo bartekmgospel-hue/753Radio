@@ -56,6 +56,7 @@ jobs:
           MAX_INLINE_RETRY_SECONDS: "15"
           MISS_RETRY_DAYS: "7"
           LIVE_OVERLAP_MINUTES: "120"
+          LIVE_INITIAL_HOURS: "3"
 
         run: python -u sync_odsluchane_station.py
 
