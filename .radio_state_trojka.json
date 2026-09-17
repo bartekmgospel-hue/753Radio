@@ -1,0 +1,38 @@
+{
+  "backfill_last_completed": null,
+  "blocked_until": null,
+  "keys": {
+    "badbadnotgood|||the world is yours": "spotify:track:7G3lxTsMfSx4yarMkfgnTC",
+    "gurriers|||pins": "spotify:track:5NAA0Wl9d91UtSSuhdF6dK",
+    "mac miller|||skin": "spotify:track:1eDS8ii1utvj0PjfQLrDb4",
+    "mac miller|||soulmate": "spotify:track:2puHJmjL4jvO19aEA7kzcb",
+    "mhaol|||scam manifesto": "spotify:track:7IhI1EeejN8IbpnObqPO6H",
+    "protomartyr|||feed the sewer": "spotify:track:1pKMJAGjhiZuP5xBs4lIEp",
+    "the prodigy|||omen": "spotify:track:2fplVRbbr1cBG7K5xt1hTE",
+    "twisted teens|||when we first met": "spotify:track:5IkNi8sYuM2B4sD7G7v24t",
+    "warhaus|||simple pleasures": "spotify:track:2WrxJ6w8SWXFtCRs14cpso"
+  },
+  "last_429": null,
+  "live_day": "2026-09-17",
+  "live_time": "20:06",
+  "misses": {
+    "badbadnotgood|||sarias song song of storms": "2026-09-17"
+  },
+  "pending_backfill": [],
+  "pending_live": [],
+  "playlist_id": "78FchE0GI5vKwev0iHw12y",
+  "playlist_name": "Trójka",
+  "source_generation": "odsluchane-multi-v1.1:48",
+  "uris": [
+    "spotify:track:2fplVRbbr1cBG7K5xt1hTE",
+    "spotify:track:1pKMJAGjhiZuP5xBs4lIEp",
+    "spotify:track:5NAA0Wl9d91UtSSuhdF6dK",
+    "spotify:track:2WrxJ6w8SWXFtCRs14cpso",
+    "spotify:track:1eDS8ii1utvj0PjfQLrDb4",
+    "spotify:track:2puHJmjL4jvO19aEA7kzcb",
+    "spotify:track:7G3lxTsMfSx4yarMkfgnTC",
+    "spotify:track:7IhI1EeejN8IbpnObqPO6H",
+    "spotify:track:5IkNi8sYuM2B4sD7G7v24t"
+  ],
+  "version": "1.2"
+}
