@@ -483,6 +483,7 @@
     "edwyn collins|||the campaign for real rock": "spotify:track:3euTpWQJ8sMbMTOAYSZmda",
     "edwyn collins|||the measure of the man": "spotify:track:7xSPhZo3BzuDkCVSyG2pKL",
     "edyta bartosiewicz|||have to carry on": "spotify:track:7i3N4J3RfMruvOp0EzCHXX",
+    "edyta bartosiewicz|||opowiesc": "spotify:track:5KFJdJkBvdBjJJXc08w11y",
     "edyta bartosiewicz|||szal": "spotify:track:0i8aP65hZK9mXRCX1s8UEo",
     "eels|||congratulations to me": "spotify:track:0PsZbSqZk6s6bEw5Ff3xrS",
     "eels|||fresh feeling": "spotify:track:7iNjxpUUFTG3TvssgrgKwZ",
@@ -930,6 +931,8 @@
     "leon bridges|||light the way": "spotify:track:518z7AJPjm0oCI8vEN6S5j",
     "leon bridges|||mariella": "spotify:track:3dvXRk7TZ929m21p49RR5P",
     "leon bridges|||talk it over": "spotify:track:1qkkE488CPJ0MIEkwOWLD3",
+    "les rita mitsouko|||andy": "spotify:track:1QZ7Co5mBLhAQf9OFk4ovN",
+    "les rita mitsouko|||marcia baila": "spotify:track:43THPstJP6RXLMd7ryXyNf",
     "lesley gore|||you don t own me": "spotify:track:7ngRS53kqxLcEt9Pythc5d",
     "level 42|||lessons in love": "spotify:track:3EGI5qmVmGlfgy9BmNb1R8",
     "lez zeppelin|||immigrant song": "spotify:track:3bUMbmI5TQ2a7I9xLukuJb",
@@ -1850,7 +1853,7 @@
     "retry_after": 45840
   },
   "live_day": "2026-09-17",
-  "live_time": "15:30",
+  "live_time": "15:52",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2025,6 +2028,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:43THPstJP6RXLMd7ryXyNf",
+    "spotify:track:1QZ7Co5mBLhAQf9OFk4ovN",
+    "spotify:track:5KFJdJkBvdBjJJXc08w11y",
     "spotify:track:6tNz538rOLfNV6xEgyQrnT",
     "spotify:track:5AvrkGFKSu7Hj66y7BPiBE",
     "spotify:track:6T5OWN9wUNsizbZrB1LjGr",
