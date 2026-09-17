@@ -1,0 +1,16 @@
+{
+  "backfill_last_completed": null,
+  "blocked_until": null,
+  "keys": {},
+  "last_429": null,
+  "live_day": null,
+  "live_time": null,
+  "misses": {},
+  "pending_backfill": [],
+  "pending_live": [],
+  "playlist_id": "2aFGEJhzTzE8lCUkzJt5Xs",
+  "playlist_name": "Radio ZET",
+  "source_generation": "odsluchane-multi-v1:1",
+  "uris": [],
+  "version": "1.0"
+}
