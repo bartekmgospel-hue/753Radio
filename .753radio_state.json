@@ -117,6 +117,7 @@
     "arctic monkeys|||no 1 party anthem": "spotify:track:5TTGoX70AFrTvuEtqHK37S",
     "aretha franklin eurythmics|||sisters are doin it for themselves": "spotify:track:5LD10wQTCgrqxyO5cRaLPr",
     "ariel pink|||put your number in my phone": "spotify:track:6gKDXp2qT8wMhhm6pQE1vu",
+    "arlo parks|||too good": "spotify:track:1HHIv96gVeVkoOBzQeH9d8",
     "armando trovajoli|||sessomatto": "spotify:track:07lRcb8xsh1Bk5HlFBXPnM",
     "artur rojek dawid podsiad o|||yeti": "spotify:track:7DYO7Dj1RlPPnCpXpB5ynK",
     "artur rojek|||gruby ma y": "spotify:track:2WaOaEIZr4oh0ln0L97VjQ",
@@ -1645,6 +1646,7 @@
     "til tuesday|||voices carry": "spotify:track:0ZYf6N5eBeXStMri0mf3DZ",
     "tilt|||runa juz ostatni mur": "spotify:track:1okr4dsH1sLtcmit3zteeM",
     "tim lefebvre|||atmosphere": "spotify:track:1LlRHmJzGSweuv5VQF4EmM",
+    "tina turner david bowie|||tonight live": "spotify:track:6RzmL3mEPmxN5OVl5ajzji",
     "tina turner|||i don t wanna lose you": "spotify:track:2TxWkdptNrm2Z0CZfMr3Iq",
     "tina turner|||paradise is here": "spotify:track:46AtxnFTO1enGnkAq90uHo",
     "tina turner|||typical male": "spotify:track:2fjJt3OQ8MPaZ3LMzAWiTA",
@@ -1790,7 +1792,7 @@
     "retry_after": 45840
   },
   "live_day": "2026-09-17",
-  "live_time": "07:58",
+  "live_time": "08:29",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -1958,6 +1960,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:6RzmL3mEPmxN5OVl5ajzji",
+    "spotify:track:1HHIv96gVeVkoOBzQeH9d8",
     "spotify:track:244AvzGQ4Ksa5637JQu5Gy",
     "spotify:track:469hCnSlmnswVmvuMQ1cMD",
     "spotify:track:6pb5BBnIM5IM7R1cqag6rE",
