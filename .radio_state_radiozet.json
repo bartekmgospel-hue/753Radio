@@ -1,7 +1,20 @@
 {
   "backfill_last_completed": null,
   "blocked_until": null,
-  "keys": {},
+  "keys": {
+    "andy dust charis|||zokaria": "spotify:track:75hse8udckfJFdQhRo4BNP",
+    "ania karwan|||glupcy": "spotify:track:4kwlG2zyJ7XVTwGEyIgZR3",
+    "bajm|||szklanka wody": "spotify:track:63sFJi1ujCSF4B82ny2mqi",
+    "david guetta alok stick figure|||run run river angels above me": "spotify:track:0Xe2FjyQndr2LsRD820iR3",
+    "de mono|||statki na niebie": "spotify:track:6esusFWhp4cAlUkjnplBiA",
+    "ira|||dlaczego nic": "spotify:track:7662OuV091aiqkPLzb02cK",
+    "martin garrix ed sheeran|||repeat it": "spotify:track:6TWWauThn6z8xOFpG4XF3O",
+    "piersi|||ba kanica": "spotify:track:3bsxKpPB1rv80N8edDIZz8",
+    "sia|||unstoppable": "spotify:track:1yvMUkIOTeUNtNWlWRgANS",
+    "urszula|||rysa na szkle": "spotify:track:5AjiFflkiZd6h3sBQ9f4vP",
+    "wiktor dydu a|||tam s once gdzie my": "spotify:track:1Wh2SwNbe3OQCoskPc3fD8",
+    "zalia|||tylko kochaj mnie": "spotify:track:5cYTaKj5sd6gQLqsLptOsQ"
+  },
   "last_429": null,
   "live_day": null,
   "live_time": null,
@@ -10,7 +23,20 @@
   "pending_live": [],
   "playlist_id": "2aFGEJhzTzE8lCUkzJt5Xs",
   "playlist_name": "Radio ZET",
-  "source_generation": "odsluchane-multi-v1:1",
-  "uris": [],
-  "version": "1.0"
+  "source_generation": "odsluchane-multi-v1.1:1",
+  "uris": [
+    "spotify:track:1yvMUkIOTeUNtNWlWRgANS",
+    "spotify:track:63sFJi1ujCSF4B82ny2mqi",
+    "spotify:track:0Xe2FjyQndr2LsRD820iR3",
+    "spotify:track:7662OuV091aiqkPLzb02cK",
+    "spotify:track:5AjiFflkiZd6h3sBQ9f4vP",
+    "spotify:track:3bsxKpPB1rv80N8edDIZz8",
+    "spotify:track:75hse8udckfJFdQhRo4BNP",
+    "spotify:track:6esusFWhp4cAlUkjnplBiA",
+    "spotify:track:1Wh2SwNbe3OQCoskPc3fD8",
+    "spotify:track:6TWWauThn6z8xOFpG4XF3O",
+    "spotify:track:4kwlG2zyJ7XVTwGEyIgZR3",
+    "spotify:track:5cYTaKj5sd6gQLqsLptOsQ"
+  ],
+  "version": "1.1"
 }
