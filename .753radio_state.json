@@ -356,6 +356,7 @@
     "converge|||phoenix in flight": "spotify:track:7cDMcALsaDm3IhKD5xh4jI",
     "converge|||thaw": "spotify:track:4KyKFoR7N69ZRNJ8tGT1lO",
     "converge|||the broken vow": "spotify:track:45LROZKPtJOYAIGRiDZQWL",
+    "cool kids of death|||to nie zdarza sie nam": "spotify:track:7EYdUDhO5zdnwDPynBHyZv",
     "corto alto|||april": "spotify:track:2Y3aaU9bJIxA8E51Eik9CR",
     "cory henry the apostle voices the brent fisher orchestra stevie wonder|||something happens": "spotify:track:4IBsqXxOMUjmb3cWH0hV8K",
     "curtis stigers|||i wonder why": "spotify:track:04jNbL6I5ZPLYKKlL08Z8Z",
@@ -1359,6 +1360,7 @@
     "red hot chili peppers|||higher ground": "spotify:track:5jotVjBvm9rSZSHvj4QA9R",
     "red hot chili peppers|||scar tissue": "spotify:track:1G391cbiT3v3Cywg8T7DM1",
     "red hot chili peppers|||under the bridge": "spotify:track:3d9DChrdc6BOeFsbrZ3Is0",
+    "red rum club|||vibrate": "spotify:track:49qlXXclrGVj1V9mtQovx3",
     "renata przemyk|||zero": "spotify:track:2kAzHV4iNyIfz44wmaXF6S",
     "reni jusis magiera|||kiecka": "spotify:track:71lu3UluezyT9QFCNuYcPV",
     "reni jusis|||kiecka": "spotify:track:71lu3UluezyT9QFCNuYcPV",
@@ -1855,7 +1857,7 @@
     "retry_after": 45840
   },
   "live_day": "2026-09-17",
-  "live_time": "16:24",
+  "live_time": "16:56",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2030,6 +2032,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:49qlXXclrGVj1V9mtQovx3",
+    "spotify:track:7EYdUDhO5zdnwDPynBHyZv",
     "spotify:track:5yakRZmZ20eaZ1J4nDgQhN",
     "spotify:track:74dRYM8sEHrfTfDYjeMx5z",
     "spotify:track:43THPstJP6RXLMd7ryXyNf",
