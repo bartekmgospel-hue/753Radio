@@ -459,6 +459,7 @@
     "dryskull|||mowie ci nie": "spotify:track:003GGuPOhnst98frZ0YXyL",
     "duit|||bubbletea": "spotify:track:4FD8J0l0Wrw5HdNV2Dj1ST",
     "duncan laurence|||new to you": "spotify:track:5bpWWMmId1gEjiw5l0fF4r",
+    "dur dur band|||adigaa i dhalanrogey": "spotify:track:6obNy7B5XA36BEDt8zIO19",
     "duran duran|||a view to a kill": "spotify:track:6I4snLrVOrJsLdd43isc27",
     "duran duran|||evil woman": "spotify:track:0o4Ae6GviyhijtaJzRGCQa",
     "duran duran|||ordinary world live": "spotify:track:5kFmXWDOulujZRyFjcaBy0",
@@ -1117,6 +1118,7 @@
     "moses boyd|||criticise": "spotify:track:7eymEP0XYD23ROgKz0z67V",
     "mother of graves|||through the pale shade": "spotify:track:30WP3dtX6CUYsBE2MVkfU6",
     "motorhead|||ace of spades": "spotify:track:3CIOopLwvyMvXk97ZEksKO",
+    "movietone|||sun drawing": "spotify:track:6AtRvRFkhSiP9518S48WBj",
     "moyka|||ride": "spotify:track:66CLPPvo8CTqFjcuz8tQQo",
     "mr big|||wild world": "spotify:track:2kj5f1eRhUFhW6K0qUwoD8",
     "mr mister|||broken wings remastered live": "spotify:track:3t7UuaZSQz1PYc9PFllpar",
@@ -1666,6 +1668,7 @@
     "the outfield|||your love": "spotify:track:5dRQUolXAVX3BbCiIxmSsf",
     "the paper kites|||mess we made": "spotify:track:1fI41im9Lof8UaX4lSlGHY",
     "the paper kites|||when the lavender blooms": "spotify:track:3PCOdtoIhxnqdg6FWhgnMk",
+    "the paragons|||when the lights are low": "spotify:track:3RzklnCLyC35UhTN7WkVEr",
     "the police|||canary in a coalmine": "spotify:track:7A4rW6quroPut2I6OsCys9",
     "the police|||next to you": "spotify:track:7HjipY3Vy2HAN11D2juKHT",
     "the prodigy|||voodoo people": "spotify:track:7H0MOWplwc6gf2AD1vTSYi",
@@ -1860,7 +1863,7 @@
     "retry_after": 45840
   },
   "live_day": "2026-09-17",
-  "live_time": "17:57",
+  "live_time": "18:28",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2035,6 +2038,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:3RzklnCLyC35UhTN7WkVEr",
+    "spotify:track:6obNy7B5XA36BEDt8zIO19",
+    "spotify:track:6AtRvRFkhSiP9518S48WBj",
     "spotify:track:5vbBw13AAWG0DlPhtRECGA",
     "spotify:track:2gNfxysfBRfl9Lvi9T3v6R",
     "spotify:track:55h7vJchibLdUkxdlX3fK7",
