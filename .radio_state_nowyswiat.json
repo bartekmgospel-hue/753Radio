@@ -1,0 +1,40 @@
+{
+  "backfill_last_completed": null,
+  "blocked_until": null,
+  "keys": {
+    "bonga|||sons da liberdade": "spotify:track:2pm18bY9hk0U9PsPMJn3sR",
+    "calin ewa farna|||at je klid": "spotify:track:43iLUibjKqDJBq4rCGF49n",
+    "conjunto angola 70 paulo flores joao morgado armando gobliss|||morgadinho": "spotify:track:3FwYFljFWXiiiCksmRJlCz",
+    "esremborak|||tenchu": "spotify:track:16E9xFP8csyjHwFhKmpGMj",
+    "hildur gu nadottir|||folk f r andlit": "spotify:track:5dYv0usr2tUu6HufKzcxio",
+    "kyleaux zaefyehunnit|||kickback": "spotify:track:4LEtiQbK3vz41JvXYqKFrB",
+    "lucy yeghiazaryan|||next spring": "spotify:track:1hEE0JhSLAfRGV3Z8V6Rzk",
+    "monsta|||terapia do soldado": "spotify:track:3KJDlIfGjNIMVz4SZnoT0b",
+    "pekko kappi k h h l|||oi dai dai": "spotify:track:5BHkBS409dlX6BFz3HowMh",
+    "shkodra elektronike redi hasa|||stuhi": "spotify:track:1wUXqn3nEG6Vv96UgmEZGs"
+  },
+  "last_429": null,
+  "live_day": "2026-09-17",
+  "live_time": "19:55",
+  "misses": {
+    "fume|||to cleave the tail of kalameet": "2026-09-17"
+  },
+  "pending_backfill": [],
+  "pending_live": [],
+  "playlist_id": "7s0pll2O5qPHdRDNZ5egAJ",
+  "playlist_name": "Radio Nowy Świat",
+  "source_generation": "odsluchane-multi-v1.1:105",
+  "uris": [
+    "spotify:track:3KJDlIfGjNIMVz4SZnoT0b",
+    "spotify:track:3FwYFljFWXiiiCksmRJlCz",
+    "spotify:track:2pm18bY9hk0U9PsPMJn3sR",
+    "spotify:track:4LEtiQbK3vz41JvXYqKFrB",
+    "spotify:track:16E9xFP8csyjHwFhKmpGMj",
+    "spotify:track:1hEE0JhSLAfRGV3Z8V6Rzk",
+    "spotify:track:43iLUibjKqDJBq4rCGF49n",
+    "spotify:track:5dYv0usr2tUu6HufKzcxio",
+    "spotify:track:1wUXqn3nEG6Vv96UgmEZGs",
+    "spotify:track:5BHkBS409dlX6BFz3HowMh"
+  ],
+  "version": "1.2"
+}
