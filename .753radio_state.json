@@ -702,6 +702,7 @@
     "guano apes|||lords of the boards live": "spotify:track:64OUkNcCTXCNcAYx4utULo",
     "guns n roses|||don t cry": "spotify:track:6mAfxuTuRz1FWfriiFf57y",
     "guns n roses|||patience": "spotify:track:1OEoNpiyqBghuEUaT6Je6U",
+    "guns n roses|||welcome to the jungle": "spotify:track:0G21yYKMZoHa30cYVi1iA8",
     "guy chadwick|||one of these days": "spotify:track:0Hf5a31iNFxJjp7KU76juB",
     "guy sternberg|||atmosphere": "spotify:track:1LlRHmJzGSweuv5VQF4EmM",
     "h e r|||fight for you": "spotify:track:2X42KFgnOSaxOHMG0nDOdj",
@@ -1935,7 +1936,7 @@
     "retry_after": 45840
   },
   "live_day": "2026-09-18",
-  "live_time": "06:57",
+  "live_time": "07:28",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2118,6 +2119,7 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:0G21yYKMZoHa30cYVi1iA8",
     "spotify:track:3dPQuX8Gs42Y7b454ybpMR",
     "spotify:track:1tuwxC3imWlflsHGB0plk5",
     "spotify:track:41AE8ODX2JETBCa6muhSLY",
