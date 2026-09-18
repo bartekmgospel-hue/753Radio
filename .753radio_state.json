@@ -1908,8 +1908,8 @@
     "reason": "QUOTA_EXCEEDED",
     "retry_after": 45840
   },
-  "live_day": "2026-09-17",
-  "live_time": "21:55",
+  "live_day": "2026-09-18",
+  "live_time": "03:57",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
