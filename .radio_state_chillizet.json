@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-09-19T02:31:08+00:00",
   "keys": {
     "54 ultra|||tell me": "spotify:track:6iXIvHGsLMJ89TuW1S9E3C",
     "aaron childs|||butterflies benefits": "spotify:track:4DPVHcS064sB0nFEnV0gRa",
@@ -25,6 +25,7 @@
     "azari iii|||into the night": "spotify:track:0vYefpI84RhgZ5EGzEUeDm",
     "baby rose|||but nvm": "spotify:track:7ktnXbGn8XERn7H3LXWvJG",
     "barrie|||jersey": "spotify:track:7cuXfrCsbCOfHIj6iZUn3P",
+    "barry can t swim|||dance dance dance": "spotify:track:6O23Yf2GSRMunBn3j1eQCJ",
     "barry can t swim|||kimpton": "spotify:track:09oYN0uq4LOoifmgk8bHeP",
     "barry can t swim|||woman": "spotify:track:1WaiCFnNlnpy6NFf3Ga00R",
     "beck|||disappearing act": "spotify:track:5HzWItiJH85G6OSs9h81uY",
@@ -244,9 +245,15 @@
     "zbigniew wodecki|||lubie wracac tam gdzie bylem": "spotify:track:4sHTqR2RQGsH5pSFqtXroU",
     "zes|||seahaven": "spotify:track:3o8Fw0fQsPD3CsAjHzH8eC"
   },
-  "last_429": null,
+  "last_429": {
+    "at": "2026-09-18T15:17:20+00:00",
+    "message": "Too many requests",
+    "mode": "live",
+    "reason": "QUOTA_EXCEEDED",
+    "retry_after": 40423
+  },
   "live_day": "2026-09-18",
-  "live_time": "15:50",
+  "live_time": "16:02",
   "misses": {
     "charlote day wilson|||i can only whisper": "2026-09-18",
     "iza kowalewska|||ciemny typ": "2026-09-17",
@@ -262,7 +269,9 @@
     "warhaus|||no suprises": "2026-09-18"
   },
   "pending_backfill": [],
-  "pending_live": [],
+  "pending_live": [
+    "spotify:track:6O23Yf2GSRMunBn3j1eQCJ"
+  ],
   "playlist_id": "1bs7PdfLounhNUU4ZeRIdH",
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
