@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-09-19T02:31:07+00:00",
   "keys": {
     "2115|||i m a star now": "spotify:track:5ZGXYIpQlk8IxXK3Mo9O2K",
     "2pac|||dopefiend s diner": "spotify:track:0x9CazcaiMpMm3oMNGUD7t",
@@ -137,7 +137,13 @@
     "wzgorze ya pa 3|||bezcenne s owa": "spotify:track:5yRsHDOM4XWRyCrNBHxWl5",
     "zuta|||okres": "spotify:track:3GWmuARtJ9VRWEf15yNWv6"
   },
-  "last_429": null,
+  "last_429": {
+    "at": "2026-09-18T15:53:20+00:00",
+    "message": "Too many requests",
+    "mode": "live",
+    "reason": "QUOTA_EXCEEDED",
+    "retry_after": 38262
+  },
   "live_day": "2026-09-18",
   "live_time": "13:36",
   "misses": {
