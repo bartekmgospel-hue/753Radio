@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-09-19T02:31:08+00:00",
   "keys": {
     "alanis morissette|||hand in my pocket": "spotify:track:3ArPxT1Wt0Yse6kBeCqGFe",
     "alanis morissette|||you oughta know 2015 remaster": "spotify:track:3jS7bB0oXVOwGFZn3aE5NV",
@@ -115,7 +115,13 @@
     "warhaus|||simple pleasures": "spotify:track:2WrxJ6w8SWXFtCRs14cpso",
     "whitesnake|||is this love": "spotify:track:1xgEKRvKO0erYx1JD7YTEO"
   },
-  "last_429": null,
+  "last_429": {
+    "at": "2026-09-18T15:41:20+00:00",
+    "message": "Too many requests",
+    "mode": "live",
+    "reason": "QUOTA_EXCEEDED",
+    "retry_after": 38983
+  },
   "live_day": "2026-09-18",
   "live_time": "13:51",
   "misses": {
