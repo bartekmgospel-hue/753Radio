@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-09-19T02:31:08+00:00",
   "keys": {
     "ace of base|||all that she wants": "spotify:track:6kWJvPfC4DgUpRsXKNa9z9",
     "adam lambert|||whataya want from me": "spotify:track:0zv9bOC2NSMd3Fw2HgM5Xn",
@@ -211,7 +211,13 @@
     "yearboox|||graceland": "spotify:track:0UrAgB7p2pNB7lzdWEWw8V",
     "zalia|||tylko kochaj mnie": "spotify:track:5cYTaKj5sd6gQLqsLptOsQ"
   },
-  "last_429": null,
+  "last_429": {
+    "at": "2026-09-18T15:29:22+00:00",
+    "message": "Too many requests",
+    "mode": "live",
+    "reason": "QUOTA_EXCEEDED",
+    "retry_after": 39701
+  },
   "live_day": "2026-09-18",
   "live_time": "16:24",
   "misses": {
