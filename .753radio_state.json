@@ -209,6 +209,7 @@
     "bliss|||kissing": "spotify:track:2ikgc1hJuFd9M8G10JWUDt",
     "bloc party|||pigwig": "spotify:track:1Q1169xUO3oPfzequxyELl",
     "bloc party|||so here we are": "spotify:track:7Jbf5qUrjaRIQG2GAkabKB",
+    "blondie|||heart of glass": "spotify:track:41AE8ODX2JETBCa6muhSLY",
     "blondie|||maria": "spotify:track:43117dpRPkEXz7euANdYDV",
     "blood orange caroline polachek|||chamakay": "spotify:track:2iR4oHXi5qsb17b0KHVpon",
     "blood orange|||chamakay": "spotify:track:2iR4oHXi5qsb17b0KHVpon",
@@ -1760,6 +1761,7 @@
     "the war on drugs|||who s that": "spotify:track:2YPP52aPZiFUxTmbQTUiR6",
     "the waterboys|||spiritual city": "spotify:track:4AT21vRcaX4QNoeiZS98gC",
     "the weather girls|||it s raining men": "spotify:track:2IvetNzSZMH5gwjInoyr18",
+    "the white stripes|||seven nation army": "spotify:track:3dPQuX8Gs42Y7b454ybpMR",
     "the white stripes|||you re pretty good looking for a girl": "spotify:track:5OjQHOLMSzm9gkcIhtsgMO",
     "the womack sisters|||i am your season": "spotify:track:7IDEKg2ZkoeHUx770ap2m4",
     "the womack sisters|||if i let you": "spotify:track:5lyLBXZXjHNX0wi5zy2Wrt",
@@ -1778,6 +1780,7 @@
     "tilt|||runal juz ostatni mur": "spotify:track:1okr4dsH1sLtcmit3zteeM",
     "tim lefebvre|||atmosphere": "spotify:track:1LlRHmJzGSweuv5VQF4EmM",
     "tina turner david bowie|||tonight live": "spotify:track:6RzmL3mEPmxN5OVl5ajzji",
+    "tina turner|||foreign affair": "spotify:track:1tuwxC3imWlflsHGB0plk5",
     "tina turner|||i don t wanna lose you": "spotify:track:2TxWkdptNrm2Z0CZfMr3Iq",
     "tina turner|||paradise is here": "spotify:track:46AtxnFTO1enGnkAq90uHo",
     "tina turner|||typical male": "spotify:track:2fjJt3OQ8MPaZ3LMzAWiTA",
@@ -1932,7 +1935,7 @@
     "retry_after": 45840
   },
   "live_day": "2026-09-18",
-  "live_time": "06:27",
+  "live_time": "06:57",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2115,6 +2118,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:3dPQuX8Gs42Y7b454ybpMR",
+    "spotify:track:1tuwxC3imWlflsHGB0plk5",
+    "spotify:track:41AE8ODX2JETBCa6muhSLY",
     "spotify:track:0hSs4vOZo1OkRiAOoLafrT",
     "spotify:track:5hXEcqQhEjfZdbIZLO8mf2",
     "spotify:track:5dIx6x1PhqImwdKimgBJIR",
