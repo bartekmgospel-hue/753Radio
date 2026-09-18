@@ -1183,6 +1183,7 @@
     "mrozu julia pietrucha|||anio y pojedynek": "spotify:track:2FPk6E4BfCsdJ4esqT6bVv",
     "mrozu kacperczyk|||wszystko czego chcia em": "spotify:track:3xdcxFoFWwEUVpobxZz8wG",
     "mrozu|||aura": "spotify:track:4e9A2fSgunXp7XM560j2Ez",
+    "mrozu|||lepsze czasy": "spotify:track:5PEpqM4aMDhmqM2VojaSBy",
     "mrozu|||mowisz i masz": "spotify:track:49APgJJ3Epva0J9SO4Ne0k",
     "mrozu|||naturalny high": "spotify:track:22ddQQtpnQkQJewBDHt25S",
     "mrozu|||nie ma miejsca jak dom": "spotify:track:2W61aot3YavDVRABULNHAy",
@@ -1606,6 +1607,7 @@
     "suzi quatro kt tunstall|||overload": "spotify:track:3owWftkHAqT4Dxux2oyNXa",
     "suzi quatro|||overload": "spotify:track:3owWftkHAqT4Dxux2oyNXa",
     "sylwia wisniewska|||zielona sukienka": "spotify:track:3poO4ipEvpl4FnnJ6QgFmw",
+    "system of a down|||protect the land": "spotify:track:11ajcVj3qSyyMPUpTJUP3y",
     "sza|||normal girl": "spotify:track:5fQBa4wkmq28xpSLOQ202K",
     "szczyl|||dla ciebie": "spotify:track:2zRH9fnQTo6P8KcxUsCuAn",
     "sztywny pal azji|||nieprzemakalni ii": "spotify:track:09q7Y9Pfvy13z4IUCDAlC1",
@@ -1958,7 +1960,7 @@
     "retry_after": 45840
   },
   "live_day": "2026-09-18",
-  "live_time": "14:29",
+  "live_time": "14:59",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2141,6 +2143,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:5PEpqM4aMDhmqM2VojaSBy",
+    "spotify:track:11ajcVj3qSyyMPUpTJUP3y",
     "spotify:track:3DfH7McHHi3t35Lhcn9J4y",
     "spotify:track:3NjnWI6PmSij8hooTfhNrC",
     "spotify:track:63OQupATfueTdZMWTxW03A",
