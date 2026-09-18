@@ -58,6 +58,7 @@
     "alice in chains|||right turn": "spotify:track:1szW8tOoDoLECq1ohwMuZr",
     "alice in chains|||this is mongol warrior souls": "spotify:track:2dKnaqHXM8x7lT8JNNa1X5",
     "alice merton|||vertigo": "spotify:track:6dVT4QtwOiNywe7r4UjDVk",
+    "alien ant farm|||smooth criminal": "spotify:track:23K2pVDTXadG5Rc8H8l0e9",
     "alison goldfrapp|||hey hi hello": "spotify:track:2VcfOdRF10SeTy95XfKPhp",
     "all saints|||pure shores": "spotify:track:6ZLGthToczpvnL5Eoy6yrY",
     "almost monday|||no more regrets": "spotify:track:7lgx7t5ZLkdOjiOAjSx9d6",
@@ -813,6 +814,7 @@
     "jessie ware|||overtime": "spotify:track:35v5fsSfzJUE3aEbitQKHT",
     "jethro tull|||life is a long song": "spotify:track:1ql35N6jbGPcMR9tC0t9zp",
     "jhene aiko|||from time": "spotify:track:2WC4sK0ryyysQhtDok9Ytr",
+    "jimi hendrix|||hey joe": "spotify:track:0NWPxcsf5vdjdiFUI8NgkP",
     "jimmie vaughan steve riley|||my soul": "spotify:track:2wS1vrnjvfggu1pQVHuok8",
     "jimmy scott|||nothing compares 2 u": "spotify:track:3R3qPpiWfYbSqwgS7A8Ypy",
     "jimmy scott|||sometimes i feel like a motherless child": "spotify:track:7K2KpvkQhrNaJnseqFJzYg",
@@ -1789,6 +1791,7 @@
     "tom jones the cardigans|||burning down the house": "spotify:track:3v3EGRQ6bywgEaeBRYhpcN",
     "tom jones|||if i only knew": "spotify:track:6yFn1gA36FwRVkbtZzXzAX",
     "tom petty and the heartbreakers|||american girl": "spotify:track:6SIV02mskzzc3KXK7t4NHj",
+    "tom petty|||i won t back down": "spotify:track:7gSQv1OHpkIoAdUiRLdmI6",
     "tomasz lipa lipnicki|||jednorazowa powiesc": "spotify:track:7nbhHvB4BEvZjvdnBRH1xx",
     "tommy newport|||tangerine": "spotify:track:3hFLVHNSDszA8lBvhokoH1",
     "ton koopman jean pierre rampal amsterdam baroque orchestra|||orchestral suite no 2 in b minor bwv 1067 vii badinerie": "spotify:track:7sD4oTuVtOzk0cFiYV1vul",
@@ -1936,7 +1939,7 @@
     "retry_after": 45840
   },
   "live_day": "2026-09-18",
-  "live_time": "07:28",
+  "live_time": "07:57",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2119,6 +2122,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:7gSQv1OHpkIoAdUiRLdmI6",
+    "spotify:track:0NWPxcsf5vdjdiFUI8NgkP",
+    "spotify:track:23K2pVDTXadG5Rc8H8l0e9",
     "spotify:track:0G21yYKMZoHa30cYVi1iA8",
     "spotify:track:3dPQuX8Gs42Y7b454ybpMR",
     "spotify:track:1tuwxC3imWlflsHGB0plk5",
