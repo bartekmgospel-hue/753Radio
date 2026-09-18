@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-09-19T02:31:08+00:00",
   "keys": {
     "acopia|||talk about it": "spotify:track:64nbpPlATaPwdCzjlVZn3q",
     "al castellana simona bencini|||chiedimi se ci saro": "spotify:track:0NwV2RW2g38R65QdWDBD6s",
@@ -205,7 +205,13 @@
     "|||color of the music": "spotify:track:0G9Kqr4ZYCe2VDX6dIzrOD",
     "|||one girl one boy": "spotify:track:7pskYSHhRTH1TFtVdQevG5"
   },
-  "last_429": null,
+  "last_429": {
+    "at": "2026-09-18T16:05:28+00:00",
+    "message": "Too many requests",
+    "mode": "live",
+    "reason": "QUOTA_EXCEEDED",
+    "retry_after": 37535
+  },
   "live_day": "2026-09-18",
   "live_time": "16:56",
   "misses": {
