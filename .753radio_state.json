@@ -134,6 +134,7 @@
     "arlo parks|||too good": "spotify:track:1HHIv96gVeVkoOBzQeH9d8",
     "armando trovajoli|||sessomatto": "spotify:track:07lRcb8xsh1Bk5HlFBXPnM",
     "artur rojek dawid podsiad o|||yeti": "spotify:track:7DYO7Dj1RlPPnCpXpB5ynK",
+    "artur rojek|||bez konca": "spotify:track:07xnoJyNRBq74nbf0Mp2m4",
     "artur rojek|||gruby ma y": "spotify:track:2WaOaEIZr4oh0ln0L97VjQ",
     "artur rojek|||judo": "spotify:track:4d2EZbV4OelBFNFIioMUxn",
     "artur rojek|||mirafiori": "spotify:track:2ypGq1U1VIrFZCdy1IBFz9",
@@ -186,6 +187,7 @@
     "beastie boys|||so what cha want": "spotify:track:25pl7kV4OxafIc9wPAggYf",
     "beauty in chaos|||home": "spotify:track:6iGQZAMvIIGHM1Hz1d0Bls",
     "beauty in chaos|||the long goodbye": "spotify:track:5d6CTd3IkMTZwVfyG5hYX6",
+    "beck|||run away": "spotify:track:4djHuoHnH3bEKf5tbviToI",
     "beck|||up all night": "spotify:track:28AgTOIZke8nitD0NNeb3G",
     "bedoes 2115|||orkiestra pani w obuwniczym": "spotify:track:4XoIypKZmgDjOs5ZJrwrzn",
     "behemoth|||pure evil and hate": "spotify:track:6ExjJvo6ef5Q3imSBSw9xZ",
@@ -202,6 +204,7 @@
     "big country|||look away": "spotify:track:4WYBE94dRKhhXLsOeVSNH8",
     "big day|||w swietle i we mgle": "spotify:track:05LOrjnrppgpL3Yl8pfrSR",
     "big thief|||happy with you": "spotify:track:6fHzHCaCA32kr4Jhe9AYbP",
+    "big truck|||central reservation blues": "spotify:track:6ZEF6dByYg87cTuMfCfHcx",
     "big truck|||feel me": "spotify:track:396ZHCpmPJ1mhX7dfx5P8T",
     "bill labounty|||love at the end of the world": "spotify:track:5rnPWCh8v0PmoZjDbUfYyY",
     "billie eilish rosalia|||lo vas a olvidar with rosalia": "spotify:track:0psS4i5YooJrXfDnGvWRLi",
@@ -2048,7 +2051,7 @@
     "retry_after": 39610
   },
   "live_day": "2026-09-19",
-  "live_time": "13:30",
+  "live_time": "13:58",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2236,6 +2239,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:6ZEF6dByYg87cTuMfCfHcx",
+    "spotify:track:07xnoJyNRBq74nbf0Mp2m4",
+    "spotify:track:4djHuoHnH3bEKf5tbviToI",
     "spotify:track:2GpBrAoCwt48fxjgjlzMd4",
     "spotify:track:4WnJ8tdQhBWGDEHKm6y40h",
     "spotify:track:396ZHCpmPJ1mhX7dfx5P8T",
