@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-09-20T02:41:25+00:00",
   "keys": {
     "49th main|||mangos": "spotify:track:42j4w485h8gESuACqReXYp",
     "acopia|||talk about it": "spotify:track:64nbpPlATaPwdCzjlVZn3q",
@@ -27,6 +27,7 @@
     "barbra streisand|||woman in love": "spotify:track:1pTGc8pwyo6xtgXBKCBcFn",
     "beach house|||april suzanne cover version": "spotify:track:6u19Z263teVaAY2LFRGZQJ",
     "beck|||mixed bizness": "spotify:track:1dF9pukydQttkMGDGcPyro",
+    "bemibem|||juz ci nigdy nie przyrzekne": "spotify:track:5uDqkqzFpCo0xfNusWN9AU",
     "ben hughes|||what was it for": "spotify:track:1idQucjoEMIOVK01hMyydo",
     "benjamin booker|||pompeii statues": "spotify:track:3AHlUiM2WCueDUqBrO5Oe2",
     "benny sings|||simple life": "spotify:track:5w53GyWpKG8IoLQNyaJVhM",
@@ -311,14 +312,14 @@
     "|||one girl one boy": "spotify:track:7pskYSHhRTH1TFtVdQevG5"
   },
   "last_429": {
-    "at": "2026-09-18T16:05:28+00:00",
+    "at": "2026-09-19T13:05:29+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 37535
+    "retry_after": 48951
   },
   "live_day": "2026-09-19",
-  "live_time": "07:30",
+  "live_time": "07:39",
   "misses": {
     "bread and david gates|||took the last train": "2026-09-18",
     "cat power iggy pop|||working class hero": "2026-09-19",
@@ -339,7 +340,9 @@
     "tunde adebimpe|||speedline miracle masterpiece": "2026-09-18"
   },
   "pending_backfill": [],
-  "pending_live": [],
+  "pending_live": [
+    "spotify:track:5uDqkqzFpCo0xfNusWN9AU"
+  ],
   "playlist_id": "7s0pll2O5qPHdRDNZ5egAJ",
   "playlist_name": "Radio Nowy Świat",
   "source_generation": "odsluchane-multi-v1.1:105",
