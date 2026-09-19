@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-09-20T02:41:25+00:00",
   "keys": {
     "ace of base|||all that she wants": "spotify:track:6kWJvPfC4DgUpRsXKNa9z9",
     "ace of base|||cruel summer": "spotify:track:1ntjFaRNVpC1V2cKekUnU5",
@@ -43,6 +43,7 @@
     "bastille|||things we lost in the fire": "spotify:track:6qOxF7JKKNegcuocn14ukr",
     "benson boone|||mystical magical": "spotify:track:221eHga9f9Ne4f8D7WVgPT",
     "bill medley jennifer warnes|||i ve had the time of my life": "spotify:track:7tDPPdcjJs1pMf9KfZZ0i0",
+    "black|||wonderful life": "spotify:track:0IWtEFQBwRHaMXZQtGEVcM",
     "blanka|||rodeo": "spotify:track:7cD3GOKnMPgW4m37meuv3J",
     "bletka|||komu mia abym powiedziec": "spotify:track:6v3aVSYMUOKOoh7Ut70gJ9",
     "bomfunk mc s|||freestyler": "spotify:track:4eZO97RGFo7IN6gm24Nv0S",
@@ -294,19 +295,21 @@
     "zalia|||tylko kochaj mnie": "spotify:track:5cYTaKj5sd6gQLqsLptOsQ"
   },
   "last_429": {
-    "at": "2026-09-18T15:29:22+00:00",
+    "at": "2026-09-19T13:29:23+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 39701
+    "retry_after": 47517
   },
   "live_day": "2026-09-19",
-  "live_time": "14:29",
+  "live_time": "14:46",
   "misses": {
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18"
   },
   "pending_backfill": [],
-  "pending_live": [],
+  "pending_live": [
+    "spotify:track:0IWtEFQBwRHaMXZQtGEVcM"
+  ],
   "playlist_id": "2aFGEJhzTzE8lCUkzJt5Xs",
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
