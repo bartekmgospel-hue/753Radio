@@ -111,6 +111,7 @@
     "myslovitz|||peggy sue nie wyszla za maz": "spotify:track:6BYbkdcTJZ2JWI1vL50pxn",
     "nala sinephro|||continuum 2": "spotify:track:66O3YWGFyDk1UWhi8BTGMF",
     "nala sinephro|||continuum 6": "spotify:track:2xjL6P7IdiBJ6M2rzzaqHR",
+    "ola nowak|||ping pong": "spotify:track:4gLWQUEKhrVoy750sPhKTo",
     "perfect|||bazancie zycie": "spotify:track:4Zll2KfgcjWJx2XLEifN7E",
     "perfect|||obracam w palcach zloty pieniadz": "spotify:track:6chs1SfjOoJM3vf7rvwq0Q",
     "perfect|||pepe wroc": "spotify:track:3atA8wScktqxBZm7TM5kiB",
@@ -171,9 +172,10 @@
     "retry_after": 38983
   },
   "live_day": "2026-09-19",
-  "live_time": "06:18",
+  "live_time": "06:56",
   "misses": {
     "badbadnotgood|||sarias song song of storms": "2026-09-17",
+    "enrique iglesias|||dimelo": "2026-09-19",
     "jane birkin serge gainsbourg|||la decadanse": "2026-09-18",
     "leepeck|||na mnie juz czas": "2026-09-19",
     "maggie reilly|||everytime we touch long version": "2026-09-19",
@@ -186,9 +188,11 @@
     "myslovitz|||et si tu n exitais pas": "2026-09-19",
     "nieklikalnosc|||maja kleszcz": "2026-09-18",
     "nosowska katarzyna|||o lesie": "2026-09-19",
+    "parol syndykat|||a pamietasz jak clean": "2026-09-19",
     "pearl jam|||black live benaroya hall 22 oct 2003": "2026-09-18",
     "rgg|||mazurka in a minor op 17 no 4": "2026-09-19",
-    "rgg|||nocturne in g minor op 15 no 3": "2026-09-19"
+    "rgg|||nocturne in g minor op 15 no 3": "2026-09-19",
+    "zespo kabaretowy tapima|||z ota piosenka": "2026-09-19"
   },
   "pending_backfill": [],
   "pending_live": [],
@@ -196,6 +200,7 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:4gLWQUEKhrVoy750sPhKTo",
     "spotify:track:14tz88lgvDTTd0ML7sGalc",
     "spotify:track:6a8xsh8oJcYY3GNzaxPQAA",
     "spotify:track:3QPbMYXvnDb8RiUBDrKnhi",
