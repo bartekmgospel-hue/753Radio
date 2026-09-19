@@ -92,6 +92,7 @@
     "elton john|||sacrifice": "spotify:track:0e3yhVeNaTfKIWQRw9U9sY",
     "eminem|||houdini": "spotify:track:2HYFX63wP3otVIvopRS99Z",
     "enrique iglesias descemer bueno zion lennox|||subeme la radio": "spotify:track:7nKBxz47S9SD79N086fuhn",
+    "eric carmen|||hungry eyes": "spotify:track:3sTSo8X7UCDTVUVMJ63LJO",
     "evanescence|||bring me to life": "spotify:track:0COqiPhxzoWICwFCS4eZcp",
     "fast boy|||music sounds": "spotify:track:3OLpCe3H6oGcEsvEjNDXHm",
     "felix jaehn shouse|||walk with me": "spotify:track:25NtKz5cq30ec81fhDM9rU",
@@ -99,6 +100,8 @@
     "filatov karas|||tell it to my heart": "spotify:track:6BXlu02FMxchNNUMLBSM7f",
     "flipsyde piper|||happy birthday": "spotify:track:2RSUSq9143titBghWXdxT4",
     "foreigner|||i want to know what love is": "spotify:track:1JLn8RhQzHz3qDqsChcmBl",
+    "foster the poeple|||pumped up kicks": "spotify:track:7w87IxuO7BDcJ3YUqCyMTT",
+    "fukaj vito bambino|||zabiore cie tam": "spotify:track:6LrArcAWVYhqtl68a7Wt1U",
     "george ezra|||green green grass": "spotify:track:4mZ8kqtUWbULwSOUQPB44S",
     "george ezra|||shotgun": "spotify:track:4ofwffwvvnbSkrMSCKQDaC",
     "gibbs igo 4money|||ostatni dzien lata": "spotify:track:6FJb2Knd2tn504K1durCVt",
@@ -110,6 +113,7 @@
     "huntr x ejae audrey nuna rei ami kpop demon hunters cast|||golden": "spotify:track:5Cp75TUMrHF6c8xbhdligS",
     "hurts|||wonderful life": "spotify:track:2pxpJ9lmbqPEIk3M7ezLR0",
     "icona pop charli xcx|||i love it": "spotify:track:3VZQshi4COChhXaz7cLP02",
+    "igor herbut|||wkreceni nie ufaj mi": "spotify:track:4Wjdk72dzEOynrdTQGBac8",
     "imagine dragons|||thunder": "spotify:track:1zB4vmk8tFRmM9UULNzbLB",
     "imagine dragons|||whatever it takes": "spotify:track:6Qn5zhYkTa37e91HC1D7lb",
     "imany|||don t be so shy filatov karas remix": "spotify:track:4bNqSJ92afDvDZiYgpckVf",
@@ -164,6 +168,7 @@
     "marissa|||bedzie pieknie": "spotify:track:1AQk1NyfDFar6N8h7sqGFo",
     "marissa|||odkochaj": "spotify:track:0ALsDccwFMj8QznHPah8fn",
     "mark ambor|||belong together": "spotify:track:5uQ7de4EWjb3rkcFxyEOpu",
+    "mark ronson miley cyrus|||nothing breaks like a heart": "spotify:track:27rdGxbavYJeBphck5MZAF",
     "martin garrix ed sheeran|||repeat it": "spotify:track:6TWWauThn6z8xOFpG4XF3O",
     "martyna baranowska|||serce": "spotify:track:1ox1cmqXrGCuakXoJFPR8v",
     "meja|||all bout the money": "spotify:track:72qwRwnHNGCnn8sFlVOwr4",
@@ -289,7 +294,7 @@
     "retry_after": 39701
   },
   "live_day": "2026-09-19",
-  "live_time": "12:25",
+  "live_time": "13:27",
   "misses": {
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18"
   },
@@ -299,6 +304,11 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:7w87IxuO7BDcJ3YUqCyMTT",
+    "spotify:track:4Wjdk72dzEOynrdTQGBac8",
+    "spotify:track:27rdGxbavYJeBphck5MZAF",
+    "spotify:track:3sTSo8X7UCDTVUVMJ63LJO",
+    "spotify:track:6LrArcAWVYhqtl68a7Wt1U",
     "spotify:track:3lzz9rlIb4Ye5A3x1o3dhd",
     "spotify:track:1b7459Md2rTMDkcjwwpsE3",
     "spotify:track:6BXlu02FMxchNNUMLBSM7f",
