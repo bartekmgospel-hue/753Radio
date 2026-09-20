@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-09-21T02:47:23+00:00",
   "keys": {
     "15 minut projekt|||soca": "spotify:track:4nb5Saxa9EhQmkSEourUW4",
     "2 plus 1|||hej dogonie lato": "spotify:track:5kThJ36GmE6r925KcKdc4R",
@@ -38,6 +38,7 @@
     "cado belle|||september": "spotify:track:4jrombiDOAtQmkawuC4JNe",
     "cado belle|||stone s throw from nowhere": "spotify:track:2ilIrs3Rag079qrSOfRT5Z",
     "charli xcx|||camera": "spotify:track:5Fdj0DtH4ZhymltyN5xEv2",
+    "chic|||i want your love": "spotify:track:3gEO96MkIShkDIQuJRry0S",
     "cinnamon gum|||it s alright": "spotify:track:27PxQOwtRXA4ofj1Y0QXPD",
     "coma|||tonacja": "spotify:track:0mk35PjAN6HSgSKwHUY6xK",
     "coma|||trujace rosliny": "spotify:track:3oUHMl8nUqoX3zxvTsIbfe",
@@ -221,6 +222,7 @@
     "suzanne vega|||tom s diner": "spotify:track:6OKUhXuJMvoVPde9fMJJzy",
     "t love|||autobusy i tramwaje": "spotify:track:1mFSSYKonOdgKR2RqWgEn3",
     "t love|||stokrotka": "spotify:track:14lgzCfy16rHyB6lX2QOV0",
+    "talking heads|||this must be the place": "spotify:track:5FAN3M34V4lID5m39SIYDZ",
     "telescreens|||god of nothing": "spotify:track:2pioat4ONNFN6EzXDvbXL4",
     "the 411|||dumb": "spotify:track:2OlqxtIOJ7qOmbVs5lp1Zp",
     "the beatles|||ticket to ride": "spotify:track:76mwkosKfiwvEy9hLHqJAX",
@@ -268,14 +270,14 @@
     "yndling|||shell": "spotify:track:4Y3t75xwiQuJkvXXmNcgRc"
   },
   "last_429": {
-    "at": "2026-09-19T14:41:18+00:00",
+    "at": "2026-09-20T13:41:20+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 43202
+    "retry_after": 47158
   },
   "live_day": "2026-09-20",
-  "live_time": "11:53",
+  "live_time": "14:21",
   "misses": {
     "badbadnotgood|||sarias song song of storms": "2026-09-17",
     "brian reitzell|||tehran 1979": "2026-09-19",
@@ -304,7 +306,10 @@
     "zespo kabaretowy tapima|||z ota piosenka": "2026-09-19"
   },
   "pending_backfill": [],
-  "pending_live": [],
+  "pending_live": [
+    "spotify:track:5FAN3M34V4lID5m39SIYDZ",
+    "spotify:track:3gEO96MkIShkDIQuJRry0S"
+  ],
   "playlist_id": "78FchE0GI5vKwev0iHw12y",
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
