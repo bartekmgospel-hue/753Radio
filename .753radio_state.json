@@ -1198,6 +1198,8 @@
     "matylda ukasiewicz|||kochana coreczko z acz nogi": "spotify:track:39fyUHGSF8jwQIZoyfWkhK",
     "matylda ukasiewicz|||myszka": "spotify:track:42tSLWm0AG7BeZXatYb2uY",
     "matylda|||myszka": "spotify:track:42tSLWm0AG7BeZXatYb2uY",
+    "max bien kahn|||jay n bee club": "spotify:track:4iHSuU4cIztF4nRMT1qNeQ",
+    "max bien kahn|||skipping stones": "spotify:track:1e3UzZpcfi08UBBcBO6DV2",
     "max fry|||hot head": "spotify:track:15vi4NZdaEHY3QDcwPp8ex",
     "max fry|||sinner": "spotify:track:3RQ7G95hZUZH0PskZApb61",
     "max mucha|||mama s car": "spotify:track:1916LFOLD6clD6v1nzW3w0",
@@ -1889,6 +1891,7 @@
     "the escape club|||wild wild west": "spotify:track:4Qn1QhHhUT01LfpBnC7xnf",
     "the farm|||all together now": "spotify:track:3aKIxxcUzFQtvHIJczmFho",
     "the favors|||david s brother": "spotify:track:7HIIgAScOr8ywjvJiraobh",
+    "the favors|||times square jesus": "spotify:track:5rmdWTOqWkC5355OtXz9R6",
     "the flaming lips|||race for the prize": "spotify:track:5eHnZbx4uEBUDy7n0Kcmjx",
     "the fray|||ice cold lakes": "spotify:track:4j2eOzBQBX65CuR5thn8da",
     "the freuders|||tcv": "spotify:track:6U9sq1sfRMKdKDZeGRnUve",
@@ -2149,7 +2152,7 @@
     "retry_after": 47428
   },
   "live_day": "2026-09-20",
-  "live_time": "11:58",
+  "live_time": "12:26",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2342,6 +2345,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:1e3UzZpcfi08UBBcBO6DV2",
+    "spotify:track:4iHSuU4cIztF4nRMT1qNeQ",
+    "spotify:track:5rmdWTOqWkC5355OtXz9R6",
     "spotify:track:0eR1KYPDvStGjIqLWsZytG",
     "spotify:track:2nI04xLBi0oRFsGmTJYeUU",
     "spotify:track:2aRkTVqf51JT2al8uWLo5h",
