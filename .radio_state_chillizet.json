@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-09-21T02:47:23+00:00",
   "keys": {
     "54 ultra|||tell me": "spotify:track:6iXIvHGsLMJ89TuW1S9E3C",
     "aaron childs|||butterflies benefits": "spotify:track:4DPVHcS064sB0nFEnV0gRa",
@@ -438,11 +438,11 @@
     "zimmer fhin|||lost your mind": "spotify:track:6G08WE2rjuoaspgwcK2xij"
   },
   "last_429": {
-    "at": "2026-09-19T13:17:18+00:00",
+    "at": "2026-09-20T14:17:22+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 48242
+    "retry_after": 44996
   },
   "live_day": "2026-09-20",
   "live_time": "10:30",
