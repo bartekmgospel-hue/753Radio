@@ -2102,6 +2102,7 @@
     "u2|||new year s day live at madison square garden ny 09 28 87": "spotify:track:5HRhydeLa2SaPJJxe2X8g9",
     "u2|||one tree hill": "spotify:track:3w3qWhplVQcO5aGU6Ipdhq",
     "u2|||ordinary love": "spotify:track:5K8cyMKcnG4rx5ocW3u7OW",
+    "u2|||pride in the name of love": "spotify:track:24rv66H94QGVqIXHjA3kn6",
     "u2|||running to stand still": "spotify:track:4MLPCRYNhDIKcRjzS54ceu",
     "u2|||stay faraway so close": "spotify:track:1E1ylgIWTW2yE0glywYLb6",
     "u2|||stuck in a moment you can t get out of": "spotify:track:1klDPm7SfsS32hl7KHV9iy",
@@ -2221,7 +2222,7 @@
     "retry_after": 45940
   },
   "live_day": "2026-09-21",
-  "live_time": "07:56",
+  "live_time": "08:28",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2417,6 +2418,7 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:24rv66H94QGVqIXHjA3kn6",
     "spotify:track:6lsumzVFKP9SnfKcuGwqVp",
     "spotify:track:2Fa9ea7JFK1gyYFs9sFrtM",
     "spotify:track:4qjscZh4jfhkpcQG4ZQfi2",
