@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-09-22T02:53:23+00:00",
   "keys": {
     "a ha|||take on me": "spotify:track:2WfaOiMkCvy7F5fcp2zZ8L",
     "abba|||waterloo": "spotify:track:3Dy4REq8O09IlgiwuHQ3sk",
@@ -437,14 +437,14 @@
     "zalia|||tylko kochaj mnie": "spotify:track:5cYTaKj5sd6gQLqsLptOsQ"
   },
   "last_429": {
-    "at": "2026-09-20T14:29:18+00:00",
+    "at": "2026-09-21T14:29:26+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 44280
+    "retry_after": 44632
   },
   "live_day": "2026-09-21",
-  "live_time": "15:23",
+  "live_time": "16:09",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18",
