@@ -1375,6 +1375,7 @@
     "myslovitz|||acidland": "spotify:track:72aWvD7aUqvKJ6RrnXWhTd",
     "myslovitz|||blue velvet": "spotify:track:1rDe9BSXWr0Ls33xHVLl7I",
     "myslovitz|||ch opcy": "spotify:track:1bufVeRDY4rwbM0hMIDZNd",
+    "myslovitz|||dlugosc dzwieku samotnosci": "spotify:track:5ytkHKps6RVVDFZwAqVDCB",
     "myslovitz|||nocnym pociagiem do konca swiata": "spotify:track:24jVhAsRXxmoN91ThJVSeI",
     "myslovitz|||peggy brown": "spotify:track:348u3kyvdh35xgeCuXf7yk",
     "mystery jets|||soul river": "spotify:track:2QzW9sKiFqxWIpoWo36ahS",
@@ -1956,6 +1957,7 @@
     "the dumplings|||betonowy las": "spotify:track:444dmL6qxjuKXmIt3D8Iee",
     "the dumplings|||nie gotujemy": "spotify:track:01VEpM38d3fcWZddfuYWOv",
     "the dumplings|||przykro mi": "spotify:track:4eZ9Q75x5UMartuf7AtC9L",
+    "the dumplings|||raj": "spotify:track:0BhWzpU0b5M2H6Lwh00RQd",
     "the emotions|||so i can love you": "spotify:track:0pKhawRu6D5RYTaINzrozu",
     "the escape club|||wild wild west": "spotify:track:4Qn1QhHhUT01LfpBnC7xnf",
     "the farm|||all together now": "spotify:track:3aKIxxcUzFQtvHIJczmFho",
@@ -2013,6 +2015,7 @@
     "the spinners|||it s a shame": "spotify:track:6CuLzG8uTpRrnf3LmidY9r",
     "the stories|||brother louie": "spotify:track:2qAg7cD6QpsmpZABHBjwEe",
     "the stranglers|||always the sun": "spotify:track:5m2zSfp6RIGeutiwBdX2uB",
+    "the streets|||never went to church": "spotify:track:1UHDC8RXrTHwUIINrJ4Cql",
     "the strokes|||going to babble on": "spotify:track:2nxsLJwW4eFDwl36fUQJWe",
     "the strokes|||the adults are talking": "spotify:track:5ruzrDWcT0vuJIOMW7gMnW",
     "the tallest man on earth|||deliver me from trying": "spotify:track:7hYvMqoqHqoow0XRJ6RCNk",
@@ -2234,7 +2237,7 @@
     "retry_after": 45940
   },
   "live_day": "2026-09-21",
-  "live_time": "10:20",
+  "live_time": "10:57",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2430,6 +2433,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:1UHDC8RXrTHwUIINrJ4Cql",
+    "spotify:track:0BhWzpU0b5M2H6Lwh00RQd",
+    "spotify:track:5ytkHKps6RVVDFZwAqVDCB",
     "spotify:track:3ZooowctgcKwNx7XtRK3W0",
     "spotify:track:40riOy7x9W7GXjyGp4pjAv",
     "spotify:track:71hIekopkrYCGgggsBOpVG",
