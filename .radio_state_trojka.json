@@ -37,7 +37,9 @@
     "blondie|||heart of glass": "spotify:track:41AE8ODX2JETBCa6muhSLY",
     "bomfunk mc s|||freestyler": "spotify:track:4eZO97RGFo7IN6gm24Nv0S",
     "bonnie tyler|||holding out for a hero": "spotify:track:5Y4xYStkJGHNdPceQTAsbm",
+    "bowie david|||absolute beginners": "spotify:track:2ZuTxRgQJrGTUnQlpAg1zn",
     "bruce hornsby the range|||the way it is": "spotify:track:6V50MyHPGhEmwYu0Wdyf0t",
+    "bush kate|||running up that hill a deal with god 2012 remix": "spotify:track:7t8hZ3omaqS9vPwTq2Qrk8",
     "ca7riel paco amoroso|||el dia del amigo": "spotify:track:74eICpWmMuVmBtaOr3YqPN",
     "cado belle|||rocked to stony silence": "spotify:track:2KgPNghOlB1WCjLod5AQgY",
     "cado belle|||september": "spotify:track:4jrombiDOAtQmkawuC4JNe",
@@ -315,6 +317,7 @@
     "u2|||yeah yeah yeah yeah yeah": "spotify:track:2VuEb6YN562K3WlWta87zf",
     "vega suzanne|||solitude standing": "spotify:track:3XfjgqBGTmgzl8XencUM2e",
     "voo voo|||bukiet mysli": "spotify:track:0xOxwMHtLyBdVg5LL7SlMP",
+    "voo voo|||nim stanie sie tak jak gdyby nigdy nic nie by o": "spotify:track:0vDepmbohZEdvTgyQva1FQ",
     "voo voo|||ulatam": "spotify:track:7cP9aW1r9TEgc68OmytpoK",
     "warhaus|||simple pleasures": "spotify:track:2WrxJ6w8SWXFtCRs14cpso",
     "wczasy|||jestes najlepszy": "spotify:track:4XiQZYVE90SHIrn88oqtxR",
@@ -334,7 +337,7 @@
     "retry_after": 47158
   },
   "live_day": "2026-09-21",
-  "live_time": "11:34",
+  "live_time": "11:53",
   "misses": {
     "badbadnotgood|||sarias song song of storms": "2026-09-17",
     "brian reitzell|||tehran 1979": "2026-09-19",
@@ -368,6 +371,9 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:0vDepmbohZEdvTgyQva1FQ",
+    "spotify:track:7t8hZ3omaqS9vPwTq2Qrk8",
+    "spotify:track:2ZuTxRgQJrGTUnQlpAg1zn",
     "spotify:track:4jLv3tDBu8ww2R07DvL12s",
     "spotify:track:2gCgyuWGPIBB5NcG4jfldp",
     "spotify:track:3X2tECCBRutV4a0EREfOAc",
