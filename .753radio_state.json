@@ -997,6 +997,7 @@
     "kasabian|||man of simple pleasures": "spotify:track:761aoM98PrwmgcqwnoPqr0",
     "kasabian|||nothing better than this": "spotify:track:7dl7Ag4JMsdUvXlX0xLFIm",
     "kasabian|||superpowers": "spotify:track:0GJ9W1TSQzbxAgCCX2xc6d",
+    "kasia kowalska|||cos optymistycznego": "spotify:track:4jb8O1GWi2hBeNyFNmL3EK",
     "kasia lins|||przyznaje sie do winy": "spotify:track:2xy8EWxbFjIFRC2l2tPiCX",
     "kasia lins|||rob tak dalej": "spotify:track:0DNOabg5RNhTUT90dW8giV",
     "kasia lins|||trucizna": "spotify:track:5wYOm2m2AhsdTyY3N39Guq",
@@ -1042,6 +1043,7 @@
     "kings of leon|||waste a moment": "spotify:track:5LlsD7LdSMkGV4Iu0a2Zq0",
     "kini kinior|||mole": "spotify:track:0cXqKu660NRAQxyBiTEc6W",
     "kini|||evivalarte": "spotify:track:3a8bJeJZos9PgqLr7eDqnX",
+    "kiss|||i was made for loving you": "spotify:track:7LPtWMV7o6JlDDWq125bLf",
     "kite|||hand out the drugs": "spotify:track:7CJWuIEADG14uNsz6TzVUA",
     "klaudia marzec|||manewr monachijski": "spotify:track:7ehaDTZ9VlVDmQNKdrs5Nq",
     "klaus mitffoch|||klus mitroh": "spotify:track:2ZYb1Q4Cm2pOseZpzHzLv9",
@@ -2214,7 +2216,7 @@
     "retry_after": 45940
   },
   "live_day": "2026-09-21",
-  "live_time": "05:57",
+  "live_time": "06:30",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2410,6 +2412,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:7LPtWMV7o6JlDDWq125bLf",
+    "spotify:track:4jb8O1GWi2hBeNyFNmL3EK",
     "spotify:track:5KmJMi7MiBJtCeJ08lmKzo",
     "spotify:track:7cxb4tW2mdCRhzg1K5BQwo",
     "spotify:track:5UUDgwTJ1ReQnUngHbkxI1",
