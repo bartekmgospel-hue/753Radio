@@ -775,6 +775,7 @@
     "gino vannelli|||nightwalker": "spotify:track:1OMGjMyooYrLkK5VuhDAkk",
     "giorgio poi|||erica cuore ad elica": "spotify:track:62crLiwtESHwh9VpeQeWRM",
     "gizmo varillas|||follow the sun": "spotify:track:0AHfxEqDht3uvXrZsgUPeT",
+    "glasvegas|||please come back home": "spotify:track:7M1usGnVdVvxemDhhRU0cA",
     "glen hansard|||race to the bottom": "spotify:track:5GaHgaScIPn9JWWVsk0ewR",
     "glenn frey|||strange weather": "spotify:track:4B4yV2hm4YAK7BhYBuQCdl",
     "glenn gould|||goldberg variations bwv 988 variation 13 a 2 clav": "spotify:track:2CI5exhYgmUhVMR8Mrunk4",
@@ -1197,6 +1198,7 @@
     "madonna|||danceteria": "spotify:track:3a49TEtsbeAgzZAQH9WiDZ",
     "madonna|||fragile": "spotify:track:6NPZtCGtJmfsgb5FrVKedJ",
     "madonna|||into the groove": "spotify:track:3y2Y3Bc6GDxAWAMIpbW7RU",
+    "madonna|||like a virgin": "spotify:track:1ZPlNanZsJSPK5h9YZZFbZ",
     "madonna|||live to tell": "spotify:track:095MMFhB9qxPx2VsmvjnUs",
     "maggie bjorklund|||atmosphere": "spotify:track:1LlRHmJzGSweuv5VQF4EmM",
     "magiera|||kiecka": "spotify:track:71lu3UluezyT9QFCNuYcPV",
@@ -2257,7 +2259,7 @@
     "retry_after": 45940
   },
   "live_day": "2026-09-21",
-  "live_time": "15:00",
+  "live_time": "15:27",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2455,6 +2457,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:1ZPlNanZsJSPK5h9YZZFbZ",
+    "spotify:track:7M1usGnVdVvxemDhhRU0cA",
     "spotify:track:3vI0j8AzsLkSOIzFisLIuG",
     "spotify:track:3geRffSf6eAruhg23RkpKV",
     "spotify:track:6vArSSPkFRBTxkBmpjVlFC",
