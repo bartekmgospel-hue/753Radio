@@ -811,6 +811,7 @@
     "grzegorz turnau|||mamy czas": "spotify:track:0S4F6vH3cESzsMlfzDNLMR",
     "guano apes|||lords of the boards live": "spotify:track:64OUkNcCTXCNcAYx4utULo",
     "guns n roses|||don t cry": "spotify:track:6mAfxuTuRz1FWfriiFf57y",
+    "guns n roses|||knockin on heaven s door": "spotify:track:4JiEyzf0Md7KEFFGWDDdCr",
     "guns n roses|||patience": "spotify:track:1OEoNpiyqBghuEUaT6Je6U",
     "guns n roses|||welcome to the jungle": "spotify:track:0G21yYKMZoHa30cYVi1iA8",
     "guy chadwick|||one of these days": "spotify:track:0Hf5a31iNFxJjp7KU76juB",
@@ -2239,7 +2240,7 @@
     "retry_after": 45940
   },
   "live_day": "2026-09-21",
-  "live_time": "11:22",
+  "live_time": "11:56",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2382,6 +2383,7 @@
     "republika|||psy pawlowa": "2026-09-18",
     "resoraki|||07 39": "2026-09-12",
     "resoraki|||07 56": "2026-09-12",
+    "robbie williams|||angels live at knewborth": "2026-09-21",
     "roze europy|||karimata": "2026-09-17",
     "rzecz technologiczna|||13 00": "2026-09-13",
     "rzecz technologiczna|||13 56": "2026-09-13",
@@ -2435,6 +2437,7 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:4JiEyzf0Md7KEFFGWDDdCr",
     "spotify:track:0KQx6HOpJueiSkztcS0r7D",
     "spotify:track:3148vAO8qxD3ilR2QBfcaN",
     "spotify:track:1UHDC8RXrTHwUIINrJ4Cql",
