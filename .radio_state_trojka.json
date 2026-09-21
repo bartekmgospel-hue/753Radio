@@ -63,6 +63,7 @@
     "editors|||seriously": "spotify:track:3dZTrUqLpivFUkSuIpSoyb",
     "edyta bartosiewicz|||siedem morz siedem ladow": "spotify:track:7hpHr3WnePl2MGfe8y3tst",
     "em|||tramwaje jak komety": "spotify:track:0p9uYfvsVSlXHLTNyMcoev",
+    "ewa demarczyk|||sur le pont d avignon": "spotify:track:45NEK2zhIv1PIGOqWNEHJT",
     "exodus|||stary noe": "spotify:track:02QtOqEYA9PhUzdl9aJRFq",
     "fleetwood mac|||don t stop": "spotify:track:6l6vgKIgXLnqgSMqf4nGNc",
     "fleetwood mac|||little lies": "spotify:track:08o75xMKmGrKny6GsXrNJW",
@@ -90,6 +91,7 @@
     "iggy pop|||michelle": "spotify:track:3L2CN09jZcXtet8kEVeLPz",
     "igo|||cud": "spotify:track:5hhMCMRnKXW8IaUgKt4TZd",
     "india arie|||can i walk with you": "spotify:track:3tPKv5HKysXXwSwMPTittJ",
+    "inxs|||baby don t cry": "spotify:track:6UtiDfYJPUEnaD3hMI3551",
     "inxs|||mystify": "spotify:track:1teL5em5cNGwVS4l5f8wjg",
     "isaac gracie|||terrified": "spotify:track:2DRpp7u6C5q4XkLtZyirSH",
     "jack bruce|||a question of time": "spotify:track:79loQVjzzCFDEv6VDGafdL",
@@ -129,6 +131,7 @@
     "lady pank|||wciaz bardziej obcy": "spotify:track:1J1rg6WPbqZlob4rumAUsQ",
     "lao che|||czarne kowboje": "spotify:track:1LoUfG3jVMJq464cehvQGK",
     "leonard cohen|||dance me to the end of love": "spotify:track:3mFzIFFFmEXTQs6BDAK2ZZ",
+    "leonard cohen|||first we take manhattan 2011": "spotify:track:6UEzGV76d96lYTA68iBO0B",
     "leszek mozdzer|||crazy girl": "spotify:track:59G24ADmNmJBDx9NQi0MMH",
     "lp|||don t stop": "spotify:track:2RWXtGD9yJAVJHr10Tk7Oy",
     "ma y atlas burz|||chmurne miraze": "spotify:track:0MRtKOCTj4wsjOi9NZDuqA",
@@ -245,6 +248,7 @@
     "sombr|||homewrecker": "spotify:track:7tICCrK3CcyRFKza7yrR0z",
     "sonbird|||yeyeye": "spotify:track:2ka7tmZCGK6garwc25NMH9",
     "spacey jane|||do you really love her": "spotify:track:0taitulsqplmFbqzO8GEqa",
+    "steczkowska justyna|||karuzela z madonnami": "spotify:track:26g33zVS2mTnNDQkCWRPB5",
     "steely dan|||aja": "spotify:track:2cgNpsfZcBzdgeNPEeCnue",
     "steely dan|||deacon blues": "spotify:track:0xeBC6N81ZBYDtxuBFGSuO",
     "steely dan|||peg": "spotify:track:5emxp4RqsF6QoAWXW2Afrk",
@@ -308,7 +312,9 @@
     "white town|||your woman": "spotify:track:3UBItNVbFQiVC5hBQlBvnr",
     "whitesnake|||here i go again": "spotify:track:5ggHTNfpr7cDPBAlpLaumV",
     "whitesnake|||is this love": "spotify:track:1xgEKRvKO0erYx1JD7YTEO",
-    "yndling|||shell": "spotify:track:4Y3t75xwiQuJkvXXmNcgRc"
+    "yndling|||shell": "spotify:track:4Y3t75xwiQuJkvXXmNcgRc",
+    "youssou n dour|||7 seconds": "spotify:track:4sv1iemiMkkZVTUbV16C8L",
+    "zbigniew wodecki mitch mitch|||rzuc to wszystko co zle": "spotify:track:11iQIrOyUNjzH6jJtC3NIb"
   },
   "last_429": {
     "at": "2026-09-20T13:41:20+00:00",
@@ -318,7 +324,7 @@
     "retry_after": 47158
   },
   "live_day": "2026-09-21",
-  "live_time": "08:53",
+  "live_time": "09:51",
   "misses": {
     "badbadnotgood|||sarias song song of storms": "2026-09-17",
     "brian reitzell|||tehran 1979": "2026-09-19",
@@ -352,6 +358,12 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:11iQIrOyUNjzH6jJtC3NIb",
+    "spotify:track:4sv1iemiMkkZVTUbV16C8L",
+    "spotify:track:45NEK2zhIv1PIGOqWNEHJT",
+    "spotify:track:6UtiDfYJPUEnaD3hMI3551",
+    "spotify:track:26g33zVS2mTnNDQkCWRPB5",
+    "spotify:track:6UEzGV76d96lYTA68iBO0B",
     "spotify:track:7HKxTNVlkHsfMLhigmhC0I",
     "spotify:track:0lNudhCTfcGBQVvSO22g4r",
     "spotify:track:4fyanU8Mm9p0K0xRiVz0x6",
