@@ -1558,6 +1558,7 @@
     "paul mauriat|||love is blue": "spotify:track:4ryGt6hcwzQb4z6IgW8sRG",
     "paul mccartney|||deep deep feeling": "spotify:track:3z5OdBycnAWmwACAhF1phF",
     "paul mccartney|||find my way": "spotify:track:1SYdSWLyeVMjHYXD1iJZoY",
+    "paul mccartney|||hope of deliverance": "spotify:track:3gcAVW0ZYaajy5PK9dAhut",
     "paul simon|||graceland": "spotify:track:51KKQAgYFoJHgVIuJWHdHb",
     "paul simon|||that was your mother": "spotify:track:7qB5mBa997C6ddiCgmsfU4",
     "paul young|||wherever i lay my hat that s my home": "spotify:track:3yzM3pkIF5rlllUAAhFPx7",
@@ -2297,7 +2298,7 @@
     "retry_after": 44541
   },
   "live_day": "2026-09-22",
-  "live_time": "07:56",
+  "live_time": "08:29",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2498,6 +2499,7 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:3gcAVW0ZYaajy5PK9dAhut",
     "spotify:track:3Ln4JSpTO4Zc7oRinGsp4k",
     "spotify:track:5d5EBDTT7RuBCF63Y8jpN5",
     "spotify:track:28jaG0nLqlijtHGQzZqGWK",
