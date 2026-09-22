@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-09-23T03:01:10+00:00",
   "keys": {
     "3 11 porter|||surround me with your love mental overdrive rmx": "spotify:track:7vmlI8Ifgh1JceLDzVWrub",
     "54 ultra|||tell me": "spotify:track:6iXIvHGsLMJ89TuW1S9E3C",
@@ -673,14 +673,14 @@
     "zuzanna malisz|||bumerang": "spotify:track:0zkJawMIJrvyGLERGlIyXd"
   },
   "last_429": {
-    "at": "2026-09-21T15:17:23+00:00",
+    "at": "2026-09-22T15:17:23+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 41755
+    "retry_after": 42222
   },
   "live_day": "2026-09-22",
-  "live_time": "16:13",
+  "live_time": "16:37",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "atfc|||i called u": "2026-09-19",
