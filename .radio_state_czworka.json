@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-09-23T03:01:09+00:00",
   "keys": {
     "1 800 girls|||there 4 u": "spotify:track:2393YgNsuZvNlYVZ73KhsZ",
     "21 savage|||i wish": "spotify:track:4dEbKrpucKXWlOw5MofgzU",
@@ -90,6 +90,7 @@
     "danger mouse|||chase me": "spotify:track:2ouMVpv6OJglrFHg2GQPwd",
     "danny brown|||y b p": "spotify:track:5BQHxZ7dOoyS2Vh9X02ows",
     "daria ze slaska|||aureola": "spotify:track:47mxKvFjsiXLCnwJjllWmM",
+    "davide dev|||superwow extended version": "spotify:track:0UYq3MQBYesoouNbd628a5",
     "de la soul|||the package": "spotify:track:02WYUqxhFKrmsfXeguqlvW",
     "debby friday|||so hard to tell": "spotify:track:0895oFCAOSNQeUkRVR73bU",
     "del m|||17 lat": "spotify:track:2fRrAEtmMir4suJNEaMXCI",
@@ -126,6 +127,7 @@
     "frank leen|||za dobrze by zapomniec": "spotify:track:6xusGbEgXx0whVPZ2HjKnD",
     "friko|||dirty diamond": "spotify:track:0x9Zudvn0Ad9kregQZRvYk",
     "fundido|||get a grip": "spotify:track:1zQ7w3qseu1jyrqY9fdMfs",
+    "galaxians|||lose my head boys shorts remix": "spotify:track:6onZsVLTDjmyoh16wYIGNx",
     "gang starr|||mass appeal": "spotify:track:3lGBvPUgO7MJltUnBlOpe9",
     "ganges|||dobry vibe": "spotify:track:0COdfKJNTfSOzpxuNvJeYs",
     "gat decor|||passion grant nelson vocal mix": "spotify:track:6hFQbjBYL6WZhJ1JKlyKB5",
@@ -432,14 +434,14 @@
     "zuta|||okres": "spotify:track:3GWmuARtJ9VRWEf15yNWv6"
   },
   "last_429": {
-    "at": "2026-09-21T14:53:22+00:00",
+    "at": "2026-09-22T14:53:27+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 43196
+    "retry_after": 43657
   },
   "live_day": "2026-09-22",
-  "live_time": "11:03",
+  "live_time": "11:14",
   "misses": {
     "abradab|||rapoweziarno cls waxremix": "2026-09-20",
     "ania szlagowska|||babelki prod kuba wiecek": "2026-09-21",
@@ -573,7 +575,10 @@
     "zippy ogar|||karma cashback prod joachim gedz gunz": "2026-09-18"
   },
   "pending_backfill": [],
-  "pending_live": [],
+  "pending_live": [
+    "spotify:track:0UYq3MQBYesoouNbd628a5",
+    "spotify:track:6onZsVLTDjmyoh16wYIGNx"
+  ],
   "playlist_id": "6cqTNDXmTPBxGb6JePIA90",
   "playlist_name": "Czwórka",
   "source_generation": "odsluchane-multi-v1.1:49",
