@@ -761,6 +761,7 @@
     "gavin friday|||you me and world war three": "spotify:track:6Na0P80t1i6MUNizR7InSC",
     "gazzelle|||settembre": "spotify:track:1IC0l5r9O1dYtbae8oqVyw",
     "genesis|||follow you follow me": "spotify:track:2Qf6Xj6jbe1mfe5cnnnJ44",
+    "genesis|||invisible touch": "spotify:track:3MjgpUwiqCbSzcBYMMxL82",
     "genesis|||jesus he knows me": "spotify:track:1nRZSvB2IKNmuqr85bhfnJ",
     "genesis|||misunderstanding": "spotify:track:3lwN4cu3ZGuYLsYEptxJIq",
     "genesis|||throwing it all away": "spotify:track:40nv7JmoYrh8aO9lk18JlL",
@@ -1121,6 +1122,7 @@
     "l a s|||obligato": "spotify:track:35ce9pTA6EQrEtl0xXvV1r",
     "lachowicz|||p yn": "spotify:track:6T6DIrXyS4a3gWR7cZIDJP",
     "lady pank|||ma a wojna": "spotify:track:1E7uut65wJy3LjMnRSeGBi",
+    "lady pank|||sztuka latania": "spotify:track:4c14wtkMheFjYBhBI4CBDn",
     "lady pank|||to co mam": "spotify:track:632gOSpv2LvNvkwQfS5ywg",
     "lady pank|||vademecum skauta": "spotify:track:1uGqmg6bl4sAp1CQc2zF1j",
     "lana del rey|||born to die": "spotify:track:4Ouhoi2lAhrLJKFzUqEzwl",
@@ -1863,6 +1865,7 @@
     "suede|||emotionally unavailable": "spotify:track:7o1F6ulLhikRXMNQCHPucR",
     "suede|||filmstar": "spotify:track:3148vAO8qxD3ilR2QBfcaN",
     "suede|||still life": "spotify:track:7qDNLRAIxKe4zVjnBFK0S2",
+    "suede|||trash": "spotify:track:5sVPOuJJAmidyxU8LjJBVu",
     "sufjan stevens|||death with dignity": "spotify:track:73uJybGAhwGRD9MZYrOmTY",
     "sufjan stevens|||mystery of love": "spotify:track:5GbVzc6Ex5LYlLJqzRQhuy",
     "suki waterhouse|||back in love": "spotify:track:62S62F7p3A7qOjkbApWe5i",
@@ -2290,7 +2293,7 @@
     "retry_after": 44541
   },
   "live_day": "2026-09-22",
-  "live_time": "05:57",
+  "live_time": "06:27",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2491,6 +2494,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:4c14wtkMheFjYBhBI4CBDn",
+    "spotify:track:5sVPOuJJAmidyxU8LjJBVu",
+    "spotify:track:3MjgpUwiqCbSzcBYMMxL82",
     "spotify:track:6i1jX7UaerEKuKCUGtvYGY",
     "spotify:track:7i1n6BPGuSYiDaRUxKIStA",
     "spotify:track:0yO9QD2Ga7eUzqnNYsSSPo",
