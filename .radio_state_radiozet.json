@@ -325,6 +325,7 @@
     "nana|||lonely": "spotify:track:3zkRpGRmc76IxCsuKY1hgF",
     "natalie imbruglia|||torn": "spotify:track:1Jaah2tmN9Hv81A87KZ1MU",
     "natasha bedingfield|||unwritten": "spotify:track:3U5JVgI2x4rDyHGObzJfNf",
+    "nelly furtado|||maneater": "spotify:track:4wH4dJgrsxONID6KS2tDQM",
     "nelly furtado|||say it right": "spotify:track:2aI21FnmY7TJVKeMaoQZ0t",
     "nelly kelly rowland|||dilemma": "spotify:track:0ARK753YaiJbpLUk7z5yIM",
     "nickelback|||how you remind me": "spotify:track:0gmbgwZ8iqyMPmXefof8Yf",
@@ -364,6 +365,7 @@
     "purple disco machine sophie and the giants|||hypnotized": "spotify:track:0vWUhCPxpJOJR5urYbZypB",
     "quebonafide daria zawia ow|||bubbletea": "spotify:track:4FD8J0l0Wrw5HdNV2Dj1ST",
     "queen|||i want to break free": "spotify:track:5lmMeytpSOBTzFYRS32fwA",
+    "queen|||the show must go on": "spotify:track:4GHk8YtewHGbk6HsVJ0mcT",
     "r e m|||losing my religion": "spotify:track:31AOj9sFz2gM0O3hMARRBx",
     "r i o|||shine on": "spotify:track:7yIGRf80h3Kwi4GfwJUiQl",
     "rag n bone man|||skin": "spotify:track:6y2Kaz9QI01XBKJ8mTb7Pf",
@@ -435,6 +437,7 @@
     "texas|||summer son": "spotify:track:4CfmAinsGt7f9IUvQ3XBGW",
     "the chainsmokers coldplay|||something just like this": "spotify:track:1dNIEtp7AY3oDAKCGg2XkH",
     "the cranberries|||dreams": "spotify:track:3W486X36Id1ChRaLhseMBj",
+    "the kid laroi justin bieber|||stay": "spotify:track:1PtLpqXa6MVt9U4gFbpUvf",
     "the kolors|||italodisco": "spotify:track:3QAU2pj4LUKf7yaTgANlQV",
     "the last goodnight|||pictures of you": "spotify:track:6V4y4uuMAxe2EYDIWNToaH",
     "the pointer sisters|||i m so excited": "spotify:track:1ot6jEe4w4hYnsOPjd3xKQ",
@@ -496,7 +499,7 @@
     "retry_after": 44632
   },
   "live_day": "2026-09-22",
-  "live_time": "15:24",
+  "live_time": "16:23",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18",
@@ -511,6 +514,9 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:1PtLpqXa6MVt9U4gFbpUvf",
+    "spotify:track:4GHk8YtewHGbk6HsVJ0mcT",
+    "spotify:track:4wH4dJgrsxONID6KS2tDQM",
     "spotify:track:3wuCCNCnBhJlwkIJTBZFiv",
     "spotify:track:4UrgDocbHywDZv2f3mBhCq",
     "spotify:track:3c8iiZGfEammKJuWTErE5x",
