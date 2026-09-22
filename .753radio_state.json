@@ -983,6 +983,7 @@
     "jimmie vaughan steve riley|||my soul": "spotify:track:2wS1vrnjvfggu1pQVHuok8",
     "jimmy scott|||nothing compares 2 u": "spotify:track:3R3qPpiWfYbSqwgS7A8Ypy",
     "jimmy scott|||sometimes i feel like a motherless child": "spotify:track:7K2KpvkQhrNaJnseqFJzYg",
+    "jiri korn|||hotel california": "spotify:track:4RuvWl1gD5AcjLM6KjcHbD",
     "jitka zelenkova|||mam chut psat roman": "spotify:track:6WawsVlq20RAt43lmWr4cX",
     "joan armatrading|||love and affection": "spotify:track:6Mnne5V9ZifNID59dswUcZ",
     "joan thiele|||eco": "spotify:track:3ycj36w66i2rIGJli4Ruhi",
@@ -2196,6 +2197,7 @@
     "trentemoller|||my conviction": "spotify:track:663QBBtTgtki9IKkSU7ivm",
     "trentemoller|||redefine": "spotify:track:2nK2LnUvHzG5TTVyO5FLtc",
     "trentemoller|||river in me": "spotify:track:0Z6GpSl9nwImyRtIGfd8N6",
+    "tres b|||strikes slips and faults": "spotify:track:07fAJpw8gjIQC1AlM8rV0L",
     "trickshooter social club|||we re better when we re broken": "spotify:track:1KL8NDDoMsg8fklIKGdFAz",
     "tricky|||out of place": "spotify:track:322IzSUsTbcRjbxBOQ5tGM",
     "trio dolly parton emmylou harris linda ronstadt|||after the gold rush": "spotify:track:22GKOoU7q9YGhaedUzhlpT",
@@ -2314,6 +2316,7 @@
     "young the giant|||already there": "spotify:track:1vZdH7O0qJkd3nL34aUKK3",
     "young the giant|||different kind of love": "spotify:track:3P8Ki8W6whZiWzDQ24OiLx",
     "young the giant|||evergreen": "spotify:track:3fLX6yRLD2IkWQUxDJEQ0S",
+    "youth novels|||blue": "spotify:track:0jVVDAkoYGduVg4XkjBjys",
     "youth novels|||kamakura": "spotify:track:1MLtLS3Ia0WIZXqyjHs1Sl",
     "yukimi little dragon|||get it over": "spotify:track:5sJUrTiOlAdoKO8V81spAv",
     "yukimi|||get it over": "spotify:track:5sJUrTiOlAdoKO8V81spAv",
@@ -2347,7 +2350,7 @@
     "retry_after": 44541
   },
   "live_day": "2026-09-22",
-  "live_time": "14:58",
+  "live_time": "15:27",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2550,6 +2553,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:4RuvWl1gD5AcjLM6KjcHbD",
+    "spotify:track:07fAJpw8gjIQC1AlM8rV0L",
+    "spotify:track:0jVVDAkoYGduVg4XkjBjys",
     "spotify:track:54Fyw4AJFqDhwzKxuZqQhh",
     "spotify:track:75tCX7RI0eqD99yHMS8h4w",
     "spotify:track:54b8qPFqYqIndfdxiLApea",
