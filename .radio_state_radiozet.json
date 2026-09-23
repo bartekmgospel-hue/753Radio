@@ -232,6 +232,7 @@
     "jeremi sikorski|||wracam": "spotify:track:5GYd7snaxD4knd8vPfHMDB",
     "jermaine jackson pia zadora|||when the rain begins to fall": "spotify:track:030RDC2ayPOUM32F9IH7eE",
     "john mamann kika|||love life": "spotify:track:3VR4xw00HuoVtmisl8Hcvs",
+    "john newman|||love me again": "spotify:track:5TbzAWWc5eJaANpA9kfGCd",
     "jonatan livka pezet|||obejmuje noce": "spotify:track:1X3saW7eGrSLRVbEIWwFsh",
     "junior caledra sophie ellis bextor|||can t fight this feeling": "spotify:track:0SMtrSiWbLctS8Hy91YMaE",
     "juste jaxstyle jon|||turn the lights off": "spotify:track:5TV7JnCTbwPD6yIVVFJrLb",
@@ -280,6 +281,8 @@
     "laura branigan|||self control": "spotify:track:6efSiDvnrUxhUMPGssgOlV",
     "lawson|||juliet": "spotify:track:2zw1kicCAYcKaVg6isxH4F",
     "leann rimes|||can t fight the moonlight": "spotify:track:2AogRMqARWyUP7VQ3gmSoY",
+    "lene marlin|||sitting down here": "spotify:track:2NwXOuYLEbyhlQzDtoANul",
+    "lenny kravitz|||fly away": "spotify:track:1OxcIUqVmVYxT6427tbhDW",
     "lilly wood the prick robin schulz|||prayer in c robin schulz remix": "spotify:track:3k9FFXVPn3ua8dlpkxlCvZ",
     "linkin park|||burn it down": "spotify:track:7oVEtyuv9NBmnytsCIsY5I",
     "liquido|||narcotic": "spotify:track:6esrIQuXxZaThJbYtPIppl",
@@ -537,7 +540,7 @@
     "retry_after": 41502
   },
   "live_day": "2026-09-23",
-  "live_time": "12:28",
+  "live_time": "13:26",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18",
@@ -553,6 +556,9 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:5TbzAWWc5eJaANpA9kfGCd",
+    "spotify:track:2NwXOuYLEbyhlQzDtoANul",
+    "spotify:track:1OxcIUqVmVYxT6427tbhDW",
     "spotify:track:5WDLRQ3VCdVrKw0njWe5E5",
     "spotify:track:3WlVUkLgGYByiGj8gF4erq",
     "spotify:track:6ahjCaZe8EbEHv7yEw2Kls",
