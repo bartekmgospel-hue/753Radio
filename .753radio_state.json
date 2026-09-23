@@ -572,6 +572,7 @@
     "dolly parton|||my tennessee mountain home": "spotify:track:6rQlfR31QLNCBrq0no1Qc2",
     "dom la nena|||valsa": "spotify:track:0qsA5r3p1ISvQHClrR1zT4",
     "domenico modugno|||volare": "spotify:track:71hIekopkrYCGgggsBOpVG",
+    "dominique a|||eleor": "spotify:track:32QErOT7sMFzEGGb9HrpUb",
     "don henley|||the end of the innocence": "spotify:track:2vny7GArzMVheG4Ovd7Bbk",
     "don henley|||the end of the innocence remastered 2025": "spotify:track:10i569FFhhw66dD2nQGcHr",
     "don mclean|||american pie": "spotify:track:1fDsrQ23eTAVFElUMaf38X",
@@ -1152,6 +1153,7 @@
     "kosma krol kania cappa|||stilo": "spotify:track:5eFgykey6ItsZIb9WiMcMy",
     "kosma krol kania|||180": "spotify:track:0rAZ0CjddA0qO5ALDFLXHu",
     "kovacs|||my love": "spotify:track:0uEftEHpAjuL2V6NScCs4n",
+    "kraftwerk|||das model": "spotify:track:3VwLD5o1r0YBLkjUfgSEYg",
     "krzysztof zalewski|||lepiej juz by o": "spotify:track:5SGUNlgK09cniVcUdjnGPH",
     "krzysztof zalewski|||mowie ci nie": "spotify:track:003GGuPOhnst98frZ0YXyL",
     "krzysztof zalewski|||orkiestra pani w obuwniczym": "spotify:track:4XoIypKZmgDjOs5ZJrwrzn",
@@ -2416,7 +2418,7 @@
     "retry_after": 43196
   },
   "live_day": "2026-09-23",
-  "live_time": "11:30",
+  "live_time": "11:56",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2622,6 +2624,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:32QErOT7sMFzEGGb9HrpUb",
+    "spotify:track:3VwLD5o1r0YBLkjUfgSEYg",
     "spotify:track:2VmyLy2HQlkevZYboXHM5O",
     "spotify:track:6HF7VGNqERp0a73SHAJJky",
     "spotify:track:1JUTIdmN2n8YPajApdUYJw",
