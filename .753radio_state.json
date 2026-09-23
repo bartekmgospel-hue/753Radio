@@ -1892,6 +1892,7 @@
     "slash chris stapleton|||oh well": "spotify:track:0o16V4WswA4aknX8WmVDsQ",
     "slash|||oh well": "spotify:track:0o16V4WswA4aknX8WmVDsQ",
     "slayer|||delusions of saviour": "spotify:track:06WUUNf7q18NZfjIsQFsfa",
+    "slayer|||piece by piece": "spotify:track:4r7wKbbQPN4hzNWjLM5554",
     "slowdive|||kisses": "spotify:track:7LuPjGUfJqxuW14W4gMrU2",
     "smokie|||lay back in the arms of someone": "spotify:track:1r9QBciQVM1BnW72cQUA4R",
     "smolik kev fox|||queen of hearts": "spotify:track:7p7kyJeuok6Z4h3d36XiM5",
@@ -2183,6 +2184,7 @@
     "the twang|||wide awake": "spotify:track:2SqzmbczfIwCs4fmTAaHIA",
     "the twilight singers|||black is the color of my true love s hair": "spotify:track:3bYIcMswiQrirzsCJF2CSU",
     "the veils|||the leavers dance": "spotify:track:1XH4Co6NzModcyhn9L2E5F",
+    "the verve|||love is noise": "spotify:track:0P6YJv6QXReDChZBbpvFmF",
     "the verve|||this could be my moment remastered 2004": "spotify:track:1w3bJ7EW0pHZDwTiRrz8Ox",
     "the walters|||i love you so": "spotify:track:3Lnf4aMMRSu80PqR5EWLza",
     "the war on drugs|||in chains live": "spotify:track:1HDnhekr1uJh00StFK8Mwl",
@@ -2285,6 +2287,7 @@
     "u2|||stay faraway so close": "spotify:track:1E1ylgIWTW2yE0glywYLb6",
     "u2|||stuck in a moment you can t get out of": "spotify:track:1klDPm7SfsS32hl7KHV9iy",
     "u2|||walk on": "spotify:track:0Nq65oeVtmBZTpazxKliN3",
+    "u2|||who s gonna ride your wild horses": "spotify:track:4SzIZFruLhiAzhuMtAhIRt",
     "u2|||yeah yeah yeah yeah yeah": "spotify:track:2VuEb6YN562K3WlWta87zf",
     "ufo|||built for comfort": "spotify:track:4TiOLbSGW8nUqa72Zob8JZ",
     "ugly kid joe|||everything about you": "spotify:track:3YgkTpILtOWngT7PVHg8kO",
@@ -2410,7 +2413,7 @@
     "retry_after": 43196
   },
   "live_day": "2026-09-23",
-  "live_time": "10:28",
+  "live_time": "11:00",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2616,6 +2619,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:4SzIZFruLhiAzhuMtAhIRt",
+    "spotify:track:0P6YJv6QXReDChZBbpvFmF",
+    "spotify:track:4r7wKbbQPN4hzNWjLM5554",
     "spotify:track:38XNqOJLqiJXcummwwJx4u",
     "spotify:track:5979CooXWnrP121vWF2wrO",
     "spotify:track:3F8ddXLIHVLdunzh6fLvKs",
