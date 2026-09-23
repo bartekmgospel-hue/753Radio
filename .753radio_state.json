@@ -499,6 +499,7 @@
     "david bowie mick jagger|||dancing in the street": "spotify:track:3LQN1RL315Nhzvwvd7ZOEp",
     "david bowie mick jagger|||dancing in the street dub": "spotify:track:3LQN1RL315Nhzvwvd7ZOEp",
     "david bowie pet shop boys|||hallo spaceboy with pet shop boys pet shop boys remix": "spotify:track:3UCBsQVpJep4eilYQgapkr",
+    "david bowie|||ashes to ashes": "spotify:track:1JUTIdmN2n8YPajApdUYJw",
     "david bowie|||china girl": "spotify:track:1MuwNofr6z6AWzymLm11JA",
     "david bowie|||dancing in the street dub": "spotify:track:3LQN1RL315Nhzvwvd7ZOEp",
     "david bowie|||hallo spaceboy with pet shop boys pet shop boys remix": "spotify:track:3UCBsQVpJep4eilYQgapkr",
@@ -1296,6 +1297,7 @@
     "manfred mann s earth band|||questions": "spotify:track:0lp09sFwa7HlhKDmeskhm2",
     "manic street preachers nina persson|||your love alone is not enough": "spotify:track:37pFLuNVnAJQL9ysRoKTdy",
     "manic street preachers|||autumn song": "spotify:track:0lmbYpumTlipEY0mUffz9Z",
+    "manic street preachers|||if you tolerate this your children will be next": "spotify:track:2VmyLy2HQlkevZYboXHM5O",
     "manic street preachers|||your love alone is not enough": "spotify:track:37pFLuNVnAJQL9ysRoKTdy",
     "mapache|||people please": "spotify:track:1KHkAB4ulRvxIZHZk1qrJO",
     "marcin januszkiewcz|||hotelowy gosc": "spotify:track:6TpVqhaw3YNbW23BY8AbqV",
@@ -1968,6 +1970,7 @@
     "supertramp|||give a little bit": "spotify:track:1JI4nBu8CZjKYjyADy8kAv",
     "susanna hoffs rufus wainwright|||bad case of loneliness": "spotify:track:1Y3cW6qugdWtLdpaed4vSK",
     "suzanne vega|||luka": "spotify:track:5yMXAaSvxo12QkYU75Ixv0",
+    "suzanne vega|||when heroes go down": "spotify:track:6HF7VGNqERp0a73SHAJJky",
     "suzi quatro kt tunstall|||overload": "spotify:track:3owWftkHAqT4Dxux2oyNXa",
     "suzi quatro|||overload": "spotify:track:3owWftkHAqT4Dxux2oyNXa",
     "swiernalis|||ja juz te bledy popelnilem": "spotify:track:5Pwv93CVB1nMsHJBL7UF02",
@@ -2413,7 +2416,7 @@
     "retry_after": 43196
   },
   "live_day": "2026-09-23",
-  "live_time": "11:00",
+  "live_time": "11:30",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2619,6 +2622,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:2VmyLy2HQlkevZYboXHM5O",
+    "spotify:track:6HF7VGNqERp0a73SHAJJky",
+    "spotify:track:1JUTIdmN2n8YPajApdUYJw",
     "spotify:track:4SzIZFruLhiAzhuMtAhIRt",
     "spotify:track:0P6YJv6QXReDChZBbpvFmF",
     "spotify:track:4r7wKbbQPN4hzNWjLM5554",
