@@ -156,6 +156,7 @@
     "dj bobo|||there is a party": "spotify:track:0ztClGwQQ9KftOO7JFcWrb",
     "dj goja jason derulo melody|||mi chico": "spotify:track:5obL2TvcStSAMLphbj38Ne",
     "djo|||end of beginning": "spotify:track:3qhlB30KknSejmIvZZLjOD",
+    "doda|||pamietnik": "spotify:track:6gKig3A8E0xpGDQNY858On",
     "don diablo emeli sande gucci mane|||survive": "spotify:track:1gnKUue6F9gXXHQshCBwEs",
     "don omar lucenzo|||danza kuduro": "spotify:track:0rCxlp7KdpW1JR8uG6Uno0",
     "dr alban|||it s my life": "spotify:track:4TOGkYS141L15SkVosAp7Z",
@@ -176,7 +177,9 @@
     "ed sheeran|||galway girl": "spotify:track:0afhq8XCExXpqazXczTSve",
     "ed sheeran|||perfect": "spotify:track:0tgVpDi06FyKpA1z0VMD4v",
     "ed sheeran|||shape of you": "spotify:track:7qiZfU4dY1lWllzX7mPBI3",
+    "ed sheeran|||shivers": "spotify:track:50nfwKoDiSYg8zOCREWAm5",
     "edward maya vika jigulina|||stereo love": "spotify:track:0gBfLS4aqbrr1ZvVv8dqWB",
+    "edyta bartosiewicz|||zegar": "spotify:track:5KVadODhbRCp8t6o0lRYSs",
     "edyta gorniak|||to nie ja": "spotify:track:4jGkGJP3PnabBZeATBT2lm",
     "ellie goulding|||lights": "spotify:track:11ozIUBoXAgRTVWelDn4pL",
     "ellie goulding|||love me like you do": "spotify:track:0Cy7wt6IlRfBPHXXjmZbcP",
@@ -259,6 +262,7 @@
     "kasia sienkiewicz|||by y momenty": "spotify:track:2JZvc0rGooaJDY7aMXANxh",
     "kasjan|||zaczynam oddychac": "spotify:track:2rAc1V9W9UQPo9jQ4Xsrgk",
     "kaska sochacka|||szum": "spotify:track:4dbp2q4IPbDvmDlECn3Xii",
+    "katerine|||ayo technology": "spotify:track:3hUgJgCJqLHTNMAOEYtYZ6",
     "katseye|||animal": "spotify:track:3ouNEk0tv5TTi8VWMe1xbX",
     "katy perry|||i kissed a girl": "spotify:track:14iN3o8ptQ8cFVZTEmyQRV",
     "katy perry|||last friday night": "spotify:track:455AfCsOhhLPRc68sE01D8",
@@ -491,6 +495,7 @@
     "taio cruz|||break your heart": "spotify:track:7mDCg8XTEyDNPzC5Jdt7mu",
     "take that michael patrick kelly|||feel my love": "spotify:track:6bu09h9svqGjpo7Qi3Xscn",
     "tasmin archer|||sleeping satellite": "spotify:track:3WSyYBhLZRLbQo2tJgFvSR",
+    "taylor swift|||blank space": "spotify:track:1u8c2t2Cy7UBoG4ArRcF5g",
     "taylor swift|||opalite": "spotify:track:3yWuTOYDztXjZxdE2cIRUa",
     "taylor swift|||the fate of ophelia": "spotify:track:53iuhJlwXhSER5J2IYYv1W",
     "teddy swims|||bad dreams": "spotify:track:3BntzKsnLf2pc0dsvE3Zav",
@@ -556,7 +561,8 @@
     "years years|||king": "spotify:track:3AeicLnm55RqcXGBKYQolM",
     "younotus michael schulte|||bye bye bye": "spotify:track:72AbCBCbe5cYOLQy2nZdWA",
     "zalia lackluster|||plany": "spotify:track:2HD7SiOdUucNKoTkMVGBMr",
-    "zalia|||tylko kochaj mnie": "spotify:track:5cYTaKj5sd6gQLqsLptOsQ"
+    "zalia|||tylko kochaj mnie": "spotify:track:5cYTaKj5sd6gQLqsLptOsQ",
+    "zbigniew wodecki|||lubie wracac tam gdzie bylem": "spotify:track:4sHTqR2RQGsH5pSFqtXroU"
   },
   "last_429": {
     "at": "2026-09-23T15:29:22+00:00",
@@ -566,7 +572,7 @@
     "retry_after": 41765
   },
   "live_day": "2026-09-24",
-  "live_time": "10:28",
+  "live_time": "11:28",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18",
@@ -582,6 +588,12 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:1u8c2t2Cy7UBoG4ArRcF5g",
+    "spotify:track:5KVadODhbRCp8t6o0lRYSs",
+    "spotify:track:50nfwKoDiSYg8zOCREWAm5",
+    "spotify:track:4sHTqR2RQGsH5pSFqtXroU",
+    "spotify:track:3hUgJgCJqLHTNMAOEYtYZ6",
+    "spotify:track:6gKig3A8E0xpGDQNY858On",
     "spotify:track:0KM2y796j63t5RHhvRUxld",
     "spotify:track:3NLrRZoMF0Lx6zTlYqeIo4",
     "spotify:track:1HwsyOKoHSP1VHcVC3sFhy",
