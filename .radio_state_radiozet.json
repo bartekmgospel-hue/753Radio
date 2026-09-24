@@ -153,6 +153,7 @@
     "dj bobo|||there is a party": "spotify:track:0ztClGwQQ9KftOO7JFcWrb",
     "dj goja jason derulo melody|||mi chico": "spotify:track:5obL2TvcStSAMLphbj38Ne",
     "djo|||end of beginning": "spotify:track:3qhlB30KknSejmIvZZLjOD",
+    "don diablo emeli sande gucci mane|||survive": "spotify:track:1gnKUue6F9gXXHQshCBwEs",
     "don omar lucenzo|||danza kuduro": "spotify:track:0rCxlp7KdpW1JR8uG6Uno0",
     "dr alban|||it s my life": "spotify:track:4TOGkYS141L15SkVosAp7Z",
     "dr alban|||sing hallelujah": "spotify:track:2qjDNbgLzfBpCvDwfw11Qg",
@@ -312,6 +313,7 @@
     "macklemore ryan lewis|||can t hold us": "spotify:track:3bidbhpOYeV4knp8AIu8Xn",
     "madcon ameerah|||freaky like me": "spotify:track:0nOFRbiftNe7TTPtpobeXt",
     "madcon ray dalton|||don t worry": "spotify:track:4WDpDsVuRIgUJtJWorGW92",
+    "madonna|||hung up": "spotify:track:3850dYVgOFIXJh5U4BFEWH",
     "madonna|||like a prayer": "spotify:track:2v7ywbUzCgcVohHaKUcacV",
     "mafia|||w swietle dnia": "spotify:track:3PXenThmD3KIwbZwiVbFhW",
     "maggie reilly|||everytime we touch": "spotify:track:3qgm0VtF6i8ei8xpGni8Eg",
@@ -344,6 +346,7 @@
     "michael jackson|||black or white": "spotify:track:7EsjkelQuoUlJXEw7SeVV4",
     "michael jackson|||they don t care about us": "spotify:track:3wuCCNCnBhJlwkIJTBZFiv",
     "michael patrick kelly|||beautiful madness": "spotify:track:4tfLFDGypUWad5AT6772If",
+    "michael patrick kelly|||throwback": "spotify:track:3E1ucUIiThxOODisM2puQF",
     "michael schulte r3hab|||waterfall": "spotify:track:7aJgh6LCvhXJfD7PHjhG70",
     "michael sembello|||maniac": "spotify:track:0QKfiqpEU4h9ycPSzIFwYe",
     "mike and the mechanics|||over my shoulder": "spotify:track:6DKM07xOL59GExqNgE8LFM",
@@ -559,7 +562,7 @@
     "retry_after": 41765
   },
   "live_day": "2026-09-24",
-  "live_time": "08:25",
+  "live_time": "09:29",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18",
@@ -575,6 +578,9 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:3850dYVgOFIXJh5U4BFEWH",
+    "spotify:track:3E1ucUIiThxOODisM2puQF",
+    "spotify:track:1gnKUue6F9gXXHQshCBwEs",
     "spotify:track:4JehYebiI9JE8sR8MisGVb",
     "spotify:track:3P3i2ratUjex3HJEF8aAVi",
     "spotify:track:3bidbhpOYeV4knp8AIu8Xn",
