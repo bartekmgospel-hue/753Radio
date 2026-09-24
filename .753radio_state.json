@@ -805,6 +805,7 @@
     "frank ocean|||lost": "spotify:track:3GZD6HmiNUhxXYf8Gch723",
     "frank ocean|||super rich kids": "spotify:track:0725YWm6Z0TpZ6wrNk64Eb",
     "frankie goes to hollywood|||welcome to the pleasuredome": "spotify:track:6PF0WYSCH6OhGKHRHOQSxG",
+    "franz ferdinand|||evil eye": "spotify:track:1JZJUcJhRgr0kZnjmeZy9o",
     "franz ferdinand|||night or day": "spotify:track:7MEq9ql3Pt3FU0cjp6yJLA",
     "franz ferdinand|||the dark of the matinee": "spotify:track:6gaWfLDoeG1eoiDAVBN4i8",
     "freddie mercury|||i was born to love you": "spotify:track:36sfWI1rk2Nf4Ek9XDUEnC",
@@ -1231,6 +1232,7 @@
     "laura veirs|||accidental tattoo": "spotify:track:0JxUqyj3Zum5eT9fY7MJjd",
     "led zeppelin|||immigrant song": "spotify:track:3bUMbmI5TQ2a7I9xLukuJb",
     "leif vollebekk|||sunset boulevard expedition": "spotify:track:64SZmjw3aY5bZigPevDCHw",
+    "lenny kravitz|||are you gonna go my way": "spotify:track:45Ia1U4KtIjAPPU7Wv1Sea",
     "lenny kravitz|||fear": "spotify:track:3bEo7zQfI46l1iNmUvqMhI",
     "lenny kravitz|||fly away": "spotify:track:1OxcIUqVmVYxT6427tbhDW",
     "lenny kravitz|||let love rule": "spotify:track:2pmN85k5m9nO1rWaCDdrNE",
@@ -2500,7 +2502,7 @@
     "retry_after": 43447
   },
   "live_day": "2026-09-24",
-  "live_time": "06:58",
+  "live_time": "07:28",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2709,6 +2711,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:45Ia1U4KtIjAPPU7Wv1Sea",
+    "spotify:track:1JZJUcJhRgr0kZnjmeZy9o",
     "spotify:track:0Mb20VmqR2lvtgbEermW2v",
     "spotify:track:1YJ4vpxPL6Wgo8gmRnvqSp",
     "spotify:track:3rW0ATGLT6kOUtfsIKygyI",
