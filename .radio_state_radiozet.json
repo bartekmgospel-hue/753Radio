@@ -75,6 +75,7 @@
     "bebe rexha faithless|||new religion": "spotify:track:2Lb9ww5vZAnveWnrFQfAKR",
     "belinda carlisle|||heaven is a place on eart": "spotify:track:1ryT9eOWD1JuxPD5ew53SJ",
     "benson boone|||mystical magical": "spotify:track:221eHga9f9Ne4f8D7WVgPT",
+    "beyonce|||halo": "spotify:track:4JehYebiI9JE8sR8MisGVb",
     "big mountain|||baby i love your way": "spotify:track:1Rvl8qsKJurfFTyWLBI9ib",
     "bill medley jennifer warnes|||i ve had the time of my life": "spotify:track:7tDPPdcjJs1pMf9KfZZ0i0",
     "black eyed peas justin timberlake|||where is the love": "spotify:track:0xmjwnQ3FNE6HuWCt2nHdZ",
@@ -308,6 +309,7 @@
     "lykke li|||i follow rivers": "spotify:track:3WlVUkLgGYByiGj8gF4erq",
     "maanam|||cykady na cykladach": "spotify:track:6Uk3pnkFa0eohjMEl95Iz8",
     "maciej skiba|||chce ciebie czesciej": "spotify:track:6pMLpqFEmvZKwPcIC16fdl",
+    "macklemore ryan lewis|||can t hold us": "spotify:track:3bidbhpOYeV4knp8AIu8Xn",
     "madcon ameerah|||freaky like me": "spotify:track:0nOFRbiftNe7TTPtpobeXt",
     "madcon ray dalton|||don t worry": "spotify:track:4WDpDsVuRIgUJtJWorGW92",
     "madonna|||like a prayer": "spotify:track:2v7ywbUzCgcVohHaKUcacV",
@@ -374,6 +376,7 @@
     "o n a|||kiedy powiem sobie dosc": "spotify:track:5KYzcKuuimNnS3jisUkA8G",
     "o n a|||znalazlam": "spotify:track:1hR2SmHxrDp1Hsb7V9yFqc",
     "oceana|||cry cry": "spotify:track:1WCi6PoKEwU1wJXSD052u4",
+    "ofenbach ella henderson|||hurricane": "spotify:track:3P3i2ratUjex3HJEF8aAVi",
     "ofenbach norma jean martine|||overdrive": "spotify:track:3bK1zVFBKIzYjmptmI4NsJ",
     "olivia addams|||fool me once": "spotify:track:2ceMvjyfDeGVFmscZY438U",
     "olivia addams|||stranger": "spotify:track:7keesrr5gzF7Ol17M1vJZY",
@@ -556,7 +559,7 @@
     "retry_after": 41765
   },
   "live_day": "2026-09-24",
-  "live_time": "07:21",
+  "live_time": "08:25",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18",
@@ -572,6 +575,9 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:4JehYebiI9JE8sR8MisGVb",
+    "spotify:track:3P3i2ratUjex3HJEF8aAVi",
+    "spotify:track:3bidbhpOYeV4knp8AIu8Xn",
     "spotify:track:3s2tBiOaWfZnd97WEoL7ID",
     "spotify:track:6GasY0xxLt1MMvfM8Xt07P",
     "spotify:track:5jnZUl6PwWB0Maze4kDJfC",
