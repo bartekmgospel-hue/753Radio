@@ -2178,6 +2178,7 @@
     "the chemical brothers|||the darkness that you fear": "spotify:track:4ahFzFAZRpfWaGbA2J3dAq",
     "the clash|||hitsville uk": "spotify:track:3F8ddXLIHVLdunzh6fLvKs",
     "the connells|||74 75": "spotify:track:2MAVcVr2oylw2OZ3hojWYj",
+    "the corrs|||runaway": "spotify:track:6csX1JjmeoLhGqMBXGnZF0",
     "the cranberries|||a place i know": "spotify:track:2a1BmTCTkwJNoxgqnh813G",
     "the cranberries|||just my imagination": "spotify:track:0f0k0OJ9VbaLHX4J1t2qUy",
     "the cranberries|||summer song": "spotify:track:5qPPymqP1cektmPiQW0VTy",
@@ -2231,6 +2232,7 @@
     "the lumineers|||isabelle fly": "spotify:track:4jrlNVzdotW3tpcaVqVnuv",
     "the maisonettes|||heartache avenue": "spotify:track:1EYr70PyYGNzIDWTWdPHr7",
     "the mars volta|||equus 3": "spotify:track:7phufbD6HouevCtPBdEQMA",
+    "the moody blues|||forever autumn": "spotify:track:3cscFxpX9fcmhiniTzF7n4",
     "the move|||flowers in the rain": "spotify:track:3n97UOpYXcOsVnmhbG4zuc",
     "the ocean blue|||listen it s gone": "spotify:track:5TkSrwOiAut1otWN4VulRV",
     "the offspring|||the kids aren t alright": "spotify:track:4EchqUKQ3qAQuRNKmeIpnf",
@@ -2510,7 +2512,7 @@
     "retry_after": 43447
   },
   "live_day": "2026-09-24",
-  "live_time": "08:58",
+  "live_time": "09:30",
   "misses": {
     "3 5 7 start|||18 03": "2026-09-14",
     "3 5 7 start|||18 13": "2026-09-13",
@@ -2719,6 +2721,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:6csX1JjmeoLhGqMBXGnZF0",
+    "spotify:track:3cscFxpX9fcmhiniTzF7n4",
     "spotify:track:2fiRJjWb9uk21Gva6oHpKs",
     "spotify:track:1jgTiNob5cVyXeJ3WgX5bL",
     "spotify:track:2v8YjRvFlvmqYRs4uZwd2W",
