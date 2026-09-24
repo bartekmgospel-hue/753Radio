@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": "2026-09-15",
-  "blocked_until": null,
+  "blocked_until": "2026-09-25T08:29:24+00:00",
   "keys": {
     "10 cc|||the film of my love": "spotify:track:5MaQo2YUfKf9Quzqclz1f5",
     "2pac talent|||changes": "spotify:track:1ofhfV90EnYhEr7Un2fWiv",
@@ -14,6 +14,7 @@
     "a ha|||the sun always shines on t v": "spotify:track:0HoaLXRp7jJtdQFunUyUGc",
     "a ha|||touchy": "spotify:track:4awd8oQu7hKVw3hTFDtHoj",
     "a ha|||with you with me": "spotify:track:4WaN9tZi0FqnlhplMq2ZRI",
+    "a tribe called quest|||check the rhime": "spotify:track:4HfxDJ0uLHTLe0fZrx0MbQ",
     "aaron frazer|||it s a shame": "spotify:track:5OYmwQ2I7uahApwDA0PMDB",
     "aaron frazer|||paint the picture": "spotify:track:4Mr1kvqFKseh4iKiB5GoYx",
     "abba|||dancing queen": "spotify:track:0GjEhVFGZW8afUYGChu3Rr",
@@ -439,6 +440,7 @@
     "chris rea|||all summer long": "spotify:track:0K2RTDY2OXtuGqnZH6l3Si",
     "chris stapleton|||cold": "spotify:track:0O5DPkLlre5yNwH6Sqm2dD",
     "chris stapleton|||oh well": "spotify:track:0o16V4WswA4aknX8WmVDsQ",
+    "christina perri|||a thousand years": "spotify:track:6lanRgr6wXibZr8KgzXxBl",
     "christine and the queens|||doesn t matter": "spotify:track:4UH4lWuTEs9r8W0ZkJ5heS",
     "christopher cross|||every turn of the world": "spotify:track:2D21YzKEYDBw0Wx1EByV0Y",
     "chuck berry|||you never can tell": "spotify:track:6FT83pFXKhDlXDsNJFAHWz",
@@ -571,6 +573,7 @@
     "depeche mode|||never let me down again aggro mix": "spotify:track:4c25j3zuNOJNkaMqtEtyoU",
     "depeche mode|||policy of truth": "spotify:track:0Mb20VmqR2lvtgbEermW2v",
     "depeche mode|||shake the disease": "spotify:track:0a1SoGdF8U1PNHtfKRAx91",
+    "depeche mode|||somebody": "spotify:track:4jrMslkQYy6HVqKKPX2WXf",
     "depeche mode|||strangelove single edit": "spotify:track:6ZCyDN2ArlWB4GKAj644Cd",
     "depeche mode|||surrender": "spotify:track:2BtBDMNK0CDEuLUxfqpJQA",
     "derek rydquist|||labyrinth charm": "spotify:track:2Tn4UKvECPU7LPUoe487Zf",
@@ -1508,6 +1511,7 @@
     "mormor|||hurt you": "spotify:track:0I7o1tYYhqLpbiF6bHmaen",
     "mormor|||like heaven": "spotify:track:5pZGuhprytXKB7QRMul3jq",
     "morphine|||in spite of me": "spotify:track:5wNn33j2VfP8WMZhojE3JC",
+    "mortas|||dom": "spotify:track:1la6kUN6EO9nb5H74lm8vw",
     "morten harket|||burn money burn": "spotify:track:1OKSFAGcMxvWqW2MZvfDwG",
     "morten harket|||los angeles": "spotify:track:0AUcXUFG7bZ72oLEphQW7y",
     "moses boyd amber simone|||criticise": "spotify:track:7eymEP0XYD23ROgKz0z67V",
@@ -1769,6 +1773,7 @@
     "piotr zio a|||b ysk": "spotify:track:6mBL5Kk1qSeO9BtQro1hj6",
     "piotr zio a|||podobny": "spotify:track:5m6bVsI71ZGbHJEzxftXjg",
     "pitbull|||on the floor": "spotify:track:3C0nOe05EIt1390bVABLyN",
+    "pixies|||head on": "spotify:track:3hzBfTfRIuJhV8UO70h7yZ",
     "pixies|||wave of mutilation": "spotify:track:51Z2IzJvLCnZaIpBV0IYRr",
     "pixies|||you re so impatient": "spotify:track:2kqc0DW78CyMemrXnK0PQA",
     "pj harvey|||c mon billy": "spotify:track:56sWRGGeRFWgFhrMOgOyZC",
@@ -1901,6 +1906,7 @@
     "roger taylor|||i see you now": "spotify:track:4bm0BrQE6vgVH0MczVXPg2",
     "roisin murphy|||murphy s law": "spotify:track:7n7hFbk8CHGWWnsYtKeJ98",
     "role model|||high hopes 3000": "spotify:track:1dKUibfoGwiApjEYJhB9R2",
+    "role model|||sally when the wine runs out": "spotify:track:2J051fjLklkoPbzOoTAACZ",
     "rosalia|||di mi nombre": "spotify:track:2Sfl7odHUmG7qc8SbqUyzE",
     "rosalia|||lo vas a olvidar with rosalia": "spotify:track:0psS4i5YooJrXfDnGvWRLi",
     "rosalie schafter|||ciemnosc": "spotify:track:5W7Nr8ENCiBXvoaPn1rdUu",
@@ -2535,11 +2541,11 @@
     "|||serbia drums": "spotify:track:714zQuKodEfVvyRFn1K8PC"
   },
   "last_429": {
-    "at": "2026-09-23T15:01:20+00:00",
+    "at": "2026-09-24T12:31:02+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 43447
+    "retry_after": 71897
   },
   "live_day": "2026-09-24",
   "live_time": "13:58",
@@ -2749,7 +2755,14 @@
     "zo christian|||s uchamy radia 357": "2026-09-13"
   },
   "pending_backfill": [],
-  "pending_live": [],
+  "pending_live": [
+    "spotify:track:2J051fjLklkoPbzOoTAACZ",
+    "spotify:track:4jrMslkQYy6HVqKKPX2WXf",
+    "spotify:track:1la6kUN6EO9nb5H74lm8vw",
+    "spotify:track:4HfxDJ0uLHTLe0fZrx0MbQ",
+    "spotify:track:3hzBfTfRIuJhV8UO70h7yZ",
+    "spotify:track:6lanRgr6wXibZr8KgzXxBl"
+  ],
   "playlist_id": "6rDKLhMlP4IGNOIhdCHWX4",
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
