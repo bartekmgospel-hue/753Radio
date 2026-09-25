@@ -424,6 +424,7 @@
     "chaka khan snoop dogg|||boogie s in my soul": "spotify:track:3auasA1oQjH9hXr5Ux72Sk",
     "chaka khan|||boogie s in my soul": "spotify:track:3auasA1oQjH9hXr5Ux72Sk",
     "chaka khan|||cool u down": "spotify:track:1zXyCObXWABxy8cBY0NQvV",
+    "chaka khan|||cool you down": "spotify:track:1zXyCObXWABxy8cBY0NQvV",
     "chappell roan|||good luck babe": "spotify:track:0WbMK4wrZ1wFSty9F7FCgu",
     "chappell roan|||the giver": "spotify:track:5xHgo5JN0wfsV41HnRaos5",
     "chapterhouse|||pearl": "spotify:track:7gVcaSCDGYVuOALeSlvjHJ",
@@ -2043,6 +2044,7 @@
     "slash|||oh well": "spotify:track:0o16V4WswA4aknX8WmVDsQ",
     "slayer|||delusions of saviour": "spotify:track:06WUUNf7q18NZfjIsQFsfa",
     "slayer|||piece by piece": "spotify:track:4r7wKbbQPN4hzNWjLM5554",
+    "slipknot|||arsenal": "spotify:track:3QEglzrnBHZg2yVGlo3G5j",
     "slowdive|||kisses": "spotify:track:7LuPjGUfJqxuW14W4gMrU2",
     "smokie|||don t play your rock n roll to me": "spotify:track:5TszWVhQc2vFQwZjZXYxFo",
     "smokie|||lay back in the arms of someone": "spotify:track:1r9QBciQVM1BnW72cQUA4R",
@@ -2603,7 +2605,7 @@
     "retry_after": 71897
   },
   "live_day": "2026-09-25",
-  "live_time": "19:01",
+  "live_time": "19:28",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -2817,6 +2819,7 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:3QEglzrnBHZg2yVGlo3G5j",
     "spotify:track:64UioB4Nmwgn2f4cbIpAkl",
     "spotify:track:7d4lvIqCYS2DGTCZAjmCHu",
     "spotify:track:3DMND9loKpbSj2t8DJTYao",
