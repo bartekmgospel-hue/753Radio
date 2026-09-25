@@ -194,6 +194,7 @@
     "edward maya vika jigulina|||stereo love": "spotify:track:0gBfLS4aqbrr1ZvVv8dqWB",
     "edyta bartosiewicz|||zegar": "spotify:track:5KVadODhbRCp8t6o0lRYSs",
     "edyta gorniak|||to nie ja": "spotify:track:4jGkGJP3PnabBZeATBT2lm",
+    "ellie goulding|||burn": "spotify:track:2GgxS8bUT5G25QJTsfSv0R",
     "ellie goulding|||lights": "spotify:track:11ozIUBoXAgRTVWelDn4pL",
     "ellie goulding|||love me like you do": "spotify:track:0Cy7wt6IlRfBPHXXjmZbcP",
     "elton john dua lipa|||cold heart pnau remix": "spotify:track:6zSpb8dQRaw0M1dK8PBwQz",
@@ -450,6 +451,7 @@
     "piotr rubik olga szomanska przemys aw branny|||niech wszyscy mowia ze to nie jest mi osc": "spotify:track:4yBrh1lPevOSW1V4oZaBgq",
     "pitbull christina aguilera|||feel this moment": "spotify:track:0Hf4aIJpsN4Os2f0y0VqWl",
     "pitbull kesha|||timber": "spotify:track:3cHyrEgdyYRjgJKSOiOtcS",
+    "pitbull marc anthony|||rain over me": "spotify:track:2cZrrQMjB63c0iIugYH9zS",
     "pitbull ne yo afrojack nayer|||give me everything": "spotify:track:4QNpBfC0zvjKqPJcyqBy9W",
     "pszona|||z y": "spotify:track:5ryN2m8kIwAofh31Hafej6",
     "purple disco machine kungs|||substitution": "spotify:track:2F2p7b5Xq20mRyEeWYaeUF",
@@ -620,7 +622,7 @@
     "retry_after": 68398
   },
   "live_day": "2026-09-25",
-  "live_time": "22:28",
+  "live_time": "23:28",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18",
@@ -636,6 +638,8 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:2cZrrQMjB63c0iIugYH9zS",
+    "spotify:track:2GgxS8bUT5G25QJTsfSv0R",
     "spotify:track:0cqRj7pUJDkTCEsJkx8snD",
     "spotify:track:5oR3RK5exK9u6PZ5e4sf1d",
     "spotify:track:0GWGZA5mxo9nHuSyrj70uo",
