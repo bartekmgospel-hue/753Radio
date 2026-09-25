@@ -489,6 +489,7 @@
     "karas rogucki|||mniej niz wiecej": "spotify:track:5jrgeWQyZiPaW40ooEtX05",
     "kasabian|||algorithms": "spotify:track:0kac7CtVs9A8AZF8FHK2UE",
     "kasabian|||coming back to me good": "spotify:track:1Vom4RbPagXle3g1BgzqUC",
+    "kasabian|||silver apple eyes": "spotify:track:6IvrPhGXKrr2iWweWJNWeY",
     "kasia kowalska|||jak rzecz": "spotify:track:7LWIGSn1TmKT3Wrb9cO9U4",
     "kasia lins|||sto zyc": "spotify:track:44GIhCbTHFHiTEee4UaydE",
     "kate bush|||hounds of love": "spotify:track:6jWx7mD5oblxybTaWpiPZN",
@@ -1068,7 +1069,7 @@
     "retry_after": 69823
   },
   "live_day": "2026-09-26",
-  "live_time": "01:03",
+  "live_time": "01:09",
   "misses": {
     "bear mccreary|||one fine day": "2026-09-25",
     "bloo zbir|||3 2 1": "2026-09-21",
@@ -1114,6 +1115,7 @@
   "playlist_name": "Radio Nowy Świat",
   "source_generation": "odsluchane-multi-v1.1:105",
   "uris": [
+    "spotify:track:6IvrPhGXKrr2iWweWJNWeY",
     "spotify:track:1HOeVd9eRA23K6P1DXkO2B",
     "spotify:track:6Uvqq86c3OhNfcwoaeURqG",
     "spotify:track:3l4tFqXzkIsZO6pjjh9h6Z",
