@@ -867,6 +867,7 @@
     "george ezra|||barcelona": "spotify:track:3ieLey98V9mIIh3W9gBlPF",
     "george ezra|||did you hear the rain": "spotify:track:1dKMQ58n6Rskvgb9ccFGdz",
     "george michael|||outside": "spotify:track:6SfWgcAHkQo3SMRvRIzJm6",
+    "gerard blanchard|||rock amadour": "spotify:track:2moduAQ4iHZvknXAiLV0qd",
     "gerry beckley|||75": "spotify:track:3jDreNuy7vwVGnHC2KFRA4",
     "gerry beckley|||all the wounded cowboys": "spotify:track:2gmsyLO1iPE0ICfGPbyHbf",
     "gerry beckley|||angel": "spotify:track:6NchIt3sVwZkA19qkRZgfq",
@@ -1341,6 +1342,7 @@
     "luvcat|||alien": "spotify:track:2RjxEQRvSma9pVhmtVpEeR",
     "lykke li|||i follow rivers": "spotify:track:3WlVUkLgGYByiGj8gF4erq",
     "lykke li|||lucky again": "spotify:track:0n63xAny4NjxRNgKnboEp8",
+    "lynyrd skynyrd|||sweet home alabama": "spotify:track:7e89621JPkKaeDSTQ3avtg",
     "m83|||blister sunrise": "spotify:track:6KmnrYGLTStjxonyQYRPbU",
     "maanam|||badz ostrozny": "spotify:track:1eVV2PIOYxE2X3OantxkXq",
     "maanam|||lipstick on the glass": "spotify:track:7bUHsuMQt5BjdNEpdpDXy5",
@@ -2084,6 +2086,7 @@
     "stereophonics|||maybe tomorrow": "spotify:track:6SXy02aTZU3ysoGUixYCz0",
     "steve winwood|||valerie remix": "spotify:track:0CvELCKAsz9ymRXcuATHWN",
     "stevie nicks|||crystal": "spotify:track:6wZaKZs7XsMzAOu9yp8dUN",
+    "stevie ray vaughan double trouble|||the house is rockin": "spotify:track:4BYmnYGNVBVm2JHVxFNMXj",
     "stevie wonder|||can we fix our nation s broken heart": "spotify:track:0RjaFK7bRxPrvGTM4cA8zB",
     "stevie wonder|||i wish": "spotify:track:687YZan9Gol1UVvbpUSO6Y",
     "stevie wonder|||love s in need of love today": "spotify:track:39sdlCugrGBsoC4Flos0HO",
@@ -2588,7 +2591,7 @@
     "retry_after": 71897
   },
   "live_day": "2026-09-25",
-  "live_time": "16:22",
+  "live_time": "16:58",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -2802,6 +2805,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:2moduAQ4iHZvknXAiLV0qd",
+    "spotify:track:7e89621JPkKaeDSTQ3avtg",
+    "spotify:track:4BYmnYGNVBVm2JHVxFNMXj",
     "spotify:track:31akX2fPAXUAyP5tKaMRS8",
     "spotify:track:5TszWVhQc2vFQwZjZXYxFo",
     "spotify:track:5Zps6ZLhTe6aWxq7F25foM",
