@@ -310,6 +310,7 @@
     "bob moses|||desire": "spotify:track:0tcNM9PPdMYv9S3tjuZSyV",
     "bob moses|||love we found": "spotify:track:6Ae5fUk4VVYF5zNLWZ7dFt",
     "bob seger the silver bullet band|||against the wind": "spotify:track:1SWmFiFSIBoDbQJjNKC7SR",
+    "bobby christina s caravan tom hambridge|||jack rabbit boy": "spotify:track:3KNnWaIhWX4q528gSKPoRu",
     "bokka|||town of strangers": "spotify:track:5xCyTfJ6s1aTxlzk3LuUSt",
     "bombay bicycle club|||is it real": "spotify:track:6c0stxBesEYDLixpJvTbNT",
     "bombay bicycle club|||it s alright now": "spotify:track:0010mZpCCwlPwoBiBsjoac",
@@ -1263,6 +1264,7 @@
     "lao che|||zycie jest jak tramwaj": "spotify:track:0yPLH1clBAMqaCoaVTYefT",
     "late again|||every time i take sudafed": "spotify:track:7ky4ykVBUszivBlFvwuuWD",
     "late again|||my sore throat": "spotify:track:4AQLLmkddm9u9iXNyNclSx",
+    "laufey|||madwoman": "spotify:track:0UqHzMvRQnaOXEPKgFVhxN",
     "laufey|||mr eclectic": "spotify:track:0gBlPhTZaqY06DHCL9V7W5",
     "laura veirs|||accidental tattoo": "spotify:track:0JxUqyj3Zum5eT9fY7MJjd",
     "led zeppelin|||immigrant song": "spotify:track:3bUMbmI5TQ2a7I9xLukuJb",
@@ -2017,6 +2019,7 @@
     "sinead o connor|||no man s woman": "spotify:track:0xsfUIVCZLR12cNsjvDqeB",
     "sinkane|||on being": "spotify:track:6vRs4u7XyZ7TBjdBg4ipGf",
     "siouxsie and the banshees|||kiss them for me 7 version": "spotify:track:3rW0ATGLT6kOUtfsIKygyI",
+    "sir jay asling|||she whispered sweetly": "spotify:track:4zpmgx5DBjzSgU2SalAutQ",
     "sistars|||my music": "spotify:track:3r7IzOjw03oqMAsTVLpVQN",
     "sivert h yem|||deeper blue": "spotify:track:1qO3wvgLgPj3FYM33chjCI",
     "sivert h yem|||orbit roy v2": "spotify:track:53Q0ACi6s7MPT5BoTxSUIb",
@@ -2591,7 +2594,7 @@
     "retry_after": 71897
   },
   "live_day": "2026-09-25",
-  "live_time": "16:58",
+  "live_time": "17:29",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -2805,6 +2808,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:3KNnWaIhWX4q528gSKPoRu",
+    "spotify:track:0UqHzMvRQnaOXEPKgFVhxN",
+    "spotify:track:4zpmgx5DBjzSgU2SalAutQ",
     "spotify:track:2moduAQ4iHZvknXAiLV0qd",
     "spotify:track:7e89621JPkKaeDSTQ3avtg",
     "spotify:track:4BYmnYGNVBVm2JHVxFNMXj",
