@@ -596,6 +596,7 @@
     "dido|||life for rent": "spotify:track:7nYS7mmZh0K8EbM8DBRwb9",
     "die toten hosen|||alles aus liebe": "spotify:track:1MDUhJgzfYnYd8U1AytwFv",
     "dillom|||cocodrilo": "spotify:track:0DFVGmxnqnq7fq8zA1leIo",
+    "dio|||rock n roll children": "spotify:track:1DaoV4AvANgpHjuTSJmNi8",
     "dire straits|||skateaway": "spotify:track:22KSOpUAlJLJhACvQ65Bho",
     "dirty three|||better go home now live radio": "spotify:track:0nnYFohtvWYZvxclm4okP0",
     "disclosure|||deeper": "spotify:track:3hpuSKYKfjDPopXtU0OnWI",
@@ -977,6 +978,7 @@
     "holy tongue|||vuoto 25": "spotify:track:67Mzj4rRxufi9Hds2oUZQ3",
     "hootie the blowfish|||i only wanna be with you": "spotify:track:1OFKUn2VLafrHj7ybnap0Q",
     "hootie the blowfish|||running from an angel": "spotify:track:4r5MzNSwc73UJWcQ0TYzMU",
+    "huey lewis the news|||if this is it": "spotify:track:2pAdtQuiEVGr7nOXGiv7t4",
     "huey lewis the news|||the power of love": "spotify:track:2olVm1lHicpveMAo4AUDRB",
     "hurt|||za oga g": "spotify:track:5rze8txDmX8Ux1CWdYlEhf",
     "huskie|||aparat": "spotify:track:4RGV9aOG8RG9Wu8Vyg9x7p",
@@ -1941,6 +1943,7 @@
     "rosalia|||di mi nombre": "spotify:track:2Sfl7odHUmG7qc8SbqUyzE",
     "rosalia|||lo vas a olvidar with rosalia": "spotify:track:0psS4i5YooJrXfDnGvWRLi",
     "rosalie schafter|||ciemnosc": "spotify:track:5W7Nr8ENCiBXvoaPn1rdUu",
+    "roxette|||joyride": "spotify:track:6gRrBRrtwSB9CYbHJx4MIe",
     "roxy music|||same old scene": "spotify:track:2laPqoDW8LGBmmd3nCM6vG",
     "roy budd|||looking for someone": "spotify:track:1nKHCh9q4lxtyQoIyRzMU3",
     "roy budd|||love is a four letter word": "spotify:track:1IChKHsvrQTlmMcCG8KwkU",
@@ -2594,7 +2597,7 @@
     "retry_after": 71897
   },
   "live_day": "2026-09-25",
-  "live_time": "17:29",
+  "live_time": "17:56",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -2808,6 +2811,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:6gRrBRrtwSB9CYbHJx4MIe",
+    "spotify:track:2pAdtQuiEVGr7nOXGiv7t4",
+    "spotify:track:1DaoV4AvANgpHjuTSJmNi8",
     "spotify:track:3KNnWaIhWX4q528gSKPoRu",
     "spotify:track:0UqHzMvRQnaOXEPKgFVhxN",
     "spotify:track:4zpmgx5DBjzSgU2SalAutQ",
