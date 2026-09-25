@@ -46,6 +46,7 @@
     "badbadnotgood|||the world is yours": "spotify:track:7G3lxTsMfSx4yarMkfgnTC",
     "badsista|||euforia": "spotify:track:2k60EtSTWz41Req1ZSCJpL",
     "ballady i romanse|||przysz am do miasta": "spotify:track:5LtwNwADdcgrp6uqAP7FH1",
+    "barbara wronska|||pochwa a codziennosci": "spotify:track:6P80hDRQgg1jOHrKLhYuYE",
     "barbara wronska|||tylko z toba": "spotify:track:1Eg2ZoGNrDustj2XGx6nbk",
     "barbra streisand barry gibb|||guilty": "spotify:track:60mGckXEG1EzR4VmjYLfEW",
     "basia ma ecka|||fall in love with me": "spotify:track:0jXng1BPR8uiwt4v0rb16F",
@@ -248,6 +249,7 @@
     "kali uchis|||after the storm": "spotify:track:1gmarFWgSwb4SWlmqDjWka",
     "kali uchis|||sunshine rain": "spotify:track:0XNZ6zY9qwJVu9JypWUcvo",
     "kapitan nemo|||elektroniczna cywilizacja": "spotify:track:43476pCAu6ci2DK76lLldq",
+    "karas rogucki|||bezpieczny lot": "spotify:track:4Wkvegn6PBr4dVEL3r24Qw",
     "karas rogucki|||kilka westchnien": "spotify:track:3EMwcW0vMSOtdun4Xw5RkK",
     "kasabian|||goodbye kiss": "spotify:track:17ahSrFGTLNAEAquP1P88n",
     "kasia kowalska|||a to co mam": "spotify:track:3bnwZFjSvst58HEeneiR5X",
@@ -712,7 +714,7 @@
     "retry_after": 64071
   },
   "live_day": "2026-09-25",
-  "live_time": "17:06",
+  "live_time": "17:52",
   "misses": {
     "badbadnotgood|||sarias song song of storms": "2026-09-17",
     "brian reitzell|||tehran 1979": "2026-09-19",
@@ -751,6 +753,8 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:6P80hDRQgg1jOHrKLhYuYE",
+    "spotify:track:4Wkvegn6PBr4dVEL3r24Qw",
     "spotify:track:5lWRaa0fBxDE5yU91npPq7",
     "spotify:track:15kDdP4db9SHAQghfT53Dg",
     "spotify:track:1OxcIUqVmVYxT6427tbhDW",
