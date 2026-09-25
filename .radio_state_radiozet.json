@@ -115,6 +115,7 @@
     "carla fernandes|||wiecej": "spotify:track:73l4adiuFKirZH4umyzEog",
     "celine dion|||a new day has come": "spotify:track:6LefIBy3hzTN6Yd1m81gpC",
     "celine dion|||i drove all night": "spotify:track:3zN4OLeBAN7LwAr442bB8E",
+    "celine dion|||that s the way it is": "spotify:track:5s4catxeZsaWFnOrvrXZHf",
     "chappell roan|||good luck babe": "spotify:track:0WbMK4wrZ1wFSty9F7FCgu",
     "cher|||believe": "spotify:track:2goLsvvODILDzeeiT4dAoR",
     "cher|||if i could turn back time": "spotify:track:6mYrhCAGWzTdF8QnKuchXM",
@@ -236,6 +237,7 @@
     "guru josh project|||infinity 2008": "spotify:track:6hTcRuSaaTNwlyIYkkMpWX",
     "gym class heroes adam levine|||stereo hearts": "spotify:track:0qOnSQQF0yzuPWsXrQ9paz",
     "haddaway|||what is love": "spotify:track:7JkZ2hQdDonRURJjlMuh8q",
+    "hania kuzimowicz|||trzy razy bardziej": "spotify:track:6tYIWwVAC9xTnG9RaO7hG5",
     "happysad|||zanim pojde": "spotify:track:6LuOCaMHFBfaR1MLKNHhMA",
     "harry styles|||as it was": "spotify:track:4Dvkj6JhhA12EX05fT7y2e",
     "hozier|||too sweet": "spotify:track:3HMY0r2BAdpasXMY8rseR0",
@@ -608,7 +610,7 @@
     "retry_after": 68398
   },
   "live_day": "2026-09-25",
-  "live_time": "15:24",
+  "live_time": "16:23",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18",
@@ -624,6 +626,8 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:5s4catxeZsaWFnOrvrXZHf",
+    "spotify:track:6tYIWwVAC9xTnG9RaO7hG5",
     "spotify:track:7woW97CfcWaKtuC6W5BP2K",
     "spotify:track:6usohdchdzW9oML7VC4Uhk",
     "spotify:track:5oV1YjM2rtyZ55txHHsFUu",
