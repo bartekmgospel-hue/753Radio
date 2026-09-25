@@ -119,6 +119,7 @@
     "cher|||believe": "spotify:track:2goLsvvODILDzeeiT4dAoR",
     "cher|||if i could turn back time": "spotify:track:6mYrhCAGWzTdF8QnKuchXM",
     "cher|||strong enough": "spotify:track:144JMbvbR5txNzoZ112wo4",
+    "cher|||the shoop shoop song": "spotify:track:5oV1YjM2rtyZ55txHHsFUu",
     "chumbawamba|||tubthumping": "spotify:track:5YScXJKtefsgdskIy60N7A",
     "clean bandit anne marie|||rockabye": "spotify:track:3fvY2U1AzW0diYF0hnBbKt",
     "clean bandit demi lovato|||solo": "spotify:track:6kPJZM97LwdG9QIsT7khp6",
@@ -374,6 +375,7 @@
     "micha szpak|||maj": "spotify:track:49nxyMFjZAk59XqxFsToG1",
     "michael jackson|||billie jean": "spotify:track:7J1uxwnxfQLu4APicE5Rnj",
     "michael jackson|||black or white": "spotify:track:7EsjkelQuoUlJXEw7SeVV4",
+    "michael jackson|||heal the world": "spotify:track:7woW97CfcWaKtuC6W5BP2K",
     "michael jackson|||they don t care about us": "spotify:track:3wuCCNCnBhJlwkIJTBZFiv",
     "michael patrick kelly|||beautiful madness": "spotify:track:4tfLFDGypUWad5AT6772If",
     "michael patrick kelly|||throwback": "spotify:track:3E1ucUIiThxOODisM2puQF",
@@ -532,6 +534,7 @@
     "taylor swift|||opalite": "spotify:track:3yWuTOYDztXjZxdE2cIRUa",
     "taylor swift|||the fate of ophelia": "spotify:track:53iuhJlwXhSER5J2IYYv1W",
     "teddy swims|||bad dreams": "spotify:track:3BntzKsnLf2pc0dsvE3Zav",
+    "teddy swims|||lose control": "spotify:track:6usohdchdzW9oML7VC4Uhk",
     "teddy swims|||mr know it all": "spotify:track:2g5kPQh1EexoG8kGZH2nOZ",
     "temper city|||self aware": "spotify:track:4qW3BbQAwZsrnu8a3ZRdyT",
     "texas|||summer son": "spotify:track:4CfmAinsGt7f9IUvQ3XBGW",
@@ -605,7 +608,7 @@
     "retry_after": 68398
   },
   "live_day": "2026-09-25",
-  "live_time": "14:21",
+  "live_time": "15:24",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18",
@@ -621,6 +624,9 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:7woW97CfcWaKtuC6W5BP2K",
+    "spotify:track:6usohdchdzW9oML7VC4Uhk",
+    "spotify:track:5oV1YjM2rtyZ55txHHsFUu",
     "spotify:track:05yiiw2F3XXoighyveZTDs",
     "spotify:track:0mUyMawtxj1CJ76kn9gIZK",
     "spotify:track:4q3PJE85zkind6pucyNq9g",
