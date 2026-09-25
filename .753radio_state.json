@@ -184,6 +184,7 @@
     "b azej krol|||mia em zabrac cie nad rzeke": "spotify:track:7BqPCsnVj0DBiG1noMYyCf",
     "b azej krol|||moja bestia": "spotify:track:0ZbwqrkZHD8NAG74mXJ7PL",
     "b azej krol|||za tatusia i mamusie": "spotify:track:087AIuM60EAgZD0gsMyAnn",
+    "b b king elton john|||rock this house": "spotify:track:7q8ANTyMrfhBZ0P2hP7Ft1",
     "b b king eric clapton|||riding with the king": "spotify:track:0U6wNkZaQUTBrCLbhbbRgS",
     "b b king|||the thrill is gone": "spotify:track:4NQfrmGs9iQXVQI9IpRhjM",
     "baasch|||arystokracja": "spotify:track:5jUXJvtv5goL7wZ5zMJHb5",
@@ -2597,7 +2598,7 @@
     "retry_after": 71897
   },
   "live_day": "2026-09-25",
-  "live_time": "17:56",
+  "live_time": "18:28",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -2811,6 +2812,7 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:7q8ANTyMrfhBZ0P2hP7Ft1",
     "spotify:track:6gRrBRrtwSB9CYbHJx4MIe",
     "spotify:track:2pAdtQuiEVGr7nOXGiv7t4",
     "spotify:track:1DaoV4AvANgpHjuTSJmNi8",
