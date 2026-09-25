@@ -166,6 +166,7 @@
     "artur rojek|||mirafiori": "spotify:track:2ypGq1U1VIrFZCdy1IBFz9",
     "artur rojek|||mowi em ci to juz": "spotify:track:5y3b897OqrN4bfk6A3deE0",
     "artur rojek|||sophia loren s upnej park": "spotify:track:4EhO5qN9yHJsctOsfwd5me",
+    "artur rojek|||splatane wlosy": "spotify:track:4tAJN07fRPxWYWowwqL9lu",
     "artur rojek|||w objeciach": "spotify:track:3kjXg6wHnYuuRjgTQhWZCr",
     "asgeir|||against the current": "spotify:track:3dJWJS8D4pDIGJ1kG8BVH3",
     "ashe finneas|||till forever falls apart": "spotify:track:1VTMXGf9Ew0mLY78Cb7dVe",
@@ -495,6 +496,7 @@
     "courteeners|||the beginning of the end": "spotify:track:0vtyxhoTo6eWHLQg8ewa9J",
     "cristovam|||simplify": "spotify:track:3GODnNOiVaAUkuGBByurOe",
     "culture club|||karma chameleon": "spotify:track:3XDeeP9wBZzGhIPZmLfEEx",
+    "curtis harding|||i won t let you down": "spotify:track:7AlJWH45s6NgsfgsKxWOIM",
     "curtis harding|||the power": "spotify:track:4difawHT7Gzi9q7l9qUcZi",
     "curtis stigers|||i wonder why": "spotify:track:04jNbL6I5ZPLYKKlL08Z8Z",
     "cutting crew|||i just died in your arms": "spotify:track:1b84gCWl4GXxc9ZC1SN1pC",
@@ -2318,6 +2320,7 @@
     "the spinners|||it s a shame": "spotify:track:6CuLzG8uTpRrnf3LmidY9r",
     "the stories|||brother louie": "spotify:track:2qAg7cD6QpsmpZABHBjwEe",
     "the stranglers|||always the sun": "spotify:track:5m2zSfp6RIGeutiwBdX2uB",
+    "the streets|||dry your eyes": "spotify:track:3PEx44by2Pe7E6M8tgqE5N",
     "the streets|||never went to church": "spotify:track:1UHDC8RXrTHwUIINrJ4Cql",
     "the strokes|||going to babble on": "spotify:track:2nxsLJwW4eFDwl36fUQJWe",
     "the strokes|||the adults are talking": "spotify:track:5ruzrDWcT0vuJIOMW7gMnW",
@@ -2574,7 +2577,7 @@
     "retry_after": 71897
   },
   "live_day": "2026-09-25",
-  "live_time": "10:57",
+  "live_time": "11:30",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -2788,6 +2791,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:7AlJWH45s6NgsfgsKxWOIM",
+    "spotify:track:4tAJN07fRPxWYWowwqL9lu",
+    "spotify:track:3PEx44by2Pe7E6M8tgqE5N",
     "spotify:track:3AYcaeTecNpJGgcTZOzkXU",
     "spotify:track:7xZy7AFZKAFKPB6swJRcig",
     "spotify:track:3G69vJMWsX6ZohTykad2AU",
