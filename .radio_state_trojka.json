@@ -301,6 +301,7 @@
     "lech janerka|||rower": "spotify:track:4SzvKGGSSe7sMp1QT9TSHL",
     "led zeppelin|||rock and roll": "spotify:track:4PRGxHpCpF2yoOHYKQIEwD",
     "lenny kravitz|||are you gonna go my way": "spotify:track:45Ia1U4KtIjAPPU7Wv1Sea",
+    "lenny kravitz|||fly away": "spotify:track:1OxcIUqVmVYxT6427tbhDW",
     "leon krzesniak|||piekne dni": "spotify:track:23vdlroqqCyRfX8jxEnycE",
     "leon krzesniak|||wiem co z nami bedzie": "spotify:track:0ztH1CzZyjl2ypcc5gVfF1",
     "leon krzesniak|||wspanialy to byl rok": "spotify:track:56eZmpOXdWAmGTyxCRFrKS",
@@ -430,6 +431,7 @@
     "nirvana|||something in the way": "spotify:track:4gHnSNHs8RyVukKoWdS99f",
     "nirvana|||the man who sold the world unplugged": "spotify:track:15VRO9CQwMpbqUYA7e6Hwg",
     "no czesc|||gang otwartych serc": "spotify:track:4626bpyWgncLlYOWNAaV3R",
+    "no doubt|||just a girl": "spotify:track:5lWRaa0fBxDE5yU91npPq7",
     "noir jim|||eanie meany fatboy slim radio edit": "spotify:track:7dk7Vh9H7dcRaL2djr3yNb",
     "nosowska|||era retuszera": "spotify:track:3ScaDItBR6UWGGGCupgrm5",
     "nosowska|||gdy rozum spi": "spotify:track:12tDXKKUBnm1j8rWm4WQt9",
@@ -524,6 +526,7 @@
     "republika|||mamona": "spotify:track:7qboThq6AiQBDDq2wCj578",
     "republika|||my lunatycy": "spotify:track:0VLM3MzUfoIDXQ6oAaKHiX",
     "republika|||nowe sytuacje": "spotify:track:4zABfuas2wFAbOqyUQHx46",
+    "republika|||sam na linie": "spotify:track:15kDdP4db9SHAQghfT53Dg",
     "republika|||system nerwowy": "spotify:track:5mtOacfQGUX4kypMXpUJOk",
     "ride|||vapour trail": "spotify:track:2x4LR05evVhX84LwW4uGGC",
     "rio kosta|||slowly": "spotify:track:5vLWADBMrVdl5pbUwF12rX",
@@ -709,7 +712,7 @@
     "retry_after": 64071
   },
   "live_day": "2026-09-25",
-  "live_time": "16:06",
+  "live_time": "17:06",
   "misses": {
     "badbadnotgood|||sarias song song of storms": "2026-09-17",
     "brian reitzell|||tehran 1979": "2026-09-19",
@@ -748,6 +751,9 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:5lWRaa0fBxDE5yU91npPq7",
+    "spotify:track:15kDdP4db9SHAQghfT53Dg",
+    "spotify:track:1OxcIUqVmVYxT6427tbhDW",
     "spotify:track:7v2DENYaF9voMgoBDq67hM",
     "spotify:track:5W1GOJALhS84K2iInJVER3",
     "spotify:track:2xWxLalTsHd88cE30S9DHo",
