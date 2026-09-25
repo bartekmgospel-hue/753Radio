@@ -216,6 +216,7 @@
     "filatov karas|||tell it to my heart": "spotify:track:6BXlu02FMxchNNUMLBSM7f",
     "fleetwood mac|||little lies": "spotify:track:08o75xMKmGrKny6GsXrNJW",
     "flipsyde piper|||happy birthday": "spotify:track:2RSUSq9143titBghWXdxT4",
+    "flo rida|||good feeling": "spotify:track:2LEF1A8DOZ9wRYikWgVlZ8",
     "fools garden|||lemon tree": "spotify:track:2epbL7s3RFV81K5UhTgZje",
     "foreigner|||i want to know what love is": "spotify:track:1JLn8RhQzHz3qDqsChcmBl",
     "foster the poeple|||pumped up kicks": "spotify:track:7w87IxuO7BDcJ3YUqCyMTT",
@@ -610,7 +611,7 @@
     "retry_after": 68398
   },
   "live_day": "2026-09-25",
-  "live_time": "17:24",
+  "live_time": "18:23",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18",
@@ -626,6 +627,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:2LEF1A8DOZ9wRYikWgVlZ8",
     "spotify:track:5s4catxeZsaWFnOrvrXZHf",
     "spotify:track:6tYIWwVAC9xTnG9RaO7hG5",
     "spotify:track:7woW97CfcWaKtuC6W5BP2K",
