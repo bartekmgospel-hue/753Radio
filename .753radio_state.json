@@ -2032,6 +2032,7 @@
     "slayer|||delusions of saviour": "spotify:track:06WUUNf7q18NZfjIsQFsfa",
     "slayer|||piece by piece": "spotify:track:4r7wKbbQPN4hzNWjLM5554",
     "slowdive|||kisses": "spotify:track:7LuPjGUfJqxuW14W4gMrU2",
+    "smokie|||don t play your rock n roll to me": "spotify:track:5TszWVhQc2vFQwZjZXYxFo",
     "smokie|||lay back in the arms of someone": "spotify:track:1r9QBciQVM1BnW72cQUA4R",
     "smolik kev fox|||queen of hearts": "spotify:track:7p7kyJeuok6Z4h3d36XiM5",
     "snoop dogg|||boogie s in my soul": "spotify:track:3auasA1oQjH9hXr5Ux72Sk",
@@ -2068,6 +2069,7 @@
     "starbuck|||bongo bay": "spotify:track:02skVOcYCgDPTlLyXlwneO",
     "starsailor|||four to the floor": "spotify:track:4x5WbFaTTCexxBKbUyfBcG",
     "stas kropka connorr|||mogesie": "spotify:track:2vhJrqJuesBJAnPSic5Psc",
+    "status quo|||paper plane": "spotify:track:31akX2fPAXUAyP5tKaMRS8",
     "status quo|||you never can tell it was a teenage wedding": "spotify:track:6xtMOnniwAKoapwPuvJlPr",
     "stavroz ry x|||lilac": "spotify:track:01MO8NLZdvuETeUMxUUoZk",
     "stelvio cipriani|||la polizia sta a guardare": "spotify:track:4nYQqlXz14J1wrq0aoB5p6",
@@ -2586,7 +2588,7 @@
     "retry_after": 71897
   },
   "live_day": "2026-09-25",
-  "live_time": "15:56",
+  "live_time": "16:22",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -2800,6 +2802,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:31akX2fPAXUAyP5tKaMRS8",
+    "spotify:track:5TszWVhQc2vFQwZjZXYxFo",
     "spotify:track:5Zps6ZLhTe6aWxq7F25foM",
     "spotify:track:10jk0iLdP7W3rmfAjrjEgk",
     "spotify:track:2LD86odRqp3y4952CHSX9J",
