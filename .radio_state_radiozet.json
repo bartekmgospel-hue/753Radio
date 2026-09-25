@@ -236,6 +236,7 @@
     "goo goo dolls|||iris": "spotify:track:6Qyc6fS4DsZjB2mRW9DsQs",
     "gordo reinier zonneveld|||loco loco": "spotify:track:1mZnxNzp17JrPyzDzkoiiC",
     "gossip|||move in the right direction": "spotify:track:4hjfOnzzrrrDAGt286htU6",
+    "gromee ania dabrowska abradab|||powiedz mi kto w tych oczach mieszka": "spotify:track:7sScaqtzdQQmV0sdkPCYsu",
     "guns n roses|||don t cry": "spotify:track:6mAfxuTuRz1FWfriiFf57y",
     "guns n roses|||knockin on heavens door": "spotify:track:4JiEyzf0Md7KEFFGWDDdCr",
     "guru josh project|||infinity 2008": "spotify:track:6hTcRuSaaTNwlyIYkkMpWX",
@@ -315,6 +316,7 @@
     "lady gaga|||paparazzi": "spotify:track:02XnQdf7sipaKBBHixz3Zp",
     "lady gaga|||poker face": "spotify:track:1QV6tiMFM6fSOKOGLMHYYg",
     "lady pank|||kryzysowa narzeczona": "spotify:track:55IzVZdFOu4gS5U5RDO4g8",
+    "lady pank|||stacja warszawa": "spotify:track:5W3sNLWeeol3G5K8LuFhoV",
     "lady pank|||tacy sami": "spotify:track:1Vl1GtLUA4b7r2J6wGAoY4",
     "lady pank|||zamki na piasku": "spotify:track:4F5zFaOhAVkf7sywxrdt8o",
     "lady pank|||zawsze tam gdzie ty": "spotify:track:1f3C0tSFKsjcflvMCa3X27",
@@ -610,6 +612,7 @@
     "yearboox|||graceland": "spotify:track:0UrAgB7p2pNB7lzdWEWw8V",
     "years years|||king": "spotify:track:3AeicLnm55RqcXGBKYQolM",
     "younotus michael schulte|||bye bye bye": "spotify:track:72AbCBCbe5cYOLQy2nZdWA",
+    "zakopower|||boso": "spotify:track:2kcQMkj0nztimTpqWlVrof",
     "zalia lackluster|||plany": "spotify:track:2HD7SiOdUucNKoTkMVGBMr",
     "zalia|||tylko kochaj mnie": "spotify:track:5cYTaKj5sd6gQLqsLptOsQ",
     "zbigniew wodecki|||lubie wracac tam gdzie bylem": "spotify:track:4sHTqR2RQGsH5pSFqtXroU"
@@ -621,8 +624,8 @@
     "reason": "QUOTA_EXCEEDED",
     "retry_after": 68398
   },
-  "live_day": "2026-09-25",
-  "live_time": "23:28",
+  "live_day": "2026-09-26",
+  "live_time": "00:27",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18",
@@ -638,6 +641,9 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:5W3sNLWeeol3G5K8LuFhoV",
+    "spotify:track:7sScaqtzdQQmV0sdkPCYsu",
+    "spotify:track:2kcQMkj0nztimTpqWlVrof",
     "spotify:track:2cZrrQMjB63c0iIugYH9zS",
     "spotify:track:2GgxS8bUT5G25QJTsfSv0R",
     "spotify:track:0cqRj7pUJDkTCEsJkx8snD",
