@@ -348,6 +348,7 @@
     "gnarls barkley|||smiley faces": "spotify:track:0eO7SWs88desmou6tFqW36",
     "godflesh|||master and slave": "spotify:track:5aFVuKlVkPWuPTjt6KHL0y",
     "gogo penguin|||everything is going to be ok": "spotify:track:4JPj5HzPn5sRfwzqH9HMgX",
+    "gogo penguin|||you re stronger than you think": "spotify:track:045wxsluiQXkFHTHbASfQ8",
     "gogol bordello|||shot of solidaritine": "spotify:track:5gxYUzWAK19HrMRiFVjvA0",
     "gonsofus|||vanilla blue": "spotify:track:0O1QFqZZ0ZPrd2WRuHB4he",
     "good neighbours|||home": "spotify:track:68mOSKT4uBkKddEAhlMO61",
@@ -802,6 +803,8 @@
     "rory gallagher|||crest of a wave alternate take 2": "spotify:track:3qP0CrhHpsqxeyuAeMZ7d8",
     "rose tattoo|||nice boys": "spotify:track:712cvetPbOegLiirMnU1ye",
     "roxette|||joyride": "spotify:track:6gRrBRrtwSB9CYbHJx4MIe",
+    "roxy music|||can t let go live from arenes de frejus france 1982": "spotify:track:4UHldrSD6iD9O6r5Irtnga",
+    "roxy music|||india live from arenes de frejus france 1982": "spotify:track:12apL5QeSfO0lSjctp6D6b",
     "royal blood|||mountains at midnight": "spotify:track:63V2LU9M9pLkimultjujl5",
     "royal blood|||pull me through": "spotify:track:4EmnzJLkWYI9JyYTWtnOVT",
     "royal republic|||love cop": "spotify:track:5gMlJrERAxpPRSDBQUiqyy",
@@ -1052,8 +1055,8 @@
     "reason": "QUOTA_EXCEEDED",
     "retry_after": 69823
   },
-  "live_day": "2026-09-25",
-  "live_time": "22:55",
+  "live_day": "2026-09-26",
+  "live_time": "00:02",
   "misses": {
     "bear mccreary|||one fine day": "2026-09-25",
     "bloo zbir|||3 2 1": "2026-09-21",
@@ -1099,6 +1102,9 @@
   "playlist_name": "Radio Nowy Świat",
   "source_generation": "odsluchane-multi-v1.1:105",
   "uris": [
+    "spotify:track:045wxsluiQXkFHTHbASfQ8",
+    "spotify:track:12apL5QeSfO0lSjctp6D6b",
+    "spotify:track:4UHldrSD6iD9O6r5Irtnga",
     "spotify:track:712cvetPbOegLiirMnU1ye",
     "spotify:track:1aiB3s4CI6ySHY1DzX2Ki6",
     "spotify:track:1slaJrhjZpzHXQ31JBTakE",
