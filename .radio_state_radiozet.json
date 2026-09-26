@@ -290,6 +290,7 @@
     "karol g bruno mars|||still": "spotify:track:1dj1bE6SpLu8jLotrzWsJF",
     "karol g|||si antes te hubiera conocido": "spotify:track:6WatFBLVB0x077xWeoVc2k",
     "kasia cerekwicka|||na kolana": "spotify:track:6fft9H9kYTdjziM7DAZ3uk",
+    "kasia klich|||lepszy model": "spotify:track:4jWVMq7RtqLXTXGRynGO1W",
     "kasia kowalska|||antidotum": "spotify:track:0MYaObalRrtwv5IGgrsrtA",
     "kasia kowalska|||spowiedz": "spotify:track:6koB19H6lofuZEk16vSe1g",
     "kasia sienkiewicz|||by y momenty": "spotify:track:2JZvc0rGooaJDY7aMXANxh",
@@ -635,11 +636,12 @@
     "retry_after": 68398
   },
   "live_day": "2026-09-26",
-  "live_time": "02:27",
+  "live_time": "02:58",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18",
     "californication|||red hot chili peppers": "2026-09-21",
+    "golden life|||oprocz": "2026-09-26",
     "kaska sochacka kortez|||jak my": "2026-09-23",
     "kukiz i piersi|||caluj mnie": "2026-09-20",
     "morandi|||angels": "2026-09-22",
@@ -651,6 +653,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:4jWVMq7RtqLXTXGRynGO1W",
     "spotify:track:0KRBV74svbF62hwwriiiU9",
     "spotify:track:5RFe2B5H3E3ZNYL0gn04JU",
     "spotify:track:1d718gwJbujwNO9x9BzNfc",
