@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-09-26T08:31:04+00:00",
   "keys": {
     "49th main|||mangos": "spotify:track:42j4w485h8gESuACqReXYp",
     "a perfect circle|||the outsider": "spotify:track:6CqYhhUPJORx1vvdTNc8jv",
@@ -223,6 +223,7 @@
     "dean lewis|||into the breeze": "spotify:track:5YKcRCFEWIhKLPsO7ckHgQ",
     "death cab for cutie|||pepper": "spotify:track:5p0bEz7DNsULez2X9yrNGa",
     "death from above 1979|||trainwreck 1979": "spotify:track:6Oh75gCX8QYhr5W9FZ7sY9",
+    "death in vegas|||scorpio rising": "spotify:track:4YT8Dv0NNyWgqsMYbyHuA8",
     "debarge|||all this love": "spotify:track:6ABtlkvl08XQo6Xu24FJaf",
     "debarge|||stop don t tease me": "spotify:track:391t1QoBMZxTZipKDekY4p",
     "declan mckenna|||sympathy": "spotify:track:6OyqoLlydgdp1NWDbNZFxZ",
@@ -1068,6 +1069,7 @@
     "yard act|||you re gonna need a little music": "spotify:track:43KS2LpjMVkvJdprLaoQxQ",
     "yeah yeah yeahs|||wolf": "spotify:track:4g3alZ0okNvZiOWW4pGUpw",
     "yes|||olias of sunhillow excerpt live at roosevelt stadium jersey city nj 6 17 1976": "spotify:track:57a6igA99PzVtahpvxhZ9X",
+    "young shushu|||shushu champloo": "spotify:track:6y62R9uOWKgQS1fvdTSwAI",
     "yumiko morioka|||komorebi": "spotify:track:15Dz5HggGfcT8zJkYQCB71",
     "yungblud|||the emperor": "spotify:track:4CtqY9iFkMwCz1pewf0t90",
     "zach bryan|||oak island": "spotify:track:5zj6AAWacR87kn2vst7uG1",
@@ -1080,14 +1082,14 @@
     "|||one girl one boy": "spotify:track:7pskYSHhRTH1TFtVdQevG5"
   },
   "last_429": {
-    "at": "2026-09-24T13:05:36+00:00",
+    "at": "2026-09-26T02:05:29+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 69823
+    "retry_after": 23130
   },
   "live_day": "2026-09-26",
-  "live_time": "02:25",
+  "live_time": "02:32",
   "misses": {
     "bear mccreary|||one fine day": "2026-09-25",
     "bloo zbir|||3 2 1": "2026-09-21",
@@ -1130,7 +1132,10 @@
     "yannis the yaw|||rain can t reach us": "2026-09-23"
   },
   "pending_backfill": [],
-  "pending_live": [],
+  "pending_live": [
+    "spotify:track:4YT8Dv0NNyWgqsMYbyHuA8",
+    "spotify:track:6y62R9uOWKgQS1fvdTSwAI"
+  ],
   "playlist_id": "7s0pll2O5qPHdRDNZ5egAJ",
   "playlist_name": "Radio Nowy Świat",
   "source_generation": "odsluchane-multi-v1.1:105",
