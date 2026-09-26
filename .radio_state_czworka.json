@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-09-26T08:31:05+00:00",
   "keys": {
     "1 800 girls|||there 4 u": "spotify:track:2393YgNsuZvNlYVZ73KhsZ",
     "21 savage|||i wish": "spotify:track:4dEbKrpucKXWlOw5MofgzU",
@@ -672,11 +672,11 @@
     "zuta|||okres": "spotify:track:3GWmuARtJ9VRWEf15yNWv6"
   },
   "last_429": {
-    "at": "2026-09-24T12:53:21+00:00",
+    "at": "2026-09-26T02:53:19+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 70558
+    "retry_after": 20261
   },
   "live_day": "2026-09-26",
   "live_time": "01:41",
