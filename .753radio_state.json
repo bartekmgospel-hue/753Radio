@@ -1,5 +1,5 @@
 {
-  "backfill_last_completed": "2026-09-15",
+  "backfill_last_completed": "2026-09-14",
   "blocked_until": null,
   "keys": {
     "10 cc|||the film of my love": "spotify:track:5MaQo2YUfKf9Quzqclz1f5",
@@ -193,6 +193,7 @@
     "baasch|||arystokracja": "spotify:track:5jUXJvtv5goL7wZ5zMJHb5",
     "baasch|||konie": "spotify:track:3t4p6sv9xylRWn6LkTfxGm",
     "baasch|||wyscigi": "spotify:track:4Q2dsEOuMYo59ZKUa4bFYB",
+    "babybird|||candy girl": "spotify:track:4w8QuAendEtn7h6liqGs4s",
     "babyshambles|||delivery": "spotify:track:5T9ir6tlqhhbKVzIC0ssbs",
     "bad english|||when i see you smile": "spotify:track:0tKjVEJlX3IZ5L1rEJc5hh",
     "bajm|||nagie ska y": "spotify:track:5HxkvOuxWUSMBPKTIUIxHR",
@@ -1282,6 +1283,7 @@
     "l a s|||obligato": "spotify:track:35ce9pTA6EQrEtl0xXvV1r",
     "lachowicz|||p yn": "spotify:track:6T6DIrXyS4a3gWR7cZIDJP",
     "lady pank|||ma a wojna": "spotify:track:1E7uut65wJy3LjMnRSeGBi",
+    "lady pank|||mala wojna": "spotify:track:1E7uut65wJy3LjMnRSeGBi",
     "lady pank|||sztuka latania": "spotify:track:4c14wtkMheFjYBhBI4CBDn",
     "lady pank|||to co mam": "spotify:track:632gOSpv2LvNvkwQfS5ywg",
     "lady pank|||vademecum skauta": "spotify:track:1uGqmg6bl4sAp1CQc2zF1j",
@@ -1839,6 +1841,7 @@
     "piotr odoszewski|||kid": "spotify:track:3H2x5CeATToxbMHdgdXaSb",
     "piotr zio a|||b ysk": "spotify:track:6mBL5Kk1qSeO9BtQro1hj6",
     "piotr zio a|||podobny": "spotify:track:5m6bVsI71ZGbHJEzxftXjg",
+    "piotr ziola|||blysk": "spotify:track:6mBL5Kk1qSeO9BtQro1hj6",
     "pitbull|||on the floor": "spotify:track:3C0nOe05EIt1390bVABLyN",
     "pixies|||head on": "spotify:track:3hzBfTfRIuJhV8UO70h7yZ",
     "pixies|||wave of mutilation": "spotify:track:51Z2IzJvLCnZaIpBV0IYRr",
@@ -2750,7 +2753,7 @@
     "happynoise|||17 47": "2026-09-12",
     "happynoise|||17 54": "2026-09-12",
     "harriet|||woman to man": "2026-09-12",
-    "helado negro|||lotta love": "2026-09-14",
+    "helado negro|||lotta love": "2026-10-01",
     "hrabi i artur andrus|||pierwsza zima": "2026-09-25",
     "i zyli d ugo i szczesliwie|||15 00": "2026-09-12",
     "i zyli d ugo i szczesliwie|||15 27": "2026-09-12",
@@ -5339,7 +5342,8 @@
     "spotify:track:2mweWXUplavtY2YCANfmwO",
     "spotify:track:1DO4aHyMKVW66VWnA4pNeV",
     "spotify:track:2hQ2Ux2pzBEd20mCyLHvx8",
-    "spotify:track:08FxSaKWbtJpPIUsFKbFhQ"
+    "spotify:track:08FxSaKWbtJpPIUsFKbFhQ",
+    "spotify:track:4w8QuAendEtn7h6liqGs4s"
   ],
   "version": "5.2"
 }
