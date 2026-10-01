@@ -271,6 +271,7 @@
     "jamal|||policeman": "spotify:track:5bTRw958W3Gf95RwXgJ2ql",
     "james arthur|||impossible": "spotify:track:5yVIlYEHZxQVLyInCdldoS",
     "james blunt|||beside you": "spotify:track:0LQtf5wLfmhOxcOcRRgWgY",
+    "jasiek piwowarczyk|||ob oki": "spotify:track:6D7uM8zuAYJ82Fwatw9rWA",
     "jay z alicia keys|||empire state of mind": "spotify:track:2igwFfvr1OAGX9SKDCPBwO",
     "jeden osiem l|||jak zapomniec": "spotify:track:45pmh0kZvulXSgg4uJGB1X",
     "jennifer lopez pitbull|||on the floor": "spotify:track:3C0nOe05EIt1390bVABLyN",
@@ -609,6 +610,7 @@
     "varius manx|||maj": "spotify:track:008UO76dicJJrUb5g6WID0",
     "varius manx|||piosenka ksiezycowa": "spotify:track:4PUjh1dS9vniNNIEL7PvLM",
     "varius manx|||poca uj noc do ciebie": "spotify:track:1b7459Md2rTMDkcjwwpsE3",
+    "varius manx|||ruchome piaski": "spotify:track:0D49iTPnFuQtYvqDyWvxp2",
     "velvet|||chemistry": "spotify:track:5J9DOOJA076niGcfCIIyDe",
     "velvet|||fix me": "spotify:track:6KQVv21YaNmwWcnUGvfoyU",
     "video|||sroda czwartek": "spotify:track:0JEuRJsbg8WgKpBZcPUPwf",
@@ -647,7 +649,7 @@
     "retry_after": 18099
   },
   "live_day": "2026-10-01",
-  "live_time": "10:20",
+  "live_time": "11:29",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18",
@@ -664,6 +666,8 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:0D49iTPnFuQtYvqDyWvxp2",
+    "spotify:track:6D7uM8zuAYJ82Fwatw9rWA",
     "spotify:track:1I7nEa7aWULffUDCJrkhVp",
     "spotify:track:1raGnvbVo2fV3QDoX1PsLj",
     "spotify:track:3w3y8KPTfNeOKPiqUTakBh",
