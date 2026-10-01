@@ -809,6 +809,7 @@
     "fisz emade tworzywo mateusz krautwurst|||duchy": "spotify:track:2f0kDGtEEvs3nuvAt4VIvL",
     "fisz emade tworzywo soko|||tyle sladow": "spotify:track:1Tkg3k3NiG7N8fFS7HnsvS",
     "fisz emade tworzywo|||duchy": "spotify:track:2f0kDGtEEvs3nuvAt4VIvL",
+    "fisz emade tworzywo|||piruety": "spotify:track:4qqrMgDi4wBIMXSvs1ann6",
     "fisz emade|||duchy": "spotify:track:2f0kDGtEEvs3nuvAt4VIvL",
     "fisz|||na wylot": "spotify:track:2rNI7C8u1eKgPUToxsvClj",
     "fisz|||polepiony": "spotify:track:0Lt20grV0WWgWcvJWBWpsK",
@@ -2334,6 +2335,7 @@
     "the cure|||high": "spotify:track:1G5cCZhEI67suiGvSWAiZz",
     "the cure|||maybe someday": "spotify:track:6x2f8jgLWU8IrBSuNdvoWj",
     "the cure|||the last day of summer": "spotify:track:1tr425D7noUgk7bGuT2mJu",
+    "the cure|||the lovecats": "spotify:track:6q2T5xXao6mTS6LLE88L84",
     "the dancer|||les outrages": "spotify:track:5KQYYseZ8mMXyisMg6m0k0",
     "the darkness|||i believe in a thing called love": "spotify:track:756CJtQRFSxEx9jV4P9hpA",
     "the daughters of eve|||hey lover": "spotify:track:0bhwnn2xqnBUcMZDcXNuII",
@@ -2695,7 +2697,7 @@
     "retry_after": 21609
   },
   "live_day": "2026-10-01",
-  "live_time": "06:28",
+  "live_time": "06:55",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -2916,6 +2918,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:6q2T5xXao6mTS6LLE88L84",
+    "spotify:track:4qqrMgDi4wBIMXSvs1ann6",
     "spotify:track:5wsflCTlGxNn2z91O7KVgK",
     "spotify:track:6eVoCbEtFjzfYeWJjkD3gP",
     "spotify:track:7rmzoZ11jeh2iPs01BMPs0",
