@@ -485,6 +485,7 @@
     "colbie caillat|||i ll be here": "spotify:track:04yDiQ6Xdiq8saPsmHOdw3",
     "cold diamond mink mr sophisticated fingers|||dreaming of love so divine": "spotify:track:2tIxocua9woyWCLPWIsOZn",
     "coldcut|||timber": "spotify:track:5jby7celTQUoYjAht8peNh",
+    "coldplay|||clocks": "spotify:track:0BCPKOYdS2jbQ8iyB56Zns",
     "coldplay|||green eyes": "spotify:track:3ou9rSNUQnE7XYmJkUUIOc",
     "coldplay|||lost": "spotify:track:1STAWoWHYJh2UVUx41pYMD",
     "coldplay|||viva la vida": "spotify:track:1mea3bSkSGXuIRvnydlB5b",
@@ -721,6 +722,7 @@
     "elroy gray|||mountain": "spotify:track:3AAUKgiy8Ip2xSVewGBHh2",
     "elton john ozzy osbourne|||ordinary man": "spotify:track:6eEYGGFfFbtKHCgJM4uh9v",
     "elton john|||honky cat": "spotify:track:1plcM0XlbKdjND7Ufokuzb",
+    "elton john|||i m still standing": "spotify:track:1jDJFeK9x3OZboIAHsY9k2",
     "elton john|||made in england": "spotify:track:6VmxhbNRCURgu8d5pEPRb8",
     "elton john|||nikita": "spotify:track:3G0ENKW9vzV0SuYKaWFflI",
     "elton john|||seein stars elton john version": "spotify:track:3lCQJyHHzQNVkFptuEioPx",
@@ -1324,6 +1326,7 @@
     "leon bridges|||light the way": "spotify:track:518z7AJPjm0oCI8vEN6S5j",
     "leon bridges|||mariella": "spotify:track:3dvXRk7TZ929m21p49RR5P",
     "leon bridges|||talk it over": "spotify:track:1qkkE488CPJ0MIEkwOWLD3",
+    "leon krzesniak|||kreci sie ziemia": "spotify:track:1PiLxgvgCjTIaXzXolXF3g",
     "leonard cohen|||first we take manhattan": "spotify:track:6UEzGV76d96lYTA68iBO0B",
     "les rita mitsouko|||andy": "spotify:track:1QZ7Co5mBLhAQf9OFk4ovN",
     "les rita mitsouko|||c est comme ca": "spotify:track:3y9FzflARxBDRuARWGDWmq",
@@ -2697,7 +2700,7 @@
     "retry_after": 21609
   },
   "live_day": "2026-10-01",
-  "live_time": "06:55",
+  "live_time": "07:25",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -2918,6 +2921,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:1PiLxgvgCjTIaXzXolXF3g",
+    "spotify:track:1jDJFeK9x3OZboIAHsY9k2",
+    "spotify:track:0BCPKOYdS2jbQ8iyB56Zns",
     "spotify:track:6q2T5xXao6mTS6LLE88L84",
     "spotify:track:4qqrMgDi4wBIMXSvs1ann6",
     "spotify:track:5wsflCTlGxNn2z91O7KVgK",
