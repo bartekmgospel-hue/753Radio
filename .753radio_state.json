@@ -915,6 +915,7 @@
     "gladys knight the pips|||midnight train to georgia": "spotify:track:7MF7QAodbGzNYav5ZfIhAY",
     "glasvegas|||please come back home": "spotify:track:7M1usGnVdVvxemDhhRU0cA",
     "glen hansard|||race to the bottom": "spotify:track:5GaHgaScIPn9JWWVsk0ewR",
+    "glenn frey|||part of me part of you": "spotify:track:5wsflCTlGxNn2z91O7KVgK",
     "glenn frey|||strange weather": "spotify:track:4B4yV2hm4YAK7BhYBuQCdl",
     "glenn gould|||goldberg variations bwv 988 variation 13 a 2 clav": "spotify:track:2CI5exhYgmUhVMR8Mrunk4",
     "gloria gaynor|||i will survive": "spotify:track:7rIovIsXE6kMn629b7kDig",
@@ -2549,6 +2550,7 @@
     "u2|||ordinary love": "spotify:track:5K8cyMKcnG4rx5ocW3u7OW",
     "u2|||pride in the name of love": "spotify:track:24rv66H94QGVqIXHjA3kn6",
     "u2|||running to stand still": "spotify:track:4MLPCRYNhDIKcRjzS54ceu",
+    "u2|||silencio": "spotify:track:6eVoCbEtFjzfYeWJjkD3gP",
     "u2|||stay faraway so close": "spotify:track:1E1ylgIWTW2yE0glywYLb6",
     "u2|||stories for boys": "spotify:track:4SA5AELFT2lkUO0qnhZQtc",
     "u2|||stuck in a moment you can t get out of": "spotify:track:1klDPm7SfsS32hl7KHV9iy",
@@ -2693,7 +2695,7 @@
     "retry_after": 21609
   },
   "live_day": "2026-10-01",
-  "live_time": "05:56",
+  "live_time": "06:28",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -2914,6 +2916,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:5wsflCTlGxNn2z91O7KVgK",
+    "spotify:track:6eVoCbEtFjzfYeWJjkD3gP",
     "spotify:track:7rmzoZ11jeh2iPs01BMPs0",
     "spotify:track:2Y0iGXY6m6immVb2ktbseM",
     "spotify:track:1q4ZXBVohhj071kU6PkOW3",
