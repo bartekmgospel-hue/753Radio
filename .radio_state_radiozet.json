@@ -225,6 +225,7 @@
     "eurythmics|||sweet dreams are made of this": "spotify:track:1TfqLAPs4K3s2rJMoCokcS",
     "evanescence|||bring me to life": "spotify:track:0COqiPhxzoWICwFCS4eZcp",
     "ewa farna|||bez lez": "spotify:track:4JQKpzMNBJcgqijpSM3HDc",
+    "ewa farna|||ewakuacja": "spotify:track:6Y7CXp4HBvs06CoDaDXW1o",
     "ewa farna|||nie przegap": "spotify:track:57RFfnxT6WduFsaZfYMarq",
     "ewelina lisowska|||w strone s onca": "spotify:track:5PZwG06x7sQ5Rv1sxvezbo",
     "fast boy|||music sounds": "spotify:track:3OLpCe3H6oGcEsvEjNDXHm",
@@ -678,11 +679,11 @@
     "retry_after": 30699
   },
   "live_day": "2026-10-02",
-  "live_time": "15:22",
+  "live_time": "16:23",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18",
-    "californication|||red hot chili peppers": "2026-09-21",
+    "californication|||red hot chili peppers": "2026-10-02",
     "coldplay beyonce|||hymn for the weekend": "2026-10-02",
     "golden life|||oprocz": "2026-09-26",
     "kaska sochacka kortez|||jak my": "2026-10-01",
@@ -697,6 +698,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:6Y7CXp4HBvs06CoDaDXW1o",
     "spotify:track:7r3SAryC3n7wpfiamkQSL2",
     "spotify:track:7nDAcK5ZJnfDyNXAWNAhCZ",
     "spotify:track:5Rep08Yni2yW5UO0MBfF0b",
