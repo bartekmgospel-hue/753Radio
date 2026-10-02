@@ -856,6 +856,7 @@
     "travis|||sing": "spotify:track:4yA2SM7XCLkSgkBUSoZb5S",
     "trigg gusset|||robin s theme": "spotify:track:7bsLszUpM4HyYxIcSQMWeX",
     "trojanowska izabela|||karmazynowa noc": "spotify:track:0VBPeiVykqQb0zE86noS6Z",
+    "tropiki guest julka|||pizza": "spotify:track:3t8pqYnvnRqaPZVuMmOikq",
     "tsa|||alien": "spotify:track:4AlIPhan98QveWGQNC6IMh",
     "tsa|||heavy metal swiat": "spotify:track:0uXTFhNHLqHRd5unHckX5k",
     "tsa|||kocica": "spotify:track:5JqphZ37q782FEw9a1NLDZ",
@@ -923,10 +924,11 @@
     "retry_after": 29983
   },
   "live_day": "2026-10-02",
-  "live_time": "11:51",
+  "live_time": "13:42",
   "misses": {
     "atmosphere|||wyrzucenie": "2026-10-01",
     "badbadnotgood|||sarias song song of storms": "2026-09-17",
+    "bjork|||ovule sega bodega remix": "2026-10-02",
     "brian reitzell|||tehran 1979": "2026-09-19",
     "closterkeller|||violette": "2026-10-01",
     "dubska|||zielone krolestwo": "2026-09-20",
@@ -940,6 +942,7 @@
     "maggie reilly|||gaia": "2026-09-19",
     "maggie reilly|||wait": "2026-09-19",
     "marcin wasilewski trio spark of life|||suldovian dance spark of the life sudovian dance": "2026-09-26",
+    "mexican institute of sound|||paloma": "2026-10-02",
     "mike oldfield maggie reilly|||mistake": "2026-09-19",
     "mike oldfield maggie reilly|||talk about your life": "2026-09-19",
     "mike oldfield maggie reilly|||tricks of the light": "2026-09-19",
@@ -969,6 +972,7 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:3t8pqYnvnRqaPZVuMmOikq",
     "spotify:track:6IXeWO8HVZwZhZPUiAtLvn",
     "spotify:track:4ObTobZKWY0nKPvHibhdUM",
     "spotify:track:7FlFVxnKwJl6E5B49Jn9S7",
