@@ -386,6 +386,7 @@
     "bruno mars anderson paak silk sonic|||leave the door open": "spotify:track:02VBYrHfVwfEWXk5DXyf0T",
     "bruno mars|||that s what i like": "spotify:track:0KKkJNfGyhkQ5aFogxQAPU",
     "bruno mars|||treasure": "spotify:track:55h7vJchibLdUkxdlX3fK7",
+    "bryan adams mel c|||when you re gone": "spotify:track:7p9dd71JR2ucoAuO1Sy0VZ",
     "bryan adams|||can t stop this thing we started": "spotify:track:4e80zUwo7YuhNHs9OokSG0",
     "bryan adams|||on a day like today": "spotify:track:1g2tPIP5isX44SNeDeqLsz",
     "bryan adams|||the ballad of terry fox": "spotify:track:1OvkfOMOTNHsnfgVgGWWbQ",
@@ -2810,7 +2811,7 @@
     "retry_after": 30606
   },
   "live_day": "2026-10-02",
-  "live_time": "06:57",
+  "live_time": "07:27",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3046,6 +3047,7 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:7p9dd71JR2ucoAuO1Sy0VZ",
     "spotify:track:6tXnRSvuNgOq4QcxpIN54r",
     "spotify:track:3zYufmyv6HOuiHn1eMR6Ja",
     "spotify:track:14iPzoA5YzxH2HXItGeoT4",
