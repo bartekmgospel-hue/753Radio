@@ -233,6 +233,7 @@
     "daniel caesar|||do you like me": "spotify:track:4deAN7JXhdHHifxOp0TTjU",
     "daniel godson zorza|||na dno": "spotify:track:7dnUcwrc4eZkAAHfU4DxRS",
     "daniel godson|||boomerang": "spotify:track:4fAYA4RrFXPekZNgsR658X",
+    "daniel godson|||w snach": "spotify:track:5FpxCMdHZTVGvHJVtrkBDk",
     "daria zawia ow artur rojek|||dziwna": "spotify:track:4pscA7I0aNoAYs3z56EDGS",
     "daria zawia ow|||ballada o niej": "spotify:track:2A4d6vp3I61jSEv8Ty9c8x",
     "daria zawia ow|||dziewczyna pop": "spotify:track:4POfce5YCaTN2HGoWZdPyg",
@@ -363,6 +364,7 @@
     "frances|||let it out": "spotify:track:3ZCYlXgi100xmLfpGng9C9",
     "frank ocean|||pink white": "spotify:track:3xKsf9qdS1CyvXSMEid6g8",
     "franky wah lapsley|||stolen glances": "spotify:track:4G60BJTF32klpYbEl8XTDi",
+    "frends in paris faisal|||when your heart is a stranger": "spotify:track:1vZqSAWEKH4Aby3Z9nJ1Ln",
     "friendly fires|||lose all your friends": "spotify:track:0kvAaEfGZnzBQaUmqUJ2ct",
     "friendly fires|||paris": "spotify:track:6Hltgkj35K2cNMs7z9Q9Jg",
     "friends|||jackie b": "spotify:track:6AriBfTagIjKVUov3WEwOa",
@@ -815,6 +817,7 @@
     "pigeon|||nrg": "spotify:track:77ea9nfDN1ayGEtMZdmBlr",
     "pinkpantheress|||take me home": "spotify:track:26AmP3ukYC4Zs9lSGlh55I",
     "piotr zio a vito bambino|||safari x": "spotify:track:2o02L5fM30wexzQGaMPE4X",
+    "piotr zio a|||wariat": "spotify:track:4SmZZfCmKbVWPxq0sQx5I2",
     "piotr zio a|||wszystko co mam": "spotify:track:0SZDIfgasabcNwFWPy8V4c",
     "piotr ziola|||safari": "spotify:track:6iWe35n6ufDWMQaNUTDXdN",
     "piotr ziola|||w ciemno": "spotify:track:1WCp8uQdXIGUVTJ3bPqw7D",
@@ -1126,7 +1129,7 @@
     "retry_after": 31423
   },
   "live_day": "2026-10-02",
-  "live_time": "07:14",
+  "live_time": "08:12",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "all over again|||jesse gold": "2026-09-24",
@@ -1203,6 +1206,9 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:5FpxCMdHZTVGvHJVtrkBDk",
+    "spotify:track:4SmZZfCmKbVWPxq0sQx5I2",
+    "spotify:track:1vZqSAWEKH4Aby3Z9nJ1Ln",
     "spotify:track:6JJ3UK1YfxO26iEiMWUHHj",
     "spotify:track:1C26HwnwtIwLlSHJdB2iZw",
     "spotify:track:2Nf7wnojAkwkyE4vNjGIZl",
