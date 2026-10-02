@@ -1832,6 +1832,7 @@
     "patryk pietrzak|||toto": "spotify:track:5BQKIqKG3x1Y3nBsBoPxO9",
     "patsy cline|||crazy": "spotify:track:5UIq2zbapMbSU7Z2SEq8j0",
     "paul anka odia coates|||one man woman one woman man": "spotify:track:218AiunmmYDSPVKgCTa4Q7",
+    "paul anka|||put your head on my shoulder": "spotify:track:2DpJ9T2RVRanZcYFHKOAfA",
     "paul brady|||nobody knows": "spotify:track:23hQpags3ZUskJwguQY7fs",
     "paul linda mccartney|||monkberry moon delight": "spotify:track:041QmyDaL8y1azYTEfYA6d",
     "paul mauriat|||love is blue": "spotify:track:4ryGt6hcwzQb4z6IgW8sRG",
@@ -2761,8 +2762,8 @@
     "reason": "QUOTA_EXCEEDED",
     "retry_after": 30606
   },
-  "live_day": "2026-10-01",
-  "live_time": "16:59",
+  "live_day": "2026-10-02",
+  "live_time": "02:58",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -2991,6 +2992,7 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:2DpJ9T2RVRanZcYFHKOAfA",
     "spotify:track:0lEDiQZ9zaS5bafX5Sa7ez",
     "spotify:track:43DeSV93pJPT4lCZaWZ6b1",
     "spotify:track:7gWiECl6tbN1dzCA3SIsx3",
