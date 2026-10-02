@@ -202,6 +202,7 @@
     "ed sheeran|||perfect": "spotify:track:0tgVpDi06FyKpA1z0VMD4v",
     "ed sheeran|||shape of you": "spotify:track:7qiZfU4dY1lWllzX7mPBI3",
     "ed sheeran|||shivers": "spotify:track:50nfwKoDiSYg8zOCREWAm5",
+    "eddy wata|||i love my people": "spotify:track:2DDAWsk8aYKbzgBcUlLIdr",
     "edward maya vika jigulina|||stereo love": "spotify:track:0gBfLS4aqbrr1ZvVv8dqWB",
     "edyta bartosiewicz|||zegar": "spotify:track:5KVadODhbRCp8t6o0lRYSs",
     "edyta gorniak|||to nie ja": "spotify:track:4jGkGJP3PnabBZeATBT2lm",
@@ -290,6 +291,7 @@
     "joan jett the blackhearts|||i love rock n roll": "spotify:track:4jTqsgDaffdNH0BMBwhjFv",
     "john mamann kika|||love life": "spotify:track:3VR4xw00HuoVtmisl8Hcvs",
     "john newman|||love me again": "spotify:track:5TbzAWWc5eJaANpA9kfGCd",
+    "jonatan bletka gibbs|||roz": "spotify:track:3XhllIfCF2T1RaJwbBWSdi",
     "jonatan livka pezet|||obejmuje noce": "spotify:track:1X3saW7eGrSLRVbEIWwFsh",
     "julia wieniawa|||soba tak": "spotify:track:07ugowvLY6Fw4evXffcTwi",
     "junior caledra sophie ellis bextor|||can t fight this feeling": "spotify:track:0SMtrSiWbLctS8Hy91YMaE",
@@ -509,6 +511,7 @@
     "rihanna|||only girl": "spotify:track:0AH6WMe3OlAlUb5miXt2FQ",
     "rita ora|||anywhere": "spotify:track:6Xy72HZ9nf2jx48dQuF1mA",
     "rixton|||me and my broken heart": "spotify:track:1oew3nFNY3vMacJAsvry0S",
+    "rob thomas|||lonely no more": "spotify:track:4faFAhOflLzhfJECveRwva",
     "robbie williams|||feel": "spotify:track:2Ms33RTRCT6gArrpcrPxmo",
     "robbie williams|||supreme": "spotify:track:7rQiW2mJDbP77h2RLlASTw",
     "robert gawlinski|||o sobie samym": "spotify:track:01FN979nyz1gmdsfWZv5OL",
@@ -672,7 +675,7 @@
     "retry_after": 30699
   },
   "live_day": "2026-10-02",
-  "live_time": "10:29",
+  "live_time": "11:28",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18",
@@ -691,6 +694,9 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:2DDAWsk8aYKbzgBcUlLIdr",
+    "spotify:track:3XhllIfCF2T1RaJwbBWSdi",
+    "spotify:track:4faFAhOflLzhfJECveRwva",
     "spotify:track:4r3yMCybkTXxUpfQMfWjTW",
     "spotify:track:5aIfLbdgkbH7NbQryd1poB",
     "spotify:track:4ePP9So5xRzspjLFVVbj90",
