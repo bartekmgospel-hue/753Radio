@@ -563,6 +563,7 @@
     "soul asylum|||runaway train": "spotify:track:3Ib3SJV8ZXuLvDiDb2w1As",
     "sound n grace filip lato|||100": "spotify:track:19xIWdabzDqCXmfjSYhhlK",
     "spice girls|||wannabe": "spotify:track:7qpvLstF3L1UgyEDBV4pjx",
+    "spin doctors|||two princes": "spotify:track:4ePP9So5xRzspjLFVVbj90",
     "stanislaw soyka|||tolerancja na mily bog": "spotify:track:3OdBNP9XFecCwsDteynBBh",
     "status quo|||in the army now": "spotify:track:6QLspHLCLftSGPa6vNzKuo",
     "strachy na lachy|||dzien dobry kocham cie": "spotify:track:6FBPQuYFZIne5cpTASUOGR",
@@ -669,7 +670,7 @@
     "retry_after": 30699
   },
   "live_day": "2026-10-02",
-  "live_time": "05:26",
+  "live_time": "06:24",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18",
@@ -688,6 +689,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:4ePP9So5xRzspjLFVVbj90",
     "spotify:track:1bZaNDeEBuuvyz1nJnGSsm",
     "spotify:track:13uczXPXWuk4dDLvqEXUkJ",
     "spotify:track:7yhlUkUDOyGqrfkb1THfSj",
