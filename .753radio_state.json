@@ -1864,6 +1864,7 @@
     "pablopavo i ludziki|||karwoski": "spotify:track:43sFPakNn7jXG6BFap9U0v",
     "pablopavo i ludziki|||system": "spotify:track:6ds2PLVF6XSgTqwg9WweXP",
     "pablopavo i ludziki|||z fartem dziewczyna": "spotify:track:3QwIuanmAW9bUQL6irFHXf",
+    "pablopavo iwanek praczas|||pazdziernikowy facet": "spotify:track:3G7uYfifBmzC6VSMBlVVgi",
     "paco de lucia|||guardian angel": "spotify:track:56oFB8WrZNqp25Mx5QFHlB",
     "pantera|||suicide note pt i": "spotify:track:5gQMweA1YvU46ytE5hV6TT",
     "paolo nutini|||10 10": "spotify:track:0JBdY2rEIufdq0PJo3UcMD",
@@ -2837,7 +2838,7 @@
     "retry_after": 30606
   },
   "live_day": "2026-10-02",
-  "live_time": "11:52",
+  "live_time": "14:01",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3074,6 +3075,7 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:3G7uYfifBmzC6VSMBlVVgi",
     "spotify:track:7JgNAnCjJvL8hBR1kmCOFF",
     "spotify:track:5HzWItiJH85G6OSs9h81uY",
     "spotify:track:4lOKG77QX7DXG6x2cZ1egg",
