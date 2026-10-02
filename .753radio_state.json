@@ -1361,6 +1361,7 @@
     "laufey|||mr eclectic": "spotify:track:0gBlPhTZaqY06DHCL9V7W5",
     "laura veirs|||accidental tattoo": "spotify:track:0JxUqyj3Zum5eT9fY7MJjd",
     "lech janerka|||niewole": "spotify:track:6xxm1x7ywZF1XovqrzWn32",
+    "led zeppelin|||black dog": "spotify:track:3qT4bUD1MaWpGrTwcvguhb",
     "led zeppelin|||immigrant song": "spotify:track:3bUMbmI5TQ2a7I9xLukuJb",
     "leif vollebekk|||sunset boulevard expedition": "spotify:track:64SZmjw3aY5bZigPevDCHw",
     "lenny kravitz|||are you gonna go my way": "spotify:track:45Ia1U4KtIjAPPU7Wv1Sea",
@@ -1867,6 +1868,7 @@
     "paul simon|||graceland": "spotify:track:51KKQAgYFoJHgVIuJWHdHb",
     "paul simon|||that was your mother": "spotify:track:7qB5mBa997C6ddiCgmsfU4",
     "paul young|||wherever i lay my hat that s my home": "spotify:track:3yzM3pkIF5rlllUAAhFPx7",
+    "paula cole|||where have all the cowboys gone": "spotify:track:2ck13qfgRZ1msyEJlDqzvk",
     "paula karol|||whole again": "spotify:track:1mz3n9jbCJhSEhKciHUYwu",
     "paulina przybysz marek pedziwiatr wiktoria jakubowska tymon kosma max mucha|||mama s car": "spotify:track:1916LFOLD6clD6v1nzW3w0",
     "paulina przybysz|||mama s car": "spotify:track:1916LFOLD6clD6v1nzW3w0",
@@ -2752,6 +2754,7 @@
     "wspo g osy marcel balinski|||usta": "spotify:track:6CdZtjqqTfJ2kt5gU2G1Oy",
     "wu wei holland baroque|||vivaldi la follia": "spotify:track:0mmINn6O8rK6HN1JKWyfAJ",
     "xx|||say something loving": "spotify:track:2C5YDhSJqLFCHrymIBzNSg",
+    "yazoo|||don t go": "spotify:track:098JUtp63d1Hsge11VuoD2",
     "yazoo|||don t go 2008 remaster": "spotify:track:2pNrFj3AYoCU1uQTvJmtw3",
     "yazoo|||don t go re remix": "spotify:track:2VjGaH1QAdK0BkYAk9qlOT",
     "yeah yeah yeahs|||gold lion": "spotify:track:6tuiDRFaXOBqFLpeTBjAAn",
@@ -2804,7 +2807,7 @@
     "retry_after": 30606
   },
   "live_day": "2026-10-02",
-  "live_time": "06:00",
+  "live_time": "06:26",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3040,6 +3043,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:3qT4bUD1MaWpGrTwcvguhb",
+    "spotify:track:098JUtp63d1Hsge11VuoD2",
+    "spotify:track:2ck13qfgRZ1msyEJlDqzvk",
     "spotify:track:1uu9i2GYUDxSpOwzdv4zsu",
     "spotify:track:4m8F2PRGuzhAapxohb8c8R",
     "spotify:track:1IBsWEOUwPCDJLwyzsbiBP",
