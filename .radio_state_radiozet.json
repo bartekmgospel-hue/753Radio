@@ -248,6 +248,7 @@
     "george ezra|||shotgun": "spotify:track:4ofwffwvvnbSkrMSCKQDaC",
     "george michael|||careless whisper": "spotify:track:5WDLRQ3VCdVrKw0njWe5E5",
     "gibbs igo 4money|||ostatni dzien lata": "spotify:track:6FJb2Knd2tn504K1durCVt",
+    "gipsy kings|||volare": "spotify:track:4r3yMCybkTXxUpfQMfWjTW",
     "golec uorkiestra gromee bedoes|||gora ty": "spotify:track:78clZqBsIqHJsC0y9GAoAd",
     "goo goo dolls|||iris": "spotify:track:6Qyc6fS4DsZjB2mRW9DsQs",
     "gordo reinier zonneveld|||loco loco": "spotify:track:1mZnxNzp17JrPyzDzkoiiC",
@@ -671,7 +672,7 @@
     "retry_after": 30699
   },
   "live_day": "2026-10-02",
-  "live_time": "09:29",
+  "live_time": "10:29",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18",
@@ -690,6 +691,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:4r3yMCybkTXxUpfQMfWjTW",
     "spotify:track:5aIfLbdgkbH7NbQryd1poB",
     "spotify:track:4ePP9So5xRzspjLFVVbj90",
     "spotify:track:1bZaNDeEBuuvyz1nJnGSsm",
