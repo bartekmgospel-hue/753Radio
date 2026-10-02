@@ -230,6 +230,7 @@
     "felix jaehn sophie ellis bextor|||ready for your love": "spotify:track:3Kr7UHOUkgaH4PK3Mp1fUP",
     "fergie|||big girls don t cry": "spotify:track:6dgWWAs5yhWPOtvE1zuoQ1",
     "filatov karas|||tell it to my heart": "spotify:track:6BXlu02FMxchNNUMLBSM7f",
+    "filip lato|||tyle moglem ci dac": "spotify:track:7yhlUkUDOyGqrfkb1THfSj",
     "fleetwood mac|||little lies": "spotify:track:08o75xMKmGrKny6GsXrNJW",
     "flipsyde piper|||happy birthday": "spotify:track:2RSUSq9143titBghWXdxT4",
     "flo rida|||good feeling": "spotify:track:2LEF1A8DOZ9wRYikWgVlZ8",
@@ -379,9 +380,11 @@
     "mafia|||imie deszczu": "spotify:track:1raGnvbVo2fV3QDoX1PsLj",
     "mafia|||w swietle dnia": "spotify:track:3PXenThmD3KIwbZwiVbFhW",
     "maggie reilly|||everytime we touch": "spotify:track:3qgm0VtF6i8ei8xpGni8Eg",
+    "magma|||aicha": "spotify:track:3FVGoqVer1nNhI6X7M6iiB",
     "mans zelmerlow|||heroes": "spotify:track:4ciaNqHWA2IzHphZaVRzHI",
     "marcin rozynek|||najlepsze": "spotify:track:2jNQ0HYnXa5Lf17Lz3MdgL",
     "margaret|||primabalerina": "spotify:track:4WH0yDfn9CfE1usPV3sBMu",
+    "margaret|||tak na oko": "spotify:track:13uczXPXWuk4dDLvqEXUkJ",
     "marissa|||bedzie pieknie": "spotify:track:1AQk1NyfDFar6N8h7sqGFo",
     "marissa|||odkochaj": "spotify:track:0ALsDccwFMj8QznHPah8fn",
     "mark ambor|||belong together": "spotify:track:5uQ7de4EWjb3rkcFxyEOpu",
@@ -665,7 +668,7 @@
     "retry_after": 30699
   },
   "live_day": "2026-10-02",
-  "live_time": "01:47",
+  "live_time": "02:58",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18",
@@ -683,6 +686,9 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:13uczXPXWuk4dDLvqEXUkJ",
+    "spotify:track:7yhlUkUDOyGqrfkb1THfSj",
+    "spotify:track:3FVGoqVer1nNhI6X7M6iiB",
     "spotify:track:3sPjz4CX8DChUTkNJ33NWY",
     "spotify:track:77Xw1YgPiKMdJUGYNDor9G",
     "spotify:track:6WgO2rYOdgdOvQBywjyhre",
