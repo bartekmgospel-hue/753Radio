@@ -72,6 +72,7 @@
     "barbara wronska|||pochwa a codziennosci": "spotify:track:6P80hDRQgg1jOHrKLhYuYE",
     "barbara wronska|||tylko z toba": "spotify:track:1Eg2ZoGNrDustj2XGx6nbk",
     "barbra streisand barry gibb|||guilty": "spotify:track:60mGckXEG1EzR4VmjYLfEW",
+    "bartosz dworak quartet|||into the sky": "spotify:track:0oivoVEsri5wlhUn4p2xu1",
     "basia ma ecka|||fall in love with me": "spotify:track:0jXng1BPR8uiwt4v0rb16F",
     "basia|||cruising for bruising": "spotify:track:7BxmI8dRehWmhyFBjPxUg9",
     "beabadoobee|||memories": "spotify:track:2QjvcnTm5u1vWaIChGQVAY",
@@ -853,6 +854,7 @@
     "tom petty|||i won t back down": "spotify:track:7gSQv1OHpkIoAdUiRLdmI6",
     "tom petty|||love is a long road": "spotify:track:4PJEK76V3A1S0XzZJuTWh7",
     "tom petty|||runnin down a dream": "spotify:track:4AiMaeCXwsldpwvA5wu5gM",
+    "tomasz chy a quintet|||bibi synku bi 40 jazz juniors 2016": "spotify:track:7vRxaU6mC22K6tx3jucsLV",
     "tomasz makowiecki|||zabierz mnie": "spotify:track:1cni8FJlfBQbcZgeM7POBn",
     "toto|||georgy porgy": "spotify:track:5jQcJ2st6yHWhUBjoDoZPH",
     "toto|||hold the line": "spotify:track:4aVuWgvD0X63hcOCnZtNFA",
@@ -939,7 +941,7 @@
     "retry_after": 26649
   },
   "live_day": "2026-10-03",
-  "live_time": "01:48",
+  "live_time": "01:54",
   "misses": {
     "armand hammer the alchemist|||falling out the sky": "2026-10-02",
     "atmosphere|||wyrzucenie": "2026-10-01",
@@ -985,6 +987,7 @@
     "spoek mathombo|||sometimes i sing the blues": "2026-09-25",
     "suferi|||baciares": "2026-09-26",
     "suferi|||flucu 1986": "2026-09-26",
+    "tomasz chy a quintet|||midnight express 40 jazz juniors 2016": "2026-10-03",
     "zbigniew holdys|||stalker": "2026-09-21",
     "zespo kabaretowy tapima|||z ota piosenka": "2026-09-19"
   },
@@ -994,6 +997,8 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:7vRxaU6mC22K6tx3jucsLV",
+    "spotify:track:0oivoVEsri5wlhUn4p2xu1",
     "spotify:track:5JDLfMtNwzSvJJrv4nCPyD",
     "spotify:track:6mGmk60Vz3nZCa6Umjy3rh",
     "spotify:track:6QBVCpF9KwUF2W8PDUN9yq",
