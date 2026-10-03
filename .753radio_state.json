@@ -414,6 +414,7 @@
     "butterfly explosion|||the blood we draw": "spotify:track:5PdOJqMdPsRUgTIuFWodwH",
     "cage the elephant|||beaches in tennessee": "spotify:track:20TOJbuP4XyGBEFbwB8Vbm",
     "cage the elephant|||dying in reverse": "spotify:track:4iej0znQnZAym0PgU7PICD",
+    "calvin harris kasabian|||release the pressure": "spotify:track:7Dev2VJdJKwIIUdj3lcQl9",
     "camille yembe|||je ne l ai jamais dit a personne": "spotify:track:5ezMd1aLsAzIJOHLDHtdfk",
     "camouflage|||love is a shield": "spotify:track:5CyBhsVrEMnKa6MrzxR3mo",
     "candi staton|||young hearts run free": "spotify:track:3MFa9idQuY4iJLWsZl3tIQ",
@@ -1545,6 +1546,7 @@
     "manfred mann s earth band|||questions": "spotify:track:0lp09sFwa7HlhKDmeskhm2",
     "manic street preachers nina persson|||your love alone is not enough": "spotify:track:37pFLuNVnAJQL9ysRoKTdy",
     "manic street preachers|||autumn song": "spotify:track:0lmbYpumTlipEY0mUffz9Z",
+    "manic street preachers|||decline fall": "spotify:track:35gP2erBk1fBOhs7BsY2UU",
     "manic street preachers|||if you tolerate this your children will be next": "spotify:track:2VmyLy2HQlkevZYboXHM5O",
     "manic street preachers|||people ruin paintings": "spotify:track:45KdvdyYm6pFNQOyepVUjS",
     "manic street preachers|||your love alone is not enough": "spotify:track:37pFLuNVnAJQL9ysRoKTdy",
@@ -1770,6 +1772,7 @@
     "nancy sinatra|||bang bang my baby shot me down": "spotify:track:1hvKYV2SkmX1D2AeRCDxLH",
     "nanga|||dziki zachod": "spotify:track:5Zps6ZLhTe6aWxq7F25foM",
     "nanga|||profet": "spotify:track:69dZdSGn4LTC5ZKpoJxkAf",
+    "nastroje|||skok na bank": "spotify:track:737sriDSWWWN4S3kK08jOL",
     "nastroje|||tropikana": "spotify:track:2Ia6rGD2bZhFTcKuz6h9MR",
     "natalia grosiak|||ostatnia piosenka o tobie": "spotify:track:2dPogT3VVbNWnEVuDttpeu",
     "natalia nykiel|||spokoj": "spotify:track:3JbSMvMsSybJ2q8KJkBsgV",
@@ -2919,7 +2922,7 @@
     "retry_after": 29048
   },
   "live_day": "2026-10-03",
-  "live_time": "06:27",
+  "live_time": "06:56",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3161,6 +3164,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:737sriDSWWWN4S3kK08jOL",
+    "spotify:track:7Dev2VJdJKwIIUdj3lcQl9",
+    "spotify:track:35gP2erBk1fBOhs7BsY2UU",
     "spotify:track:6Ua0gtGncAqS5nfBrgcWU9",
     "spotify:track:7LOrMKPfsaAhekoVOAFcEq",
     "spotify:track:6cAbIQ5tachruXGBnXNuQ1",
