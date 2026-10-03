@@ -442,6 +442,7 @@
     "mika|||relax take it easy": "spotify:track:0KM2y796j63t5RHhvRUxld",
     "mike and the mechanics|||over my shoulder": "spotify:track:6DKM07xOL59GExqNgE8LFM",
     "mike oldfield maggie reilly|||moonlight shadow": "spotify:track:4WpmwEdc4RBos8W8icSSxW",
+    "miley cyrus|||bass persuades": "spotify:track:2FZcjBYK4dTt48q94pJbJD",
     "miley cyrus|||flowers": "spotify:track:7DSAEUvxU8FajXtRloy8M0",
     "milky david guetta|||just the way you are david guetta remix": "spotify:track:5980rUQH7tLVv78lk4EIDU",
     "minelli|||rampampam": "spotify:track:1esZgaqm0YKN87CIP3orJ3",
@@ -695,7 +696,7 @@
     "retry_after": 27367
   },
   "live_day": "2026-10-03",
-  "live_time": "07:24",
+  "live_time": "08:28",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18",
@@ -715,6 +716,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:2FZcjBYK4dTt48q94pJbJD",
     "spotify:track:0Zsbt1EHAREOHKplOjDwgz",
     "spotify:track:3mZRBLQfaa47lpk1KxGYa5",
     "spotify:track:0lYBSQXN6rCTvUZvg9S0lU",
