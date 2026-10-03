@@ -299,6 +299,7 @@
     "joan jett the blackhearts|||i love rock n roll": "spotify:track:4jTqsgDaffdNH0BMBwhjFv",
     "john mamann kika|||love life": "spotify:track:3VR4xw00HuoVtmisl8Hcvs",
     "john newman|||love me again": "spotify:track:5TbzAWWc5eJaANpA9kfGCd",
+    "john parr|||st elmo s fire man in motion": "spotify:track:3gpSNwE1SShx7tAGu6Zd0l",
     "jonatan bletka gibbs|||roz": "spotify:track:3XhllIfCF2T1RaJwbBWSdi",
     "jonatan livka pezet|||obejmuje noce": "spotify:track:1X3saW7eGrSLRVbEIWwFsh",
     "jula|||nie zatrzymasz mnie": "spotify:track:3mZRBLQfaa47lpk1KxGYa5",
@@ -325,6 +326,7 @@
     "katseye|||animal": "spotify:track:3ouNEk0tv5TTi8VWMe1xbX",
     "katy perry|||i kissed a girl": "spotify:track:14iN3o8ptQ8cFVZTEmyQRV",
     "katy perry|||last friday night": "spotify:track:455AfCsOhhLPRc68sE01D8",
+    "katy perry|||roar": "spotify:track:27tNWlhdAryQY04Gb2ZhUI",
     "kayah idan raichel|||po co": "spotify:track:0WIzHu11aUhxbFrOaUoYkM",
     "ke ha|||tik tok": "spotify:track:0HPD5WQqrq7wPWR7P7Dw1i",
     "kelly clarkson|||behind these hazel eyes": "spotify:track:0AKAxdNkwq9ZxRdW1DN9zW",
@@ -698,7 +700,7 @@
     "retry_after": 27367
   },
   "live_day": "2026-10-03",
-  "live_time": "09:27",
+  "live_time": "10:29",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18",
@@ -718,6 +720,8 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:27tNWlhdAryQY04Gb2ZhUI",
+    "spotify:track:3gpSNwE1SShx7tAGu6Zd0l",
     "spotify:track:53igcWBey7bl63bN4LRxyD",
     "spotify:track:6N717o83wbmahFGUqkjQj7",
     "spotify:track:2FZcjBYK4dTt48q94pJbJD",
