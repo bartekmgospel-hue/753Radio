@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-10-04T00:17:25+00:00",
   "keys": {
     "3 doors down|||here without you": "spotify:track:3NLrRZoMF0Lx6zTlYqeIo4",
     "4 the cause|||stand by me": "spotify:track:7oqvT7zwySTA2BjDVyXZFD",
@@ -702,14 +702,14 @@
     "zbigniew wodecki|||lubie wracac tam gdzie bylem": "spotify:track:4sHTqR2RQGsH5pSFqtXroU"
   },
   "last_429": {
-    "at": "2026-10-02T16:29:21+00:00",
+    "at": "2026-10-03T16:29:19+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 27367
+    "retry_after": 28081
   },
   "live_day": "2026-10-03",
-  "live_time": "17:28",
+  "live_time": "18:04",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-09-18",
