@@ -722,6 +722,7 @@
     "dolly parton pink brandi carlile|||i can t get no satisfaction": "spotify:track:2vw3beLeIQSgMxi72RnJHn",
     "dolly parton|||islands in the stream live": "spotify:track:57VxDKegTp0XDErJg2ofKv",
     "dolly parton|||my tennessee mountain home": "spotify:track:6rQlfR31QLNCBrq0no1Qc2",
+    "dolores forever|||dreams": "spotify:track:4JlNq9ivHuNlxlOaag67Dc",
     "dom la nena|||valsa": "spotify:track:0qsA5r3p1ISvQHClrR1zT4",
     "domenico modugno|||volare": "spotify:track:71hIekopkrYCGgggsBOpVG",
     "dominique a|||eleor": "spotify:track:32QErOT7sMFzEGGb9HrpUb",
@@ -1322,6 +1323,7 @@
     "jose feliciano|||che sara": "spotify:track:4qzFM9vTvZdPZFrfvYOmp1",
     "joseph alessi juilliard trombone choir virginia allen|||variations on napoli arr for trombone ensemble": "spotify:track:03APxs0MZd0PKTmFLyzBVf",
     "joseph alessi warren jones|||turandot act iii nessun dorma arr for trombone": "spotify:track:1gAbkwKeSf4M2NeAvjfetF",
+    "josh kelley|||smile": "spotify:track:6cBRv0LfQ2sQ9IcfepVrcT",
     "joshua radin|||better life": "spotify:track:0udOzSoTF4O6Ku48jbGOd8",
     "journey|||separate ways worlds apart": "spotify:track:2ORySgkn0CbUMFbEoP1wwE",
     "jovanotti|||so solo che la vita": "spotify:track:4xLK8DE77wCZ6mHjoK384z",
@@ -1547,6 +1549,7 @@
     "lighthouse family|||ain t no sunshine": "spotify:track:435rQGMojc5C6xJbtjeynu",
     "lila ike|||well organised": "spotify:track:6bYQZWdJMKimn0VTXhMwd6",
     "lily seabird|||election day": "spotify:track:14bE8Ti7Nk7MNLrTmKs13m",
+    "linda bieran|||czeresniowy": "spotify:track:4nUMzmwgnkUgSCG8h6z8st",
     "lindsey buckingham|||trouble": "spotify:track:04ijIUVdT4Qy1SBWFUPROY",
     "linia nocna|||zielone zoli": "spotify:track:4VkGcQ5Uf8ZUYvzmEQGhRU",
     "lionel richie|||cinderella": "spotify:track:1VsHUoc0SywGsxrQ9tPwBb",
@@ -3088,7 +3091,7 @@
     "retry_after": 29775
   },
   "live_day": "2026-10-04",
-  "live_time": "12:28",
+  "live_time": "12:56",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3340,6 +3343,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:4nUMzmwgnkUgSCG8h6z8st",
+    "spotify:track:4JlNq9ivHuNlxlOaag67Dc",
+    "spotify:track:6cBRv0LfQ2sQ9IcfepVrcT",
     "spotify:track:7vr7D1ISmDeTh4Zc1sZXDJ",
     "spotify:track:28NdueBypCgADIZGKeO8cY",
     "spotify:track:7tRNSE3ymVdtpiw3j38j1v",
