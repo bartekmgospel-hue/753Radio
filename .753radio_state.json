@@ -421,6 +421,7 @@
     "bruce hornsby|||living in the sunshine lost and found on the spirit trail": "spotify:track:1yL5FWrUW2HRRIi54Zeldq",
     "bruce springsteen|||better days": "spotify:track:27JhdyVLc45QD9CCErgOuT",
     "bruce springsteen|||blind spot": "spotify:track:1G9NKmN4q6KG9lT6p7Q3Cu",
+    "bruce springsteen|||born in the u s a": "spotify:track:0dOg1ySSI7NkpAe89Zo0b9",
     "bruce springsteen|||fire": "spotify:track:0Tk2agqmwJajtoX6sCxngb",
     "bruce springsteen|||human touch": "spotify:track:1o53HbxmOy5TzThJdBaDZb",
     "bruce springsteen|||i m on fire": "spotify:track:3PzsbWSQdLCKDLxn7YZfkM",
@@ -1503,6 +1504,7 @@
     "lady pank|||mala wojna": "spotify:track:1E7uut65wJy3LjMnRSeGBi",
     "lady pank|||sztuka latania": "spotify:track:4c14wtkMheFjYBhBI4CBDn",
     "lady pank|||to co mam": "spotify:track:632gOSpv2LvNvkwQfS5ywg",
+    "lady pank|||to jest tylko rock and roll": "spotify:track:62Q1XvEcukjt7RcYeSpsFK",
     "lady pank|||vademecum skauta": "spotify:track:1uGqmg6bl4sAp1CQc2zF1j",
     "lady pank|||wciaz bardziej obcy": "spotify:track:1J1rg6WPbqZlob4rumAUsQ",
     "lana del rey|||born to die": "spotify:track:4Ouhoi2lAhrLJKFzUqEzwl",
@@ -3114,7 +3116,7 @@
     "retry_after": 29775
   },
   "live_day": "2026-10-04",
-  "live_time": "18:26",
+  "live_time": "18:51",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3369,6 +3371,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:62Q1XvEcukjt7RcYeSpsFK",
+    "spotify:track:0dOg1ySSI7NkpAe89Zo0b9",
     "spotify:track:4fKh4cAVEp3OkulLdDzeei",
     "spotify:track:53ukEbab0LZi26OHOOCj4Y",
     "spotify:track:5XWFvTCrwHRzKS40frzT2j",
