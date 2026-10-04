@@ -663,6 +663,7 @@
     "labrinth|||jealous": "spotify:track:4G92yYrUs0cvY7G41YRI0z",
     "labrinth|||never felt so alone": "spotify:track:2NbsBSshscKIPRG3kwBbfo",
     "lainey wilson john mayer|||phone keys wallet": "spotify:track:4JiYE3QxSX59KSx9Q4pHWa",
+    "lana del rey|||doin time": "spotify:track:0Oqc0kKFsQ6MhFOLBNZIGX",
     "lana del rey|||mariners apartment complex": "spotify:track:6OG05bPAwUuV3OMvy2Vy1P",
     "lana del rey|||national anthem": "spotify:track:7cNz65PfCatRXoX7QtqM2A",
     "lana del rey|||radio": "spotify:track:3taCbWWTilb7eNMsAzOBq4",
@@ -697,6 +698,7 @@
     "leszek mozdzer|||the law and the fist": "spotify:track:1nhrpyC8ppLJTIqM6FZTit",
     "letherette|||just for you": "spotify:track:55K1SJ2SjjYh6n6xZ457W1",
     "lexa gates|||i just can t be alone": "spotify:track:0ZivdfG1msTj7A2UixMx9T",
+    "lila ike h e r|||he loves us both": "spotify:track:5SvKcEK87sdbOyrthx9ZAU",
     "lilja bloom|||more and more parov stelar remix": "spotify:track:3XJPpZm9QlgajSq7wGCjgZ",
     "lisa ekdahl|||sunny weather": "spotify:track:0cbw3P38VCBxcjaDcAS3dq",
     "litany|||i said": "spotify:track:54Enza3yajvr1yK9G67RPo",
@@ -1296,7 +1298,7 @@
     "retry_after": 28803
   },
   "live_day": "2026-10-04",
-  "live_time": "10:14",
+  "live_time": "11:17",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "all over again|||jesse gold": "2026-09-24",
@@ -1381,6 +1383,8 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:5SvKcEK87sdbOyrthx9ZAU",
+    "spotify:track:0Oqc0kKFsQ6MhFOLBNZIGX",
     "spotify:track:54zow0zcxKKGUqVl6xzLiF",
     "spotify:track:4n5XUSgVUxqrYal63OtU6w",
     "spotify:track:1E2qsauY482zvIjHEI8EaX",
