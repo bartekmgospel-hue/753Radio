@@ -32,6 +32,7 @@
     "absolutely|||joy": "spotify:track:5CKbUv7zkOdf8X2602qgei",
     "ac dc|||guns for hire": "spotify:track:31F5kR9fPxI7lBV0Stfl4V",
     "ac dc|||heatseaker": "spotify:track:0h3A3hdDq762DzIOKUoF21",
+    "ac dc|||highway to hell": "spotify:track:2zYzyRzz6pRmhPzyfMEC8s",
     "ac dc|||moneytalks": "spotify:track:5u5F7qLDvZjBSktaDp4HxB",
     "ac dc|||ride on": "spotify:track:594ONMYoHlJnqHPEx98t08",
     "ac dc|||shot in the dark": "spotify:track:0sfdiwck2xr4PteGOdyOfz",
@@ -821,6 +822,7 @@
     "electric light orchestra|||the diary of horace wimp": "spotify:track:3hfqwHXcRLq6BSneRpEdtm",
     "electric light orchestra|||twilight": "spotify:track:03ZVEpSeeJfROJW65OHgsf",
     "elektryczne gitary|||cz owiek z lisciem": "spotify:track:5979CooXWnrP121vWF2wrO",
+    "elektryczne gitary|||dzieci": "spotify:track:2iQrztBu6wmmIUpEt4m4kf",
     "ella fitzgerald|||bewitched bothered and bewildered": "spotify:track:0daJyYh2m6OP46fAnZroz3",
     "ella fitzgerald|||black coffee": "spotify:track:2Rejh16NV462TwiGGf5YNL",
     "elle coves|||talk about it": "spotify:track:1wrVX3ztn5FejxBlOUDclK",
@@ -2792,6 +2794,7 @@
     "the rolling stones|||miss you": "spotify:track:4TXvJz4TmRI9Bzy4VWNUjl",
     "the rolling stones|||mr charm": "spotify:track:7FNkY47xx3oKTjr5tk5m8k",
     "the rolling stones|||start me up": "spotify:track:0INM0SfWqrD33nTDGA5Mts",
+    "the rolling stones|||the worst": "spotify:track:2BmLkEv8TsgNjVi1YUxJXM",
     "the roots|||it ain t fair": "spotify:track:43AtutMIfjHoAILNjBduHd",
     "the roots|||the seed 2 0": "spotify:track:6HxweNytuEQdmGeVtZPZz3",
     "the rubens|||love me america": "spotify:track:3EAcyL3yq5MLnzFegseJkz",
@@ -3118,7 +3121,7 @@
     "retry_after": 29775
   },
   "live_day": "2026-10-04",
-  "live_time": "19:16",
+  "live_time": "20:01",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3373,6 +3376,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:2iQrztBu6wmmIUpEt4m4kf",
+    "spotify:track:2zYzyRzz6pRmhPzyfMEC8s",
+    "spotify:track:2BmLkEv8TsgNjVi1YUxJXM",
     "spotify:track:1KkPVmfNmNND1vm5PhUv5R",
     "spotify:track:36g619h8gPXcIxOQKDLQ5D",
     "spotify:track:62Q1XvEcukjt7RcYeSpsFK",
