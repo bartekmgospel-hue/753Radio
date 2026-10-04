@@ -903,6 +903,7 @@
     "fida|||kafejka na ochocie": "spotify:track:2huAJcqnLg4SC4jvHKKohG",
     "field medic|||coffee in the morning": "spotify:track:7z2OUqaCOGNaecWy0zFmyN",
     "filter|||fades like a photograph dead angel": "spotify:track:5sEg22a5hd2AWIzMmLbTy0",
+    "filter|||take a picture": "spotify:track:6q4aoWgTQ8td2AvqQXuFqm",
     "fink michael wollny tim lefebvre maggie bjorklund nicky hustinx guy sternberg|||atmosphere": "spotify:track:1LlRHmJzGSweuv5VQF4EmM",
     "fink|||atmosphere": "spotify:track:1LlRHmJzGSweuv5VQF4EmM",
     "fink|||the garden": "spotify:track:61Ens7qO9efEwwPcIV4YYC",
@@ -2356,6 +2357,7 @@
     "simple minds|||beginner boys": "spotify:track:2CqxSyQsmd2895yviSn6Fy",
     "simple minds|||hypnotised": "spotify:track:3tM4qfZCvkJUbEah5xKIK5",
     "simple minds|||soul crying out": "spotify:track:56dEXVqjl7A49PGsLAvJSR",
+    "simple minds|||your name in lights": "spotify:track:16rYWfhXd2odbloZqmAyBF",
     "simply red|||jericho": "spotify:track:4Tx0UWNcl5yjQQhTSlAkLZ",
     "simply red|||you make me feel brand new single edit": "spotify:track:33vf3rSEjEtjUk7BpVDXe4",
     "sinead o connor|||mandinka": "spotify:track:4x4e63yL8r7tOFcZ0n6KHe",
@@ -3041,7 +3043,7 @@
     "retry_after": 29775
   },
   "live_day": "2026-10-04",
-  "live_time": "05:58",
+  "live_time": "06:25",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3291,6 +3293,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:6q4aoWgTQ8td2AvqQXuFqm",
+    "spotify:track:16rYWfhXd2odbloZqmAyBF",
     "spotify:track:5BypykbT4N0dRhjTbXwxBE",
     "spotify:track:6rYgEHuyhO064Lgj48qlIe",
     "spotify:track:3exi84zPud4LcC26PkmBZF",
