@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-10-05T00:23:23+00:00",
   "keys": {
     "15 minut projekt|||soca": "spotify:track:4nb5Saxa9EhQmkSEourUW4",
     "2 plus 1|||hej dogonie lato": "spotify:track:5kThJ36GmE6r925KcKdc4R",
@@ -797,6 +797,7 @@
     "scissor sisters|||i don t feel like dancin": "spotify:track:1q9l6c8bAzqWcvO3DM6FsR",
     "seatbelts|||mushroom hunting": "spotify:track:4Ux62nG3euaSYIv41a2CbS",
     "secret service|||flash in the night": "spotify:track:2IUWDFVMeFaxDhJ3MXhQsU",
+    "sedno|||jozefa": "spotify:track:3KCUYAIxTRFrQ4gKYPGnMU",
     "self esteem|||if not now its soon": "spotify:track:1gGSklAKB185XlBocv21TG",
     "shaggy|||lottery 4 0": "spotify:track:30Vn2g5NWfVedvshn1dgFj",
     "sheldon shepherd|||carnival": "spotify:track:6QHRDEas0ZsWAQTp4Ckb1J",
@@ -1089,14 +1090,14 @@
     "zz top|||breakaway": "spotify:track:3k6T3I7uuRGL96rWFTucgb"
   },
   "last_429": {
-    "at": "2026-10-03T15:41:19+00:00",
+    "at": "2026-10-04T20:41:18+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 30962
+    "retry_after": 13320
   },
   "live_day": "2026-10-04",
-  "live_time": "18:53",
+  "live_time": "21:08",
   "misses": {
     "armand hammer the alchemist|||falling out the sky": "2026-10-02",
     "atmosphere|||wyrzucenie": "2026-10-01",
@@ -1154,7 +1155,9 @@
     "zespo kabaretowy tapima|||z ota piosenka": "2026-09-19"
   },
   "pending_backfill": [],
-  "pending_live": [],
+  "pending_live": [
+    "spotify:track:3KCUYAIxTRFrQ4gKYPGnMU"
+  ],
   "playlist_id": "78FchE0GI5vKwev0iHw12y",
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
