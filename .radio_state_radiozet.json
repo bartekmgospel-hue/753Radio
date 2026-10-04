@@ -496,6 +496,7 @@
     "natalia zastepa|||wracam do siebie": "spotify:track:338LRKsi4plVEaLQEUlX06",
     "natalie imbruglia|||torn": "spotify:track:1Jaah2tmN9Hv81A87KZ1MU",
     "natasha bedingfield|||unwritten": "spotify:track:3U5JVgI2x4rDyHGObzJfNf",
+    "nelly furtado|||all good things come to an end": "spotify:track:6kEpjptnAwt11Atr4cEMe1",
     "nelly furtado|||maneater": "spotify:track:4wH4dJgrsxONID6KS2tDQM",
     "nelly furtado|||say it right": "spotify:track:2aI21FnmY7TJVKeMaoQZ0t",
     "nelly kelly rowland|||dilemma": "spotify:track:0ARK753YaiJbpLUk7z5yIM",
@@ -578,6 +579,7 @@
     "rose|||new trick": "spotify:track:5GKBPdWbW4RQtx9VkQ6xKO",
     "rotary|||na jednej z dzikich plaz": "spotify:track:5DPtX89n73XGCbdvTCHdr0",
     "roxette|||it must have been love": "spotify:track:1X3NeW0OuqVA7L3CCVX9N5",
+    "roxette|||joyride": "spotify:track:6gRrBRrtwSB9CYbHJx4MIe",
     "roxette|||listen to your heart": "spotify:track:1WrwmNLeltkG6BuXv2DEWS",
     "roxette|||sleeping in my car": "spotify:track:0qCSMOyix8CRew9JVTHnZY",
     "roxette|||the big l": "spotify:track:7nDAcK5ZJnfDyNXAWNAhCZ",
@@ -734,7 +736,7 @@
     "retry_after": 28081
   },
   "live_day": "2026-10-04",
-  "live_time": "18:28",
+  "live_time": "19:29",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -754,6 +756,8 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:6kEpjptnAwt11Atr4cEMe1",
+    "spotify:track:6gRrBRrtwSB9CYbHJx4MIe",
     "spotify:track:1fidCEsYlaVE3pHwKCvpFZ",
     "spotify:track:0smyCrJiibi2uwCiq5R1vj",
     "spotify:track:0KAiuUOrLTIkzkpfpn9jb9",
