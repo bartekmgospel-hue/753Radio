@@ -81,6 +81,7 @@
     "bajm|||szklanka wody": "spotify:track:63sFJi1ujCSF4B82ny2mqi",
     "bajm|||ta sama chwila": "spotify:track:1HwsyOKoHSP1VHcVC3sFhy",
     "baranovski|||czule miejsce": "spotify:track:0aT3lifHLChDNpkVasIHPR",
+    "baranovski|||dym": "spotify:track:5VqyBEf4496NUsXs5OdEpM",
     "baranovski|||lubie byc z nia": "spotify:track:5SOFAkRZQqDn0NveCTkGxU",
     "bastille|||things we lost in the fire": "spotify:track:6qOxF7JKKNegcuocn14ukr",
     "beatfreakz|||somebody s watching me": "spotify:track:4H0IEbAy9oJEYjd4UL6q4c",
@@ -313,6 +314,7 @@
     "jonatan bletka gibbs|||roz": "spotify:track:3XhllIfCF2T1RaJwbBWSdi",
     "jonatan livka pezet|||obejmuje noce": "spotify:track:1X3saW7eGrSLRVbEIWwFsh",
     "jula|||nie zatrzymasz mnie": "spotify:track:3mZRBLQfaa47lpk1KxGYa5",
+    "jula|||za kazdym razem": "spotify:track:4UbA2qcrdGe1IVyMq5vACM",
     "julia wieniawa|||soba tak": "spotify:track:07ugowvLY6Fw4evXffcTwi",
     "junior caledra sophie ellis bextor|||can t fight this feeling": "spotify:track:0SMtrSiWbLctS8Hy91YMaE",
     "juste jaxstyle jon|||turn the lights off": "spotify:track:5TV7JnCTbwPD6yIVVFJrLb",
@@ -383,6 +385,7 @@
     "leann rimes|||can t fight the moonlight": "spotify:track:2AogRMqARWyUP7VQ3gmSoY",
     "lene marlin|||sitting down here": "spotify:track:2NwXOuYLEbyhlQzDtoANul",
     "lenny kravitz|||fly away": "spotify:track:1OxcIUqVmVYxT6427tbhDW",
+    "liber natalia szroeder|||a teraz ty": "spotify:track:3gf0aEuZp9Obb0sb2pYod4",
     "lilly wood the prick robin schulz|||prayer in c robin schulz remix": "spotify:track:3k9FFXVPn3ua8dlpkxlCvZ",
     "linkin park|||burn it down": "spotify:track:7oVEtyuv9NBmnytsCIsY5I",
     "lionel richie|||angel": "spotify:track:4q3PJE85zkind6pucyNq9g",
@@ -715,7 +718,7 @@
     "retry_after": 28081
   },
   "live_day": "2026-10-04",
-  "live_time": "02:28",
+  "live_time": "02:58",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -735,6 +738,9 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:4UbA2qcrdGe1IVyMq5vACM",
+    "spotify:track:3gf0aEuZp9Obb0sb2pYod4",
+    "spotify:track:5VqyBEf4496NUsXs5OdEpM",
     "spotify:track:6ZUsFXTXMYCh8fWmsk4yin",
     "spotify:track:5Qw74vxmtJzAEYjy1wfVCk",
     "spotify:track:56SkUavkC44JJBSGyhNArr",
