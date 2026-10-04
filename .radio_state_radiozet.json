@@ -231,6 +231,7 @@
     "elton john|||sacrifice": "spotify:track:0e3yhVeNaTfKIWQRw9U9sY",
     "emigranci pawe kukiz|||na falochronie": "spotify:track:1tt88jYB1UhS1ppXGWPkIL",
     "eminem rihanna|||love the way you lie": "spotify:track:15JINEqzVMv3SvJTAXAKED",
+    "eminem rihanna|||monster": "spotify:track:48RrDBpOSSl1aLVCalGl5C",
     "eminem|||houdini": "spotify:track:2HYFX63wP3otVIvopRS99Z",
     "emo|||nie mowi a nic": "spotify:track:5RFe2B5H3E3ZNYL0gn04JU",
     "enej|||idealny sen": "spotify:track:2pQxFcuc7ZJzFguXjNhF8M",
@@ -679,6 +680,7 @@
     "toto|||hold the line": "spotify:track:4aVuWgvD0X63hcOCnZtNFA",
     "tove lo|||2 die 4": "spotify:track:1VYlIU9IpVa4MHUqzKHyOb",
     "twocolors safri duo chris de sarandy|||cynical": "spotify:track:4fLnoXqsxHZFvGKppc7kCr",
+    "twocolors|||heavy metal love": "spotify:track:07VcTAooOBP8hIluuUS5xr",
     "twocolors|||primadonna": "spotify:track:0RFCJKLEIk9FBtyP8XlBHe",
     "twoface|||fire in your eyes": "spotify:track:31Z7bPUGrjdNw9dGzqnaNX",
     "uniting nations|||ai no corrida": "spotify:track:5Dg1sV8glk2ylbUbwvU5hx",
@@ -726,7 +728,7 @@
     "retry_after": 28081
   },
   "live_day": "2026-10-04",
-  "live_time": "10:28",
+  "live_time": "11:28",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -746,6 +748,8 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:07VcTAooOBP8hIluuUS5xr",
+    "spotify:track:48RrDBpOSSl1aLVCalGl5C",
     "spotify:track:6VUJQqyeQhAZHkQbSDqLtI",
     "spotify:track:5hhMCMRnKXW8IaUgKt4TZd",
     "spotify:track:43EA6WfNRligIsFL9Ui6pH",
