@@ -564,6 +564,7 @@
     "coldplay|||green eyes": "spotify:track:3ou9rSNUQnE7XYmJkUUIOc",
     "coldplay|||lost": "spotify:track:1STAWoWHYJh2UVUx41pYMD",
     "coldplay|||viva la vida": "spotify:track:1mea3bSkSGXuIRvnydlB5b",
+    "collective soul|||run": "spotify:track:3HxX5qcaz2phmsJVPskugD",
     "coma|||leszek zukowski": "spotify:track:4SsiC8a6tccHyIUevr6c9A",
     "coma|||los cebula i krokodyle zy": "spotify:track:7D8EUSKYemwb2GSrZAgUvR",
     "coma|||z poradnika m odego zielarza": "spotify:track:3YjhYmyLtBDobj2uOB7n4S",
@@ -2756,9 +2757,11 @@
     "the pogues|||if i should fall from grace with god": "spotify:track:1Z5rTFsClLFgsIGuZ7Ymt2",
     "the police|||canary in a coalmine": "spotify:track:7A4rW6quroPut2I6OsCys9",
     "the police|||de do do do de da da da": "spotify:track:0yJvWbn8xQKiDZ84VN5lQG",
+    "the police|||every little thing she does is magic": "spotify:track:44aTAUBF0g6sMkMNE8I5kd",
     "the police|||next to you": "spotify:track:7HjipY3Vy2HAN11D2juKHT",
     "the pretenders|||sense of purpose": "spotify:track:3L7HX3EslS7DgAU7npbE4E",
     "the prodigy|||voodoo people": "spotify:track:7H0MOWplwc6gf2AD1vTSYi",
+    "the raconteurs|||steady as she goes": "spotify:track:4xlEKYv7HmC8zXoJIbpZKM",
     "the ramona flowers|||brighter": "spotify:track:2n0OaCDQGsDrDTU1EJObCz",
     "the raveonettes|||heartbreak stroll": "spotify:track:1VoohZVlueQqVq01QkFXD2",
     "the revivalists|||holy": "spotify:track:6MJRfLKV33J4LRCuAes8zc",
@@ -3092,7 +3095,7 @@
     "retry_after": 29775
   },
   "live_day": "2026-10-04",
-  "live_time": "13:22",
+  "live_time": "14:01",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3344,6 +3347,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:4xlEKYv7HmC8zXoJIbpZKM",
+    "spotify:track:44aTAUBF0g6sMkMNE8I5kd",
+    "spotify:track:3HxX5qcaz2phmsJVPskugD",
     "spotify:track:3xbZa70HOBQpGQcaR3HqW1",
     "spotify:track:4nUMzmwgnkUgSCG8h6z8st",
     "spotify:track:4JlNq9ivHuNlxlOaag67Dc",
