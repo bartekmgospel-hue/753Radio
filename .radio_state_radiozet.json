@@ -212,6 +212,7 @@
     "dynoro gigi d agostino|||in my mind": "spotify:track:0E9ZjEAyAwOXZ7wJC0PD33",
     "dzem|||naiwne pytania": "spotify:track:1bb6ZRX1kkRSJxzlXEFdF2",
     "dzem|||wehikul czasu": "spotify:track:2e7IOLQKBvsVLhDle9N4zo",
+    "eagle eye cherry|||save tonight": "spotify:track:0smyCrJiibi2uwCiq5R1vj",
     "ed sheeran|||azizam": "spotify:track:0sCvjs8IVBhxXVhg7jQemt",
     "ed sheeran|||bad habits": "spotify:track:7vrKEP66NdiQDPryPG6olO",
     "ed sheeran|||galway girl": "spotify:track:0afhq8XCExXpqazXczTSve",
@@ -501,6 +502,7 @@
     "nickelback|||how you remind me": "spotify:track:0gmbgwZ8iqyMPmXefof8Yf",
     "nickelback|||trying not to love you": "spotify:track:4Dq75eGDLZGM9EGP0XHbo2",
     "nicky jam enrique iglesias|||el perdon": "spotify:track:7hOfyNuj2dLc0HAEYVDIYS",
+    "nico vinz|||am i wrong": "spotify:track:1fidCEsYlaVE3pHwKCvpFZ",
     "no doubt|||don t speak": "spotify:track:6urCAbunOQI4bLhmGpX7iS",
     "no doubt|||it s my life": "spotify:track:1OutzYv6YiN93lrT3pJsWR",
     "o n a|||drzwi": "spotify:track:082r7Z1apxSccVJeLAkowH",
@@ -732,7 +734,7 @@
     "retry_after": 28081
   },
   "live_day": "2026-10-04",
-  "live_time": "16:26",
+  "live_time": "17:29",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -752,6 +754,8 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:1fidCEsYlaVE3pHwKCvpFZ",
+    "spotify:track:0smyCrJiibi2uwCiq5R1vj",
     "spotify:track:0KAiuUOrLTIkzkpfpn9jb9",
     "spotify:track:4yYEMvHEvmT2V7BQNReuIv",
     "spotify:track:55whbebR4olz2HHcRQa2kx",
