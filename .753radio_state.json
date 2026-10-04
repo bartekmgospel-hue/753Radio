@@ -174,6 +174,7 @@
     "arctic monkeys|||mardy bum": "spotify:track:2fyIS6GXMgUcSv4oejx63f",
     "arctic monkeys|||no 1 party anthem": "spotify:track:5TTGoX70AFrTvuEtqHK37S",
     "aretha franklin eurythmics|||sisters are doin it for themselves": "spotify:track:5LD10wQTCgrqxyO5cRaLPr",
+    "aretha franklin|||do right woman do right man": "spotify:track:6cLEpgDcEldV1n9gusHQUX",
     "aretha franklin|||think": "spotify:track:4yQw7FR9lcvL6RHtegbJBh",
     "ariel pink|||put your number in my phone": "spotify:track:6gKDXp2qT8wMhhm6pQE1vu",
     "arlo parks|||caroline": "spotify:track:6xTp4nC8NBRSYMxGqIikSh",
@@ -1262,6 +1263,7 @@
     "john craigie|||fire season": "spotify:track:7vOeVctI4YZX13Szvri1vT",
     "john craigie|||mermaid weather": "spotify:track:6mugtfQyNes9cEsf6HIOc3",
     "john grant|||queen of denmark": "spotify:track:189o3uyqEMe3N9mfkUC3de",
+    "john legend|||actions": "spotify:track:6lL3GA2rq8UvdvjMdp2H5g",
     "john legend|||daylight": "spotify:track:4oRB6Rgyq2Y5K30elz9vzs",
     "john legend|||love me now": "spotify:track:6nxQdXa1uAL0rY72wPZu89",
     "john mayer|||new light": "spotify:track:4T6FWA703h6H7zk1FoSARw",
@@ -1421,6 +1423,7 @@
     "kornel kovacs|||metropolis": "spotify:track:6YtuC4k6RqaWc3VCuSZTIs",
     "kortez|||naucz mnie tanczyc": "spotify:track:7KTQw8Hn5uWM9aheQcHitG",
     "kortez|||pocztowka z kosmosu": "spotify:track:53SQXZg0FASJqrsE4nEkIc",
+    "kortez|||zostan": "spotify:track:4Pslf0rV8BsQVYmXjdei37",
     "kosma krol kania cappa|||stilo": "spotify:track:5eFgykey6ItsZIb9WiMcMy",
     "kosma krol kania|||180": "spotify:track:0rAZ0CjddA0qO5ALDFLXHu",
     "kovacs|||my love": "spotify:track:0uEftEHpAjuL2V6NScCs4n",
@@ -3029,7 +3032,7 @@
     "retry_after": 29775
   },
   "live_day": "2026-10-04",
-  "live_time": "04:29",
+  "live_time": "04:52",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3279,6 +3282,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:4Pslf0rV8BsQVYmXjdei37",
+    "spotify:track:6cLEpgDcEldV1n9gusHQUX",
+    "spotify:track:6lL3GA2rq8UvdvjMdp2H5g",
     "spotify:track:3tQFthLmtBuc0XPL2b8nnu",
     "spotify:track:3YBErEcHUpV6xAwEakNiU5",
     "spotify:track:5hI4HntiwzdBWpXqyUgna2",
