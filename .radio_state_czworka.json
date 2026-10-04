@@ -42,6 +42,7 @@
     "antony szmierek|||the great pyramid of stockport": "spotify:track:3ypPhNCqzTY1YQWVdSoOj7",
     "antony szmierek|||yoga teacher": "spotify:track:6kmu37O2Gb4tHDjZWNIjsC",
     "apollo 440|||ain t talkin bout dub": "spotify:track:2SgWbfclzWv42aJDXnVGAX",
+    "apollo 440|||stop the rock": "spotify:track:37jrubWAb4F9TY2GgSRG56",
     "arlo parks|||beams": "spotify:track:4yNK2ybBbO7CiuSyTNvBc8",
     "arlo parks|||heaven edited": "spotify:track:0nOf80Plej41Dkmeoo8Rv7",
     "ashnikko|||you make me sick clean edit": "spotify:track:7iR1y5YfpmJ6ME8zkKnlQj",
@@ -901,6 +902,7 @@
     "wwo|||sen": "spotify:track:3wq44IZiuetXV4aGrZcpbv",
     "wzgorze ya pa 3|||bezcenne s owa": "spotify:track:5yRsHDOM4XWRyCrNBHxWl5",
     "xxanaxx|||a gdyby tak": "spotify:track:1IDAkhyO8GmUyArxWUEJPu",
+    "yaeger|||water pistol killen remix": "spotify:track:7F1YGJLMXM9T5kiRQ6JPdX",
     "yello|||out of sight": "spotify:track:3NB9dXWXmocK93fWbmCe9F",
     "young igi|||icy baby": "spotify:track:5hjS9QMOKKd4ZV49ucurqP",
     "young igi|||ma e krople": "spotify:track:6wkV4uyxWrfNim5QmLmQnp",
@@ -925,7 +927,7 @@
     "retry_after": 30242
   },
   "live_day": "2026-10-04",
-  "live_time": "14:55",
+  "live_time": "15:55",
   "misses": {
     "abradab|||rapoweziarno cls waxremix": "2026-09-20",
     "adi feher|||game of hope original mix": "2026-10-03",
@@ -1182,6 +1184,8 @@
   "playlist_name": "Czwórka",
   "source_generation": "odsluchane-multi-v1.1:49",
   "uris": [
+    "spotify:track:37jrubWAb4F9TY2GgSRG56",
+    "spotify:track:7F1YGJLMXM9T5kiRQ6JPdX",
     "spotify:track:2m8ktFsorHvPZIHrlKxnGj",
     "spotify:track:5at039gZfHTvOK3gSLni5m",
     "spotify:track:4XSgarKBkdfFE3mygV0yY7",
