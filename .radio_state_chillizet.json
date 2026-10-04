@@ -61,6 +61,7 @@
     "andrew applepie|||magic lamp": "spotify:track:21fKhLrIvS7C6jqTR5rF9h",
     "angie stone|||wish i didn t miss you": "spotify:track:3tZm76otWH20xzJC7icHCk",
     "angus julia stone|||cape forestier": "spotify:track:4tV7sVnqQLrYao9oTCzYTq",
+    "angus julia stone|||chateau": "spotify:track:1tQtURCQmQnY5ZxJNTgXKR",
     "angus julia stone|||losing you": "spotify:track:0I47uBTjeZ2WH7zakJjgi9",
     "ania|||be thankful for what you ve got": "spotify:track:3pltzozDSKNBTSQQE0wf28",
     "anish kumar|||the heart wants a heart": "spotify:track:6SAwejI3GI9Udk4CY9LxVH",
@@ -334,6 +335,7 @@
     "duke ellington|||sophisticated lady": "spotify:track:3eG8AuxFhI2YP40lnUsaD4",
     "durand jones the indications aaron frazer|||love will work it out": "spotify:track:4bQhGIHwo1ZpixP9MudUbV",
     "durand jones the indications|||flower moon": "spotify:track:16fiL1QD7x9FeoGu8ktxrz",
+    "ed sheeran|||the a team": "spotify:track:1VdZ0vKfR5jneCmWIUAMxK",
     "efe|||garden": "spotify:track:38uqIeoKKlFxm2aH6SL73v",
     "ego ella may|||take it easy miles song": "spotify:track:4EHMndrbnEWCxRBhwMQWpm",
     "el michels affair|||anticipat": "spotify:track:6MGDifi2vBHgHLpqCUmX16",
@@ -398,6 +400,7 @@
     "franc moody|||dream in color": "spotify:track:6p0Gf4bNKRjoKY4PC3Pvyp",
     "franc moody|||skin on skin": "spotify:track:3OGSGJCdO1nbOrByhEuDus",
     "frances|||let it out": "spotify:track:3ZCYlXgi100xmLfpGng9C9",
+    "frank moody|||losing touch": "spotify:track:6EshmnAdZGBCA2LYCCX2Uy",
     "frank ocean|||pink white": "spotify:track:3xKsf9qdS1CyvXSMEid6g8",
     "franky wah lapsley|||stolen glances": "spotify:track:4G60BJTF32klpYbEl8XTDi",
     "fred everything|||that thang": "spotify:track:3j4DhNRkVhRsVjH3zZsLQ1",
@@ -1266,7 +1269,7 @@
     "retry_after": 28803
   },
   "live_day": "2026-10-04",
-  "live_time": "03:17",
+  "live_time": "04:15",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "all over again|||jesse gold": "2026-09-24",
@@ -1351,6 +1354,9 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:1tQtURCQmQnY5ZxJNTgXKR",
+    "spotify:track:6EshmnAdZGBCA2LYCCX2Uy",
+    "spotify:track:1VdZ0vKfR5jneCmWIUAMxK",
     "spotify:track:5rVZOTpy5K3PjVkQ2K6okk",
     "spotify:track:4ISWpejUeMK7TAlJAM2COg",
     "spotify:track:7C5G4qLXnHZ8UL4ivwkXJg",
