@@ -193,6 +193,7 @@
     "dilated peoples|||worst comes to worst": "spotify:track:4bHrZLxaOU1gfAz0rZAnCx",
     "dina ayada|||problems": "spotify:track:3HVJ3rJ0Gx80iQ3Xn9HfJ8",
     "disclosure|||jaded": "spotify:track:6c4T1Dz9hwK5xat7eh3g8o",
+    "disclosure|||magnets": "spotify:track:7nRmfGNhHKEEu5o8yFXLXt",
     "disgusting sisters|||tgif": "spotify:track:5R52HoWLSg5RCipFvX3rao",
     "disgusting sisters|||weirdo magnet": "spotify:track:3fddvvWl1pzBDgqVOUrWUx",
     "dizzee rascal|||body loose": "spotify:track:196yfE2A34eZFI5Qt4ssUj",
@@ -240,6 +241,7 @@
     "erika de casier|||the garden": "spotify:track:7F8PQETOfC1Vw0g2NZ3C6U",
     "ero|||ja": "spotify:track:5Ji8FO1Yf8Tf5yKJnJop3M",
     "etasko|||jeszcze cos": "spotify:track:7HWaO5ZVNvd9BtBWosgpG4",
+    "evidence|||you": "spotify:track:0gwC3cuxBZwVf4MGZbAu0I",
     "ewa sad|||grzyby": "spotify:track:3P68A8zESDt5ZqsLrAT1KD",
     "ezra collective|||no confusion": "spotify:track:2YsCBfRHmo1wqDKmZEmGo7",
     "ezra collective|||streets is calling": "spotify:track:3TF0jatByRFyxGSJzPNnts",
@@ -734,6 +736,7 @@
     "soko|||zorro clean": "spotify:track:0I5OVT486gx8NuGW3vupPR",
     "sombr|||back to friends": "spotify:track:0FTmksd2dxiE5e3rWyJXs6",
     "somp|||m oda bida": "spotify:track:78uxf7f5otYKIez9PFafSI",
+    "sonar|||wiadomo": "spotify:track:6pDJd7KQmH1riMGGeoComl",
     "sophie coal|||trucizna": "spotify:track:3nX5Ay9wZYZpjN13bqaGWd",
     "sophie|||ooh": "spotify:track:5sW5xwuhgkvFA6CgY4key2",
     "soul central|||strings of life un amore supremo sgt slick remi": "spotify:track:1TavSK7iVrwJWcYaWAa1U2",
@@ -900,7 +903,7 @@
     "retry_after": 30242
   },
   "live_day": "2026-10-04",
-  "live_time": "08:57",
+  "live_time": "09:39",
   "misses": {
     "abradab|||rapoweziarno cls waxremix": "2026-09-20",
     "adi feher|||game of hope original mix": "2026-10-03",
@@ -1154,6 +1157,9 @@
   "playlist_name": "Czwórka",
   "source_generation": "odsluchane-multi-v1.1:49",
   "uris": [
+    "spotify:track:6pDJd7KQmH1riMGGeoComl",
+    "spotify:track:0gwC3cuxBZwVf4MGZbAu0I",
+    "spotify:track:7nRmfGNhHKEEu5o8yFXLXt",
     "spotify:track:6VDQBdaIGgR1NuTIOnNKUV",
     "spotify:track:6XDemlxPy6B2EG5Oj0RU6H",
     "spotify:track:1pTJqSjf4xETgpARC8nZEo",
