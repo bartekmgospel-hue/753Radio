@@ -381,12 +381,14 @@
     "edie brickell|||when the lights go down": "spotify:track:3vfM0GOXnzwYRSmHcj5FCV",
     "editors|||all the kings": "spotify:track:1BXE28K02FDAz3z9qgWxQp",
     "editors|||kiss": "spotify:track:6qcFprbz0NA7dBnBE14bO4",
+    "editors|||ocean of night": "spotify:track:4vFVZyn6RdvrXpeEqsTas6",
     "editors|||seriously": "spotify:track:3dZTrUqLpivFUkSuIpSoyb",
     "editors|||vibe": "spotify:track:02RZS72adn3pzZXDFtFjPA",
     "edwin starr|||war": "spotify:track:4ZEEcEMGjkWOfZNBcIB9yE",
     "edwyn collins|||a girl like you": "spotify:track:0MteK167vtyb6hoJNC3Uz3",
     "edyta bartosiewicz|||lovesong": "spotify:track:554zaqXFRArlbFqlSn1rqf",
     "eels|||are we alright again": "spotify:track:2nyrHM2pECyxaMb3x5rRo3",
+    "eels|||bone dry": "spotify:track:29kWYekeRW1BKh6PUbWEFN",
     "eels|||last stop this town": "spotify:track:7vSVNE30ZPYJko2O83gDzX",
     "ego ella may|||undone": "spotify:track:0BTwxyr92pFmgY4dKXfZyb",
     "elder island|||bang": "spotify:track:4kZTx5qrnBFMGj2h9WZz0H",
@@ -1565,7 +1567,7 @@
     "retry_after": 29510
   },
   "live_day": "2026-10-04",
-  "live_time": "06:05",
+  "live_time": "07:03",
   "misses": {
     "adam nowak|||pod niebem pe nym cudow live artysci dla akademii teatralnej 24 11 2022": "2026-10-03",
     "apathy|||fenwick": "2026-10-03",
@@ -1638,6 +1640,8 @@
   "playlist_name": "Radio Nowy Świat",
   "source_generation": "odsluchane-multi-v1.1:105",
   "uris": [
+    "spotify:track:29kWYekeRW1BKh6PUbWEFN",
+    "spotify:track:4vFVZyn6RdvrXpeEqsTas6",
     "spotify:track:3Rk6GNpqZujdZztcmABdV9",
     "spotify:track:1300POeOaj8qho30FRHjgf",
     "spotify:track:78qR7Lt9m4nqZTstekAftK",
