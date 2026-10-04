@@ -807,6 +807,7 @@
     "steely dan|||peg": "spotify:track:5emxp4RqsF6QoAWXW2Afrk",
     "steve mason|||a lot of love": "spotify:track:5MydMIZSCHX2FxxDc4mH3y",
     "stevie wonder|||higher ground": "spotify:track:0dMd4rilfd6gPbXaLpNYhu",
+    "stevie wonder|||isn t she lovely": "spotify:track:3NlLmKBJozwoi0k03Feb1N",
     "sting mary j blige|||whenever i say your name": "spotify:track:2q6EggdR4BImTJQ0EbJgoo",
     "sting mylene farmer|||stolen car": "spotify:track:1ItJjahltmjQNjit9sdksw",
     "sting|||a thousand years": "spotify:track:5uLEHBpOuP5YWQPuzGpPwG",
@@ -943,6 +944,7 @@
     "the smashing pumpkins|||stand inside your love": "spotify:track:3RciEQxS7PxtLqMs7OwRsU",
     "the stone roses|||love spreads": "spotify:track:6JvEXmRh3l2acBzvqavgT9",
     "the stranglers|||no more heroes": "spotify:track:3pmvlDZwMLP8HNvsi69KP9",
+    "the thrills|||big sur": "spotify:track:56Zm2mXUv5UJgybEqATQ2t",
     "the tubs|||stoop to me": "spotify:track:2sWIjjgjIm9YrDFg6aUC0H",
     "the verve|||bitter sweet symphony": "spotify:track:1WYEDcS7WGjv0rG7rmMX3o",
     "the war on drugs|||who s that": "spotify:track:2YPP52aPZiFUxTmbQTUiR6",
@@ -998,6 +1000,7 @@
     "u2|||silencio": "spotify:track:6eVoCbEtFjzfYeWJjkD3gP",
     "u2|||street of dreams": "spotify:track:6eM77gpIjOJ3dF0hFxUf2k",
     "u2|||sunday bloody sunday": "spotify:track:6qa36OkEeQqGaWlOcpjlGD",
+    "u2|||sweetest thing": "spotify:track:7ndGFo9nZ108KPgXtfYWCe",
     "u2|||the unforgettable fire": "spotify:track:1gl3GmTDG7CO1JI8ILtGcu",
     "u2|||ultraviolet light my way": "spotify:track:5WCtoomAl0y1mgVh1Yuj0a",
     "u2|||unchained melody": "spotify:track:5Hl9dvi4Nz5CPnDpoQ35SH",
@@ -1045,7 +1048,7 @@
     "retry_after": 30962
   },
   "live_day": "2026-10-04",
-  "live_time": "05:57",
+  "live_time": "08:56",
   "misses": {
     "armand hammer the alchemist|||falling out the sky": "2026-10-02",
     "atmosphere|||wyrzucenie": "2026-10-01",
@@ -1108,6 +1111,9 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:3NlLmKBJozwoi0k03Feb1N",
+    "spotify:track:7ndGFo9nZ108KPgXtfYWCe",
+    "spotify:track:56Zm2mXUv5UJgybEqATQ2t",
     "spotify:track:3zYufmyv6HOuiHn1eMR6Ja",
     "spotify:track:1AqiKTT7Ii3z68jGQkaqh6",
     "spotify:track:2q6EggdR4BImTJQ0EbJgoo",
