@@ -759,6 +759,7 @@
     "radiohead|||idioteque": "spotify:track:1W5XugQJGhnSATMI5n002M",
     "radiohead|||talk show host": "spotify:track:3cMuGOGSaTWbwOurTS4b3Y",
     "radiohead|||weird fishes arpeggi": "spotify:track:4wajJ1o7jWIg62YqpkHC7S",
+    "rage against the machine|||killing in the name": "spotify:track:59WN2psjkt1tyaxjspN8fp",
     "ralph stanley robert plant|||two coats": "spotify:track:2vjyUcFTJZqgMLZDAbukt9",
     "rammstein|||ohne dich": "spotify:track:4aFC7Mes7CW5vHcb8ZApAx",
     "ray charles|||hit the road jack": "spotify:track:28oWUQCEDG6sK0HTev979v",
@@ -1095,7 +1096,7 @@
     "retry_after": 30962
   },
   "live_day": "2026-10-04",
-  "live_time": "17:53",
+  "live_time": "18:53",
   "misses": {
     "armand hammer the alchemist|||falling out the sky": "2026-10-02",
     "atmosphere|||wyrzucenie": "2026-10-01",
@@ -1158,6 +1159,7 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:59WN2psjkt1tyaxjspN8fp",
     "spotify:track:2AmealVVZqRStMZVNyAByN",
     "spotify:track:5tAIRDxjqJeMoaiLaVBrad",
     "spotify:track:1jMaB19DiVR8OihLSuYFOt",
