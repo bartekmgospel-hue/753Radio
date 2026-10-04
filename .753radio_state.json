@@ -1490,6 +1490,7 @@
     "kyung wha chung phillip moll|||scherzo tarantelle op 16": "spotify:track:5DiUOWdIOx41ypk7YqoyeB",
     "l a s|||lepiej sie podpal": "spotify:track:3Sps1rUfSBDxtV7N6E0bzd",
     "l a s|||obligato": "spotify:track:35ce9pTA6EQrEtl0xXvV1r",
+    "la roux|||bulletproof": "spotify:track:3kMrazSvILsgcwtidZd1Qd",
     "lachowicz|||p yn": "spotify:track:6T6DIrXyS4a3gWR7cZIDJP",
     "lady pank|||ma a wojna": "spotify:track:1E7uut65wJy3LjMnRSeGBi",
     "lady pank|||mala wojna": "spotify:track:1E7uut65wJy3LjMnRSeGBi",
@@ -3007,6 +3008,7 @@
     "white lies|||is my love enough": "spotify:track:7bE9oYQzpNmaTcPHv2t7DL",
     "white lies|||keep up": "spotify:track:45ubiAUk0eEtL643tdxqdD",
     "white lies|||to lose my life": "spotify:track:2W4R6zrp1lLWtMXCJLA98H",
+    "white town|||your woman": "spotify:track:3UBItNVbFQiVC5hBQlBvnr",
     "whitesnake|||here i go again": "spotify:track:5ggHTNfpr7cDPBAlpLaumV",
     "whitney houston|||i wanna dance with somebody who loves me": "spotify:track:2tUBqZG2AbRi7Q0BIrVrEj",
     "whitney houston|||my love is your love": "spotify:track:1ckU1EhAO0Nr73QYw24SWJ",
@@ -3095,7 +3097,7 @@
     "retry_after": 29775
   },
   "live_day": "2026-10-04",
-  "live_time": "14:01",
+  "live_time": "14:26",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3347,6 +3349,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:3UBItNVbFQiVC5hBQlBvnr",
+    "spotify:track:3kMrazSvILsgcwtidZd1Qd",
     "spotify:track:4xlEKYv7HmC8zXoJIbpZKM",
     "spotify:track:44aTAUBF0g6sMkMNE8I5kd",
     "spotify:track:3HxX5qcaz2phmsJVPskugD",
