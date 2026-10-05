@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": "2026-10-05T00:23:23+00:00",
+  "blocked_until": null,
   "keys": {
     "15 minut projekt|||soca": "spotify:track:4nb5Saxa9EhQmkSEourUW4",
     "2 plus 1|||hej dogonie lato": "spotify:track:5kThJ36GmE6r925KcKdc4R",
@@ -1155,13 +1155,12 @@
     "zespo kabaretowy tapima|||z ota piosenka": "2026-09-19"
   },
   "pending_backfill": [],
-  "pending_live": [
-    "spotify:track:3KCUYAIxTRFrQ4gKYPGnMU"
-  ],
+  "pending_live": [],
   "playlist_id": "78FchE0GI5vKwev0iHw12y",
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:3KCUYAIxTRFrQ4gKYPGnMU",
     "spotify:track:59WN2psjkt1tyaxjspN8fp",
     "spotify:track:2AmealVVZqRStMZVNyAByN",
     "spotify:track:5tAIRDxjqJeMoaiLaVBrad",
