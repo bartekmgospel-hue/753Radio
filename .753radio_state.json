@@ -789,6 +789,7 @@
     "ed sheeran|||afterglow": "spotify:track:5hyNzOLHCyYjvrIVIIVIWI",
     "ed sheeran|||boat": "spotify:track:6jemILri7l5LuPhKs2nuXr",
     "ed sheeran|||perfect": "spotify:track:0tgVpDi06FyKpA1z0VMD4v",
+    "ed sheeran|||photograph": "spotify:track:4848TVqpmgFkCFk1Acyc3G",
     "edda dell orso|||alla serenita": "spotify:track:0qmE14rHWqnaCUoUrefuMG",
     "eddie vedder|||hard sun": "spotify:track:0fzCtVM9D5UEwiLqcY8Ouq",
     "eddie vedder|||the haves": "spotify:track:7qKRueZZIBzHdepFiZPKMK",
@@ -1027,6 +1028,7 @@
     "garbage|||stupid girl": "spotify:track:4dC0fWZm8tU5dNdVutSMVP",
     "garbage|||the trick is to keep breathing": "spotify:track:2CcVzbgKcmGdvJGmaUHCLj",
     "garbage|||there s no future in optimism": "spotify:track:6lKZIy0vqA2J4skj7SC9DT",
+    "garbage|||you look so fine": "spotify:track:0HoWeek1ZDH1QKKxmpzSmr",
     "gary jules|||mad world": "spotify:track:3JOVTQ5h8HGFnDdp4VT3MP",
     "gary kemp|||ahead of the game": "spotify:track:1cqNbTSpmrMJEApIy0eZP2",
     "gavin friday|||you me and world war three": "spotify:track:6Na0P80t1i6MUNizR7InSC",
@@ -1050,6 +1052,7 @@
     "gerry beckley|||angel": "spotify:track:6NchIt3sVwZkA19qkRZgfq",
     "ghostpoet|||liiines": "spotify:track:00fSxcKEQYVdLOnjaaXFIS",
     "ghost|||it s a sin": "spotify:track:3JnsVuLgoMJEcn0slGZjuN",
+    "ghost|||the future is a foreign land": "spotify:track:1OQxJiHrr5HAmTaqAhn39c",
     "gianfranco plenizio|||grigio perla": "spotify:track:6VIaBSHQc8OHmUL22Qjfg8",
     "gianna nannini|||meraviglioso errore": "spotify:track:0ubThoknb6A0GV5d2kunXx",
     "gianna nannini|||un estate italiana": "spotify:track:50jCUPNEHtmLfK6PQzcnOH",
@@ -3156,7 +3159,7 @@
     "retry_after": 21137
   },
   "live_day": "2026-10-05",
-  "live_time": "05:01",
+  "live_time": "05:26",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3413,6 +3416,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:0HoWeek1ZDH1QKKxmpzSmr",
+    "spotify:track:4848TVqpmgFkCFk1Acyc3G",
+    "spotify:track:1OQxJiHrr5HAmTaqAhn39c",
     "spotify:track:3rM8CChiE84weTWTD96Ugs",
     "spotify:track:7LYyt10q2P6EHMaGjviK89",
     "spotify:track:3A1eZttmVtGkgYwxGHOMWp",
