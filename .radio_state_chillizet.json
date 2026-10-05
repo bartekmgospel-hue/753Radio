@@ -150,6 +150,7 @@
     "billie eilish|||blue": "spotify:track:2prqm9sPLj10B4Wg0wE5x9",
     "billie eilish|||chichiro": "spotify:track:7BRD7x5pt8Lqa1eGYC4dzj",
     "billie eilish|||everything i wanted": "spotify:track:3ZCTVFBt2Brf31RLEnCkWJ",
+    "billie eilish|||the diner": "spotify:track:1LLUoftvmTjVNBHZoQyveF",
     "billie eilish|||therefore i am": "spotify:track:20R4HfKloPKgXDqU7UKk3x",
     "billie holiday|||blue moon": "spotify:track:1pZn8AX1WulW8IO338hE5D",
     "birdy|||1901": "spotify:track:3CqOsjVamOisF8E0e9nPUo",
@@ -702,6 +703,7 @@
     "labrinth|||jealous": "spotify:track:4G92yYrUs0cvY7G41YRI0z",
     "labrinth|||never felt so alone": "spotify:track:2NbsBSshscKIPRG3kwBbfo",
     "lainey wilson john mayer|||phone keys wallet": "spotify:track:4JiYE3QxSX59KSx9Q4pHWa",
+    "lana del rey dot major|||say yes to heaven": "spotify:track:0aVp8gdrXFsidPm0r0NggP",
     "lana del rey|||doin time": "spotify:track:0Oqc0kKFsQ6MhFOLBNZIGX",
     "lana del rey|||mariners apartment complex": "spotify:track:6OG05bPAwUuV3OMvy2Vy1P",
     "lana del rey|||national anthem": "spotify:track:7cNz65PfCatRXoX7QtqM2A",
@@ -720,6 +722,7 @@
     "lemon|||jutro": "spotify:track:0h3VD2Mb0T1oRK2s0OHwSj",
     "lenny kravitz|||again": "spotify:track:5c1QJAiC3773EwiZLwHf5x",
     "lenny kravitz|||believe": "spotify:track:6x9t21Gl6bRhOrgigur7wK",
+    "lenny kravitz|||heaven help": "spotify:track:0uHbPoDjquncfYsLt00Aj2",
     "lenny kravitz|||honey": "spotify:track:0o4Z9Am4OOwRVHml4RyqZW",
     "lenny kravitz|||i belong to you": "spotify:track:2zee8Zcesqwnnwliw2Jy8M",
     "lenny kravitz|||low": "spotify:track:3zcccQe4KhGXRqRBUwGU3G",
@@ -1370,7 +1373,7 @@
     "retry_after": 21959
   },
   "live_day": "2026-10-05",
-  "live_time": "07:10",
+  "live_time": "08:14",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "all over again|||jesse gold": "2026-09-24",
@@ -1461,6 +1464,9 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:1LLUoftvmTjVNBHZoQyveF",
+    "spotify:track:0uHbPoDjquncfYsLt00Aj2",
+    "spotify:track:0aVp8gdrXFsidPm0r0NggP",
     "spotify:track:6a0psdgp7sL7LEFYCXpNv4",
     "spotify:track:2oXhUifLIC0brl2xFfjONm",
     "spotify:track:0Rkdov9ktWGjqOqy9MQ8XP",
