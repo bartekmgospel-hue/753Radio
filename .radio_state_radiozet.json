@@ -251,6 +251,7 @@
     "ewa farna|||bez lez": "spotify:track:4JQKpzMNBJcgqijpSM3HDc",
     "ewa farna|||ewakuacja": "spotify:track:6Y7CXp4HBvs06CoDaDXW1o",
     "ewa farna|||nie przegap": "spotify:track:57RFfnxT6WduFsaZfYMarq",
+    "ewa farna|||znak": "spotify:track:558wN9WTjR9QNIrMZEkzKE",
     "ewelina lisowska|||w strone s onca": "spotify:track:5PZwG06x7sQ5Rv1sxvezbo",
     "fast boy|||music sounds": "spotify:track:3OLpCe3H6oGcEsvEjNDXHm",
     "feel|||a gdy jest juz ciemno": "spotify:track:43EA6WfNRligIsFL9Ui6pH",
@@ -363,6 +364,7 @@
     "komodo michael shynes|||is this love": "spotify:track:7HklgS1hnxYF6uwCB0zpOA",
     "komodo|||i just died in your arms": "spotify:track:1Qgyo8bv2jtxf0t9g1sKMB",
     "krzysztof kiljanski kayah|||procz ciebie nic": "spotify:track:2KtSYjhcujuunRR3wyogzu",
+    "krzysztof krawczyk edyta bartosiewicz|||trudno tak": "spotify:track:2XaWRFfWAopw4MjhWzuJ15",
     "krzysztof krawczyk|||bo jestes ty": "spotify:track:4YvQ9fgBWflsCa0hQWPSY0",
     "krzysztof krawczyk|||chcia em byc": "spotify:track:4k7zl8aRchaUzNK5Qv66zv",
     "krzysztof zalewski|||annuszka": "spotify:track:6ZUsFXTXMYCh8fWmsk4yin",
@@ -745,7 +747,7 @@
     "retry_after": 21240
   },
   "live_day": "2026-10-05",
-  "live_time": "11:28",
+  "live_time": "12:21",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-09-21",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -766,6 +768,8 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:558wN9WTjR9QNIrMZEkzKE",
+    "spotify:track:2XaWRFfWAopw4MjhWzuJ15",
     "spotify:track:0TDLuuLlV54CkRRUOahJb4",
     "spotify:track:4bFmYoDdKT3HqSroMmRbGV",
     "spotify:track:4lhqb6JvbHId48OUJGwymk",
