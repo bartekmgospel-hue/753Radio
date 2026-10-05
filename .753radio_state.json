@@ -2095,6 +2095,7 @@
     "paolo nutini|||10 10": "spotify:track:0JBdY2rEIufdq0PJo3UcMD",
     "paolo nutini|||through the echoes": "spotify:track:78NogwkqVC4GBQMxOwOQrC",
     "paramore|||the only exception": "spotify:track:3ZHfX6kbiY7JVsB63lLOLu",
+    "paramore|||this is why": "spotify:track:7HdXRMw14roDx2a0COWk3M",
     "parcels|||yougotmefeeling": "spotify:track:1eGYO1RzVRdphhWT86DSr9",
     "paris jackson|||the breeze": "spotify:track:17jUkslg3mVAVPV3pPOht0",
     "pascal obispo david hallyday|||ceux qui restent": "spotify:track:1e3SGXCY3AK56q4pbiYfWY",
@@ -2650,6 +2651,7 @@
     "taylor swift|||elizabeth taylor": "spotify:track:1jgTiNob5cVyXeJ3WgX5bL",
     "taylor swift|||our song": "spotify:track:1j6gmK6u4WNI33lMZ8dC1s",
     "taylor swift|||willow": "spotify:track:0lx2cLdOt3piJbcaXIV74f",
+    "tears for fears|||head over heels": "spotify:track:0aF9m87P8Tja3NUMv4DfHt",
     "tears for fears|||raoul and the kings of spain": "spotify:track:6X2Nnc5wBO5RNs7fdvvTk5",
     "tears for fears|||secret world": "spotify:track:51SArnWR334pQzBMf47F7Y",
     "tears for fears|||shout": "spotify:track:2gQaQUhDCNGfBVXTvxAmXQ",
@@ -3166,7 +3168,7 @@
     "retry_after": 21137
   },
   "live_day": "2026-10-05",
-  "live_time": "06:28",
+  "live_time": "06:57",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3423,6 +3425,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:0aF9m87P8Tja3NUMv4DfHt",
+    "spotify:track:7HdXRMw14roDx2a0COWk3M",
     "spotify:track:4kOfxxnW1ukZdsNbCKY9br",
     "spotify:track:0pMes0wm1nJ9L47Fbr4QWE",
     "spotify:track:63ba44YYARGVxIRlBnm84A",
