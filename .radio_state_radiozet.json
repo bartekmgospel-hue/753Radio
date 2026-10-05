@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-10-06T00:29:30+00:00",
   "keys": {
     "3 doors down|||here without you": "spotify:track:3NLrRZoMF0Lx6zTlYqeIo4",
     "4 the cause|||stand by me": "spotify:track:7oqvT7zwySTA2BjDVyXZFD",
@@ -716,6 +716,7 @@
     "vinai le pedre|||i was made": "spotify:track:0ieEZjHQO5eq9Uad7opItK",
     "vinai vamero|||rise up": "spotify:track:46lyJh9GYmWsHez3EsvmAx",
     "vito bambino zalia|||decyzje": "spotify:track:4LMQdvzEt5z4D14Rr2frwH",
+    "vize laniia|||stars": "spotify:track:0TId5TSbdcBP32haUV4Aet",
     "walk the moon|||shut up and dance": "spotify:track:4kbj5MwxO1bq9wjT5g9HaA",
     "wally lopez jamie scott|||you can t stop the beat": "spotify:track:2iecfcEmOhwzKNGNSiSdGU",
     "welshly arms|||legendary": "spotify:track:2bDENJyfbxj0neGiXUFvIX",
@@ -740,11 +741,11 @@
     "zbigniew wodecki|||lubie wracac tam gdzie bylem": "spotify:track:4sHTqR2RQGsH5pSFqtXroU"
   },
   "last_429": {
-    "at": "2026-10-04T18:29:19+00:00",
+    "at": "2026-10-05T12:29:19+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 21240
+    "retry_after": 43206
   },
   "live_day": "2026-10-05",
   "live_time": "13:27",
@@ -763,7 +764,9 @@
     "tabb sound n grace|||na pewno": "2026-10-02"
   },
   "pending_backfill": [],
-  "pending_live": [],
+  "pending_live": [
+    "spotify:track:0TId5TSbdcBP32haUV4Aet"
+  ],
   "playlist_id": "2aFGEJhzTzE8lCUkzJt5Xs",
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
