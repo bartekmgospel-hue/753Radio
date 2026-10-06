@@ -1329,6 +1329,7 @@
     "tony bennett|||blue velvet": "spotify:track:1icxduZe57KTaogd6BGfxV",
     "tora|||jaigantic": "spotify:track:1YsLYPLUclrIGUSQ5sVs68",
     "tora|||too much": "spotify:track:1Bb8NUOSX6jEdjLtR5TEuQ",
+    "tourist|||kin": "spotify:track:3RID7FNOsH3XqUcEsgpq5v",
     "tove lo sg lewis|||heat": "spotify:track:3Du9k9oZz7DJCMZviju2lD",
     "tropez|||all i need": "spotify:track:1CCdYFFNFMEBvPQneNasBS",
     "troye sivan|||honey": "spotify:track:0GMZYC6lcrpnwjDiEtDO8i",
@@ -1345,6 +1346,7 @@
     "two door cinema club|||everybody s cool": "spotify:track:66YV5WPbSqEZsM6WwShkEM",
     "tyla|||that girl": "spotify:track:7vn1jku0IydU4cVGm5C9lF",
     "unusual demont|||amber": "spotify:track:6EIh7qGQxcJL15DqmuXcYK",
+    "vagabon|||carpenter": "spotify:track:5ZrlyBB1F19Cj1wsTDZNOr",
     "valley|||bop ba": "spotify:track:2kohdOn9SEqiWlkIkOChy2",
     "vampire weekend|||mary boone": "spotify:track:6OjwIdLlkjCLuOThOwODEY",
     "vbnd katie tupper soulmate collective|||breathe me in": "spotify:track:5J0rGd644eAC5CPJhMm0uz",
@@ -1416,7 +1418,7 @@
     "retry_after": 47523
   },
   "live_day": "2026-10-06",
-  "live_time": "05:17",
+  "live_time": "06:14",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "all over again|||jesse gold": "2026-09-24",
@@ -1469,6 +1471,7 @@
     "mary j blidge|||be without you": "2026-10-01",
     "metronomy biig piig|||405": "2026-09-24",
     "michale coolins|||nothing wrong with holding on": "2026-09-19",
+    "midnight mystery cllub|||true love": "2026-10-06",
     "miloe vagabond jamila woods|||winona": "2026-09-23",
     "mindchatter|||night googles": "2026-10-03",
     "moon boots|||keep the faith": "2026-09-19",
@@ -1510,6 +1513,8 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:5ZrlyBB1F19Cj1wsTDZNOr",
+    "spotify:track:3RID7FNOsH3XqUcEsgpq5v",
     "spotify:track:3InG9qXfDFKfDrzzUJh6tD",
     "spotify:track:4gzI4ztYkEmfKeAbtfwoOw",
     "spotify:track:7yenEnOwfk6u5wxhKz7ZuC",
