@@ -125,6 +125,7 @@
     "bruno mars|||locked out of heaven": "spotify:track:3w3y8KPTfNeOKPiqUTakBh",
     "bruno mars|||marry you": "spotify:track:3lzz9rlIb4Ye5A3x1o3dhd",
     "bryan adams|||cloud number 9": "spotify:track:1sdz3nsrkX4Yo42KLPrmYV",
+    "bryan adams|||everything i do i do it for you": "spotify:track:1Eb90nmqTrxylKFhcUzW8P",
     "bryan adams|||heaven": "spotify:track:7Ewz6bJ97vUqk5HdkvguFQ",
     "bryska|||obca": "spotify:track:1mM3zG72lDhGcCE8CG9XT7",
     "c bool|||never go away": "spotify:track:4a7wboYJARS69GtWJL0Szy",
@@ -666,6 +667,7 @@
     "szefner|||i mi g upio jest": "spotify:track:52I8LpD6tmsGObs5WKgID0",
     "t love|||ajrisz": "spotify:track:6WgO2rYOdgdOvQBywjyhre",
     "t love|||chlopaki nie placza": "spotify:track:7DfzAqrWgfALb0sAiKITyn",
+    "t love|||nie nie nie": "spotify:track:4mT09JxALjAoUpMplfd8nQ",
     "t love|||warszawa": "spotify:track:5lFmuFUZM6vF36fzjnJZSu",
     "taconafide|||tamagotchi": "spotify:track:6jGFzqqW8VBBf4oLhnP4A6",
     "taio cruz|||break your heart": "spotify:track:7mDCg8XTEyDNPzC5Jdt7mu",
@@ -760,7 +762,7 @@
     "retry_after": 43206
   },
   "live_day": "2026-10-06",
-  "live_time": "17:25",
+  "live_time": "18:23",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-05",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -781,6 +783,8 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:4mT09JxALjAoUpMplfd8nQ",
+    "spotify:track:1Eb90nmqTrxylKFhcUzW8P",
     "spotify:track:1OrQTsLlcOJRM27CAj0AGd",
     "spotify:track:4wswaG5vmNINMZcVBsAyBP",
     "spotify:track:3dYD57lRAUcMHufyqn9GcI",
