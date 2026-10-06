@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": "2026-10-06T00:29:30+00:00",
+  "blocked_until": null,
   "keys": {
     "3 doors down|||here without you": "spotify:track:3NLrRZoMF0Lx6zTlYqeIo4",
     "4 the cause|||stand by me": "spotify:track:7oqvT7zwySTA2BjDVyXZFD",
@@ -170,6 +170,7 @@
     "daria zawia ow taco hemingway|||supro": "spotify:track:0DDsdWwUGvwMsIl62fFyXQ",
     "daria zawia ow|||ballada o niej": "spotify:track:2A4d6vp3I61jSEv8Ty9c8x",
     "daria zawia ow|||hej hej": "spotify:track:1Rn0B4zeGbcttEct0N1XpP",
+    "daria zawia ow|||szarowka": "spotify:track:2HoUttBjnYCtEoXsNbOXam",
     "daria zawia ow|||z amane serce jest ok": "spotify:track:4588ZH7944EUrbDvdkr2sA",
     "daria|||paranoia": "spotify:track:01AnaOESGIDMJiTXrvAY1M",
     "david guetta alok stick figure|||run run river angels above me": "spotify:track:0Xe2FjyQndr2LsRD820iR3",
@@ -242,6 +243,7 @@
     "emo|||nie mowi a nic": "spotify:track:5RFe2B5H3E3ZNYL0gn04JU",
     "enej|||idealny sen": "spotify:track:2pQxFcuc7ZJzFguXjNhF8M",
     "enej|||radio hello": "spotify:track:0Zsbt1EHAREOHKplOjDwgz",
+    "enej|||skrzydlate rece": "spotify:track:7ljM68o858hnx5UVXMxA4D",
     "enrique iglesias descemer bueno zion lennox|||subeme la radio": "spotify:track:7nKBxz47S9SD79N086fuhn",
     "enrique iglesias sean paul bueno de zona|||bailando": "spotify:track:2EHu09nPab1dk0jySbkjEr",
     "eric carmen|||hungry eyes": "spotify:track:3sTSo8X7UCDTVUVMJ63LJO",
@@ -254,6 +256,7 @@
     "ewa farna|||znak": "spotify:track:558wN9WTjR9QNIrMZEkzKE",
     "ewelina lisowska|||w strone s onca": "spotify:track:5PZwG06x7sQ5Rv1sxvezbo",
     "fast boy|||music sounds": "spotify:track:3OLpCe3H6oGcEsvEjNDXHm",
+    "feel damian skoczyk|||w blasku s onca": "spotify:track:4r43uk1VCa1DIIs8hyreUa",
     "feel|||a gdy jest juz ciemno": "spotify:track:43EA6WfNRligIsFL9Ui6pH",
     "feel|||no pokaz na co cie stac": "spotify:track:1VS9xug6sikx03xplA3JbX",
     "feel|||swoje szczescie znam": "spotify:track:0BsQm2iFzKTzAemliJtu8x",
@@ -274,6 +277,7 @@
     "freddie mercury|||living on my own": "spotify:track:6pnji1k0j0b2mf6pQXYCcQ",
     "fukaj vito bambino|||zabiore cie tam": "spotify:track:6LrArcAWVYhqtl68a7Wt1U",
     "fukaj zalia|||wszystko znika przy tobie": "spotify:track:5v8Qtcl7ljCR2kyf8oo3zA",
+    "gabriel fleszar|||kropla deszczu": "spotify:track:1puMLEjNWmMg8e3xn1znGX",
     "genesis|||jesus he knows me": "spotify:track:1nRZSvB2IKNmuqr85bhfnJ",
     "george ezra|||green green grass": "spotify:track:4mZ8kqtUWbULwSOUQPB44S",
     "george ezra|||shotgun": "spotify:track:4ofwffwvvnbSkrMSCKQDaC",
@@ -286,6 +290,7 @@
     "gossip|||move in the right direction": "spotify:track:4hjfOnzzrrrDAGt286htU6",
     "gromee ania dabrowska abradab|||powiedz mi kto w tych oczach mieszka": "spotify:track:7sScaqtzdQQmV0sdkPCYsu",
     "grzegorz hyzy tabb|||wstaje": "spotify:track:535CAvbJjbH5WYpIm085Qn",
+    "grzegorz hyzy|||krol nocy": "spotify:track:4sFIoEVNkToc8oyBv09GKO",
     "guns n roses|||don t cry": "spotify:track:6mAfxuTuRz1FWfriiFf57y",
     "guns n roses|||knockin on heavens door": "spotify:track:4JiEyzf0Md7KEFFGWDDdCr",
     "guru josh project|||infinity 2008": "spotify:track:6hTcRuSaaTNwlyIYkkMpWX",
@@ -418,6 +423,7 @@
     "louis armstrong|||what a wonderful world": "spotify:track:29U7stRjqHU6rMiS8BfaI9",
     "lp|||lost on you": "spotify:track:40x5K8xyIWVmSeUrYjj0os",
     "luis fonsi demi lovato|||echame la culpa": "spotify:track:0mlAOSILGRys2IbvyOT5VJ",
+    "lukasz zagrobelny|||nieprawda": "spotify:track:6nc8pvVJlEAz1UFpfQ9oHt",
     "lutricia mcneal|||someone loves you honey": "spotify:track:7d9M7srndKOH0bwdQjHcZE",
     "lykke li|||i follow rivers": "spotify:track:3WlVUkLgGYByiGj8gF4erq",
     "maanam|||cykady na cykladach": "spotify:track:6Uk3pnkFa0eohjMEl95Iz8",
@@ -747,8 +753,8 @@
     "reason": "QUOTA_EXCEEDED",
     "retry_after": 43206
   },
-  "live_day": "2026-10-05",
-  "live_time": "13:27",
+  "live_day": "2026-10-06",
+  "live_time": "02:58",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-05",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -764,13 +770,18 @@
     "tabb sound n grace|||na pewno": "2026-10-02"
   },
   "pending_backfill": [],
-  "pending_live": [
-    "spotify:track:0TId5TSbdcBP32haUV4Aet"
-  ],
+  "pending_live": [],
   "playlist_id": "2aFGEJhzTzE8lCUkzJt5Xs",
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:2HoUttBjnYCtEoXsNbOXam",
+    "spotify:track:6nc8pvVJlEAz1UFpfQ9oHt",
+    "spotify:track:4sFIoEVNkToc8oyBv09GKO",
+    "spotify:track:4r43uk1VCa1DIIs8hyreUa",
+    "spotify:track:1puMLEjNWmMg8e3xn1znGX",
+    "spotify:track:7ljM68o858hnx5UVXMxA4D",
+    "spotify:track:0TId5TSbdcBP32haUV4Aet",
     "spotify:track:558wN9WTjR9QNIrMZEkzKE",
     "spotify:track:2XaWRFfWAopw4MjhWzuJ15",
     "spotify:track:0TDLuuLlV54CkRRUOahJb4",
