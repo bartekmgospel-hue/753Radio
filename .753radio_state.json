@@ -924,6 +924,7 @@
     "erykah badu|||hello": "spotify:track:1rqduvolf1CVHSzY519bPp",
     "eskimo joe|||black fingernails red wine": "spotify:track:5Ss3kMmL9eyPhWWUwScW4C",
     "ethel cain|||american teenager": "spotify:track:4ltqfN12ohaVZdM6C45gMg",
+    "ethel cain|||gibson girl": "spotify:track:02yzNsWcv7BtITeIoIqeVU",
     "etnika|||valletta": "spotify:track:70jzWCUAoZZfpBr9YYQ0xh",
     "eurythmics annie lennox dave stewart|||missionary man": "spotify:track:1LgZRmGoSyiOOWxjTjMJy0",
     "eurythmics|||here comes the rain again": "spotify:track:3ZooowctgcKwNx7XtRK3W0",
@@ -965,6 +966,7 @@
     "fat dog|||peace song": "spotify:track:2FPcTfECQrZviBAarAHv1f",
     "fat dog|||smile and wave": "spotify:track:62pDC6Ogri4kUyxLrXBB4l",
     "fat joe|||the aroma": "spotify:track:5VbBgj2Tl6qXShSSgaRClk",
+    "fat white family|||visions of pain": "spotify:track:3MgHz0lvMFOJcXBv9nrERg",
     "fatboy slim the rolling stones|||satisfaction skank": "spotify:track:1euu4whq0Na9HiccGK1Dlz",
     "fatboy slim|||praise you": "spotify:track:1FS21kclHQ2vVi3U1ZxETc",
     "father john misty|||main man": "spotify:track:0gRg9731yHmCRdAc1to2K1",
@@ -3607,7 +3609,10 @@
     "zo christian|||s uchamy radia 357": "2026-09-13"
   },
   "pending_backfill": [],
-  "pending_live": [],
+  "pending_live": [
+    "spotify:track:02yzNsWcv7BtITeIoIqeVU",
+    "spotify:track:3MgHz0lvMFOJcXBv9nrERg"
+  ],
   "playlist_id": "6rDKLhMlP4IGNOIhdCHWX4",
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
