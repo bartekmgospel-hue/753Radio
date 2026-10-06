@@ -740,6 +740,7 @@
     "lainey wilson john mayer|||phone keys wallet": "spotify:track:4JiYE3QxSX59KSx9Q4pHWa",
     "lana del rey dot major|||say yes to heaven": "spotify:track:0aVp8gdrXFsidPm0r0NggP",
     "lana del rey|||doin time": "spotify:track:0Oqc0kKFsQ6MhFOLBNZIGX",
+    "lana del rey|||high by the beach": "spotify:track:7g3htkaLz4ETFn0cifwM3y",
     "lana del rey|||mariners apartment complex": "spotify:track:6OG05bPAwUuV3OMvy2Vy1P",
     "lana del rey|||national anthem": "spotify:track:7cNz65PfCatRXoX7QtqM2A",
     "lana del rey|||radio": "spotify:track:3taCbWWTilb7eNMsAzOBq4",
@@ -1002,6 +1003,7 @@
     "ofelia|||meteoryt": "spotify:track:6BAmvsQMbcdGY4JhRPcosc",
     "ofelia|||samuraj helena": "spotify:track:5VJ7IVUdighexMpAIQ2rwr",
     "oh wonder|||lose it": "spotify:track:2QgNcjwEn0vGmTommfszQd",
+    "oh wonder|||technicolour beat": "spotify:track:5pLpkaIRobcvPnUmclNv6o",
     "oklou|||god s chariots": "spotify:track:6xoKWTiw0jVO3IvEKLxMSs",
     "olive|||you re not alone": "spotify:track:0L5oYrkC94ArMJDmjtvJWC",
     "olivia dean leon bridges|||the hardest part": "spotify:track:1fXALB3kb14ngMRGNdV5wD",
@@ -1434,7 +1436,7 @@
     "retry_after": 47523
   },
   "live_day": "2026-10-06",
-  "live_time": "12:13",
+  "live_time": "13:17",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "all over again|||jesse gold": "2026-09-24",
@@ -1515,7 +1517,7 @@
     "terence blanchard diane reeves|||let s get lost": "2026-10-06",
     "the muthafunkaz|||oh i": "2026-09-20",
     "the normalites|||the sun is rising": "2026-09-25",
-    "tiny habits lizzy mcalpine|||for sale sigh": "2026-09-24",
+    "tiny habits lizzy mcalpine|||for sale sigh": "2026-10-06",
     "trinity fm|||sos": "2026-09-25",
     "troye sivan|||in my room": "2026-10-03",
     "umi|||whish that i could": "2026-10-01",
@@ -1531,6 +1533,8 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:5pLpkaIRobcvPnUmclNv6o",
+    "spotify:track:7g3htkaLz4ETFn0cifwM3y",
     "spotify:track:40tRJ8bMkIkXh8vhHKQsoX",
     "spotify:track:0aTsSP2JiY53i0uZM24Zwp",
     "spotify:track:5PJH1U5Iie893v48Fl9yaC",
