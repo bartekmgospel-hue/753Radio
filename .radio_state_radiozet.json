@@ -361,6 +361,7 @@
     "kayah|||testosteron": "spotify:track:4E2Bg0ui1bMfAsvXiMMymy",
     "ke ha|||tik tok": "spotify:track:0HPD5WQqrq7wPWR7P7Dw1i",
     "kelly clarkson|||behind these hazel eyes": "spotify:track:0AKAxdNkwq9ZxRdW1DN9zW",
+    "kelly clarkson|||stronger what doesn t kill you": "spotify:track:1nInOsHbtotAmEOQhtvnzP",
     "kombii|||awinion": "spotify:track:1kq7HYAGUDNEdh6K2LpnjW",
     "kombii|||pokolenie": "spotify:track:0KvWatgAJoo6FcPEztFyk5",
     "kombii|||sen sie spelni": "spotify:track:4RJjvFYCUBX6rfzP2QKYc2",
@@ -754,7 +755,7 @@
     "retry_after": 43206
   },
   "live_day": "2026-10-06",
-  "live_time": "03:57",
+  "live_time": "05:28",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-05",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -775,6 +776,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:1nInOsHbtotAmEOQhtvnzP",
     "spotify:track:2HoUttBjnYCtEoXsNbOXam",
     "spotify:track:6nc8pvVJlEAz1UFpfQ9oHt",
     "spotify:track:4sFIoEVNkToc8oyBv09GKO",
