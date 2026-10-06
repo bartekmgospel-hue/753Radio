@@ -1271,6 +1271,7 @@
     "jack garratt|||ready steady go": "spotify:track:44pFuCNOk1FG9NvFu1Dk1b",
     "jack savoretti natalie imbruglia|||ultime parole": "spotify:track:5SiDGefYWpBij1RMHSF7qh",
     "jack savoretti|||tempting fate": "spotify:track:2lxYhDhgFTqF1vfzBXARjh",
+    "jack savoretti|||you don t have to say you love me": "spotify:track:2VPhNiZZZS0tmVukzgBoOA",
     "jack white|||dollar bill": "spotify:track:2HBr5tc2E0h1SHZSc26EGo",
     "jackie evans|||leave you": "spotify:track:6bPruceFVYOpOXs4IAquD2",
     "jackson browne|||my personal revenge": "spotify:track:0BDg2NgpJqvehpaw52ZDCT",
@@ -3269,7 +3270,7 @@
     "retry_after": 48485
   },
   "live_day": "2026-10-06",
-  "live_time": "08:57",
+  "live_time": "09:29",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3424,6 +3425,7 @@
     "muzyka prywatna|||18 56": "2026-09-14",
     "mykki blanco|||french lessons": "2026-10-03",
     "nick cave the bad seeds|||i ll love you till the end of the world": "2026-09-23",
+    "noah kahan the hunger games|||draw you out": "2026-10-06",
     "nora orlandi|||the strange vice m 22": "2026-09-15",
     "ona i webber|||kaloryfer cenzura": "2026-09-26",
     "orkiestra vincenta bella|||airport love theme": "2026-09-15",
@@ -3436,6 +3438,7 @@
     "plac na rozdrozu|||21 55": "2026-09-17",
     "plac na rozdrozu|||21 59": "2026-09-14",
     "planeta non fiction|||16 01": "2026-09-14",
+    "poco|||crazy lover": "2026-10-06",
     "pod os ona nieba|||18 55": "2026-09-15",
     "popo udniowka 357|||16 21": "2026-09-15",
     "popo udniowka 357|||16 48": "2026-09-14",
@@ -3534,6 +3537,7 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:2VPhNiZZZS0tmVukzgBoOA",
     "spotify:track:7pd0hJ81EOID3FVU1JRA1S",
     "spotify:track:3fpfQC77x3uwESSJ6VmUKM",
     "spotify:track:35D6qgHpT5W0xlFWPDaRHE",
