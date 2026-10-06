@@ -389,6 +389,7 @@
     "igor herbut|||tak ma byc": "spotify:track:6sTXT19bqHDitCQtrwykTm",
     "igo|||cud": "spotify:track:5hhMCMRnKXW8IaUgKt4TZd",
     "illusion|||swiata skraj": "spotify:track:4dtUkJ9CROPrAEaIx8QLn5",
+    "imagine dragons|||radioactive": "spotify:track:62yJjFtgkhUrXktIoSjgP2",
     "imagine dragons|||whatever it takes": "spotify:track:6Qn5zhYkTa37e91HC1D7lb",
     "india arie|||can i walk with you": "spotify:track:3tPKv5HKysXXwSwMPTittJ",
     "inri|||noce i dni": "spotify:track:3xeRbq7TIfdb8uBWKhLnJd",
@@ -403,6 +404,7 @@
     "izabela trojanowska|||wszystko czego dzis chce": "spotify:track:7Gykqx9u74ZTSJtZxUzNQk",
     "jack bruce|||a question of time": "spotify:track:79loQVjzzCFDEv6VDGafdL",
     "jack savoretti|||deep waters": "spotify:track:0vOL0WHewt9YgcF0HBdXBr",
+    "jack white|||dollar bill": "spotify:track:2HBr5tc2E0h1SHZSc26EGo",
     "jacko brango jamal|||endorfiny": "spotify:track:7rSpk47uHUv87krhd8RjBZ",
     "jacko brango krzysztof zalewski|||nie umrzemy m odo": "spotify:track:1i4N5SqAFgitckZMo7HHdv",
     "jacko brango radek baranovsky|||mamy to we krwi": "spotify:track:5lbho7tHrT9Z9CBR9cDMDe",
@@ -1250,7 +1252,7 @@
     "retry_after": 46081
   },
   "live_day": "2026-10-06",
-  "live_time": "18:06",
+  "live_time": "18:52",
   "misses": {
     "armand hammer the alchemist|||falling out the sky": "2026-10-02",
     "atmosphere|||wyrzucenie": "2026-10-01",
@@ -1323,6 +1325,8 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:2HBr5tc2E0h1SHZSc26EGo",
+    "spotify:track:62yJjFtgkhUrXktIoSjgP2",
     "spotify:track:7f9mxxS8jOGmT5qYX8HjPz",
     "spotify:track:0WbMK4wrZ1wFSty9F7FCgu",
     "spotify:track:6Vz7vzOpCwKeSQlfViibuY",
