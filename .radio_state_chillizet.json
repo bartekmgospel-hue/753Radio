@@ -271,6 +271,7 @@
     "coco jones|||here we go uh oh": "spotify:track:5ShqaLCQm38x3Y1K4kQDqm",
     "coldplay|||all my love": "spotify:track:6iYxkBHyMpsgVxUgfy5fSx",
     "coldplay|||everglow": "spotify:track:5qfZRNjt2TkHEL12r3sDEU",
+    "coldplay|||karate kid": "spotify:track:0cZEkGxb0V9MbpzHzpKp9F",
     "coldplay|||magic": "spotify:track:23khhseCLQqVMCIT1WMAns",
     "coldplay|||viva la vida": "spotify:track:1mea3bSkSGXuIRvnydlB5b",
     "collect 200|||she waits": "spotify:track:1MMFfdW6IQIG2uttGFy3ad",
@@ -1389,6 +1390,7 @@
     "wynton marsalis septet|||mademoiselle d gascony": "spotify:track:3apWWxdtYF5VgkCThGNWIH",
     "wynton marsalis|||love and broken hearts": "spotify:track:0TwT4FzWHYkeagAHCJcNaq",
     "wynton marsalis|||trouble my soul": "spotify:track:6WNr2JoO6xZw7g4T6dl0RZ",
+    "yakul mereba|||company": "spotify:track:5Ynt1F94JfO3iwU7C8WgGY",
     "yann fontaine|||open your eyes": "spotify:track:5HPj0yTUFEFNia8SWgjq46",
     "yas vw|||be the one": "spotify:track:2gfq6lkuoodOjoyWrNgsmI",
     "yazmin lacey|||summer haze": "spotify:track:465QjZo1z1JAuLTTC7DnuK",
@@ -1423,7 +1425,7 @@
     "retry_after": 47523
   },
   "live_day": "2026-10-06",
-  "live_time": "07:12",
+  "live_time": "08:16",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "all over again|||jesse gold": "2026-09-24",
@@ -1518,6 +1520,8 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:0cZEkGxb0V9MbpzHzpKp9F",
+    "spotify:track:5Ynt1F94JfO3iwU7C8WgGY",
     "spotify:track:2mxQ3VWWk47YCo9RB2fkOk",
     "spotify:track:37uMiu52DbSIx3SJ3sGDow",
     "spotify:track:2sSAxZcas5gUhYBylKqAlQ",
