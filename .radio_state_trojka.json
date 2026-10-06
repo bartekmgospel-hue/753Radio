@@ -59,6 +59,7 @@
     "arctic monkeys|||do i wanna know": "spotify:track:5zDoSmh06F7kjXGIHFhQzh",
     "arctic monkeys|||one for the road": "spotify:track:6wNUBZNWFxdUGof6vkaykE",
     "arctic monkeys|||snap out of it": "spotify:track:0NdTUS4UiNYCNn5FgVqKQY",
+    "arctic monkeys|||why d you only call me when you re high": "spotify:track:086myS9r57YsLbJpU0TgK9",
     "arkayla|||vivian": "spotify:track:4nOZyZqzpEJmryrYWM0NoC",
     "armia|||jezeli": "spotify:track:0ubDProjF5ayjTQU8Ib9SD",
     "armia|||niezwyciezony": "spotify:track:21nze1BdML4XVAPOuLi1as",
@@ -927,6 +928,7 @@
     "spiety|||zapalenie przedrostka": "spotify:track:4QKpOoUpH3dctc7qhc2CV2",
     "spin doctors|||cleopatra s cat": "spotify:track:2XIqE0nhuX3GW8R45m7qEa",
     "springsteen bruce|||born to run": "spotify:track:6hTcuIQa0sxrrByu9wTD7s",
+    "springsteen bruce|||i m on fire": "spotify:track:3PzsbWSQdLCKDLxn7YZfkM",
     "starsailor|||four to the floor": "spotify:track:4UrHXNvA6u7Wb68nhjCK20",
     "steczkowska justyna|||dziewczyna szamana": "spotify:track:0KRBV74svbF62hwwriiiU9",
     "steczkowska justyna|||karuzela z madonnami": "spotify:track:26g33zVS2mTnNDQkCWRPB5",
@@ -1225,7 +1227,7 @@
     "retry_after": 46081
   },
   "live_day": "2026-10-06",
-  "live_time": "07:53",
+  "live_time": "09:18",
   "misses": {
     "armand hammer the alchemist|||falling out the sky": "2026-10-02",
     "atmosphere|||wyrzucenie": "2026-10-01",
@@ -1298,6 +1300,8 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:3PzsbWSQdLCKDLxn7YZfkM",
+    "spotify:track:086myS9r57YsLbJpU0TgK9",
     "spotify:track:4p1PizAGdglm2sVvPuFPWs",
     "spotify:track:6sGIMrtIzQjdzNndVxe397",
     "spotify:track:5owUBZncNT6vubQeahkCws",
