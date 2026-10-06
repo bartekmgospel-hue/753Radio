@@ -2323,6 +2323,7 @@
     "r e m|||don t go back to rockville": "spotify:track:40L98PfgjklCunX3Tycm48",
     "r e m|||drive": "spotify:track:3geRffSf6eAruhg23RkpKV",
     "r e m|||everybody hurts": "spotify:track:6PypGyiu0Y2lCDBN1XZEnP",
+    "r e m|||get up": "spotify:track:6OCSve3nyQ5QPODLBa7I3X",
     "r e m|||it s the end of the world as we know it and i feel fine": "spotify:track:2oSpQ7QtIKTNFfA08Cy0ku",
     "r e m|||losing my religion": "spotify:track:31AOj9sFz2gM0O3hMARRBx",
     "r e m|||the outsiders": "spotify:track:2FD73lY4vibsp0tvAaxk02",
@@ -2899,6 +2900,7 @@
     "the raconteurs|||steady as she goes": "spotify:track:4xlEKYv7HmC8zXoJIbpZKM",
     "the ramona flowers|||brighter": "spotify:track:2n0OaCDQGsDrDTU1EJObCz",
     "the raveonettes|||heartbreak stroll": "spotify:track:1VoohZVlueQqVq01QkFXD2",
+    "the red clay strays|||wanna be loved": "spotify:track:4boa7Bv0VijpxoP1SHjjUb",
     "the revivalists|||holy": "spotify:track:6MJRfLKV33J4LRCuAes8zc",
     "the righteous brothers|||unchained melody": "spotify:track:2qhASBzpbFhPRtrnZ5lLnz",
     "the rockyts|||everywhere": "spotify:track:60wiB9jxgF3yMj67T9p5ls",
@@ -3173,6 +3175,7 @@
     "wilki|||urke": "spotify:track:0DXi34kEIXj6YPxrEfsFa7",
     "william devaughn|||be thankful for what you got": "spotify:track:0kg80JJ3Esi4y6XskIa3vA",
     "william duvall|||this is mongol warrior souls": "spotify:track:2dKnaqHXM8x7lT8JNNa1X5",
+    "william fitzsimmons|||god only knows": "spotify:track:5KKc9VzVUMp4wlp31TkS6R",
     "william fitzsimmons|||over you": "spotify:track:6P7Nxv7foY39JazPeANQHm",
     "wiraszko|||dni ktore przed nami": "spotify:track:3qmIGvh3yQHnBzNaG2Wb9M",
     "wiraszko|||zawsze tam gdzie ja": "spotify:track:6mccvo32eUJuz8wWgoaHfX",
@@ -3247,7 +3250,7 @@
     "retry_after": 48485
   },
   "live_day": "2026-10-06",
-  "live_time": "05:01",
+  "live_time": "05:28",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3512,6 +3515,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:4boa7Bv0VijpxoP1SHjjUb",
+    "spotify:track:6OCSve3nyQ5QPODLBa7I3X",
+    "spotify:track:5KKc9VzVUMp4wlp31TkS6R",
     "spotify:track:5FDh0G5oQ2UD9JxWiDCT1x",
     "spotify:track:4VhbsGXRGDncpi79aiX8eE",
     "spotify:track:6yLX8QnxlnEqZfs3YKCfjF",
