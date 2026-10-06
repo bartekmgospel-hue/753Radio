@@ -282,6 +282,7 @@
     "genesis|||jesus he knows me": "spotify:track:1nRZSvB2IKNmuqr85bhfnJ",
     "george ezra|||green green grass": "spotify:track:4mZ8kqtUWbULwSOUQPB44S",
     "george ezra|||shotgun": "spotify:track:4ofwffwvvnbSkrMSCKQDaC",
+    "george harrison|||got my mind set on you": "spotify:track:4wswaG5vmNINMZcVBsAyBP",
     "george michael|||careless whisper": "spotify:track:5WDLRQ3VCdVrKw0njWe5E5",
     "gibbs igo 4money|||ostatni dzien lata": "spotify:track:6FJb2Knd2tn504K1durCVt",
     "gipsy kings|||volare": "spotify:track:4r3yMCybkTXxUpfQMfWjTW",
@@ -300,6 +301,7 @@
     "hania kuzimowicz|||trzy razy bardziej": "spotify:track:6tYIWwVAC9xTnG9RaO7hG5",
     "happysad|||zanim pojde": "spotify:track:6LuOCaMHFBfaR1MLKNHhMA",
     "harry styles|||as it was": "spotify:track:4Dvkj6JhhA12EX05fT7y2e",
+    "hozier|||take me to church": "spotify:track:3dYD57lRAUcMHufyqn9GcI",
     "hozier|||too sweet": "spotify:track:3HMY0r2BAdpasXMY8rseR0",
     "huntr x ejae audrey nuna rei ami kpop demon hunters cast|||golden": "spotify:track:5Cp75TUMrHF6c8xbhdligS",
     "hurts|||wonderful life": "spotify:track:2pxpJ9lmbqPEIk3M7ezLR0",
@@ -757,7 +759,7 @@
     "retry_after": 43206
   },
   "live_day": "2026-10-06",
-  "live_time": "09:28",
+  "live_time": "10:29",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-05",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -778,6 +780,8 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:4wswaG5vmNINMZcVBsAyBP",
+    "spotify:track:3dYD57lRAUcMHufyqn9GcI",
     "spotify:track:04idsTmqJHBSUtJhRMK2ko",
     "spotify:track:4OSBTYWVwsQhGLF9NHvIbR",
     "spotify:track:1nInOsHbtotAmEOQhtvnzP",
