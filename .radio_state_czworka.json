@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": "2026-10-06T00:29:30+00:00",
+  "blocked_until": null,
   "keys": {
     "1 800 girls|||eye contact": "spotify:track:4i8m2UtuvXx4qntgfcNHjA",
     "1 800 girls|||there 4 u": "spotify:track:2393YgNsuZvNlYVZ73KhsZ",
@@ -420,6 +420,7 @@
     "jorja smith|||the way it was": "spotify:track:4U2CDe6ldkhHArb060Dvwf",
     "joshua idehen|||it always was": "spotify:track:5AIvJpEC5ngQdVzlcrsMJN",
     "joshua idehen|||this is the place": "spotify:track:3zN81pbJLjBytifqISmOli",
+    "joulie fox|||dreszcze": "spotify:track:5euRuSutE6dvl8yPG18x54",
     "joy crookes|||perfect crime": "spotify:track:6AiKuKk65VfgMUR9DpW9xG",
     "jt|||numb": "spotify:track:2GeHPJJYtU5ABDo0bS0Jou",
     "julia posnik|||julia w miescie": "spotify:track:6600DTr3sI2l9cJ2NaSJdR",
@@ -742,6 +743,7 @@
     "red hot chili peppers|||scar tissue": "spotify:track:1G391cbiT3v3Cywg8T7DM1",
     "rejjie snow|||d r u g s": "spotify:track:7oNWGkCMa3X1ePKEqMiAp4",
     "rihanna|||friend of mine from the smurfs movie soundtrack": "spotify:track:0Zdm3D1H3cH51PPZfgERcw",
+    "rihanna|||work": "spotify:track:72TFWvU3wUYdUuxejTTIzt",
     "rikky disco|||summer s gone": "spotify:track:26MwK2jbvUjt2sw9jPoZ8g",
     "riva starr close counters|||dizzy": "spotify:track:29sqddSy1ikBscZSztp1f9",
     "robyn|||sexistential arca s take edited": "spotify:track:6EqCdqx5oY3J9PUsq54AMp",
@@ -992,8 +994,8 @@
     "reason": "QUOTA_EXCEEDED",
     "retry_after": 45358
   },
-  "live_day": "2026-10-05",
-  "live_time": "10:48",
+  "live_day": "2026-10-06",
+  "live_time": "00:57",
   "misses": {
     "abradab|||rapoweziarno cls waxremix": "2026-09-20",
     "adi feher|||game of hope original mix": "2026-10-03",
@@ -1078,6 +1080,7 @@
     "eskaubei mr krime|||istnienie poszczegolne": "2026-09-19",
     "eu reu me condeno|||helio matheus": "2026-09-24",
     "fabijanski|||supernova": "2026-10-02",
+    "fcukers|||play me clean radio edit": "2026-10-06",
     "flirtini|||ostatni raz": "2026-10-05",
     "fundido|||do it again seedy j edit": "2026-09-21",
     "ghost killer track|||for the mandem": "2026-10-02",
@@ -1117,7 +1120,7 @@
     "kaz ba agane|||gdybym by zulem": "2026-10-02",
     "keke|||znachor prod nody beats": "2026-09-22",
     "kola beldy|||hanina ranina": "2026-10-02",
-    "kosa|||smaki zycia": "2026-09-19",
+    "kosa|||smaki zycia": "2026-10-06",
     "krzysztof komeda quintet kattorna|||krzysztof komeda quintet kattorna": "2026-09-21",
     "ks kuba|||wybieraj dobro": "2026-09-20",
     "ksi|||smoke n mirrors": "2026-10-03",
@@ -1253,7 +1256,13 @@
     "zippy ogar|||karma cashback prod joachim gedz gunz": "2026-09-18"
   },
   "pending_backfill": [],
-  "pending_live": [
+  "pending_live": [],
+  "playlist_id": "6cqTNDXmTPBxGb6JePIA90",
+  "playlist_name": "Czwórka",
+  "source_generation": "odsluchane-multi-v1.1:49",
+  "uris": [
+    "spotify:track:5euRuSutE6dvl8yPG18x54",
+    "spotify:track:72TFWvU3wUYdUuxejTTIzt",
     "spotify:track:3rImxaWc1BK04EcyZiCEyn",
     "spotify:track:27BV2iU8Nvw9njXuKrTEPw",
     "spotify:track:3j7BhP71ROCpc9R3w9P9UE",
@@ -1263,12 +1272,7 @@
     "spotify:track:4djSKkGTA9ZtI22q96L1Tn",
     "spotify:track:1SIXMGcsAeA6sNxaY1EG3O",
     "spotify:track:35lxsi9U65JKT03Voj2Dl5",
-    "spotify:track:6k86azpfjntb6mESMkLNEa"
-  ],
-  "playlist_id": "6cqTNDXmTPBxGb6JePIA90",
-  "playlist_name": "Czwórka",
-  "source_generation": "odsluchane-multi-v1.1:49",
-  "uris": [
+    "spotify:track:6k86azpfjntb6mESMkLNEa",
     "spotify:track:3DFy2d3d6LafdiMLXFVUlq",
     "spotify:track:26MwK2jbvUjt2sw9jPoZ8g",
     "spotify:track:3Gxh2bva7DMQzE5dFmjsQV",
