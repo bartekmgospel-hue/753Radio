@@ -2221,6 +2221,7 @@
     "peter frampton|||baby i love your way live": "spotify:track:1ksayCHVLH4eKFm43GFokU",
     "peter gabriel|||face the wall dark side mix": "spotify:track:1g8rsnKJGTQmtUGArw9bZa",
     "peter gabriel|||red rain": "spotify:track:3T855kuZheheMdFvCo4txV",
+    "peter gabriel|||road to joy bright side mix": "spotify:track:1ESnL2ni8yDFuWa2vBlyWh",
     "peter murphy|||a strange kind of love": "spotify:track:576qrXI5zvgDtURxJlziPK",
     "peter murphy|||all night long": "spotify:track:7gWiECl6tbN1dzCA3SIsx3",
     "peter murphy|||marlene dietrich s favourite poem": "spotify:track:7eomB5Bx21bXOU8RrupaLN",
@@ -3258,7 +3259,7 @@
     "retry_after": 48485
   },
   "live_day": "2026-10-06",
-  "live_time": "06:28",
+  "live_time": "06:55",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3523,6 +3524,7 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:1ESnL2ni8yDFuWa2vBlyWh",
     "spotify:track:6WgO2rYOdgdOvQBywjyhre",
     "spotify:track:1nAPKog3GcO5C7mD6c35j2",
     "spotify:track:1taSXrzC6NlRs9iRrwrKx2",
