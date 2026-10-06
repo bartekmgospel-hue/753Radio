@@ -279,6 +279,7 @@
     "beach weather|||seth cohen": "spotify:track:2XFC1OkE0EPI13rV411xh2",
     "bear s den|||red earth pouring rain": "spotify:track:6NoEG5usxzcTuF6GWoFUDT",
     "beastie boys|||so what cha want": "spotify:track:25pl7kV4OxafIc9wPAggYf",
+    "beastie boys|||you gotta fight for your right to party": "spotify:track:2QvIOJ4EIz4MIwWRpKG4mi",
     "beauty in chaos|||home": "spotify:track:6iGQZAMvIIGHM1Hz1d0Bls",
     "beauty in chaos|||the long goodbye": "spotify:track:5d6CTd3IkMTZwVfyG5hYX6",
     "beck|||disappearing act": "spotify:track:5HzWItiJH85G6OSs9h81uY",
@@ -1731,6 +1732,7 @@
     "madonna|||bad girl": "spotify:track:2tySjBBWqam7oaBUZ26oNL",
     "madonna|||danceteria": "spotify:track:3a49TEtsbeAgzZAQH9WiDZ",
     "madonna|||fragile": "spotify:track:6NPZtCGtJmfsgb5FrVKedJ",
+    "madonna|||gambler": "spotify:track:5j9vqiVm3Rk9rW5WFGtT27",
     "madonna|||into the groove": "spotify:track:3y2Y3Bc6GDxAWAMIpbW7RU",
     "madonna|||like a virgin": "spotify:track:1ZPlNanZsJSPK5h9YZZFbZ",
     "madonna|||live to tell": "spotify:track:095MMFhB9qxPx2VsmvjnUs",
@@ -3311,7 +3313,7 @@
     "retry_after": 48485
   },
   "live_day": "2026-10-06",
-  "live_time": "15:57",
+  "live_time": "16:20",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3579,6 +3581,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:2QvIOJ4EIz4MIwWRpKG4mi",
+    "spotify:track:5j9vqiVm3Rk9rW5WFGtT27",
     "spotify:track:2I9voVlVeN3lvvXpwq4H9N",
     "spotify:track:6NoEG5usxzcTuF6GWoFUDT",
     "spotify:track:18sJVd7Qov1C0SYCmtTN5v",
