@@ -120,6 +120,7 @@
     "amy winehouse|||love is a losing game": "spotify:track:570ZDO2Lmh6NQChOU5xPUL",
     "amy winehouse|||rehab": "spotify:track:1L5tZi0izXsi5Kk5OJf4W0",
     "amy winehouse|||rehab live on jools holland": "spotify:track:7E4dtl5gWROiMKibvedh0i",
+    "amy winehouse|||tears dry on their own": "spotify:track:6yLX8QnxlnEqZfs3YKCfjF",
     "amy winehouse|||the girl from ipanema": "spotify:track:7F5rIyOI88zk36AiBXC8xq",
     "amy winehouse|||valerie 68 version": "spotify:track:7357u8jckNZ8B9o6b188h8",
     "amy winehouse|||you know i m no good": "spotify:track:4zQuwW24dweWcaX0fEJkP2",
@@ -1359,6 +1360,7 @@
     "john legend|||daylight": "spotify:track:4oRB6Rgyq2Y5K30elz9vzs",
     "john legend|||love me now": "spotify:track:6nxQdXa1uAL0rY72wPZu89",
     "john mayer|||new light": "spotify:track:4T6FWA703h6H7zk1FoSARw",
+    "john mayer|||paper doll": "spotify:track:5FDh0G5oQ2UD9JxWiDCT1x",
     "john mayer|||queen of california": "spotify:track:0CETmgFGt8Ne8vLnaLcduU",
     "john mellencamp|||paper in fire": "spotify:track:3fbVtEI5leNfYKvL7FxDz1",
     "john miles|||no hard feelings": "spotify:track:0oWHX7dhnZmgFCxWEsCBeS",
@@ -1668,6 +1670,7 @@
     "lucio battisti|||un avventura": "spotify:track:7B09xj4jnG1763TWkVxazM",
     "lucio dalla gianni morandi|||dimmi dimmi": "spotify:track:1nGGIwb4OzwPRmDfSwz6eU",
     "lucio dalla|||piazza grande": "spotify:track:425c0cqGhRTLRQB2ig3xbg",
+    "lucy dacus|||ankles": "spotify:track:4VhbsGXRGDncpi79aiX8eE",
     "lucy rose|||could you help me": "spotify:track:5DyhRno5RBUO6hbC6cOkoX",
     "luigi tenco|||mi sono innamorato di te": "spotify:track:4fwR5b66ud3xUxPEUSID8q",
     "lukas graham|||loved you better": "spotify:track:2x91RxvAiSeIlgPKEfd61j",
@@ -3244,7 +3247,7 @@
     "retry_after": 48485
   },
   "live_day": "2026-10-06",
-  "live_time": "04:27",
+  "live_time": "05:01",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3509,6 +3512,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:5FDh0G5oQ2UD9JxWiDCT1x",
+    "spotify:track:4VhbsGXRGDncpi79aiX8eE",
+    "spotify:track:6yLX8QnxlnEqZfs3YKCfjF",
     "spotify:track:0OwMBaWRYmAAN48DcLZSeS",
     "spotify:track:4FITqqaD4j5WbOcsfYVuCb",
     "spotify:track:4ihIfAsllW0COfIztrhFLC",
