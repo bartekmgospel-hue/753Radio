@@ -11,6 +11,7 @@
     "ace of base|||cruel summer": "spotify:track:1ntjFaRNVpC1V2cKekUnU5",
     "adam lambert|||ghost town": "spotify:track:0ALTA9qTr8AQ8BmGifY2O8",
     "adam lambert|||whataya want from me": "spotify:track:0zv9bOC2NSMd3Fw2HgM5Xn",
+    "adele|||rolling in the deep": "spotify:track:4OSBTYWVwsQhGLF9NHvIbR",
     "adele|||someone like you": "spotify:track:3bNv3VuUOKgrf5hu3YcuRo",
     "aerosmith|||crazy": "spotify:track:3QxKpdTB8ZSFn8MGeCCpsQ",
     "aerosmith|||cryin": "spotify:track:4t1fWWJQs5V9YErfsrDslC",
@@ -723,6 +724,7 @@
     "vinai le pedre|||i was made": "spotify:track:0ieEZjHQO5eq9Uad7opItK",
     "vinai vamero|||rise up": "spotify:track:46lyJh9GYmWsHez3EsvmAx",
     "vito bambino zalia|||decyzje": "spotify:track:4LMQdvzEt5z4D14Rr2frwH",
+    "vix n|||ne rozumiju": "spotify:track:04idsTmqJHBSUtJhRMK2ko",
     "vize laniia|||stars": "spotify:track:0TId5TSbdcBP32haUV4Aet",
     "walk the moon|||shut up and dance": "spotify:track:4kbj5MwxO1bq9wjT5g9HaA",
     "wally lopez jamie scott|||you can t stop the beat": "spotify:track:2iecfcEmOhwzKNGNSiSdGU",
@@ -755,7 +757,7 @@
     "retry_after": 43206
   },
   "live_day": "2026-10-06",
-  "live_time": "08:23",
+  "live_time": "09:28",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-05",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -776,6 +778,8 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:04idsTmqJHBSUtJhRMK2ko",
+    "spotify:track:4OSBTYWVwsQhGLF9NHvIbR",
     "spotify:track:1nInOsHbtotAmEOQhtvnzP",
     "spotify:track:2HoUttBjnYCtEoXsNbOXam",
     "spotify:track:6nc8pvVJlEAz1UFpfQ9oHt",
