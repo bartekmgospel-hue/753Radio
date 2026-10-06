@@ -768,6 +768,7 @@
     "pearl jam|||sirens": "spotify:track:1cAMXz9mnvrqyQLSG4KeeE",
     "pearl jam|||w m a": "spotify:track:75hNkUuQAjHJhgWX0zqnJN",
     "pearl jam|||wreckage": "spotify:track:083LM23MmqS8HTTYZQrYxG",
+    "peggy gou and lenny kravitz|||i believe in love again": "spotify:track:1xYsgHPHiR3IIdpRzkfKcE",
     "perfect giddimani|||light this joint": "spotify:track:4Uro4iRYfqHiAvG0LTBCOZ",
     "perfect|||bazancie zycie": "spotify:track:4Zll2KfgcjWJx2XLEifN7E",
     "perfect|||bla bla bla": "spotify:track:3v11Ao12NLqHcjlwfBgCWu",
@@ -1233,7 +1234,7 @@
     "retry_after": 46081
   },
   "live_day": "2026-10-06",
-  "live_time": "10:43",
+  "live_time": "14:53",
   "misses": {
     "armand hammer the alchemist|||falling out the sky": "2026-10-02",
     "atmosphere|||wyrzucenie": "2026-10-01",
@@ -1306,6 +1307,7 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:1xYsgHPHiR3IIdpRzkfKcE",
     "spotify:track:0hltBiPrw06vWjtadBn6oe",
     "spotify:track:5eVG50IlyjSevPsWnSI76r",
     "spotify:track:7saMor6u61DQ8vWLtbqv66",
