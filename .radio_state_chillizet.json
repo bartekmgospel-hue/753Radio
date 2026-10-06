@@ -210,6 +210,7 @@
     "carmen mc rae|||take five": "spotify:track:40CoZiKHciHVNFYS8MZJxd",
     "caro emerald|||a night like this": "spotify:track:7nuBU1HCcOwG5f1orN4ByW",
     "caro emerald|||back it up": "spotify:track:1KhbRl7jNVVPzkuSkSTADs",
+    "caroline polachek|||bunny is a rider": "spotify:track:40tRJ8bMkIkXh8vhHKQsoX",
     "caroline spence matt berninger|||i know you know me": "spotify:track:0nkJ11y580kZDsqOhqJVq8",
     "cassandra wilson|||gone with the wind": "spotify:track:3vl6IW52uYXcx6KMyIT32v",
     "cassandra wilson|||the very thought of you": "spotify:track:0TGxvI0v6m8LNUgd7Q32Zs",
@@ -450,6 +451,7 @@
     "floverovlove|||coffe shop": "spotify:track:40tZTQ47XEMg7KT61xAEOI",
     "flowerovlove|||breaking news": "spotify:track:654XTpkoachnc4HT2Fi3Fn",
     "flyes|||no sleep": "spotify:track:5CpiucPZ7q6s5ndE91OmcV",
+    "foals|||london thunder": "spotify:track:0aTsSP2JiY53i0uZM24Zwp",
     "ford verzache|||in my eyes": "spotify:track:2t36nOCDnG3hLiSR1eiZZJ",
     "foreign fields axel flovent|||clean air reworked": "spotify:track:6nNovGSgUu2h71AYo4UbFC",
     "foster the people|||chasing low vibrations": "spotify:track:1G2bNCn8x1WrbeIBBvfQZS",
@@ -1432,7 +1434,7 @@
     "retry_after": 47523
   },
   "live_day": "2026-10-06",
-  "live_time": "11:10",
+  "live_time": "12:13",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "all over again|||jesse gold": "2026-09-24",
@@ -1529,6 +1531,8 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:40tRJ8bMkIkXh8vhHKQsoX",
+    "spotify:track:0aTsSP2JiY53i0uZM24Zwp",
     "spotify:track:5PJH1U5Iie893v48Fl9yaC",
     "spotify:track:2qxmye6gAegTMjLKEBoR3d",
     "spotify:track:68tOdKX9bNXD2MCFVsE5OF",
