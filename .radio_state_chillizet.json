@@ -572,6 +572,7 @@
     "harry styles|||dance no more": "spotify:track:0VV0AMmgLBUhzuFedr3F3e",
     "harry styles|||watermelon sugar": "spotify:track:6UelLqGlWMcVH1E5c4H7lY",
     "harvey causon|||fault lines": "spotify:track:1sizHkW1XPVzfBzPqQM5q3",
+    "hayley williams|||glum": "spotify:track:4VxKVglSNRSyXfNSqewmDO",
     "helmut|||pipe dreams": "spotify:track:18hz30OnZah0ti1LcTQEai",
     "henry morris|||forever young": "spotify:track:1kRUsFMQUxh4WbN5PImXAu",
     "herbie hancock|||karabali": "spotify:track:650vuZNTQcCr8qa7brFXLd",
@@ -603,6 +604,7 @@
     "ignacy|||limbo": "spotify:track:0NxtOVibuKGLZ8iaF4vUJJ",
     "igor herbut|||deszcz w pe ne s once": "spotify:track:5LRiG2IEqhDYKvBw5yO6Bv",
     "igor herbut|||jak ci jest": "spotify:track:29paoKhPhHyffhWxZKNfVS",
+    "igor herbut|||ocknij sie": "spotify:track:2E4DiuMMZBB52LsF6mAtRU",
     "igor herbut|||wagoniki": "spotify:track:218RVrFkpsNNX58I5kPdlQ",
     "igo|||12 zmys ow": "spotify:track:3SSFzI5YpojR8fzirESKBj",
     "igo|||brudas": "spotify:track:3XLf2hEsbTu8B6iiIt9WXm",
@@ -1447,6 +1449,7 @@
     "vagabon|||carpenter": "spotify:track:5ZrlyBB1F19Cj1wsTDZNOr",
     "valley|||bop ba": "spotify:track:2kohdOn9SEqiWlkIkOChy2",
     "vampire weekend|||mary boone": "spotify:track:6OjwIdLlkjCLuOThOwODEY",
+    "variety lab|||london in the rain": "spotify:track:5xTTRUvEfjWID0ZrC0HDmg",
     "vbnd katie tupper soulmate collective|||breathe me in": "spotify:track:5J0rGd644eAC5CPJhMm0uz",
     "venna leon thomas|||twisting": "spotify:track:5oHIdbNS7o1oi8dm26opsj",
     "victor ray debbie|||falling into place": "spotify:track:0XPMEaoR4neOwCvmGx54At",
@@ -1522,7 +1525,7 @@
     "retry_after": 15220
   },
   "live_day": "2026-10-07",
-  "live_time": "10:17",
+  "live_time": "11:16",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "all over again|||jesse gold": "2026-09-24",
@@ -1626,6 +1629,9 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:5xTTRUvEfjWID0ZrC0HDmg",
+    "spotify:track:4VxKVglSNRSyXfNSqewmDO",
+    "spotify:track:2E4DiuMMZBB52LsF6mAtRU",
     "spotify:track:0s8MaDO1NRBNHZsh25ix9k",
     "spotify:track:2kX4ykCwUeAVYv6fahnDfG",
     "spotify:track:45XWLxrdaZompiNbIXXj0y",
