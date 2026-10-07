@@ -281,6 +281,7 @@
     "freddie mercury|||living on my own": "spotify:track:6pnji1k0j0b2mf6pQXYCcQ",
     "fukaj vito bambino|||zabiore cie tam": "spotify:track:6LrArcAWVYhqtl68a7Wt1U",
     "fukaj zalia|||wszystko znika przy tobie": "spotify:track:5v8Qtcl7ljCR2kyf8oo3zA",
+    "fun janelle monae|||we are young": "spotify:track:7a86XRg84qjasly9f6bPSD",
     "gabriel fleszar|||kropla deszczu": "spotify:track:1puMLEjNWmMg8e3xn1znGX",
     "genesis|||jesus he knows me": "spotify:track:1nRZSvB2IKNmuqr85bhfnJ",
     "george ezra|||green green grass": "spotify:track:4mZ8kqtUWbULwSOUQPB44S",
@@ -773,7 +774,7 @@
     "retry_after": 10901
   },
   "live_day": "2026-10-07",
-  "live_time": "15:23",
+  "live_time": "16:23",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-05",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -794,6 +795,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:7a86XRg84qjasly9f6bPSD",
     "spotify:track:0YzTIFEIUkZofXozAQWvGv",
     "spotify:track:0RteYQqW1AOq3JNL0yMWYt",
     "spotify:track:1B75hgRqe7A4fwee3g3Wmu",
