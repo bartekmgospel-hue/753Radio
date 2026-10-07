@@ -2064,6 +2064,7 @@
     "nancy sinatra|||bang bang my baby shot me down": "spotify:track:1hvKYV2SkmX1D2AeRCDxLH",
     "nanga|||dziki zachod": "spotify:track:5Zps6ZLhTe6aWxq7F25foM",
     "nanga|||profet": "spotify:track:69dZdSGn4LTC5ZKpoJxkAf",
+    "nanga|||soprano": "spotify:track:3UNz6JVf6272orrKgpCpFc",
     "nastroje|||skok na bank": "spotify:track:737sriDSWWWN4S3kK08jOL",
     "nastroje|||tropikana": "spotify:track:2Ia6rGD2bZhFTcKuz6h9MR",
     "natalia grosiak|||ostatnia piosenka o tobie": "spotify:track:2dPogT3VVbNWnEVuDttpeu",
@@ -3398,7 +3399,7 @@
     "retry_after": 14399
   },
   "live_day": "2026-10-07",
-  "live_time": "06:58",
+  "live_time": "07:25",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3671,6 +3672,7 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:3UNz6JVf6272orrKgpCpFc",
     "spotify:track:36m3Oa3hP5L7zMpgSERRNJ",
     "spotify:track:3eNAqHexMFGCvtzaMwkjEH",
     "spotify:track:39shmbIHICJ2Wxnk1fPSdz",
