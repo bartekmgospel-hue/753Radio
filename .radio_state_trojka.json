@@ -791,6 +791,7 @@
     "o b f mr williamz lady ice|||ring the alarm": "spotify:track:6RHJjUY1zC1KzCJtkBb443",
     "o n a|||kiedy powiem sobie dosc": "spotify:track:5KYzcKuuimNnS3jisUkA8G",
     "oasis|||rock n roll star": "spotify:track:4ElD2FwpHk949G5bCcehBK",
+    "oasis|||stand by me": "spotify:track:2gANywSFYF58YFMPdDSAjC",
     "oasis|||wonderwall": "spotify:track:41tTCXOzxSWAoVrfeIIh8x",
     "oby onyioha|||raid dem jah": "spotify:track:7HljiG0mhpwaCX3wbdzmn2",
     "obywatel g c|||ani ja ani ty": "spotify:track:0q4OuYlZmIzEBvl4mQ9cmo",
@@ -1103,6 +1104,7 @@
     "tanita tikaram|||twist in my sobriety": "spotify:track:6wWlaSxOrBizAcpqkuv1FJ",
     "taylor swift|||patient zero": "spotify:track:49JeKZqejPtqJKpK7x9Ew4",
     "tears for fears|||change": "spotify:track:2JhIaeltCDCcp02K936tgx",
+    "technotronic|||pump up the jam": "spotify:track:21qnJAMtzC6S5SESuqQLEK",
     "teddy swims|||bad dreams": "spotify:track:3BntzKsnLf2pc0dsvE3Zav",
     "telescreens|||baby i know you well": "spotify:track:6h1UmeK0ojNsMxRVf3Zhb1",
     "telescreens|||god of nothing": "spotify:track:2pioat4ONNFN6EzXDvbXL4",
@@ -1234,6 +1236,7 @@
     "tokyo tea room|||always in the sun": "spotify:track:2IWVtZXOhYK7d45DU39Ihh",
     "tom petty and the heartbreakers|||forgotten man": "spotify:track:2LpjANuqrysVLtWHqgtuwG",
     "tom petty and the heartbreakers|||parade of loons": "spotify:track:4d26ASDWApFAknkgKppZbk",
+    "tom petty the heartbreakers|||learning to fly": "spotify:track:17S4XrLvF5jlGvGCJHgF51",
     "tom petty|||i won t back down": "spotify:track:7gSQv1OHpkIoAdUiRLdmI6",
     "tom petty|||love is a long road": "spotify:track:4PJEK76V3A1S0XzZJuTWh7",
     "tom petty|||runnin down a dream": "spotify:track:4AiMaeCXwsldpwvA5wu5gM",
@@ -1367,7 +1370,7 @@
     "retry_after": 46081
   },
   "live_day": "2026-10-07",
-  "live_time": "13:24",
+  "live_time": "14:14",
   "misses": {
     "armand hammer the alchemist|||falling out the sky": "2026-10-02",
     "atmosphere|||wyrzucenie": "2026-10-01",
@@ -1442,6 +1445,9 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:2gANywSFYF58YFMPdDSAjC",
+    "spotify:track:21qnJAMtzC6S5SESuqQLEK",
+    "spotify:track:17S4XrLvF5jlGvGCJHgF51",
     "spotify:track:1x9iOd3K1JC6tdjGZJpFgZ",
     "spotify:track:0lUSeQYPYhE7Ohwdjjk1N4",
     "spotify:track:4qhFEii7rVktX2VrGDcue6",
