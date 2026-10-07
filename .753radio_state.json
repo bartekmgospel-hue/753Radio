@@ -1231,6 +1231,7 @@
     "hey|||cisza ja i czas live": "spotify:track:3ebX2RFigiC1tlZeLXe6NP",
     "hey|||czas spe nienia": "spotify:track:5MCiJgrbXyO7qU1KmrpBxS",
     "hey|||kto tam kto jest w srodku": "spotify:track:52rY8OgUFZZRcYwybgGTA7",
+    "hey|||predko predzej": "spotify:track:4yM5Nr55QLcHmU3MrfPfbb",
     "hey|||teksanski": "spotify:track:1yuX7XjM3l9Gz0grQwxDIl",
     "hey|||to tu": "spotify:track:37GfcRKIBLeE9bihRYoxnG",
     "hey|||umieraj stad": "spotify:track:4UARL10s3ckmKpg8oMVdDQ",
@@ -1640,6 +1641,7 @@
     "lech janerka|||niewole": "spotify:track:6xxm1x7ywZF1XovqrzWn32",
     "led zeppelin|||black dog": "spotify:track:3qT4bUD1MaWpGrTwcvguhb",
     "led zeppelin|||immigrant song": "spotify:track:3bUMbmI5TQ2a7I9xLukuJb",
+    "led zeppelin|||rock and roll": "spotify:track:4PRGxHpCpF2yoOHYKQIEwD",
     "leif vollebekk|||sunset boulevard expedition": "spotify:track:64SZmjw3aY5bZigPevDCHw",
     "lenny kravitz|||are you gonna go my way": "spotify:track:45Ia1U4KtIjAPPU7Wv1Sea",
     "lenny kravitz|||can t get you off my mind": "spotify:track:5PT8D9rNHupihezvt0QkJL",
@@ -2663,6 +2665,7 @@
     "smolik kev fox|||move honey": "spotify:track:61lGHLLhtxg9qdu8hGQBBg",
     "smolik kev fox|||on the quiet": "spotify:track:1ivsT9pv29V8dTaBu8jsLR",
     "smolik kev fox|||queen of hearts": "spotify:track:7p7kyJeuok6Z4h3d36XiM5",
+    "sniff n the tears|||driver s seat": "spotify:track:0NI9wGowTO80hVs3l6wa0i",
     "snoop dogg|||boogie s in my soul": "spotify:track:3auasA1oQjH9hXr5Ux72Sk",
     "snow patrol kylie minogue|||these alarms": "spotify:track:2IH6UvesVbl5dhFwf7syup",
     "soccer mommy|||rings of saturn": "spotify:track:2nh2i8stFugX5PeT4MUavZ",
@@ -3392,7 +3395,7 @@
     "retry_after": 14399
   },
   "live_day": "2026-10-07",
-  "live_time": "06:01",
+  "live_time": "06:27",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3665,6 +3668,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:4yM5Nr55QLcHmU3MrfPfbb",
+    "spotify:track:4PRGxHpCpF2yoOHYKQIEwD",
+    "spotify:track:0NI9wGowTO80hVs3l6wa0i",
     "spotify:track:6vUPPEN2V2lZ78b6DyEIjZ",
     "spotify:track:1fxrKhzZGLvIk09LbVoaEd",
     "spotify:track:3RiPr603aXAoi4GHyXx0uy",
