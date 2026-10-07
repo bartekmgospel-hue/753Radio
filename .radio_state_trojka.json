@@ -415,6 +415,7 @@
     "ian brown|||stellify": "spotify:track:5bCfVGIXNWKSD4pYwFOejo",
     "idol billy|||cradle of love": "spotify:track:5TSANSqPTD6nBG0NSJWmVB",
     "idol billy|||rebel yell": "spotify:track:4TIJ7zSBNejpoIPaWpWRKc",
+    "idol billy|||white wedding": "spotify:track:35i19j4Zz7WaL5KozRHjyQ",
     "iggy pop|||michelle": "spotify:track:3L2CN09jZcXtet8kEVeLPz",
     "iggy pop|||strung out johnny": "spotify:track:6OGIBcJV5qV1FF5uiofnX0",
     "igor herbut|||tak ma byc": "spotify:track:6sTXT19bqHDitCQtrwykTm",
@@ -708,6 +709,7 @@
     "morrissey|||suedehead": "spotify:track:4BtK63vvaeI9DaIuUlOg5c",
     "morrissey|||the more you ignore me the closer i get": "spotify:track:6j4eSvLSgkb3ehJksCtq3w",
     "morrissey|||the secret of music": "spotify:track:3sFlolSzlST3F4nTKpMjPg",
+    "morten harket|||hold me": "spotify:track:5dtjsyAdGUBHXQIwcf6yGd",
     "mrozu|||lepsze czasy": "spotify:track:5PEpqM4aMDhmqM2VojaSBy",
     "mrozu|||mowisz i masz": "spotify:track:49APgJJ3Epva0J9SO4Ne0k",
     "mrozu|||nie ma miejsca jak dom": "spotify:track:2IyoT4h41zxWlDM6ukCWcu",
@@ -1380,7 +1382,7 @@
     "retry_after": 46081
   },
   "live_day": "2026-10-07",
-  "live_time": "17:06",
+  "live_time": "18:06",
   "misses": {
     "armand hammer the alchemist|||falling out the sky": "2026-10-02",
     "atmosphere|||wyrzucenie": "2026-10-01",
@@ -1456,6 +1458,8 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:35i19j4Zz7WaL5KozRHjyQ",
+    "spotify:track:5dtjsyAdGUBHXQIwcf6yGd",
     "spotify:track:3619m4oJNzvYLBcnfuRA9b",
     "spotify:track:21H52U3H2j9gXlPOVNYCXz",
     "spotify:track:32NgbSqJCGSKDKTqVgFRvA",
