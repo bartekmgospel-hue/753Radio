@@ -464,6 +464,7 @@
     "fenech soler|||i wanna be your lover": "spotify:track:0gE10WJgHSUqNj34bHYuAj",
     "finneas|||a concert six months from now": "spotify:track:7aDIsG4RJx4THcSEMeM01x",
     "finneas|||lotus eater": "spotify:track:2E1C3NlPA0AfmiFJE4MTXT",
+    "fintan|||way up": "spotify:track:2BlN0wKeR10kKs1VSzvNc9",
     "fisz emade tworzywo|||duchy": "spotify:track:2f0kDGtEEvs3nuvAt4VIvL",
     "fka twigs|||killer": "spotify:track:4QUzLCXrpHO4c6dGyZlpO2",
     "fka twigs|||measure of a man": "spotify:track:3gjKJ0RjjEddIJW0NDDZ1r",
@@ -1092,6 +1093,7 @@
     "parcels|||comingback": "spotify:track:6W1CYXq9pGEnNNCCW62xu8",
     "parcels|||overnight": "spotify:track:0hhXziDUO0wNYPsstDQWN6",
     "parov stelar|||the phantom": "spotify:track:761q56I3NkU4iawtUjwcZU",
+    "parov stelar|||the sun": "spotify:track:43ofOV515RdLiLOc5vQmqC",
     "passenger|||heart s on fire": "spotify:track:5sZYVQVC1B700dWe6bUA5x",
     "passenger|||sword from the stone": "spotify:track:3m7N7ZghXXjDCivtyymhhl",
     "pat metheny|||soul search": "spotify:track:5Tj8dgWP8skcxaplye4OXI",
@@ -1516,7 +1518,7 @@
     "retry_after": 15220
   },
   "live_day": "2026-10-07",
-  "live_time": "08:13",
+  "live_time": "09:14",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "all over again|||jesse gold": "2026-09-24",
@@ -1611,7 +1613,8 @@
     "victoria monet|||experience": "2026-10-05",
     "voo voo|||na moment goscinnie daria ze slaska": "2026-09-18",
     "wajatta jon tejada reggie watts|||don t let get you down": "2026-09-20",
-    "warhaus|||no suprises": "2026-09-18"
+    "warhaus|||no suprises": "2026-09-18",
+    "yours|||where it s at": "2026-10-07"
   },
   "pending_backfill": [],
   "pending_live": [],
@@ -1619,6 +1622,8 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:43ofOV515RdLiLOc5vQmqC",
+    "spotify:track:2BlN0wKeR10kKs1VSzvNc9",
     "spotify:track:570ZDO2Lmh6NQChOU5xPUL",
     "spotify:track:5jGqJTsejbAy7QdhAH2Qwp",
     "spotify:track:4S6PEl7GETF22GjtgsZ19O",
