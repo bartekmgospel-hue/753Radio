@@ -394,6 +394,7 @@
     "kwiat jabloni|||od nowa": "spotify:track:2hoQy05lPYcCySUSipQkoU",
     "kygo khalid gryffin|||save my love": "spotify:track:5ObyGDxNWH0Uuuk3NvC5r8",
     "kygo max mcnown|||take me back": "spotify:track:1ydTfAU0AXrRnbPpfyWYQm",
+    "kygo tina turner|||what s love got to do with it": "spotify:track:3Be7CLdHZpyzsVijme39cW",
     "lady gaga bruno mars|||die with a smile": "spotify:track:2plbrEY59IikOBgBGLjaoe",
     "lady gaga|||abracadabra": "spotify:track:2LHNTC9QZxsL3nWpt8iaSR",
     "lady gaga|||how bad do u want me": "spotify:track:2rvd6akG8qEtBNUvQpN7iY",
@@ -774,7 +775,7 @@
     "retry_after": 10901
   },
   "live_day": "2026-10-07",
-  "live_time": "16:23",
+  "live_time": "17:25",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-05",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -795,6 +796,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:3Be7CLdHZpyzsVijme39cW",
     "spotify:track:7a86XRg84qjasly9f6bPSD",
     "spotify:track:0YzTIFEIUkZofXozAQWvGv",
     "spotify:track:0RteYQqW1AOq3JNL0yMWYt",
