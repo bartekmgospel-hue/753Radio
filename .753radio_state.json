@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": "2026-09-11",
-  "blocked_until": null,
+  "blocked_until": "2026-10-08T00:41:23+00:00",
   "keys": {
     "10 cc|||the film of my love": "spotify:track:5MaQo2YUfKf9Quzqclz1f5",
     "2pac talent|||changes": "spotify:track:1ofhfV90EnYhEr7Un2fWiv",
@@ -3464,11 +3464,11 @@
     "|||serbia drums": "spotify:track:714zQuKodEfVvyRFn1K8PC"
   },
   "last_429": {
-    "at": "2026-10-06T20:31:02+00:00",
+    "at": "2026-10-07T18:31:04+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 14399
+    "retry_after": 22214
   },
   "live_day": "2026-10-07",
   "live_time": "19:56",
