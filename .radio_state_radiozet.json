@@ -296,6 +296,7 @@
     "gromee ania dabrowska abradab|||powiedz mi kto w tych oczach mieszka": "spotify:track:7sScaqtzdQQmV0sdkPCYsu",
     "grzegorz hyzy tabb|||wstaje": "spotify:track:535CAvbJjbH5WYpIm085Qn",
     "grzegorz hyzy|||krol nocy": "spotify:track:4sFIoEVNkToc8oyBv09GKO",
+    "grzegorz markowski ryszard sygitowicz|||kazdej nocy": "spotify:track:4aFaFCzifXBeqqCJyLb8va",
     "guns n roses|||don t cry": "spotify:track:6mAfxuTuRz1FWfriiFf57y",
     "guns n roses|||knockin on heavens door": "spotify:track:4JiEyzf0Md7KEFFGWDDdCr",
     "guru josh project|||infinity 2008": "spotify:track:6hTcRuSaaTNwlyIYkkMpWX",
@@ -769,7 +770,7 @@
     "retry_after": 10901
   },
   "live_day": "2026-10-07",
-  "live_time": "10:28",
+  "live_time": "11:29",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-05",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -790,6 +791,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:4aFaFCzifXBeqqCJyLb8va",
     "spotify:track:2Xnv3GntqbBH1juvUYSpHG",
     "spotify:track:4Dw3fQrWGRteHRDeCAIrIY",
     "spotify:track:0NHt0zWyaL2QC7CPm80rEO",
