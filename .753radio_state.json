@@ -1007,6 +1007,7 @@
     "fisz emade tworzywo soko|||tyle sladow": "spotify:track:1Tkg3k3NiG7N8fFS7HnsvS",
     "fisz emade tworzywo|||duchy": "spotify:track:2f0kDGtEEvs3nuvAt4VIvL",
     "fisz emade tworzywo|||piruety": "spotify:track:4qqrMgDi4wBIMXSvs1ann6",
+    "fisz emade tworzywo|||wolne dni": "spotify:track:5KBU0F3CrXrEZ4yMrOMNKN",
     "fisz emade|||duchy": "spotify:track:2f0kDGtEEvs3nuvAt4VIvL",
     "fisz|||na wylot": "spotify:track:2rNI7C8u1eKgPUToxsvClj",
     "fisz|||polepiony": "spotify:track:0Lt20grV0WWgWcvJWBWpsK",
@@ -2677,6 +2678,7 @@
     "sinead o connor|||mandinka": "spotify:track:4x4e63yL8r7tOFcZ0n6KHe",
     "sinead o connor|||no man s woman": "spotify:track:0xsfUIVCZLR12cNsjvDqeB",
     "sinead o connor|||troy": "spotify:track:4ZbrvxwWPNX0MgbubsqbZG",
+    "sinead o connor|||vampire": "spotify:track:6cu6cdFFNgXqd2PC1ffXn5",
     "sinkane|||on being": "spotify:track:6vRs4u7XyZ7TBjdBg4ipGf",
     "siouxsie and the banshees|||kiss them for me 7 version": "spotify:track:3rW0ATGLT6kOUtfsIKygyI",
     "sir isaiah rashad|||karma": "spotify:track:5m5cGJxI82Qa91JELoI4pF",
@@ -3453,7 +3455,7 @@
     "retry_after": 14399
   },
   "live_day": "2026-10-07",
-  "live_time": "17:30",
+  "live_time": "17:56",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3726,6 +3728,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:5KBU0F3CrXrEZ4yMrOMNKN",
+    "spotify:track:6cu6cdFFNgXqd2PC1ffXn5",
     "spotify:track:7F4VPQq6F8F8Z0Ar2pPjkM",
     "spotify:track:0gdmDP6xy3ZV7JNoHWAN9k",
     "spotify:track:3PoPIGh8KMgijItTCpc423",
