@@ -245,6 +245,7 @@
     "bajm|||nagie ska y": "spotify:track:5HxkvOuxWUSMBPKTIUIxHR",
     "bajm|||plomien z nieba": "spotify:track:0oW7Y60bZ7Kg55Z2npu88z",
     "bananarama|||venus": "spotify:track:4XX1pFUkQOZTYp6Hb6a6Ae",
+    "banderas|||this is your life": "spotify:track:36m3Oa3hP5L7zMpgSERRNJ",
     "bar italia|||cowbella": "spotify:track:6YFrPFpWtluSdbafipRxiS",
     "bar italia|||fundraiser": "spotify:track:1IBsWEOUwPCDJLwyzsbiBP",
     "baranovski|||iskry": "spotify:track:1ceIM6gv8HdPCuiBYgIakl",
@@ -1894,6 +1895,7 @@
     "meshell ndegeocello|||i knew you were waiting for me": "spotify:track:6odkxZJ4TeAGV0D39z7PMr",
     "meskie granie orkiestra 2012 nosowska dyjak|||ognia": "spotify:track:6sH6knrjT9XlM5M8HC6dta",
     "meskie granie orkiestra 2015 fisz koteluk smolik|||armaty": "spotify:track:0PjD0AoQatCFweeExgFEbk",
+    "meskie granie orkiestra 2024 daria zawia ow mrozu kacperczyk|||wolne duchy": "spotify:track:3eNAqHexMFGCvtzaMwkjEH",
     "meskie granie orkiestra 2025 ralph kaminski igor herbut natalia przybysz b azej krol|||to bardzo ziemskie": "spotify:track:7hDySXTBCluEHbJJaNN8It",
     "meskie granie orkiestra 2026 igor herbut zalia vito bambino|||nareszcie": "spotify:track:1p4M9If0oTyeUsGsmAfmAI",
     "meskie granie orkiestra 2026 igor herbut zalia vito bambino|||tancze": "spotify:track:5Rh4ZnhmhUj0LshCJZE6Jb",
@@ -2928,6 +2930,7 @@
     "the chemical brothers|||go": "spotify:track:2cNjgoSh1TBHFQIhfzRJUE",
     "the chemical brothers|||the darkness that you fear": "spotify:track:4ahFzFAZRpfWaGbA2J3dAq",
     "the clash|||hitsville uk": "spotify:track:3F8ddXLIHVLdunzh6fLvKs",
+    "the clash|||should i stay or should i go": "spotify:track:39shmbIHICJ2Wxnk1fPSdz",
     "the clash|||train in vain": "spotify:track:1PohsDevUY2TCKuwWknL29",
     "the clockworks|||getaway car": "spotify:track:0cWoCz1oOacZOAOBEtPuac",
     "the clockworks|||masquerade": "spotify:track:6hYjpRQzj7eiH7H8ztQQKr",
@@ -3395,7 +3398,7 @@
     "retry_after": 14399
   },
   "live_day": "2026-10-07",
-  "live_time": "06:27",
+  "live_time": "06:58",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3668,6 +3671,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:36m3Oa3hP5L7zMpgSERRNJ",
+    "spotify:track:3eNAqHexMFGCvtzaMwkjEH",
+    "spotify:track:39shmbIHICJ2Wxnk1fPSdz",
     "spotify:track:4yM5Nr55QLcHmU3MrfPfbb",
     "spotify:track:4PRGxHpCpF2yoOHYKQIEwD",
     "spotify:track:0NI9wGowTO80hVs3l6wa0i",
