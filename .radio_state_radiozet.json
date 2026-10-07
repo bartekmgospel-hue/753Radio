@@ -69,6 +69,7 @@
     "artemas|||i like the way you kiss me": "spotify:track:2GxrNKugF82CnoRFbQfzPf",
     "artur gadowski|||ona jest ze snu": "spotify:track:4TQ22bHTTf2HZGhYFRcLMK",
     "artur rojek|||mirafiori": "spotify:track:2ypGq1U1VIrFZCdy1IBFz9",
+    "ashe|||stop the wedding": "spotify:track:3zOYmiNOuyDL0ClxJcEJ0T",
     "atb dopamine|||don t stop i wanna know": "spotify:track:0GaelwSoQDKjwoE16jxwNo",
     "atb|||you re not alone": "spotify:track:1DSP4ICbBkSOuoGq0lYQwR",
     "atc|||around the world la la la la la": "spotify:track:7CvOnbFdnIoXMQ4eFCo5lB",
@@ -237,6 +238,7 @@
     "ellie goulding|||burn": "spotify:track:2GgxS8bUT5G25QJTsfSv0R",
     "ellie goulding|||lights": "spotify:track:11ozIUBoXAgRTVWelDn4pL",
     "ellie goulding|||love me like you do": "spotify:track:0Cy7wt6IlRfBPHXXjmZbcP",
+    "elly oaks lavinia|||reasons": "spotify:track:7dX72nBWi8thmjq0JI8EBk",
     "elton john dua lipa|||cold heart pnau remix": "spotify:track:6zSpb8dQRaw0M1dK8PBwQz",
     "elton john|||i m still standing": "spotify:track:1jDJFeK9x3OZboIAHsY9k2",
     "elton john|||sacrifice": "spotify:track:0e3yhVeNaTfKIWQRw9U9sY",
@@ -775,7 +777,7 @@
     "retry_after": 10901
   },
   "live_day": "2026-10-07",
-  "live_time": "18:23",
+  "live_time": "19:28",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-05",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -796,6 +798,8 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:3zOYmiNOuyDL0ClxJcEJ0T",
+    "spotify:track:7dX72nBWi8thmjq0JI8EBk",
     "spotify:track:3Be7CLdHZpyzsVijme39cW",
     "spotify:track:7a86XRg84qjasly9f6bPSD",
     "spotify:track:0YzTIFEIUkZofXozAQWvGv",
