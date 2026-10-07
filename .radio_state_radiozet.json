@@ -75,6 +75,7 @@
     "atomic kitten|||the tide is high": "spotify:track:5WuVWOngcRkMOx9RRLCvui",
     "ava max|||kings queens": "spotify:track:7a53HqqArd4b9NF4XAmlbI",
     "ava max|||salt": "spotify:track:5iyZwawawLjHYpX4MxUKVF",
+    "ava max|||so am i": "spotify:track:2Xnv3GntqbBH1juvUYSpHG",
     "ava max|||sweet but psycho": "spotify:track:0dE0TVR4av3kNDHLmKwu3n",
     "ava max|||torn": "spotify:track:6SpVp6ttad3XJOsjKBZwaq",
     "avicii|||hey brother": "spotify:track:4lhqb6JvbHId48OUJGwymk",
@@ -768,7 +769,7 @@
     "retry_after": 10901
   },
   "live_day": "2026-10-07",
-  "live_time": "06:24",
+  "live_time": "07:23",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-05",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -789,6 +790,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:2Xnv3GntqbBH1juvUYSpHG",
     "spotify:track:4Dw3fQrWGRteHRDeCAIrIY",
     "spotify:track:0NHt0zWyaL2QC7CPm80rEO",
     "spotify:track:27u2srwO1GRYlJKZiyO1lr",
