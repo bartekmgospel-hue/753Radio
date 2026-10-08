@@ -439,6 +439,7 @@
     "hey|||wczesna jesien": "spotify:track:3hAKoTdyEQ2r6MHolTLtiv",
     "hole|||malibu": "spotify:track:5bVOX6eyHsML2sB4aMlZEi",
     "hooverphonic|||mad about you": "spotify:track:5drK2kTE2mrUdV33iHWyrx",
+    "hoszpital ramona rey piotr rogucki|||tic tac": "spotify:track:4ZiAzZ3rMjzLuCphZ8gsyl",
     "hot chocolate|||you sexy thing": "spotify:track:714hERk9U1W8FMYkoC83CO",
     "howie b|||chase": "spotify:track:4TnU1FAGhrXqPuv3FdEjzp",
     "human league|||don t you want me": "spotify:track:3AIEEEIDJFnqv8rozNVCRZ",
@@ -585,6 +586,7 @@
     "kuba folwarczny|||szklo": "spotify:track:1zvOrq2ZDeb2IEyl1zbce7",
     "kuba i kuba|||ch opaki": "spotify:track:2nI04xLBi0oRFsGmTJYeUU",
     "kuba karas|||kiedy czuje serca bol": "spotify:track:5hX9f6WkexvLSrMMG3rZEn",
+    "kuba karas|||obejmij mnie": "spotify:track:7ii4ALWWkeu51XArlxB9LP",
     "kula shaker|||idontwannapaymytaxes": "spotify:track:0O8V1UvZlVOqFZHZ25TaqL",
     "kulka gaba|||niejasnosci": "spotify:track:7lwIfdCMIxitWJFBBVc6Id",
     "kult|||6 lat pozniej": "spotify:track:32NdW0FUSr8rkrEcAI94mq",
@@ -1038,6 +1040,7 @@
     "s awa przybylska|||pamietasz by a jesien": "spotify:track:3HYH1apm2cAB2Areu9OIMR",
     "sade|||smooth operator": "spotify:track:7pLuEMFougkSHXrPBtNxTR",
     "sam brown|||stop": "spotify:track:2IWYi4NJyJvhpJVjVs2pm8",
+    "sam fender|||seventeen going under": "spotify:track:1Dp7ASSZVVOPJ85VdLpjOX",
     "sanah|||cicho sza": "spotify:track:0LXhzHwoRGwhMde38QGncI",
     "scissor sisters|||i don t feel like dancin": "spotify:track:1q9l6c8bAzqWcvO3DM6FsR",
     "seal|||crazy": "spotify:track:6Vz7vzOpCwKeSQlfViibuY",
@@ -1479,7 +1482,7 @@
     "retry_after": 14397
   },
   "live_day": "2026-10-08",
-  "live_time": "15:35",
+  "live_time": "16:06",
   "misses": {
     "adam clayton larry mullen jr|||mission impossible": "2026-10-08",
     "armand hammer the alchemist|||falling out the sky": "2026-10-02",
@@ -1556,6 +1559,9 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:7ii4ALWWkeu51XArlxB9LP",
+    "spotify:track:4ZiAzZ3rMjzLuCphZ8gsyl",
+    "spotify:track:1Dp7ASSZVVOPJ85VdLpjOX",
     "spotify:track:6MYtWkoEiUNZmMe5CgCczM",
     "spotify:track:0Nmu7zxpMYNJ3N9YDY6VEN",
     "spotify:track:5Kz6iIkOBZepijORtkfEvj",
