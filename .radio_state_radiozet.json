@@ -677,6 +677,7 @@
     "status quo|||in the army now": "spotify:track:6QLspHLCLftSGPa6vNzKuo",
     "strachy na lachy|||dzien dobry kocham cie": "spotify:track:6FBPQuYFZIne5cpTASUOGR",
     "sugababes|||about you now": "spotify:track:1ctdfJSzp6qF2iDAVdDrfl",
+    "sunrise avenue|||fairytale gone bad": "spotify:track:2rXW2yxuRJoZhAZeowgomh",
     "sunrise avenue|||hollywood hills": "spotify:track:3uht5bVvbiE54iQwtrab1e",
     "survivor|||eye of the tiger": "spotify:track:2HHtWyy5CgaQbC7XSoOb0e",
     "swedish house mafia lykke li|||happiness is so sad": "spotify:track:5Vz9XUiw2emOIRLobTMEkD",
@@ -789,7 +790,7 @@
     "retry_after": 22318
   },
   "live_day": "2026-10-08",
-  "live_time": "14:29",
+  "live_time": "15:23",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-05",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -810,6 +811,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:2rXW2yxuRJoZhAZeowgomh",
     "spotify:track:4eHbdreAnSOrDDsFfc4Fpm",
     "spotify:track:3di5hcvxxciiqwMH1jarhY",
     "spotify:track:2M6ZMFxTe06Ab8H0DbpjgK",
