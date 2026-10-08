@@ -552,6 +552,7 @@
     "good neighbours|||home": "spotify:track:68mOSKT4uBkKddEAhlMO61",
     "good neighbours|||starry eyed": "spotify:track:3DQRwWVjfmAdXPbY7pntyX",
     "gorillaz|||humility": "spotify:track:3NeiYiBn3rQBgurfVk92Zm",
+    "gotan project|||una musica brutal": "spotify:track:1JdVxOvbPCpgzT3mP2Y4WF",
     "gotts street park pip millett|||flowers": "spotify:track:3rpwbUJ68uCIYVCJ0g8YnT",
     "gotts street park|||mountains": "spotify:track:5yq2DMNycreFOtHCBT8npO",
     "gracie abrams marcus mumford|||what if it s right": "spotify:track:23FFO2TV9DUGSsEgOQKHEr",
@@ -926,6 +927,7 @@
     "maggie rogers|||burning": "spotify:track:68vxG1i6RSmrsY9mRdqDgG",
     "mahalia|||i wish i missed my ex": "spotify:track:3f50PY0yOtMHo9BgCX9WRJ",
     "maja kleszcz|||eon": "spotify:track:5dy4vcRlpBrk0wWZqdq8EE",
+    "maja kleszcz|||zaproscie mnie do ognia": "spotify:track:0lCig3dwGVAtUUAL2efeKJ",
     "major lazer|||get free": "spotify:track:4p4hyqRFdoiw4EMbEsqBdA",
     "maks tachasiuk|||bez": "spotify:track:0oMlF9vrOgHwxdG57xtDbH",
     "maks tachasiuk|||cma": "spotify:track:6SUKuGQeaGwac3lCt1c86N",
@@ -1268,6 +1270,7 @@
     "sabrina claudio 6lack|||belong to you": "spotify:track:2I88NEWpKrAPZuapXNV5G6",
     "sabrina claudio khalid|||don t let me down": "spotify:track:2cSiyndkQZRPmYOfrk9WlC",
     "sade adu|||young lion": "spotify:track:4RE2d0lbKxbndeTy73eu4d",
+    "sade|||hang on to your love": "spotify:track:6KIS5YIZAyeiFNx1aE1OhY",
     "sade|||smooth operator": "spotify:track:7pLuEMFougkSHXrPBtNxTR",
     "saint harison|||stuck": "spotify:track:1nEzZ4l1LYmmaDNgWNzVCG",
     "salute|||drive": "spotify:track:3nQbx8MEoRsxCdoSMVcSmA",
@@ -1587,7 +1590,7 @@
     "retry_after": 23038
   },
   "live_day": "2026-10-08",
-  "live_time": "07:12",
+  "live_time": "08:17",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "all over again|||jesse gold": "2026-09-24",
@@ -1698,6 +1701,9 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:6KIS5YIZAyeiFNx1aE1OhY",
+    "spotify:track:0lCig3dwGVAtUUAL2efeKJ",
+    "spotify:track:1JdVxOvbPCpgzT3mP2Y4WF",
     "spotify:track:3YVDBlD8cn1fdtoE9B6HWm",
     "spotify:track:4PHqudokKQG6oSfBbDWFXy",
     "spotify:track:09oA66AkngYsAD1geLJ8QO",
