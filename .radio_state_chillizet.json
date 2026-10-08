@@ -216,6 +216,7 @@
     "bonobo|||no reason": "spotify:track:3aWPdd6U1xbsIEGEpUaPyQ",
     "bonobo|||walk in the sky": "spotify:track:3fsQsL36PH1G8mn68lsFRK",
     "borneland line g ttsche|||night time": "spotify:track:7GF34WD11f3Uhggwy0WPwh",
+    "bovska|||kaktus": "spotify:track:7mrRyIvl5d4qkGMnsvlNmV",
     "boygenius|||cool about it": "spotify:track:5PJH1U5Iie893v48Fl9yaC",
     "brittany howard|||i don t": "spotify:track:7Gzm2IS4zLi5W46dudWn7H",
     "brk igo robert cichy|||gon": "spotify:track:7LydMmBWRXCSwaYLV8tBTE",
@@ -1384,6 +1385,7 @@
     "stephen sanchez|||be more": "spotify:track:4bp4kwe29qY9PBdrEgSa53",
     "stephen sanchez|||love love love": "spotify:track:3j49aLXWWkbjQyUyvngokI",
     "stephen sanchez|||sweet love": "spotify:track:1bx6QL4eUThXV2jS3B9atn",
+    "steve lacy|||is it cool": "spotify:track:4olWlfIzbDyD53NhWyvdDJ",
     "steve lacy|||sunshine": "spotify:track:2FPmvXIMpjgzJQbUeJo8Iv",
     "still woozy|||rocky": "spotify:track:3E73eFyGL6v10qlK3jiLyR",
     "sting joe henderson|||it ain t necessarily so": "spotify:track:2gA3Tt9lt26b6StX7R9GeZ",
@@ -1497,6 +1499,7 @@
     "tony bennett|||blue velvet": "spotify:track:1icxduZe57KTaogd6BGfxV",
     "tora|||jaigantic": "spotify:track:1YsLYPLUclrIGUSQ5sVs68",
     "tora|||too much": "spotify:track:1Bb8NUOSX6jEdjLtR5TEuQ",
+    "tosca|||rolf royce": "spotify:track:2EAkzsIHNlVmNiNsciRc3D",
     "tourist|||kin": "spotify:track:3RID7FNOsH3XqUcEsgpq5v",
     "tove lo sg lewis|||heat": "spotify:track:3Du9k9oZz7DJCMZviju2lD",
     "tove styrke|||me you always and forever": "spotify:track:7EtHVLkstCjz6iY79FmvLb",
@@ -1601,7 +1604,7 @@
     "retry_after": 23038
   },
   "live_day": "2026-10-08",
-  "live_time": "12:15",
+  "live_time": "13:16",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "all over again|||jesse gold": "2026-09-24",
@@ -1713,6 +1716,9 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:2EAkzsIHNlVmNiNsciRc3D",
+    "spotify:track:4olWlfIzbDyD53NhWyvdDJ",
+    "spotify:track:7mrRyIvl5d4qkGMnsvlNmV",
     "spotify:track:0g8FizeHVo2cG7qxBfmckf",
     "spotify:track:1oMNeGkqwyEOLMUTrgdIr2",
     "spotify:track:4oEKEnqmx6uOWiMt4EilbG",
