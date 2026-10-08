@@ -12,6 +12,7 @@
     "adam lambert|||ghost town": "spotify:track:0ALTA9qTr8AQ8BmGifY2O8",
     "adam lambert|||whataya want from me": "spotify:track:0zv9bOC2NSMd3Fw2HgM5Xn",
     "adele|||rolling in the deep": "spotify:track:4OSBTYWVwsQhGLF9NHvIbR",
+    "adele|||set fire to the rain": "spotify:track:3di5hcvxxciiqwMH1jarhY",
     "adele|||someone like you": "spotify:track:3bNv3VuUOKgrf5hu3YcuRo",
     "aerosmith|||crazy": "spotify:track:3QxKpdTB8ZSFn8MGeCCpsQ",
     "aerosmith|||cryin": "spotify:track:4t1fWWJQs5V9YErfsrDslC",
@@ -606,6 +607,7 @@
     "richard marx|||right here waiting": "spotify:track:4LFwNJWoj74Yd71fIr1W8x",
     "rihanna calvin harris|||we found love": "spotify:track:6qn9YLKt13AGvpq9jfO8py",
     "rihanna|||only girl": "spotify:track:0AH6WMe3OlAlUb5miXt2FQ",
+    "ringside|||tired of being sorry": "spotify:track:2M6ZMFxTe06Ab8H0DbpjgK",
     "rita ora|||anywhere": "spotify:track:6Xy72HZ9nf2jx48dQuF1mA",
     "rixton|||me and my broken heart": "spotify:track:1oew3nFNY3vMacJAsvry0S",
     "rob thomas|||lonely no more": "spotify:track:4faFAhOflLzhfJECveRwva",
@@ -786,7 +788,7 @@
     "retry_after": 22318
   },
   "live_day": "2026-10-08",
-  "live_time": "12:28",
+  "live_time": "13:29",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-05",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -807,6 +809,8 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:3di5hcvxxciiqwMH1jarhY",
+    "spotify:track:2M6ZMFxTe06Ab8H0DbpjgK",
     "spotify:track:11bRjv4HeXGINazFrkOdh4",
     "spotify:track:0Qh38w01QRXK6KHIv0e3hb",
     "spotify:track:6YZdkObH88npeKrrkb8Ggf",
