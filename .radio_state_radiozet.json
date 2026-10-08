@@ -762,6 +762,7 @@
     "wiktor dydu a kasia sienkiewicz|||nie mowie tak nie mowie nie": "spotify:track:35zrCdjDsVSuTvqjz1wrzA",
     "wiktor dydu a|||tam s once gdzie my": "spotify:track:1Wh2SwNbe3OQCoskPc3fD8",
     "wiktor waligora|||cztery pory roku": "spotify:track:64WQcLBIXbjsAA6bh7uHmH",
+    "wiktor waligora|||nie umiem kochac": "spotify:track:11bRjv4HeXGINazFrkOdh4",
     "wiktor waligora|||to jest to": "spotify:track:1I7nEa7aWULffUDCJrkhVp",
     "wiktoria kida ksiega zywio ow|||naiwna ja": "spotify:track:4x9GZTzFsErAMCDBNw6C6v",
     "wiktoria kida ksiega zywiolow|||oj dziewczyno": "spotify:track:4962ajMOnZSbhN80G0Ogk4",
@@ -785,7 +786,7 @@
     "retry_after": 22318
   },
   "live_day": "2026-10-08",
-  "live_time": "09:28",
+  "live_time": "10:28",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-05",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -806,6 +807,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:11bRjv4HeXGINazFrkOdh4",
     "spotify:track:0Qh38w01QRXK6KHIv0e3hb",
     "spotify:track:6YZdkObH88npeKrrkb8Ggf",
     "spotify:track:68ecWfWnxo2rP1wzvGjwbf",
