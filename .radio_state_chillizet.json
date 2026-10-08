@@ -251,6 +251,7 @@
     "charli xcx|||always everywhere": "spotify:track:6fGapufucZHPva1kvCqceA",
     "charli xcx|||camera": "spotify:track:5Fdj0DtH4ZhymltyN5xEv2",
     "charli xcx|||chains of love": "spotify:track:3obedb2fnHaTE8bPlr9TNK",
+    "charli xcx|||ss26": "spotify:track:0g8FizeHVo2cG7qxBfmckf",
     "charlie haden pat metheny|||our spanish love song": "spotify:track:6fU6oxiEP1e4NFEiY9lwi8",
     "charlie haden quartet west|||sophisticated ladies": "spotify:track:5Cfkvri2wQrjXJRCjde00l",
     "charlie haden|||he s gone away": "spotify:track:0ZPhO9RjGZzixJlYvQF8vt",
@@ -537,6 +538,7 @@
     "george maple|||talk talk": "spotify:track:7DzHAnWun14Gunphdd9cxC",
     "george michael|||fastlove": "spotify:track:6SaeXxdt0Id6ZzmX0ZGTQK",
     "george michael|||father figure": "spotify:track:1dPDTi85C6Bek1K0EKB51K",
+    "george michael|||older": "spotify:track:1oMNeGkqwyEOLMUTrgdIr2",
     "george michael|||spinning the wheel": "spotify:track:4V4Ur4PJskr5vR2ek8VHWw",
     "giift|||stuck on us": "spotify:track:3jbz8nNa7dM3flDi2thhX1",
     "gilligan moss charlie houston|||still wonder": "spotify:track:5K971oh2Dc6Aczu89RAZh8",
@@ -1599,7 +1601,7 @@
     "retry_after": 23038
   },
   "live_day": "2026-10-08",
-  "live_time": "11:17",
+  "live_time": "12:15",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "all over again|||jesse gold": "2026-09-24",
@@ -1711,6 +1713,8 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:0g8FizeHVo2cG7qxBfmckf",
+    "spotify:track:1oMNeGkqwyEOLMUTrgdIr2",
     "spotify:track:4oEKEnqmx6uOWiMt4EilbG",
     "spotify:track:6RlczF1bVrcf4f65qaXuoA",
     "spotify:track:2WDjdbFkcSLuJOzvz7cvjf",
