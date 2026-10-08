@@ -640,6 +640,7 @@
     "converge|||the broken vow": "spotify:track:45LROZKPtJOYAIGRiDZQWL",
     "cool kids of death|||dwadziescia kilka lat": "spotify:track:5keZSt28R6cORnOHUI6ZAp",
     "cool kids of death|||to nie zdarza sie nam": "spotify:track:7EYdUDhO5zdnwDPynBHyZv",
+    "cornershop fatboy slim|||brimful of asha": "spotify:track:3RNUFPrfUVeOhd6wcKnf6z",
     "corto alto|||april": "spotify:track:2Y3aaU9bJIxA8E51Eik9CR",
     "cory henry the apostle voices the brent fisher orchestra stevie wonder|||something happens": "spotify:track:4IBsqXxOMUjmb3cWH0hV8K",
     "cory wong|||j a m just a minute": "spotify:track:5RIKETWpcUDMc1QNVELJzf",
@@ -1130,6 +1131,7 @@
     "genesis|||follow you follow me": "spotify:track:2Qf6Xj6jbe1mfe5cnnnJ44",
     "genesis|||invisible touch": "spotify:track:3MjgpUwiqCbSzcBYMMxL82",
     "genesis|||jesus he knows me": "spotify:track:1nRZSvB2IKNmuqr85bhfnJ",
+    "genesis|||land of confusion": "spotify:track:1pykBtYMrfffioNp0RfZlu",
     "genesis|||misunderstanding": "spotify:track:3lwN4cu3ZGuYLsYEptxJIq",
     "genesis|||throwing it all away": "spotify:track:40nv7JmoYrh8aO9lk18JlL",
     "genevieve stokes|||charming": "spotify:track:1F8Eyub1xiZVqlju2PMkFG",
@@ -3519,7 +3521,7 @@
     "retry_after": 22214
   },
   "live_day": "2026-10-08",
-  "live_time": "07:27",
+  "live_time": "07:56",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3797,6 +3799,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:3RNUFPrfUVeOhd6wcKnf6z",
+    "spotify:track:1pykBtYMrfffioNp0RfZlu",
     "spotify:track:0GGBbTRykhCdxCcUoIvXg7",
     "spotify:track:1igU3fWuQEVMHdBmxNl30q",
     "spotify:track:48yvsxGXnJBxy8nXgGbs4S",
