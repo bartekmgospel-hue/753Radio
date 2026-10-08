@@ -466,6 +466,7 @@
     "bruce springsteen|||born in the u s a": "spotify:track:0dOg1ySSI7NkpAe89Zo0b9",
     "bruce springsteen|||fire": "spotify:track:0Tk2agqmwJajtoX6sCxngb",
     "bruce springsteen|||human touch": "spotify:track:1o53HbxmOy5TzThJdBaDZb",
+    "bruce springsteen|||hungry heart": "spotify:track:1KsI8NEeAna8ZIdojI3FiT",
     "bruce springsteen|||i m on fire": "spotify:track:3PzsbWSQdLCKDLxn7YZfkM",
     "bruce willis|||secret agent man james bond is back": "spotify:track:5sSvo5rI6S0z3S5ACY3agL",
     "bruno mars anderson paak silk sonic|||leave the door open": "spotify:track:02VBYrHfVwfEWXk5DXyf0T",
@@ -2552,6 +2553,7 @@
     "rahill|||fables": "spotify:track:4xkHbrSj4TwU8UvmAg8NJa",
     "rainao cultura profetica|||dame la verde": "spotify:track:5GjGjRKsnqpc9buR6Yhezg",
     "ralph kaminski|||autobusy": "spotify:track:7HipxO3XnxSHK2yWIJ2SpV",
+    "rammstein|||du hast": "spotify:track:5awDvzxWfd53SSrsRZ8pXO",
     "ramones|||babysitter 2001 remaster": "spotify:track:7F4VPQq6F8F8Z0Ar2pPjkM",
     "ramones|||blitzkrieg bop": "spotify:track:22ea9e9wspXjaR7qfqfsdS",
     "ramones|||sheena is a punk rocker": "spotify:track:51qDqdcvwtupTiLe4NqZxo",
@@ -2715,6 +2717,7 @@
     "semisonic|||don t give up yet": "spotify:track:0bjtkQuWr9TQPSItRPy3oM",
     "seona dancing|||bitter heart": "spotify:track:1SRl24DcfuJ8hjX8B8V5dP",
     "seweryn krajewski|||jak dobrze ze jestes": "spotify:track:13JBoyOkuVRkMJ9fsMCD9D",
+    "shakespears sister|||hello turn your radio on": "spotify:track:28CbxqvoML43nJMU68VPx1",
     "shama|||mona melody": "spotify:track:4rLuxGOa1OHHJ3VAkWvnXF",
     "shannon mcnally|||tout le temps en temps": "spotify:track:6hzV8Lu8z3vfIfiXfCM56e",
     "sharon van etten|||afterlife": "spotify:track:1DO4aHyMKVW66VWnA4pNeV",
@@ -3553,7 +3556,7 @@
     "retry_after": 22214
   },
   "live_day": "2026-10-08",
-  "live_time": "13:01",
+  "live_time": "13:28",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3834,6 +3837,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:5awDvzxWfd53SSrsRZ8pXO",
+    "spotify:track:1KsI8NEeAna8ZIdojI3FiT",
+    "spotify:track:28CbxqvoML43nJMU68VPx1",
     "spotify:track:2qeESyQyH7MRHCBotCQsNq",
     "spotify:track:1CyuD3w6pqP17ClHo28kAI",
     "spotify:track:5iCP3wPvrUwIZM0V2kzppV",
