@@ -255,6 +255,7 @@
     "enej|||skrzydlate rece": "spotify:track:7ljM68o858hnx5UVXMxA4D",
     "enrique iglesias descemer bueno zion lennox|||subeme la radio": "spotify:track:7nKBxz47S9SD79N086fuhn",
     "enrique iglesias sean paul bueno de zona|||bailando": "spotify:track:2EHu09nPab1dk0jySbkjEr",
+    "enrique iglesias|||duele el corazon": "spotify:track:6YZdkObH88npeKrrkb8Ggf",
     "eric carmen|||hungry eyes": "spotify:track:3sTSo8X7UCDTVUVMJ63LJO",
     "europe|||the final countdown": "spotify:track:3MrRksHupTVEQ7YbA0FsZK",
     "eurythmics|||sweet dreams are made of this": "spotify:track:1TfqLAPs4K3s2rJMoCokcS",
@@ -783,7 +784,7 @@
     "retry_after": 22318
   },
   "live_day": "2026-10-08",
-  "live_time": "05:26",
+  "live_time": "06:22",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-05",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -804,6 +805,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:6YZdkObH88npeKrrkb8Ggf",
     "spotify:track:68ecWfWnxo2rP1wzvGjwbf",
     "spotify:track:0xaX7GZo0NmElhyRD4zUUK",
     "spotify:track:0jA9ooo0BSySfFrxSnF9KW",
