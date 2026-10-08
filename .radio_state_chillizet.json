@@ -276,6 +276,7 @@
     "chet faker|||1000 ways": "spotify:track:7HohY6Vgz1aoZfgKB6iL1J",
     "chet faker|||far side od the moon": "spotify:track:2OFzqDxJoPrdGUlGHYAqlJ",
     "chez moon|||midnight love": "spotify:track:0SeLpuHaz4luw6bAR2T9zF",
+    "chezile|||blue": "spotify:track:7nicn8ELgX9KaaHSS3MWxw",
     "chi chi squad|||treat me right": "spotify:track:3Zp2SRyRt08Vh7umQp10Od",
     "chiiild|||pirouette": "spotify:track:2sz6BchGGyA7QsUW2Gw8eb",
     "childish gambino amaarae jorja smith|||in the night": "spotify:track:11bJ1ws3dathgY9uzADUhL",
@@ -381,6 +382,7 @@
     "dela dap|||i know what you want": "spotify:track:4HmYeqsx5wuchsvuRup3c0",
     "demae|||regret": "spotify:track:1YznXo9lIeWc5lxbM7dFae",
     "dennis lloyd|||nevermind": "spotify:track:63SevszngYpZOwf63o61K4",
+    "depeche mode|||precious": "spotify:track:1cBxAm8a0fENn2ix3Dfm3u",
     "dexter in the newsagent|||more to me": "spotify:track:0J1qkBgPKmgAY3M3BPe1QR",
     "dexter|||paper cup": "spotify:track:16pxpINpnRJemEF1FRo8zD",
     "dhruv|||one and only": "spotify:track:5t8pzRyclrYbL62ebIj0n3",
@@ -1099,6 +1101,7 @@
     "nemo|||this body": "spotify:track:1Wc3ivNymtI73jl0AcDIDz",
     "neneh cherry|||woman": "spotify:track:5Dd2BmTJmNsGenAu7J0bqD",
     "newdad|||under my skin": "spotify:track:2YL1nqQAZbiJFey1mwVCXu",
+    "newport|||fickle": "spotify:track:0UryFuTgfEwvpM6A7jIOG7",
     "nia archives|||so tell me": "spotify:track:3FwfEBrr6MUPFqQFGY2ZKw",
     "nia smith|||high": "spotify:track:1fylUPtF8NeiiZQng4F1Tf",
     "nia smith|||limit": "spotify:track:6NkJkPVDH8BRWTJXerQU2t",
@@ -1613,7 +1616,7 @@
     "retry_after": 23038
   },
   "live_day": "2026-10-08",
-  "live_time": "15:17",
+  "live_time": "16:15",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "all over again|||jesse gold": "2026-09-24",
@@ -1726,6 +1729,9 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:7nicn8ELgX9KaaHSS3MWxw",
+    "spotify:track:0UryFuTgfEwvpM6A7jIOG7",
+    "spotify:track:1cBxAm8a0fENn2ix3Dfm3u",
     "spotify:track:2lu9ElghP2Z0IB0FB6vXAG",
     "spotify:track:0AkiAfilrTUXV49dleC5SB",
     "spotify:track:1qEmFfgcLObUfQm0j1W2CK",
