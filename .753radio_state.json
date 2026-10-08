@@ -750,6 +750,7 @@
     "deep purple|||child in time superhuman stranger things version": "spotify:track:0H4GqAsdLZWRR4uytEBrNl",
     "deep purple|||fireball": "spotify:track:4nlONLKCmdqbtOoG2ksIHi",
     "deep purple|||hush": "spotify:track:6TrfACvxrY5W8sSqN6GpQH",
+    "deep purple|||perfect strangers": "spotify:track:2JhJOPGvtqMpj5RQC8cIYf",
     "deep purple|||pictures of you": "spotify:track:6vS3Tx1vR80vXENELsLv79",
     "def leppard|||animal": "spotify:track:4qjscZh4jfhkpcQG4ZQfi2",
     "def leppard|||let s get rocked": "spotify:track:0LoH6lFQLNscy3RyljAewK",
@@ -3071,6 +3072,7 @@
     "the bullseyes|||if heaven exists": "spotify:track:4aPZWeoskDJKQuwyyCwl3d",
     "the car is on fire|||cranks": "spotify:track:1P6zwcruIyZYEW3NLWSLue",
     "the cardigans|||lovefool": "spotify:track:62jHQVg24Wxjya8UKUIOGZ",
+    "the cardigans|||my favourite game": "spotify:track:0Ui05Ov0s4PnRc4JI3Pilg",
     "the cars|||drive": "spotify:track:6vArSSPkFRBTxkBmpjVlFC",
     "the cars|||heartbeat city": "spotify:track:5QuQFz3QK3ILCpBgGHGss8",
     "the cars|||hello again": "spotify:track:6HFpfx0Efw1ckqKTLVrMQy",
@@ -3228,6 +3230,7 @@
     "the streets|||never went to church": "spotify:track:1UHDC8RXrTHwUIINrJ4Cql",
     "the strokes|||going to babble on": "spotify:track:2nxsLJwW4eFDwl36fUQJWe",
     "the strokes|||the adults are talking": "spotify:track:5ruzrDWcT0vuJIOMW7gMnW",
+    "the strokes|||you only live once": "spotify:track:4fPBB44eDH71YohayI4eKV",
     "the tallest man on earth|||deliver me from trying": "spotify:track:7hYvMqoqHqoow0XRJ6RCNk",
     "the tallest man on earth|||overboda": "spotify:track:3epOEYmGLCbfdniI7xTYvC",
     "the temper trap|||bird on a wire": "spotify:track:4zYgyzWuDtd9P2fP54qeJ0",
@@ -3570,7 +3573,7 @@
     "retry_after": 22214
   },
   "live_day": "2026-10-08",
-  "live_time": "16:21",
+  "live_time": "16:54",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3851,6 +3854,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:4fPBB44eDH71YohayI4eKV",
+    "spotify:track:0Ui05Ov0s4PnRc4JI3Pilg",
+    "spotify:track:2JhJOPGvtqMpj5RQC8cIYf",
     "spotify:track:7GR0aUEo30gZ76VoE9jfeh",
     "spotify:track:6EuGf9ZfK9CcSoq2M0SYto",
     "spotify:track:3YuaBvuZqcwN3CEAyyoaei",
