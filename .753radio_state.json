@@ -1139,6 +1139,7 @@
     "george benson|||turn your love around": "spotify:track:6a899bXlCuViXW2Qs8Rdqo",
     "george ezra|||barcelona": "spotify:track:3ieLey98V9mIIh3W9gBlPF",
     "george ezra|||did you hear the rain": "spotify:track:1dKMQ58n6Rskvgb9ccFGdz",
+    "george harrison|||when we was fab": "spotify:track:314czmBEcosdYdQEKlLtcb",
     "george michael elton john|||don t let the sun go down on me": "spotify:track:7xGOvQukPKKQVLiJOPSmt0",
     "george michael|||outside": "spotify:track:6SfWgcAHkQo3SMRvRIzJm6",
     "gerard blanchard|||rock amadour": "spotify:track:2moduAQ4iHZvknXAiLV0qd",
@@ -2012,6 +2013,7 @@
     "midnight oil|||king of the mountain": "spotify:track:6hysTQw3gQofXOg8HAcGdF",
     "mighty oaks|||slow it down": "spotify:track:5HUrh81F4TjSdhfTKKio67",
     "mighty oaks|||washington": "spotify:track:0zXFVCAn8Sdno4uGaBesUA",
+    "mike and the mechanics|||over my shoulder": "spotify:track:6DKM07xOL59GExqNgE8LFM",
     "mike and the mechanics|||silent running": "spotify:track:59D5esFdYajdsJMpBeXB8g",
     "miles davis quintet|||oleo": "spotify:track:5OtPhDQyY6Xs8LAEWhA5EA",
     "miles davis|||time after time": "spotify:track:7qXzftboLI8bovjXxYhriu",
@@ -3527,7 +3529,7 @@
     "retry_after": 22214
   },
   "live_day": "2026-10-08",
-  "live_time": "08:56",
+  "live_time": "09:28",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3806,6 +3808,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:6DKM07xOL59GExqNgE8LFM",
+    "spotify:track:314czmBEcosdYdQEKlLtcb",
     "spotify:track:5qtwzv99vOr5UTwnTixn7j",
     "spotify:track:6Bvu6J72zBA8dWwcF24tus",
     "spotify:track:5pPefOKTPpV1iUMIzMRVbz",
