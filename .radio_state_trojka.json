@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-10-09T01:01:16+00:00",
   "keys": {
     "15 minut projekt|||soca": "spotify:track:4nb5Saxa9EhQmkSEourUW4",
     "2 plus 1|||hej dogonie lato": "spotify:track:5kThJ36GmE6r925KcKdc4R",
@@ -1481,14 +1481,14 @@
     "zz top|||breakaway": "spotify:track:3k6T3I7uuRGL96rWFTucgb"
   },
   "last_429": {
-    "at": "2026-10-07T20:41:21+00:00",
+    "at": "2026-10-08T17:41:20+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 14397
+    "retry_after": 26391
   },
   "live_day": "2026-10-08",
-  "live_time": "17:52",
+  "live_time": "18:07",
   "misses": {
     "adam clayton larry mullen jr|||mission impossible": "2026-10-08",
     "armand hammer the alchemist|||falling out the sky": "2026-10-02",
