@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-10-09T01:01:16+00:00",
   "keys": {
     "21 gram|||tu i teraz": "spotify:track:72eKQ5RXqRgJjmqZiKzbhW",
     "3 11 porter|||surround me with your love mental overdrive rmx": "spotify:track:7vmlI8Ifgh1JceLDzVWrub",
@@ -15,6 +15,7 @@
     "adam ba dych|||gnossienne": "spotify:track:2Kv5IjUSR6DPlFrRqV90WY",
     "adam ten|||3 days later": "spotify:track:0divWrAf5awgfmCGyWhZ3j",
     "addison rae|||headphones on": "spotify:track:3H6xZgwRZx8McVUJzmMxWe",
+    "adela|||nicole kidman": "spotify:track:70cHKK8bHAfJrOGVnfRG9J",
     "adele|||chasing pavements": "spotify:track:0Z5ok0QLLttAKsujOZYOXf",
     "adele|||oh my god": "spotify:track:3Kkjo3cT83cw09VJyrLNwX",
     "adele|||right as rain": "spotify:track:6OLudcGaT6HQ5bXH54kI8i",
@@ -68,6 +69,7 @@
     "angus julia stone|||cape forestier": "spotify:track:4tV7sVnqQLrYao9oTCzYTq",
     "angus julia stone|||chateau": "spotify:track:1tQtURCQmQnY5ZxJNTgXKR",
     "angus julia stone|||losing you": "spotify:track:0I47uBTjeZ2WH7zakJjgi9",
+    "ania karwan|||w to mi graj": "spotify:track:3s2tBiOaWfZnd97WEoL7ID",
     "ania|||be thankful for what you ve got": "spotify:track:3pltzozDSKNBTSQQE0wf28",
     "anish kumar|||the heart wants a heart": "spotify:track:6SAwejI3GI9Udk4CY9LxVH",
     "anna maria flechero|||the look of love": "spotify:track:4lJFhHjNHhTidRjXIoAV5D",
@@ -788,6 +790,7 @@
     "karate boogaloo|||butterfly": "spotify:track:2jRuUChGxEIDoRgGsOwe16",
     "karolina artymowicz|||dalej": "spotify:track:2dT3Q963P48EWVSOFoIqZq",
     "karolina charko|||hamak": "spotify:track:1Lqb61qdxy5rtAPIURYSsJ",
+    "kasia klich|||lepszy model": "spotify:track:4jWVMq7RtqLXTXGRynGO1W",
     "kaska sochacka kortez|||dla mnie to juz koniec": "spotify:track:7soiSBsRqE7g5oVZQhaKNL",
     "kaska sochacka|||ego": "spotify:track:0UiNf799aj06bNcse4GjDA",
     "kaska sochacka|||final": "spotify:track:54zow0zcxKKGUqVl6xzLiF",
@@ -832,6 +835,7 @@
     "kofi stone maverick sabre|||arlissa": "spotify:track:1TRkYXwjX3sna7F0xZNxWz",
     "kojaque biig piig|||woof": "spotify:track:1x28zxdv6XBU3a6oiCBp17",
     "kokoroko|||ti de": "spotify:track:4JJEfYFamGRfmz9nG6fx1w",
+    "kortez|||hej wy": "spotify:track:39VigLq155fsriPYNfHIBc",
     "kortez|||wiem ze mnie podgladasz": "spotify:track:7hjDTeQpH05G6vbZkaYvR2",
     "kraak smaak kosta g|||nothing is forever": "spotify:track:4vCy8WV64YnAAG61QaNTur",
     "kraak smaak satchmode jean tonique|||don t want this to be over": "spotify:track:7siSwrellylOs0GO0xx6xy",
@@ -978,6 +982,7 @@
     "maribou state|||home": "spotify:track:07fB2SZNaI4otc0eqMhJWN",
     "mark e|||the day": "spotify:track:5T8dyLnokL4ZlivTaccsdq",
     "mark ronson diana gordon|||why hide": "spotify:track:2ezB38ZcizFvMogmHgBztH",
+    "mark ronson lykke li|||late night feelings": "spotify:track:7aQeWViSfRWSEwtJD86Eq0",
     "mark ronson the business intl|||somebody to love me": "spotify:track:2Tky1eOpdLXo8yYawnTMcj",
     "markus ivi|||ptaki": "spotify:track:2LwA6OrbN2DFP9osByAYEY",
     "maro|||kiss me": "spotify:track:3phYFzn8h6sjbUtWD8Nig3",
@@ -1353,6 +1358,7 @@
     "sg lewis|||back to earth": "spotify:track:3CUO0SWhrhiytjkKTfrMMj",
     "shaboozey|||a bar song tipsy": "spotify:track:2FQrifJ1N335Ljm3TjTVVf",
     "shay lia kaytranada|||so good": "spotify:track:08CMPHgVZWm0NNBw0uoCP7",
+    "sheryl crow|||i know": "spotify:track:7plYjGXxjWi6ctsro9cNOQ",
     "shire t|||london paris berlin": "spotify:track:4OwMTUrschknwvALozCuoD",
     "shola ama|||you might need somebody": "spotify:track:24IFYP3J99HK3aB6xG5jtP",
     "shouse|||sunrise": "spotify:track:3EKH7UOa15KQIvNyME6qEP",
@@ -1409,6 +1415,7 @@
     "stephen sanchez|||be more": "spotify:track:4bp4kwe29qY9PBdrEgSa53",
     "stephen sanchez|||love love love": "spotify:track:3j49aLXWWkbjQyUyvngokI",
     "stephen sanchez|||sweet love": "spotify:track:1bx6QL4eUThXV2jS3B9atn",
+    "stephen sanchez|||this thing called love": "spotify:track:3ozxltWRX58CbnS129EbDk",
     "steve lacy|||is it cool": "spotify:track:4olWlfIzbDyD53NhWyvdDJ",
     "steve lacy|||sunshine": "spotify:track:2FPmvXIMpjgzJQbUeJo8Iv",
     "still woozy|||rocky": "spotify:track:3E73eFyGL6v10qlK3jiLyR",
@@ -1431,6 +1438,7 @@
     "syml|||heavy hearts": "spotify:track:6nIJe0uujNETpZWWMlDazL",
     "sza phoebe bridgers|||ghost in the machine": "spotify:track:4h5x3XHLVYFJaItKuO2rhy",
     "sza|||bmf": "spotify:track:3U3hFkMr0Q90pD24EkE3Pr",
+    "sza|||kill bill": "spotify:track:3OHfY25tqY28d16oZczHc8",
     "t hanks|||all the boys i know": "spotify:track:0scsasJCOvqlahmvwAdZnR",
     "talos|||see me": "spotify:track:3Pvv1THse5T4dAa2niaFYv",
     "talos|||tethered bones": "spotify:track:45XWLxrdaZompiNbIXXj0y",
@@ -1623,14 +1631,14 @@
     "zuzanna malisz|||deszczowy lipiec": "spotify:track:6xpMN7YjQ5I53StXJJK7PI"
   },
   "last_429": {
-    "at": "2026-10-07T18:17:20+00:00",
+    "at": "2026-10-08T17:17:25+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 23038
+    "retry_after": 27826
   },
   "live_day": "2026-10-08",
-  "live_time": "18:09",
+  "live_time": "19:14",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "all over again|||jesse gold": "2026-09-24",
@@ -1738,7 +1746,16 @@
     "yours|||where it s at": "2026-10-07"
   },
   "pending_backfill": [],
-  "pending_live": [],
+  "pending_live": [
+    "spotify:track:3s2tBiOaWfZnd97WEoL7ID",
+    "spotify:track:7aQeWViSfRWSEwtJD86Eq0",
+    "spotify:track:70cHKK8bHAfJrOGVnfRG9J",
+    "spotify:track:3OHfY25tqY28d16oZczHc8",
+    "spotify:track:3ozxltWRX58CbnS129EbDk",
+    "spotify:track:4jWVMq7RtqLXTXGRynGO1W",
+    "spotify:track:7plYjGXxjWi6ctsro9cNOQ",
+    "spotify:track:39VigLq155fsriPYNfHIBc"
+  ],
   "playlist_id": "1bs7PdfLounhNUU4ZeRIdH",
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
