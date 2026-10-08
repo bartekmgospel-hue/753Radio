@@ -580,6 +580,7 @@
     "pink|||just like a pill": "spotify:track:1BpV8IGf4XsRRJf4Xuui9q",
     "pink|||trustfall": "spotify:track:1gUwi1o1S9W9P0FQgJdY8s",
     "pink|||u ur hand": "spotify:track:1iOJQhxKSJ7dg3Dk03yPnl",
+    "pink|||what about us": "spotify:track:0Qh38w01QRXK6KHIv0e3hb",
     "piotr rubik olga szomanska przemys aw branny|||niech wszyscy mowia ze to nie jest mi osc": "spotify:track:4yBrh1lPevOSW1V4oZaBgq",
     "pitbull christina aguilera|||feel this moment": "spotify:track:0Hf4aIJpsN4Os2f0y0VqWl",
     "pitbull kesha|||timber": "spotify:track:3cHyrEgdyYRjgJKSOiOtcS",
@@ -784,7 +785,7 @@
     "retry_after": 22318
   },
   "live_day": "2026-10-08",
-  "live_time": "06:22",
+  "live_time": "07:21",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-05",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -805,6 +806,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:0Qh38w01QRXK6KHIv0e3hb",
     "spotify:track:6YZdkObH88npeKrrkb8Ggf",
     "spotify:track:68ecWfWnxo2rP1wzvGjwbf",
     "spotify:track:0xaX7GZo0NmElhyRD4zUUK",
