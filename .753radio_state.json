@@ -734,6 +734,7 @@
     "deee lite|||groove is in the heart": "spotify:track:2He3NOyqtLNE3RQPpeDdSb",
     "deep purple|||blind": "spotify:track:57BgQAFuhPXVFxbmndMlyj",
     "deep purple|||child in time superhuman stranger things version": "spotify:track:0H4GqAsdLZWRR4uytEBrNl",
+    "deep purple|||fireball": "spotify:track:4nlONLKCmdqbtOoG2ksIHi",
     "deep purple|||hush": "spotify:track:6TrfACvxrY5W8sSqN6GpQH",
     "deep purple|||pictures of you": "spotify:track:6vS3Tx1vR80vXENELsLv79",
     "def leppard|||animal": "spotify:track:4qjscZh4jfhkpcQG4ZQfi2",
@@ -2801,6 +2802,7 @@
     "spector|||what you wanted": "spotify:track:0gJlDiAHitvzQA8mCwVsr0",
     "spiety|||kowalski w asnego losu": "spotify:track:0G5DmQrq2pRjWwYIRFGQ9z",
     "spiety|||zapalenie przedrostka": "spotify:track:4QKpOoUpH3dctc7qhc2CV2",
+    "spoon|||hot thoughts": "spotify:track:48yvsxGXnJBxy8nXgGbs4S",
     "spoon|||lucifer on the sofa": "spotify:track:5C5EOBG95uBcP2mmytv8j7",
     "sports team|||bang bang bang": "spotify:track:5UUDgwTJ1ReQnUngHbkxI1",
     "st paul the broken bones|||fall moon": "spotify:track:5akiBXHH4AUUgDpNf2LBvT",
@@ -3515,7 +3517,7 @@
     "retry_after": 22214
   },
   "live_day": "2026-10-08",
-  "live_time": "06:28",
+  "live_time": "06:57",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3793,6 +3795,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:48yvsxGXnJBxy8nXgGbs4S",
+    "spotify:track:4nlONLKCmdqbtOoG2ksIHi",
     "spotify:track:3ix6K4wZY29bCujrSznwFZ",
     "spotify:track:3KtKOYmUpcmAU1SzArnFrp",
     "spotify:track:5srIkb35ees5dhgjK3zdfz",
