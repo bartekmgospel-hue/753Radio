@@ -997,6 +997,7 @@
     "eurythmics|||love is a stranger": "spotify:track:2K7uBkHtYJ53yxPt1satD1",
     "eurythmics|||missionary man": "spotify:track:1LgZRmGoSyiOOWxjTjMJy0",
     "eurythmics|||there must be an angel playing with my heart": "spotify:track:1YJ4vpxPL6Wgo8gmRnvqSp",
+    "eurythmics|||thorn in my side": "spotify:track:69RRNcyev0eWJsPwssCFFK",
     "eva cassidy|||at last": "spotify:track:5pc0LjdOAAFvUEwcNhlBoh",
     "everlast|||mistaken identity": "spotify:track:1g2w2gp0fVRjXXpUmOGb1X",
     "everlast|||what it s like": "spotify:track:6vUPPEN2V2lZ78b6DyEIjZ",
@@ -1705,6 +1706,7 @@
     "kult|||czterej g upcy": "spotify:track:51UVu8dAKalW5eEc0I6Fj8",
     "kult|||dziewczyna bez zeba na przedzie": "spotify:track:4rlaB8MWZthql3LvKXwsmv",
     "kult|||fever fever fever": "spotify:track:0EAq4cW3iwRikchjh6OZpK",
+    "kult|||parada wspomnien": "spotify:track:0TMuSUmPLjJantfXeb6G5B",
     "kult|||patrz": "spotify:track:3WEX0o0EFFk1k8gd3EhP7S",
     "kult|||po co wolnosc": "spotify:track:5NtbR7nleRf1hHEoIiyWDK",
     "kult|||smierc poety": "spotify:track:6sePTzYBNXfWgEPxEM5QHK",
@@ -3101,6 +3103,7 @@
     "the bee gees|||nights on broadway": "spotify:track:4JjcCdm0RSPuvQWnZyrNkm",
     "the bible|||glorybound": "spotify:track:196EFWqMsgdRmW25MC8O9k",
     "the bible|||she s my bible": "spotify:track:0QO5AazJg3pKPIXHnrXaAM",
+    "the black crowes|||jealous again": "spotify:track:5IJWnvJJgH4PR4p9aXnNCQ",
     "the black keys|||fever": "spotify:track:3Hx7RXqCS7Kzjy2ot2q1Gk",
     "the black keys|||lonely boy": "spotify:track:5G1sTBGbZT5o4PNRc75RKI",
     "the black keys|||no rain no flowers": "spotify:track:4ns4t9csFyWBMjyHAzwLl0",
@@ -3628,7 +3631,7 @@
     "retry_after": 27007
   },
   "live_day": "2026-10-09",
-  "live_time": "06:01",
+  "live_time": "06:26",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3913,6 +3916,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:5IJWnvJJgH4PR4p9aXnNCQ",
+    "spotify:track:69RRNcyev0eWJsPwssCFFK",
+    "spotify:track:0TMuSUmPLjJantfXeb6G5B",
     "spotify:track:3mKwFk5hnLlWXY84jLHgCi",
     "spotify:track:0gFffj7c4dHfgVX1WsEgP1",
     "spotify:track:5fewYZz1bCsj72vjSwSxzq",
