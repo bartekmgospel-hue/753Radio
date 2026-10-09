@@ -492,6 +492,7 @@
     "bryan adams mel c|||when you re gone": "spotify:track:7p9dd71JR2ucoAuO1Sy0VZ",
     "bryan adams|||51st state": "spotify:track:2jat9vx2P0tfqWpPD5knDB",
     "bryan adams|||can t stop this thing we started": "spotify:track:4e80zUwo7YuhNHs9OokSG0",
+    "bryan adams|||have you ever really loved a woman": "spotify:track:7gZ3MyVUhVdvFj5bOMewtm",
     "bryan adams|||on a day like today": "spotify:track:1g2tPIP5isX44SNeDeqLsz",
     "bryan adams|||the ballad of terry fox": "spotify:track:1OvkfOMOTNHsnfgVgGWWbQ",
     "bryan adams|||there will never be another tonight": "spotify:track:2pRa17WsuJOGVdsTCDtKgl",
@@ -599,6 +600,7 @@
     "chris cornell|||you never knew my mind": "spotify:track:1BCVNKomSHIOsAlNYYUZng",
     "chris de burgh|||don t pay the ferryman": "spotify:track:0vJlZS5zLMhRQ6xo9vmAlB",
     "chris isaak|||blue hotel": "spotify:track:0rG0A8acI3ttuTieBYIElo",
+    "chris isaak|||wild love": "spotify:track:3uec6nbv5oi3KdRQg8iahU",
     "chris rea|||all summer long": "spotify:track:0K2RTDY2OXtuGqnZH6l3Si",
     "chris rea|||the blue cafe": "spotify:track:2CvyDY52IoJaLZ5vbKcTd4",
     "chris stapleton|||bad as i used to be": "spotify:track:11AfHdYnWqd8ez0u3VHw6E",
@@ -2877,6 +2879,7 @@
     "slade|||far far away": "spotify:track:0asP38f9DfcVZ5P5AvKtJl",
     "slash chris stapleton|||oh well": "spotify:track:0o16V4WswA4aknX8WmVDsQ",
     "slash|||oh well": "spotify:track:0o16V4WswA4aknX8WmVDsQ",
+    "slawa przybylska|||okularnicy": "spotify:track:09GKW7x0iMuxzzM7IeQ01g",
     "slayer|||delusions of saviour": "spotify:track:06WUUNf7q18NZfjIsQFsfa",
     "slayer|||piece by piece": "spotify:track:4r7wKbbQPN4hzNWjLM5554",
     "sleaford mods|||no touch": "spotify:track:1mNPEzyOgIUo5Tt2AD70Tj",
@@ -3674,7 +3677,7 @@
     "retry_after": 27007
   },
   "live_day": "2026-10-09",
-  "live_time": "18:26",
+  "live_time": "19:00",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3959,6 +3962,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:3uec6nbv5oi3KdRQg8iahU",
+    "spotify:track:09GKW7x0iMuxzzM7IeQ01g",
+    "spotify:track:7gZ3MyVUhVdvFj5bOMewtm",
     "spotify:track:4XPCZ9kqAO38vWXCUfkMAn",
     "spotify:track:5I9sHwLDX28tLtzVgKLtpr",
     "spotify:track:4I2GdvjRKP5KbTUn43dPsK",
