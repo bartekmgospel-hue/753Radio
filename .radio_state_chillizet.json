@@ -210,6 +210,7 @@
     "blood orange|||you re not good enough": "spotify:track:7vcNp4cj4uF4AyX5aKY4Ps",
     "blossoms|||joke about divorce": "spotify:track:3UyCEzt4txket1wisfl48h",
     "blossoms|||the deep end": "spotify:track:5TFgde6yFfClcuxp61hTLs",
+    "blossoms|||your girlfriend": "spotify:track:3tzU46wNOVaFiYRNtNYY66",
     "blu the tiger|||cotton candy lemonade": "spotify:track:1RfPf0W4OlIWROTV5Afs3S",
     "blue lab beats|||wait a while": "spotify:track:6ZEpCZPLlfyJ9QyExEEDFq",
     "blxst anderson paak|||dance with the devil": "spotify:track:45wa8hJ0kmnoFHe3Q2b7wD",
@@ -252,6 +253,7 @@
     "cassandra wilson|||the very thought of you": "spotify:track:0TGxvI0v6m8LNUgd7Q32Zs",
     "cat burns|||alone": "spotify:track:6wpOHVSrinXhKqF4EBbpuS",
     "cat burns|||how to be human": "spotify:track:6TjvDoWlEorGzpgmQetW6j",
+    "cat burns|||is it that deep": "spotify:track:6wkfyISJzM5SgaJPVArJBb",
     "cat burns|||live more love more": "spotify:track:1Oj4FgVngNgBTvd0a9nI2k",
     "cat power|||the greatest": "spotify:track:0OVXLPJPDCFn1IV6bFxY1N",
     "cat power|||white mustang": "spotify:track:0I8pj7sMA5iLIwSIz9Mu2F",
@@ -1586,6 +1588,7 @@
     "two another|||summer of love": "spotify:track:5UosgMmkGc9r6310hB8TVL",
     "two door cinema club|||everybody s cool": "spotify:track:66YV5WPbSqEZsM6WwShkEM",
     "tyla|||that girl": "spotify:track:7vn1jku0IydU4cVGm5C9lF",
+    "u2|||ordinary love": "spotify:track:5K8cyMKcnG4rx5ocW3u7OW",
     "unusual demont|||amber": "spotify:track:6EIh7qGQxcJL15DqmuXcYK",
     "vagabon|||carpenter": "spotify:track:5ZrlyBB1F19Cj1wsTDZNOr",
     "valley|||bop ba": "spotify:track:2kohdOn9SEqiWlkIkOChy2",
@@ -1673,7 +1676,7 @@
     "retry_after": 27826
   },
   "live_day": "2026-10-09",
-  "live_time": "15:17",
+  "live_time": "16:16",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "all over again|||jesse gold": "2026-09-24",
@@ -1789,6 +1792,9 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:3tzU46wNOVaFiYRNtNYY66",
+    "spotify:track:6wkfyISJzM5SgaJPVArJBb",
+    "spotify:track:5K8cyMKcnG4rx5ocW3u7OW",
     "spotify:track:44zf5NYcYHYzkSsRLARemm",
     "spotify:track:3uJnrjozwZjtElWVYkwX41",
     "spotify:track:2EgjT5J2WNzhSKPfAYLOcd",
