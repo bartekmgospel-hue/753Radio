@@ -576,6 +576,7 @@
     "elton john|||take me to the pilot": "spotify:track:1CPmTJHyeVRWsc6Va27fpQ",
     "elvis presley|||a little less conversation jxl radio edit remix": "spotify:track:7FNIEfhhBlzsZFxCwI5Nwh",
     "elvis presley|||burning love rehearsal 2": "spotify:track:7zMUCLm1TN9o9JlLISztxO",
+    "elyanna|||sokkar": "spotify:track:2BYTEkHsEa6BaFxvddYsee",
     "emerson lake palmer|||lucky man": "spotify:track:5RLZlqTQWpldOwNsISe2ag",
     "emiliana torrini the colorist orchestra|||hilton": "spotify:track:3rAHZCDyUW9OHrFKnTpgC8",
     "emily king|||false start": "spotify:track:2FaSobIExvR5vZJYIeWjWS",
@@ -1142,6 +1143,7 @@
     "lady em|||james brown": "spotify:track:7aXJLYxbTdTUPrHm83GCP5",
     "lady wray|||games people play": "spotify:track:4PiSsoZcmLo3AYXlyRv2xH",
     "lael neale|||i ll be your star": "spotify:track:7h3i5FIvQeW1vuCvEScsge",
+    "laka|||mama": "spotify:track:61dcwi5c7gucB0QMUeuwFw",
     "lake street dive|||far gone": "spotify:track:52vDdl8LpTQArhOrKJCTg7",
     "lalah hathaway|||vantablack": "spotify:track:2WMY1Wg9UM7a50fy9mDoM8",
     "lalo schifrin|||mission impossible from music from mission impossible original television soundtrack": "spotify:track:1XnzC28Z5QSglwHBDvGTtN",
@@ -1767,6 +1769,7 @@
     "sara brk mac kay moo latte|||trace zimna krew": "spotify:track:1wGQr1EVshjLGhcruZ64nt",
     "sarsa|||na trasie": "spotify:track:5V5ODbD3LS8MZ6ut4poPEn",
     "saun starr|||look closer can t you see the signs": "spotify:track:25bVLvHf0WlomDOLwBvSqp",
+    "say she she|||cut rewind": "spotify:track:2VmXX54vJ5SLvZzJ9Ak00z",
     "say she she|||i believe in miracles": "spotify:track:3KANHsfHFcFGufoGdafygC",
     "say she she|||in the morning": "spotify:track:3UVi744Ix0ZDtYJFaJI0AJ",
     "scary pockets|||why can t we be friends": "spotify:track:7pJVQwLjisxB6BOe9CciRo",
@@ -2337,7 +2340,7 @@
     "retry_after": 24937
   },
   "live_day": "2026-10-09",
-  "live_time": "11:05",
+  "live_time": "12:05",
   "misses": {
     "adam nowak|||pod niebem pe nym cudow live artysci dla akademii teatralnej 24 11 2022": "2026-10-03",
     "andy summers|||round midnight": "2026-10-04",
@@ -2447,6 +2450,9 @@
   "playlist_name": "Radio Nowy Świat",
   "source_generation": "odsluchane-multi-v1.1:105",
   "uris": [
+    "spotify:track:2BYTEkHsEa6BaFxvddYsee",
+    "spotify:track:61dcwi5c7gucB0QMUeuwFw",
+    "spotify:track:2VmXX54vJ5SLvZzJ9Ak00z",
     "spotify:track:7AfXda0tSyLrhlN3vkbkpo",
     "spotify:track:15hNIXBfqiNf5nvpnz8NYF",
     "spotify:track:3R6uq4cPlasMacou5ddbFk",
