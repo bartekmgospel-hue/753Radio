@@ -251,6 +251,7 @@
     "cat burns|||how to be human": "spotify:track:6TjvDoWlEorGzpgmQetW6j",
     "cat burns|||live more love more": "spotify:track:1Oj4FgVngNgBTvd0a9nI2k",
     "cat power|||the greatest": "spotify:track:0OVXLPJPDCFn1IV6bFxY1N",
+    "cat power|||white mustang": "spotify:track:0I8pj7sMA5iLIwSIz9Mu2F",
     "cathing flies|||halo breathe": "spotify:track:0bZ16YooUZEQ5LSVZq5Fdv",
     "cc disco manuel darquart|||touch the vibe remix": "spotify:track:4IxWDY92BHKlKEX2QvQ7mM",
     "celeste|||love is back": "spotify:track:4kzcJJUonbCSlNXrHXt6n8",
@@ -1651,7 +1652,7 @@
     "retry_after": 27826
   },
   "live_day": "2026-10-09",
-  "live_time": "04:16",
+  "live_time": "05:16",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "all over again|||jesse gold": "2026-09-24",
@@ -1765,6 +1766,7 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:0I8pj7sMA5iLIwSIz9Mu2F",
     "spotify:track:7dX7o0fBPm8ZALoa47Ck8Y",
     "spotify:track:0ksOLCZcOa32Z8id6jPHC3",
     "spotify:track:22Ije5ct8ttWWhuJEG2wEY",
