@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": "2026-09-10",
-  "blocked_until": null,
+  "blocked_until": "2026-10-10T01:05:33+00:00",
   "keys": {
     "10 cc|||the film of my love": "spotify:track:5MaQo2YUfKf9Quzqclz1f5",
     "10cc|||i m not in love": "spotify:track:5HQEmiV2lKnSO6qa2fsR7x",
@@ -3675,11 +3675,11 @@
     "|||serbia drums": "spotify:track:714zQuKodEfVvyRFn1K8PC"
   },
   "last_429": {
-    "at": "2026-10-08T17:31:04+00:00",
+    "at": "2026-10-09T23:31:03+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 27007
+    "retry_after": 5665
   },
   "live_day": "2026-10-10",
   "live_time": "01:01",
