@@ -578,6 +578,7 @@
     "goldroom|||breaks": "spotify:track:6W0roLc9LMJe3LyZuxLoNZ",
     "goldroom|||everybody s lonely": "spotify:track:673yDKICU3szLrEHLpiO8n",
     "good neighbours|||home": "spotify:track:68mOSKT4uBkKddEAhlMO61",
+    "good neighbours|||ripple soft version": "spotify:track:1IJHhIpZmkJa90LTGb4xrq",
     "good neighbours|||starry eyed": "spotify:track:3DQRwWVjfmAdXPbY7pntyX",
     "gorillaz|||humility": "spotify:track:3NeiYiBn3rQBgurfVk92Zm",
     "gotan project|||una musica brutal": "spotify:track:1JdVxOvbPCpgzT3mP2Y4WF",
@@ -735,6 +736,7 @@
     "john coltrane|||my favourite things": "spotify:track:6oVY50pmdXqLNVeK8bzomn",
     "john klemmer|||touch": "spotify:track:2gUxpKjbDDMbD04LU7IejF",
     "john legend|||daylight": "spotify:track:4oRB6Rgyq2Y5K30elz9vzs",
+    "john mayer|||i don t trust my self with loving you": "spotify:track:7peh6LUcdNPcMdrSH4JPsM",
     "joji|||hotel california": "spotify:track:0haXcqxsgfbGTq6OYjLyIs",
     "jole|||between cracks": "spotify:track:1VkDwyuSbd7Eo0m0ai49r9",
     "jon batiste tori kelly|||sing": "spotify:track:6x9CsGaWqqtaggNYelyWO5",
@@ -1430,6 +1432,7 @@
     "stan getz|||so danco amor": "spotify:track:6UMYd4y3VzCF5WR6STCzwc",
     "stanislaw soyka|||tolerancja na mily bog": "spotify:track:3OdBNP9XFecCwsDteynBBh",
     "stephane pompougnac|||sunday drive": "spotify:track:4S3EqtsiT2ESLhymKvxECN",
+    "stephen sanchez em beihold|||until i found you em beihold version": "spotify:track:5PHRyGqnDkf2btmFV4aa9z",
     "stephen sanchez|||be more": "spotify:track:4bp4kwe29qY9PBdrEgSa53",
     "stephen sanchez|||love love love": "spotify:track:3j49aLXWWkbjQyUyvngokI",
     "stephen sanchez|||sweet love": "spotify:track:1bx6QL4eUThXV2jS3B9atn",
@@ -1659,7 +1662,7 @@
     "retry_after": 27826
   },
   "live_day": "2026-10-09",
-  "live_time": "09:16",
+  "live_time": "10:15",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "all over again|||jesse gold": "2026-09-24",
@@ -1773,6 +1776,9 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:1IJHhIpZmkJa90LTGb4xrq",
+    "spotify:track:7peh6LUcdNPcMdrSH4JPsM",
+    "spotify:track:5PHRyGqnDkf2btmFV4aa9z",
     "spotify:track:5hR0wTnydz6lmErOV4c0sp",
     "spotify:track:4ypDKQOromqX2LNbV12jph",
     "spotify:track:1zKyJYrG5PKSTrJVGkCAVt",
