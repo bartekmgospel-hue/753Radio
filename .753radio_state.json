@@ -983,6 +983,7 @@
     "eric clapton|||after midnight": "spotify:track:27mdmXNcO0gNpXlrWi9DPZ",
     "eric clapton|||after mindnight": "spotify:track:27mdmXNcO0gNpXlrWi9DPZ",
     "eric clapton|||call me the breeze": "spotify:track:5zX6E4brIhshX7MPWQiiO5",
+    "eric clapton|||cocaine": "spotify:track:2udGjDmpK1dH9VGyw7nrei",
     "eric clapton|||i shot the sheriff": "spotify:track:0UOxp1BpnD8uPQMKU4wKjz",
     "erik satie|||gymnopedies i lent et douloureux": "spotify:track:1M6ssh1NRcE95Vw04U4bKS",
     "erykah badu the alchemist|||black box": "spotify:track:0fv00pOf3fObPKjVHk1K5Y",
@@ -2848,6 +2849,7 @@
     "sleaford mods|||no touch": "spotify:track:1mNPEzyOgIUo5Tt2AD70Tj",
     "slipknot|||arsenal": "spotify:track:3QEglzrnBHZg2yVGlo3G5j",
     "slowdive|||kisses": "spotify:track:7LuPjGUfJqxuW14W4gMrU2",
+    "smash mouth|||i m a believer": "spotify:track:0C9jZPUv4SuaXkuEQw6L40",
     "smokie|||don t play your rock n roll to me": "spotify:track:5TszWVhQc2vFQwZjZXYxFo",
     "smokie|||lay back in the arms of someone": "spotify:track:1r9QBciQVM1BnW72cQUA4R",
     "smolik artur rojek|||50 tysiecy 881": "spotify:track:2drryErIbRlwS9rg2GomoA",
@@ -3634,7 +3636,7 @@
     "retry_after": 27007
   },
   "live_day": "2026-10-09",
-  "live_time": "07:28",
+  "live_time": "07:58",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3919,6 +3921,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:0C9jZPUv4SuaXkuEQw6L40",
+    "spotify:track:2udGjDmpK1dH9VGyw7nrei",
     "spotify:track:1LJZKxJWWH0PVBxLvS6G5k",
     "spotify:track:4jiOgEp2ZPjzoUF5DxaOjG",
     "spotify:track:6ivIwzsCvYmwQopqyITm5e",
