@@ -355,6 +355,7 @@
     "billie eilish|||ocean eyes": "spotify:track:2uIX8YMNjGMD7441kqyyNU",
     "billie marten|||feeling": "spotify:track:5J6TfufAsesi9BPnvlgBl8",
     "billy idol|||bitter taste": "spotify:track:6AyWHf259DGuxOnwdsz1Lf",
+    "billy idol|||l a woman": "spotify:track:4I2GdvjRKP5KbTUn43dPsK",
     "billy joel|||it s still rock and roll to me": "spotify:track:64UioB4Nmwgn2f4cbIpAkl",
     "billy joel|||modern woman": "spotify:track:1r7eJB9ITPJyII7JJgHIZj",
     "billy joel|||my life": "spotify:track:4ZoBC5MhSEzuknIgAkBaoT",
@@ -3671,7 +3672,7 @@
     "retry_after": 27007
   },
   "live_day": "2026-10-09",
-  "live_time": "17:28",
+  "live_time": "17:52",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3956,6 +3957,7 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:4I2GdvjRKP5KbTUn43dPsK",
     "spotify:track:39fUc1PFMJdOUJrSWrPuYp",
     "spotify:track:4rbiEG1BK7STxJwKWlMcrC",
     "spotify:track:7tD04ynE1CVJFtzcyy9K7b",
