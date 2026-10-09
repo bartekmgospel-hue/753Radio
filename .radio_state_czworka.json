@@ -674,6 +674,7 @@
     "melody s echo chamber|||norfolk hotel": "spotify:track:0uEBBlkHjdxSUty2ANx8SZ",
     "mery spolsky|||santorini": "spotify:track:725GGkOr07ss8F4ta39bc7",
     "metronomy|||everything goes my way": "spotify:track:67wcAJeaNwGm0fcB4HzzYm",
+    "metronomy|||heartbreaker french version": "spotify:track:1CEEC1RD3RNioELZ04SXjC",
     "metrowy fankatak|||duszno": "spotify:track:58rfEOSTygPIUMUMbSUeb8",
     "metrowy fankatak|||jak tak mozna": "spotify:track:3baIcBgLzSKEwEyDHLCvgp",
     "mexyk|||tasmy p ona": "spotify:track:5IReAhevOfZBIWCRGc1Z5X",
@@ -752,6 +753,7 @@
     "nirvana|||come as you are": "spotify:track:2RsAajgo0g7bMCHxwH3Sk0",
     "no photos|||sundays are always quiet": "spotify:track:5ZRKBK7ZQ7QPoIXUHp1kp4",
     "noga erez|||dumb": "spotify:track:1m30FLn0a3DUBEWcgMfM2l",
+    "noga erez|||end of the road": "spotify:track:2xP2RPD8Hk9EkM8JXlxp8g",
     "noga erez|||knockout against the machine": "spotify:track:5bQm1ngEH591tqcCMj3LyI",
     "noga erez|||quiet": "spotify:track:6wJO7YXA5okag2bXrAtU79",
     "noga erez|||story": "spotify:track:4rYqHvsGe0tSW3alx4BW5i",
@@ -788,6 +790,7 @@
     "ona i webber|||ha as": "spotify:track:2INrK5Q6r8pLUQGTd10InZ",
     "ona i webber|||nie mam pojecia": "spotify:track:4oOg57VWr2eNy5WfQQZwuw",
     "ona i webber|||nikiforszczecinski": "spotify:track:7fKjTDKiF4ZRuQ8rI6Dtii",
+    "ona i webber|||ostatnia prosta": "spotify:track:4Oiwglcb0ITRlX6lQZa9JU",
     "ona i webber|||patrz szerzej": "spotify:track:7DCH3QqgcZvoLHJSuqdCXI",
     "optometry|||99": "spotify:track:6HGnAzPMp5sQhuQGhpcm9u",
     "optometry|||comets": "spotify:track:4u2H9qhRGL5lfA5NnalBmG",
@@ -1182,7 +1185,7 @@
     "retry_after": 25667
   },
   "live_day": "2026-10-09",
-  "live_time": "09:57",
+  "live_time": "10:48",
   "misses": {
     "4am kru x shout out out out out|||chicken soup for": "2026-10-08",
     "abradab|||rapoweziarno cls waxremix": "2026-09-20",
@@ -1507,6 +1510,9 @@
   "playlist_name": "Czwórka",
   "source_generation": "odsluchane-multi-v1.1:49",
   "uris": [
+    "spotify:track:1CEEC1RD3RNioELZ04SXjC",
+    "spotify:track:4Oiwglcb0ITRlX6lQZa9JU",
+    "spotify:track:2xP2RPD8Hk9EkM8JXlxp8g",
     "spotify:track:2FwJlt3rCKAgiU4j5dVAAu",
     "spotify:track:1f2V8U1BiWaC9aJWmpOARe",
     "spotify:track:7HKxTNVlkHsfMLhigmhC0I",
