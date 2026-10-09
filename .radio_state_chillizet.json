@@ -917,6 +917,7 @@
     "lizz wright|||hit the ground": "spotify:track:66kSq3nyISTG4FcTeeOpe2",
     "lizzy mcalpine|||the light in the painting": "spotify:track:6E8YhQRxBowTWXmHbhmJTJ",
     "lizzy parks|||this and that": "spotify:track:061UYvz2g0PVP7XaoEuerA",
+    "lizzy|||dreams": "spotify:track:1zKyJYrG5PKSTrJVGkCAVt",
     "loaded honey|||only gonna let you down": "spotify:track:0yh5FKzDJfz3xkEOvnOfTm",
     "loaded honey|||tokyo rain": "spotify:track:2SJDXjFwiFgL6zBuOx40AQ",
     "lola young|||dealer": "spotify:track:2MZeoO5my5Z2opiQHm150R",
@@ -961,6 +962,7 @@
     "m83|||laura": "spotify:track:4m2tOVWNLRjhvlo9EauXPS",
     "maanam|||to tylko tango": "spotify:track:5dk1wOmZVukUhwl5kKr7aS",
     "maanam|||wyjatkowo zimny maj": "spotify:track:5ictZMfQTA9DoYeOdfSYVL",
+    "mabel|||love me gentle": "spotify:track:4ypDKQOromqX2LNbV12jph",
     "mac demarco ryan paris|||simply paradise": "spotify:track:1EKpwGoisV5nUOqqMZ7gAJ",
     "madeleine peyroux|||dance me to the end of love": "spotify:track:5R3lJMoTr59amusoSUwlGy",
     "madeline kenney|||plain boring disaster": "spotify:track:4znnZ04zDfKVQ7D070bHvy",
@@ -1406,6 +1408,7 @@
     "sohn|||segre": "spotify:track:4QqjWS9GRJwSKUa92Bsfmf",
     "soko|||first love never die": "spotify:track:7dnrJItpF3gZ1OkmH4wUW6",
     "soko|||we might be dead by tomorrow": "spotify:track:49A10weBfgwg4TUM3My7iv",
+    "solange|||losing you": "spotify:track:5hR0wTnydz6lmErOV4c0sp",
     "sombr|||back to friends": "spotify:track:0FTmksd2dxiE5e3rWyJXs6",
     "sombr|||i wish i knew how to quit you": "spotify:track:5Lfdb0KKLWKEns27p20uYt",
     "sombr|||my body isn t ready": "spotify:track:79RJg6MqIJlBuedcMqB9F0",
@@ -1656,7 +1659,7 @@
     "retry_after": 27826
   },
   "live_day": "2026-10-09",
-  "live_time": "08:12",
+  "live_time": "09:16",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "all over again|||jesse gold": "2026-09-24",
@@ -1770,6 +1773,9 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:5hR0wTnydz6lmErOV4c0sp",
+    "spotify:track:4ypDKQOromqX2LNbV12jph",
+    "spotify:track:1zKyJYrG5PKSTrJVGkCAVt",
     "spotify:track:7lmh1ByCWe26Vtkz2w21lC",
     "spotify:track:3DxkonlRas1WjpWUuNmf7Z",
     "spotify:track:6SQLk9HSNketfgs2AyIiMs",
