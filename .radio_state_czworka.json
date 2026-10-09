@@ -212,6 +212,7 @@
     "cooks|||12h": "spotify:track:1O8p9McgmscPpwqiC7kt55",
     "corbu|||we are sound": "spotify:track:65cdUALEY1a3hvUR1zD6Yk",
     "coucheron|||loud": "spotify:track:6y9stQrcyl1PCVpwWJGwsL",
+    "crack rock|||crack": "spotify:track:15s27BxgH8IaHtSs0nyo2G",
     "crazyp|||stop space return unabombers vocal mix": "spotify:track:52S1wRrhhYWbBSbnECzUGh",
     "crystal castles|||celestica": "spotify:track:325ZSqJnyHg6SNUQQZamVb",
     "crystal castles|||crimewave": "spotify:track:1xzsEmaU4IXjvxxwQlA8Lz",
@@ -900,6 +901,7 @@
     "royksopp|||happy up here": "spotify:track:7rSn37L6jGaPnOOLBbEwXX",
     "royksopp|||poor leno": "spotify:track:6EUs3FH5StArwbc07i3OYG",
     "rtn|||leniwie": "spotify:track:59W2vqzsQOTHM5yliwCSGj",
+    "rudimental|||come over": "spotify:track:4eVU4U063iMLFJFXb9kzkb",
     "rudimental|||krazy": "spotify:track:6zLkgyonVkJfaWhsDSbgCm",
     "rudimental|||waiting all night": "spotify:track:0g4qRoQ3Bh6puFzBA7fH3S",
     "run the jewels|||down": "spotify:track:5joOfvaQlHiwKk75rSgjgh",
@@ -1058,6 +1060,7 @@
     "the cool quest|||goodlife": "spotify:track:1nEEXq32QujXMphLIcWVWL",
     "the dumplings|||nie gotujemy": "spotify:track:01VEpM38d3fcWZddfuYWOv",
     "the forevers|||can t let go": "spotify:track:4EuszC6E6FG9kAEHE5SxYH",
+    "the gossip|||heavy cross": "spotify:track:4N6R6yqkFUTyF3AYOdR0T7",
     "the gossip|||listen up remix": "spotify:track:3AyEARbirCpve7N167HD7D",
     "the gossip|||move in the right direction": "spotify:track:4hjfOnzzrrrDAGt286htU6",
     "the invisible|||save you": "spotify:track:2bhwQahAcs7x59DpFFGeW4",
@@ -1185,7 +1188,7 @@
     "retry_after": 25667
   },
   "live_day": "2026-10-09",
-  "live_time": "10:48",
+  "live_time": "11:48",
   "misses": {
     "4am kru x shout out out out out|||chicken soup for": "2026-10-08",
     "abradab|||rapoweziarno cls waxremix": "2026-09-20",
@@ -1510,6 +1513,9 @@
   "playlist_name": "Czwórka",
   "source_generation": "odsluchane-multi-v1.1:49",
   "uris": [
+    "spotify:track:4eVU4U063iMLFJFXb9kzkb",
+    "spotify:track:4N6R6yqkFUTyF3AYOdR0T7",
+    "spotify:track:15s27BxgH8IaHtSs0nyo2G",
     "spotify:track:1CEEC1RD3RNioELZ04SXjC",
     "spotify:track:4Oiwglcb0ITRlX6lQZa9JU",
     "spotify:track:2xP2RPD8Hk9EkM8JXlxp8g",
