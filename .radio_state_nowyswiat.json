@@ -237,6 +237,7 @@
     "blood orange|||uncle ace": "spotify:track:0Cn4UhpHhgf88eWaS9nn5u",
     "blood sweat tears|||lisa listen to me": "spotify:track:4u2i6dbT4DgGwmQAqw8gnt",
     "blood sweat tears|||my days are numbered": "spotify:track:7czKJTL04SFhBcR3zq4KID",
+    "bloodywood|||nu delhi": "spotify:track:7qzEk069ZJct9qjiWGTGbD",
     "blossoms|||uma thurman": "spotify:track:5f95i9fRNEaaKgdGfwBYiY",
     "blur|||strange news from another star": "spotify:track:3UI1FsqTeVkv3hLpeh8Pq8",
     "blu|||goodmorning": "spotify:track:6jrlGFcRkCn4CBr1qpw69L",
@@ -1204,6 +1205,7 @@
     "lizz wright|||my heart": "spotify:track:6eceyCoF2VIy4lfbNsmvAv",
     "lloyd cole|||warm by the fire": "spotify:track:7I4yEmaOEuqGyuA8KRuYQD",
     "local natives|||i saw you close your eyes": "spotify:track:0LiaFLPAmNVME1ye2AbUdl",
+    "logg|||i know you will 12 mix": "spotify:track:5oPOwFMgWU8N4HPyl4t9pC",
     "logic|||highlife": "spotify:track:1gkzFD48iTAVGPiNRt61QS",
     "london theatre orchestra cast|||monster mash": "spotify:track:6dTFFjzUuST5XVFUkofWVn",
     "lorde|||california": "spotify:track:4TYPnvjBbEfcDkk1UxpvYB",
@@ -1974,6 +1976,7 @@
     "the bamboos|||on on": "spotify:track:5rwy2LCJRAcfM1YKzjFHgu",
     "the band|||rag mama rag": "spotify:track:1fvtT8W7lNwRuw6UxA0cBU",
     "the bar kays|||freakshow on the dance floor": "spotify:track:7jQXYaNA782iophb5GzFuP",
+    "the beach boys|||monster mash": "spotify:track:61VQ75JjLPDSeAdhxMLGg6",
     "the beatles|||i am the walrus": "spotify:track:7qUPlJTYxDRnpw3FKoWhm1",
     "the beatles|||little girl john s demo": "spotify:track:2zUPjC10VzbCbylhkDpnxN",
     "the beatles|||we can work it out paul s demo": "spotify:track:3ZJ3FfefAvaCPBeiYHCDNX",
@@ -2325,7 +2328,7 @@
     "retry_after": 24937
   },
   "live_day": "2026-10-09",
-  "live_time": "08:56",
+  "live_time": "10:05",
   "misses": {
     "adam nowak|||pod niebem pe nym cudow live artysci dla akademii teatralnej 24 11 2022": "2026-10-03",
     "andy summers|||round midnight": "2026-10-04",
@@ -2435,6 +2438,9 @@
   "playlist_name": "Radio Nowy Świat",
   "source_generation": "odsluchane-multi-v1.1:105",
   "uris": [
+    "spotify:track:7qzEk069ZJct9qjiWGTGbD",
+    "spotify:track:61VQ75JjLPDSeAdhxMLGg6",
+    "spotify:track:5oPOwFMgWU8N4HPyl4t9pC",
     "spotify:track:7FNIEfhhBlzsZFxCwI5Nwh",
     "spotify:track:7Kh9PsgXLPOcTNDNZLjjSq",
     "spotify:track:04r5UBEwy0gJTmH4OzWMjS",
