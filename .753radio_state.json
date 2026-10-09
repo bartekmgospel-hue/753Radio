@@ -1480,6 +1480,7 @@
     "joakim berg|||moderna tider": "spotify:track:1TR2P4Q2GeMdQd3EBQL9zZ",
     "joan armatrading|||love and affection": "spotify:track:6Mnne5V9ZifNID59dswUcZ",
     "joan thiele|||eco": "spotify:track:3ycj36w66i2rIGJli4Ruhi",
+    "joe cocker|||feelin alright": "spotify:track:0Jl5bIEve3A4axcjY3EgDZ",
     "joe cocker|||first we take manhattan": "spotify:track:1a8NJ8zBS7zNH9j9GzVmZO",
     "joe dassin|||l ete indien": "spotify:track:7BNeFchpHDCWYSUV4hfU89",
     "joe martin|||supersister": "spotify:track:7rABKbp0YZNQSoeJIP7jEP",
@@ -3639,7 +3640,7 @@
     "retry_after": 27007
   },
   "live_day": "2026-10-09",
-  "live_time": "08:56",
+  "live_time": "09:25",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3695,7 +3696,7 @@
     "cool kid of jazz|||22 43": "2026-09-14",
     "daph veil|||don t look away": "2026-09-26",
     "david cassidy|||romance let your heart go": "2026-09-15",
-    "david holmes|||160 million chinese man long": "2026-10-02",
+    "david holmes|||160 million chinese man long": "2026-10-09",
     "dawniej niz wczoraj|||22 01": "2026-09-16",
     "dead can dance|||nada": "2026-09-16",
     "dean wareham cheval sombre|||the wayfaring stranger": "2026-09-18",
@@ -3924,6 +3925,7 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:0Jl5bIEve3A4axcjY3EgDZ",
     "spotify:track:3puGZOgQ9QQ2ZF4pp9MBRn",
     "spotify:track:5xNUR50KxswPRAvx7S163g",
     "spotify:track:4WoKuMjwJXuy9IqX6AH5JE",
