@@ -1435,6 +1435,7 @@
     "sting|||fields of gold": "spotify:track:0I1DJdLt9BKOb7GWmWxCjo",
     "storm queen|||look right through mk vocal edit": "spotify:track:4lpmPsw2NIkfyL0NWDA3PN",
     "stu larsen|||other side": "spotify:track:3Gt9Yrmxs4AdxxhXblhItc",
+    "sufjan stevens|||video game": "spotify:track:3Q8B1nnUBlJz0VTajyk1IS",
     "suki waterhouse|||back in love": "spotify:track:62S62F7p3A7qOjkbApWe5i",
     "suki waterhouse|||my fun": "spotify:track:3nPifd7hjanGVp02REhtlH",
     "sunni colon|||provide": "spotify:track:2snYrv9n5ehVgpXvtdZU5b",
@@ -1652,7 +1653,7 @@
     "retry_after": 27826
   },
   "live_day": "2026-10-09",
-  "live_time": "05:16",
+  "live_time": "06:15",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "all over again|||jesse gold": "2026-09-24",
@@ -1766,6 +1767,7 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:3Q8B1nnUBlJz0VTajyk1IS",
     "spotify:track:0I8pj7sMA5iLIwSIz9Mu2F",
     "spotify:track:7dX7o0fBPm8ZALoa47Ck8Y",
     "spotify:track:0ksOLCZcOa32Z8id6jPHC3",
