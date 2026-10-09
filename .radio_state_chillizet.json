@@ -492,6 +492,7 @@
     "ezra collective yazmin lacey|||god gave me feet for dancing": "spotify:track:2mxQ3VWWk47YCo9RB2fkOk",
     "ezra collective|||well organised": "spotify:track:6bYQZWdJMKimn0VTXhMwd6",
     "faithless|||one step too far": "spotify:track:67JG3WZ0ow05lDqcWnCBBc",
+    "fana hues|||float": "spotify:track:3DxkonlRas1WjpWUuNmf7Z",
     "fana hues|||notice me": "spotify:track:3eKtYFPh0HLAwRiU1D2NdG",
     "father john misty|||josh tillman and the accidental dose": "spotify:track:4z435sYvVQUQvPigimFynt",
     "father john misty|||mental health": "spotify:track:0VOCrdsydNicYcSTrjkk1f",
@@ -617,6 +618,7 @@
     "harry styles|||coming up roses": "spotify:track:0QPdjsMOUhwouq1NS3HwfQ",
     "harry styles|||dance no more": "spotify:track:0VV0AMmgLBUhzuFedr3F3e",
     "harry styles|||late night talking": "spotify:track:1qEmFfgcLObUfQm0j1W2CK",
+    "harry styles|||she": "spotify:track:6SQLk9HSNketfgs2AyIiMs",
     "harry styles|||watermelon sugar": "spotify:track:6UelLqGlWMcVH1E5c4H7lY",
     "harvey causon|||fault lines": "spotify:track:1sizHkW1XPVzfBzPqQM5q3",
     "hayley williams|||glum": "spotify:track:4VxKVglSNRSyXfNSqewmDO",
@@ -1653,7 +1655,7 @@
     "retry_after": 27826
   },
   "live_day": "2026-10-09",
-  "live_time": "06:15",
+  "live_time": "07:08",
   "misses": {
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
     "all over again|||jesse gold": "2026-09-24",
@@ -1767,6 +1769,8 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:3DxkonlRas1WjpWUuNmf7Z",
+    "spotify:track:6SQLk9HSNketfgs2AyIiMs",
     "spotify:track:3Q8B1nnUBlJz0VTajyk1IS",
     "spotify:track:0I8pj7sMA5iLIwSIz9Mu2F",
     "spotify:track:7dX7o0fBPm8ZALoa47Ck8Y",
