@@ -840,6 +840,7 @@
     "n8noface|||i hope it s ok": "spotify:track:2LsdXuxC067W8ym4OhtijK",
     "nala sinephro|||continuum 2": "spotify:track:66O3YWGFyDk1UWhi8BTGMF",
     "nala sinephro|||continuum 6": "spotify:track:2xjL6P7IdiBJ6M2rzzaqHR",
+    "nanga|||soprano": "spotify:track:3UNz6JVf6272orrKgpCpFc",
     "natalia grosiak|||gdyby ktos pyta": "spotify:track:5pjp4ydhdLaFOcZaQXDjkP",
     "natalia grosiak|||ostatnia piosenka o tobie": "spotify:track:2dPogT3VVbNWnEVuDttpeu",
     "natalia grosiak|||teraz mam serce": "spotify:track:5WTN8q8J0IbkwWmobgEvsR",
@@ -1558,7 +1559,7 @@
     "retry_after": 26391
   },
   "live_day": "2026-10-09",
-  "live_time": "17:52",
+  "live_time": "21:56",
   "misses": {
     "adam clayton larry mullen jr|||mission impossible": "2026-10-08",
     "armand hammer the alchemist|||falling out the sky": "2026-10-02",
@@ -1641,6 +1642,7 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:3UNz6JVf6272orrKgpCpFc",
     "spotify:track:3jHmKQXvgYqQa7UDR1Tzcu",
     "spotify:track:03mMSLEJCPoGJwQhHpN5y0",
     "spotify:track:4eG1ODcdjySLxlB9dtmbiv",
