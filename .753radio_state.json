@@ -848,6 +848,7 @@
     "dry the river|||no rest": "spotify:track:0eAQLC27LQyjm9fkb7r0Jr",
     "dryskull krzysztof zalewski|||mowie ci nie": "spotify:track:003GGuPOhnst98frZ0YXyL",
     "dryskull|||mowie ci nie": "spotify:track:003GGuPOhnst98frZ0YXyL",
+    "dua lipa|||training season live from the royal albert hall": "spotify:track:4jiOgEp2ZPjzoUF5DxaOjG",
     "duff mckagan|||don t look behind you": "spotify:track:2LD86odRqp3y4952CHSX9J",
     "duffy|||stepping stone": "spotify:track:3g9nxeJPQM4CxhHt1iNlB4",
     "duit|||bubbletea": "spotify:track:4FD8J0l0Wrw5HdNV2Dj1ST",
@@ -3022,6 +3023,7 @@
     "tame impala|||yes i m changing": "spotify:track:0xtIp0lgccN85GfGOekS5L",
     "tamerlane|||pod papugami": "spotify:track:0g1ZScgNNYaCyfLnc7mSML",
     "tanita tikaram|||good tradition": "spotify:track:0pMes0wm1nJ9L47Fbr4QWE",
+    "tanita tikaram|||stop listening": "spotify:track:6ivIwzsCvYmwQopqyITm5e",
     "tantfreaky|||forgiven longing for your healing love": "spotify:track:73hUlhUzUnlUoD86oe4wnt",
     "tantfreaky|||give me some live at montreux": "spotify:track:2bj7gWzjuZdWxq7DmhCV0N",
     "tantfreaky|||goodbye": "spotify:track:1bdfTuziYDo3FCKv2DoyR0",
@@ -3631,7 +3633,7 @@
     "retry_after": 27007
   },
   "live_day": "2026-10-09",
-  "live_time": "06:26",
+  "live_time": "06:58",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3916,6 +3918,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:4jiOgEp2ZPjzoUF5DxaOjG",
+    "spotify:track:6ivIwzsCvYmwQopqyITm5e",
     "spotify:track:5IJWnvJJgH4PR4p9aXnNCQ",
     "spotify:track:69RRNcyev0eWJsPwssCFFK",
     "spotify:track:0TMuSUmPLjJantfXeb6G5B",
