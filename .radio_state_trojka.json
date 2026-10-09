@@ -438,6 +438,7 @@
     "happysad|||mow mi dobrze": "spotify:track:3nPBU21GZNQIemHzYnvDTA",
     "happysad|||taka woda byc": "spotify:track:3AQhtbdV62dGC7Gj6sxE0Y",
     "harry styles|||as it was": "spotify:track:4Dvkj6JhhA12EX05fT7y2e",
+    "harry styles|||treat people with kindness": "spotify:track:03mMSLEJCPoGJwQhHpN5y0",
     "haute freddy|||touch touch": "spotify:track:18fRO6IsVaKNn5HIdVraSA",
     "hawkins sophie b|||damn i wish i was your lover": "spotify:track:7kmfQ2QHwGqRCxVHDv5mzo",
     "headless chickens|||cruise control": "spotify:track:5K6EdnevWTw6BjtIA76S0V",
@@ -720,6 +721,7 @@
     "martyna jakubowicz|||ma e nadzieje": "spotify:track:3xakcWLvzseq9OhCaeRh3X",
     "martyna jakubowicz|||moj czas ucieka": "spotify:track:3aZVMOL3FPEQ2oH3gnlBNx",
     "martyna jakubowicz|||w domach z betonu nie ma wolnej mi osci": "spotify:track:3zrJQaz5KsDf91qISeixaw",
+    "maryla rodowicz marek grechuta|||gaj": "spotify:track:3jHmKQXvgYqQa7UDR1Tzcu",
     "maryla rodowicz|||wariatka tanczy": "spotify:track:6MUfjVKuHT0b7nop3npJLD",
     "marysia sadowska|||tomaszow": "spotify:track:6O1MJmWpCCftPnCIVB34XG",
     "max cooper|||with me": "spotify:track:2xWxLalTsHd88cE30S9DHo",
@@ -1053,6 +1055,7 @@
     "raz dwa trzy|||nazywaj rzeczy po imieniu": "spotify:track:1Yb6uqqP31gkMtFEZlbB3Q",
     "raz dwa trzy|||nim wstanie dzien ballada z filmu prawo i piesc": "spotify:track:0DJOnJGIqQcbsfGMcWB4c7",
     "raz dwa trzy|||piosenka o okularnikach live": "spotify:track:0nKqKrZ1mkN6ja0s7gedt3",
+    "raz dwa trzy|||trudno nie wierzyc w nic": "spotify:track:4eG1ODcdjySLxlB9dtmbiv",
     "razorlight|||in the morning": "spotify:track:64IcdRqfcN5rwqSqJpQDDe",
     "red box|||for america": "spotify:track:2gCgyuWGPIBB5NcG4jfldp",
     "red box|||shine like you": "spotify:track:4nf0F37LUyfnaI4xEgTTZC",
@@ -1555,7 +1558,7 @@
     "retry_after": 26391
   },
   "live_day": "2026-10-09",
-  "live_time": "16:49",
+  "live_time": "17:52",
   "misses": {
     "adam clayton larry mullen jr|||mission impossible": "2026-10-08",
     "armand hammer the alchemist|||falling out the sky": "2026-10-02",
@@ -1638,6 +1641,9 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:3jHmKQXvgYqQa7UDR1Tzcu",
+    "spotify:track:03mMSLEJCPoGJwQhHpN5y0",
+    "spotify:track:4eG1ODcdjySLxlB9dtmbiv",
     "spotify:track:7DEALnmykcLQmUWMHN7UmS",
     "spotify:track:04Glred2wGdSNH11Qh4EDe",
     "spotify:track:4JJNw14HS6nLXdslUSme6P",
