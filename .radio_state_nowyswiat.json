@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-10-10T01:05:33+00:00",
   "keys": {
     "19 34|||highway glow": "spotify:track:6MauQb2FZxs9Egqm93ZK6j",
     "49th main|||mangos": "spotify:track:42j4w485h8gESuACqReXYp",
@@ -1747,7 +1747,18 @@
     "ray charles|||i got a woman": "spotify:track:4eHWJt5XHmmpb9p5QUmaWO",
     "ray charles|||i ve got a woman": "spotify:track:2xar08Fq5xra2KKZs5Bw9j",
     "raye|||beware the south london lover boy": "spotify:track:60V50fekMrp2lTges6f28D",
+    "raz dwa trzy|||ballada dla okruszka": "spotify:track:1IXOEOEcEGwbG17KCrVFNt",
+    "raz dwa trzy|||czy te oczy moga klamac": "spotify:track:1TiihEWlCqfpQVckQYZ1Pa",
+    "raz dwa trzy|||gaj": "spotify:track:6SiBAZpSSAxkPBdcInOuaB",
+    "raz dwa trzy|||kiedy mnie juz nie bedzie": "spotify:track:3i7q8J60EuanSJVtuDBMoH",
+    "raz dwa trzy|||miasteczko belz": "spotify:track:0M0qNFt3tW2r99JmcKgpY2",
+    "raz dwa trzy|||nim wstanie dzien ballada z filmu prawo i piesc": "spotify:track:0DJOnJGIqQcbsfGMcWB4c7",
+    "raz dwa trzy|||oczy tej malej": "spotify:track:0wGF8hBwzRjGaC1yjziNJb",
     "raz dwa trzy|||trudno nie wierzyc w nic": "spotify:track:4eG1ODcdjySLxlB9dtmbiv",
+    "raz dwa trzy|||uciekaj moje serce": "spotify:track:515wHZOxdtrugs0DsFmDSg",
+    "raz dwa trzy|||uroda": "spotify:track:2aaIFN9sQjDznh09XFOzVb",
+    "raz dwa trzy|||wielka woda": "spotify:track:78DjRb2rOv23DMG7tQQ6AC",
+    "raz dwa trzy|||zapowiedz": "spotify:track:5vrG6wfZIq6jDyektnsz8y",
     "real group|||everybody needs somebody to love arr a edenroth": "spotify:track:3czfpCYIdnZ4xKSI6xsVBg",
     "red hot chili peppers|||apache rose peacock": "spotify:track:3p3BfV7NeWCAHx9tSwsJEQ",
     "red hot chili peppers|||by the way": "spotify:track:1f2V8U1BiWaC9aJWmpOARe",
@@ -2419,14 +2430,14 @@
     "|||one girl one boy": "spotify:track:7pskYSHhRTH1TFtVdQevG5"
   },
   "last_429": {
-    "at": "2026-10-08T18:05:34+00:00",
+    "at": "2026-10-09T23:05:31+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 24937
+    "retry_after": 7197
   },
-  "live_day": "2026-10-09",
-  "live_time": "23:04",
+  "live_day": "2026-10-10",
+  "live_time": "00:56",
   "misses": {
     "adam nowak|||pod niebem pe nym cudow live artysci dla akademii teatralnej 24 11 2022": "2026-10-03",
     "andy summers|||round midnight": "2026-10-04",
@@ -2533,7 +2544,19 @@
     "|||practical arrangement": "2026-10-04"
   },
   "pending_backfill": [],
-  "pending_live": [],
+  "pending_live": [
+    "spotify:track:0M0qNFt3tW2r99JmcKgpY2",
+    "spotify:track:1IXOEOEcEGwbG17KCrVFNt",
+    "spotify:track:5vrG6wfZIq6jDyektnsz8y",
+    "spotify:track:2aaIFN9sQjDznh09XFOzVb",
+    "spotify:track:0DJOnJGIqQcbsfGMcWB4c7",
+    "spotify:track:0wGF8hBwzRjGaC1yjziNJb",
+    "spotify:track:1TiihEWlCqfpQVckQYZ1Pa",
+    "spotify:track:515wHZOxdtrugs0DsFmDSg",
+    "spotify:track:78DjRb2rOv23DMG7tQQ6AC",
+    "spotify:track:3i7q8J60EuanSJVtuDBMoH",
+    "spotify:track:6SiBAZpSSAxkPBdcInOuaB"
+  ],
   "playlist_id": "7s0pll2O5qPHdRDNZ5egAJ",
   "playlist_name": "Radio Nowy Świat",
   "source_generation": "odsluchane-multi-v1.1:105",
