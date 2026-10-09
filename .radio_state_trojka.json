@@ -974,6 +974,7 @@
     "pixies|||you re so impatient": "spotify:track:2kqc0DW78CyMemrXnK0PQA",
     "pj harvey|||good fortune": "spotify:track:1G1YJPV7THViQfOM9Gug7R",
     "pj harvey|||let england shake": "spotify:track:6DST3HT8zF8WpNmg9tHuaa",
+    "pj harvey|||this is love": "spotify:track:04Glred2wGdSNH11Qh4EDe",
     "placebo|||every you every me": "spotify:track:2Srd8Jgif3kc6ou6Z4pSYJ",
     "placebo|||helen keller": "spotify:track:2Ava4a7PWhrhAPFFnzN8Bb",
     "placebo|||teenage angst re created version": "spotify:track:5JWvQkQymQtV4zD5gnES5R",
@@ -1235,6 +1236,7 @@
     "t love|||toksyczni czarodzieje": "spotify:track:30GPkpuYhuDqKybCDbsqH7",
     "taco hemingway|||nastepna stacja": "spotify:track:0EPiMawxXmdDWKjRbk8f97",
     "talk talk|||it s my life": "spotify:track:6m7fhJkK6TbuGDFhBNpgyn",
+    "talking heads|||and she was": "spotify:track:7DEALnmykcLQmUWMHN7UmS",
     "talking heads|||heaven": "spotify:track:6eO8zOefFD3IKJ7LAyDyTd",
     "talking heads|||once in a lifetime": "spotify:track:1Tr4K5MU5XYE44umXGDndd",
     "talking heads|||psycho killer": "spotify:track:7dSCxR4LqkmxoBrq9MzVSD",
@@ -1553,7 +1555,7 @@
     "retry_after": 26391
   },
   "live_day": "2026-10-09",
-  "live_time": "14:50",
+  "live_time": "16:49",
   "misses": {
     "adam clayton larry mullen jr|||mission impossible": "2026-10-08",
     "armand hammer the alchemist|||falling out the sky": "2026-10-02",
@@ -1636,6 +1638,8 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:7DEALnmykcLQmUWMHN7UmS",
+    "spotify:track:04Glred2wGdSNH11Qh4EDe",
     "spotify:track:4JJNw14HS6nLXdslUSme6P",
     "spotify:track:00Z4kno8Cy68UoilYB822K",
     "spotify:track:4VgXNDwT84ZcVPT0diAf6a",
