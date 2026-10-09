@@ -365,6 +365,7 @@
     "fine young cannibals|||good thing": "spotify:track:6lRkdG1HurVS72F9GoBeWJ",
     "fink|||looking too closely": "spotify:track:7bhI6rnvaVw8qgZPn32qE0",
     "fiolka|||g osny smiech": "spotify:track:3i9RAJgOffC5LPlZfSdXzY",
+    "fisz emade|||14 pietro": "spotify:track:38xCd2vSbCnAmms9SVTujz",
     "fisz|||30cm": "spotify:track:78DfbJ7XFCbyO0BWo7pFTD",
     "fisz|||czerwona sukienka": "spotify:track:6XftHdF2uuPZeQE1Bb3pFK",
     "fisz|||polepiony": "spotify:track:0Lt20grV0WWgWcvJWBWpsK",
@@ -1559,7 +1560,7 @@
     "retry_after": 26391
   },
   "live_day": "2026-10-09",
-  "live_time": "21:56",
+  "live_time": "22:43",
   "misses": {
     "adam clayton larry mullen jr|||mission impossible": "2026-10-08",
     "armand hammer the alchemist|||falling out the sky": "2026-10-02",
@@ -1577,6 +1578,10 @@
     "eabs niekochana temat z filmu andrzeja wajdy|||niekochana temat z filmu andrzeja wajdy": "2026-10-07",
     "enrique iglesias|||dimelo": "2026-09-19",
     "eskaubei tomek nowak quartet|||gdzie jest z y": "2026-10-09",
+    "fisz emade tworzywo|||ok boomer clean": "2026-10-09",
+    "fisz emade|||bezkres": "2026-10-09",
+    "fisz emade|||cz owiek nie do konca": "2026-10-09",
+    "fisz emade|||damian beton": "2026-10-09",
     "grzegorz markowski|||ballada 07": "2026-10-03",
     "hey|||muka": "2026-10-02",
     "hvmble|||kattorna": "2026-10-03",
@@ -1628,6 +1633,7 @@
     "suferi|||flucu 1986": "2026-09-26",
     "sufjan stevens|||come on feel the illinoise": "2026-10-06",
     "the beatles and andy white|||love me do": "2026-10-05",
+    "the beatles|||little girl stereo mix": "2026-10-09",
     "the smashing pumpkins|||luna": "2026-10-07",
     "tomasz chy a quintet|||midnight express 40 jazz juniors 2016": "2026-10-03",
     "ufo361|||bombay gin remix": "2026-10-06",
@@ -1642,6 +1648,7 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:38xCd2vSbCnAmms9SVTujz",
     "spotify:track:3UNz6JVf6272orrKgpCpFc",
     "spotify:track:3jHmKQXvgYqQa7UDR1Tzcu",
     "spotify:track:03mMSLEJCPoGJwQhHpN5y0",
