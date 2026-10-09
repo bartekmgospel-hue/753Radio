@@ -65,6 +65,7 @@
     "ajr|||bang": "spotify:track:2I2AqFb0f9UNnolWc2MafC",
     "aki an|||jammin": "spotify:track:1KmK9UEMbuuleSFdrNthcO",
     "akil henry|||view": "spotify:track:3XjLidX4sEkcsXzL8w1XzS",
+    "al green|||love and happiness": "spotify:track:2pYCyEwJ0xKnWbuQkqNHgp",
     "al jarreau|||after all": "spotify:track:5g5EdgkfKVUceOTJtm0Kel",
     "al martino|||spanish eyes": "spotify:track:55Z0KHofKqhOMIOygAVXxm",
     "al shaham|||view": "spotify:track:3XjLidX4sEkcsXzL8w1XzS",
@@ -3650,7 +3651,7 @@
     "retry_after": 27007
   },
   "live_day": "2026-10-09",
-  "live_time": "11:28",
+  "live_time": "11:57",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -3935,6 +3936,7 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:2pYCyEwJ0xKnWbuQkqNHgp",
     "spotify:track:78sbEzWFZH22EcYjTKvmw6",
     "spotify:track:5Svn4qAQjPFX3bE2n8Uzjy",
     "spotify:track:3TCauNPqFiniaYHBvEVoHG",
