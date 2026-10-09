@@ -764,6 +764,7 @@
     "jon batiste adra day|||lean on my love": "spotify:track:2EgjT5J2WNzhSKPfAYLOcd",
     "jon batiste tori kelly|||sing": "spotify:track:6x9CsGaWqqtaggNYelyWO5",
     "jon bryant two another|||candied tangerines": "spotify:track:1jZk8h0o2ECvN8BE85CZeq",
+    "jon cutler|||it s yours": "spotify:track:1dG06EBjr7sGDyMFhvOn2o",
     "jonny blu|||i need love": "spotify:track:1VFeCYqGqisRfn0jLTLGIS",
     "joomanji|||where are you": "spotify:track:37Z5gTlgMHD2iCorfOr0L9",
     "jordan rakei femi koleoso|||it never ends": "spotify:track:00oEfemHic7JBcU8fsySiY",
@@ -1712,8 +1713,8 @@
     "reason": "QUOTA_EXCEEDED",
     "retry_after": 27826
   },
-  "live_day": "2026-10-09",
-  "live_time": "23:13",
+  "live_day": "2026-10-10",
+  "live_time": "00:14",
   "misses": {
     "aaron taylor karell gold|||drowning in your love": "2026-10-09",
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
@@ -1835,6 +1836,7 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:1dG06EBjr7sGDyMFhvOn2o",
     "spotify:track:4b3QAtoxGL3JUzHoEmeBbc",
     "spotify:track:2aJDlirz6v2a4HREki98cP",
     "spotify:track:6cxlGc6CDSMsYBM2GlX05U",
