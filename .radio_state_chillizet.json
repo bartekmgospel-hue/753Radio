@@ -260,6 +260,7 @@
     "caro emerald|||back it up": "spotify:track:1KhbRl7jNVVPzkuSkSTADs",
     "caroline polachek|||bunny is a rider": "spotify:track:40tRJ8bMkIkXh8vhHKQsoX",
     "caroline spence matt berninger|||i know you know me": "spotify:track:0nkJ11y580kZDsqOhqJVq8",
+    "carrtoons rae khalil|||grace": "spotify:track:4heIvZgUpe50fScfQMGcSn",
     "cassandra wilson|||gone with the wind": "spotify:track:3vl6IW52uYXcx6KMyIT32v",
     "cassandra wilson|||the very thought of you": "spotify:track:0TGxvI0v6m8LNUgd7Q32Zs",
     "cat burns|||alone": "spotify:track:6wpOHVSrinXhKqF4EBbpuS",
@@ -1354,6 +1355,7 @@
     "rhye tensnake|||count to five": "spotify:track:3ASNOiJ3mAsY6wQ57liJQd",
     "rhye|||hold on": "spotify:track:5reWe6VIloY1CNYhzdApCl",
     "rhye|||hunger": "spotify:track:7keDap8WPVeNBJSbDTq2NX",
+    "rhye|||open": "spotify:track:3JsA2sWDNR9oQogGAzqqtH",
     "rhye|||summer song": "spotify:track:2nvKJylXIc5qUTOkCCILPp",
     "rhye|||taste": "spotify:track:6GbWNeR3P9MTCmSyPVHgb1",
     "ritual|||josephine": "spotify:track:2V5vmvIwxqVizuaYJgrmlE",
@@ -1415,6 +1417,7 @@
     "sam tompkins|||phone in heaven": "spotify:track:18xwBmM2Xa8gJzaU0fYoiX",
     "sam wills honey mooncie|||traingazing": "spotify:track:3WaNEoMh1pCLufz2fbLBAE",
     "sam wills|||undercover": "spotify:track:2Y45m1Y81zlNQEK7SVAd1u",
+    "samm henshaw|||only one to blame": "spotify:track:05a4pf6pLGNuIOR04EpqMM",
     "samm henshaw|||sun and moon": "spotify:track:23nw1SijyeScW2IgbxoQo5",
     "san fermin wye oak|||my first life": "spotify:track:6qhs6l85xRttMncufm0wLk",
     "sanah|||mleczna droga": "spotify:track:12aZhjbBBFKIm1S9utKiIB",
@@ -1745,7 +1748,7 @@
     "retry_after": 6487
   },
   "live_day": "2026-10-10",
-  "live_time": "11:17",
+  "live_time": "12:14",
   "misses": {
     "aaron taylor karell gold|||drowning in your love": "2026-10-09",
     "abe parker genesis owusu|||self sabotage": "2026-10-10",
@@ -1870,6 +1873,9 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:4heIvZgUpe50fScfQMGcSn",
+    "spotify:track:05a4pf6pLGNuIOR04EpqMM",
+    "spotify:track:3JsA2sWDNR9oQogGAzqqtH",
     "spotify:track:2VWU98gL9ePoBWzjttq3iC",
     "spotify:track:2WRDu73mfK4aZiVucqs0PZ",
     "spotify:track:5viz8trU1uh1pngW0hWr3l",
