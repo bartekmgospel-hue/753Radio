@@ -1359,6 +1359,7 @@
     "mark ronson|||why hide": "spotify:track:2ezB38ZcizFvMogmHgBztH",
     "marlene dietrich|||where have all the flowers gone": "spotify:track:1My4iKxOxqYkP3kuG8Xrbm",
     "martinho da vila|||devagar devagarinho": "spotify:track:2vuutceleP0mCWUYtsa3Eo",
+    "martini police|||melinda": "spotify:track:0pOFujPBURzzSaqwnuIRS2",
     "martox|||cenizas en el desierto": "spotify:track:7hFlh0com3AGle40jYsPiU",
     "mary chapin carpenter|||i ll never fall in love again": "spotify:track:5o0h9KZyvMpJIpoJV1GxQ8",
     "mary j blige|||family affair": "spotify:track:3aw9iWUQ3VrPQltgwvN9Xu",
@@ -2209,6 +2210,7 @@
     "the rolling stones|||doom and gloom live": "spotify:track:3ZMPZ6A5boeoB7pvFCo4kq",
     "the rolling stones|||fingerprint file": "spotify:track:0tjrkys3lafEmt5PIRyx0P",
     "the rolling stones|||get off of my cloud mono version": "spotify:track:263Iuyk08ks1v6FIudUIGD",
+    "the rolling stones|||happy live": "spotify:track:2MGEoTLpKfCQ9v7V3Jr7Vz",
     "the rolling stones|||hit me in the head": "spotify:track:0yS7srlmeNHZugMlfvKkRK",
     "the rolling stones|||mr charm": "spotify:track:7FNkY47xx3oKTjr5tk5m8k",
     "the rolling stones|||star star": "spotify:track:0YosGlYPvTdZmUzMKiFvta",
@@ -2447,7 +2449,7 @@
     "retry_after": 7197
   },
   "live_day": "2026-10-10",
-  "live_time": "05:04",
+  "live_time": "06:04",
   "misses": {
     "adam nowak|||pod niebem pe nym cudow live artysci dla akademii teatralnej 24 11 2022": "2026-10-03",
     "andy summers|||round midnight": "2026-10-04",
@@ -2560,6 +2562,8 @@
   "playlist_name": "Radio Nowy Świat",
   "source_generation": "odsluchane-multi-v1.1:105",
   "uris": [
+    "spotify:track:2MGEoTLpKfCQ9v7V3Jr7Vz",
+    "spotify:track:0pOFujPBURzzSaqwnuIRS2",
     "spotify:track:3K7Q9PHUWPTaknlbFPThn2",
     "spotify:track:1cCSwhGE10BeDaze8r7HOD",
     "spotify:track:52LZFA1JbDcoK91uVZNx7I",
