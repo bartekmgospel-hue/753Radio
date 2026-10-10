@@ -188,6 +188,7 @@
     "billie eilish|||blue": "spotify:track:2prqm9sPLj10B4Wg0wE5x9",
     "billie eilish|||chichiro": "spotify:track:7BRD7x5pt8Lqa1eGYC4dzj",
     "billie eilish|||everything i wanted": "spotify:track:3ZCTVFBt2Brf31RLEnCkWJ",
+    "billie eilish|||lunch": "spotify:track:629DixmZGHc7ILtEntuiWE",
     "billie eilish|||the diner": "spotify:track:1LLUoftvmTjVNBHZoQyveF",
     "billie eilish|||therefore i am": "spotify:track:20R4HfKloPKgXDqU7UKk3x",
     "billie holiday|||blue moon": "spotify:track:1pZn8AX1WulW8IO338hE5D",
@@ -564,6 +565,7 @@
     "frank ocean|||pink white": "spotify:track:3xKsf9qdS1CyvXSMEid6g8",
     "frankie stew and harvey gunn|||goodbye for now": "spotify:track:4Mb0sGKiPJPEKfKwLARsj5",
     "franky wah lapsley|||stolen glances": "spotify:track:4G60BJTF32klpYbEl8XTDi",
+    "fred again|||backseat": "spotify:track:61pyjiweMDS1h930OgS0XO",
     "fred everything|||that thang": "spotify:track:3j4DhNRkVhRsVjH3zZsLQ1",
     "frends in paris faisal|||when your heart is a stranger": "spotify:track:1vZqSAWEKH4Aby3Z9nJ1Ln",
     "friendly fires|||lose all your friends": "spotify:track:0kvAaEfGZnzBQaUmqUJ2ct",
@@ -1280,6 +1282,7 @@
     "peggy gou ohhyuk|||nabi": "spotify:track:6zQ24McTYC36rMWRgEfzqC",
     "peggy gou|||i go": "spotify:track:2Vkn1pUamUEfJ9GHul3RJr",
     "peggy gou|||starry night": "spotify:track:46KG2wmw38sYm1GoRHIsOW",
+    "perrie|||you go your way": "spotify:track:5xMxlxkog3a0wwdHUD5845",
     "pet shop boys|||new london boy boy harsher rmx": "spotify:track:6K7emfIgyJfsIlQ5OUc773",
     "pet shop boys|||west end girls": "spotify:track:5Dqik1P9toCJTLj5rEm78s",
     "peter bjorn and john|||young folks": "spotify:track:4dyx5SzxPPaD8xQIid5Wjj",
@@ -1752,7 +1755,7 @@
     "retry_after": 6487
   },
   "live_day": "2026-10-10",
-  "live_time": "13:16",
+  "live_time": "14:15",
   "misses": {
     "aaron taylor karell gold|||drowning in your love": "2026-10-09",
     "abe parker genesis owusu|||self sabotage": "2026-10-10",
@@ -1877,6 +1880,9 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:5xMxlxkog3a0wwdHUD5845",
+    "spotify:track:61pyjiweMDS1h930OgS0XO",
+    "spotify:track:629DixmZGHc7ILtEntuiWE",
     "spotify:track:3NV2Ja2YhcmbgIR18JeMFS",
     "spotify:track:1xYsgHPHiR3IIdpRzkfKcE",
     "spotify:track:33AVRJEIQSUVVXQmyj3Xy0",
