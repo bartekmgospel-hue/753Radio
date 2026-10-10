@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-10-11T01:15:49+00:00",
   "keys": {
     "2 unlimited|||no limit": "spotify:track:7voHUmPNDuYZ1SW1mwRu26",
     "3 doors down|||here without you": "spotify:track:3NLrRZoMF0Lx6zTlYqeIo4",
@@ -154,6 +154,7 @@
     "celine dion|||that s the way it is": "spotify:track:5s4catxeZsaWFnOrvrXZHf",
     "chappell roan|||good luck babe": "spotify:track:0WbMK4wrZ1wFSty9F7FCgu",
     "cher|||believe": "spotify:track:2goLsvvODILDzeeiT4dAoR",
+    "cher|||dov e l amore": "spotify:track:0pifkqN4kRVux0zXssE517",
     "cher|||if i could turn back time": "spotify:track:6mYrhCAGWzTdF8QnKuchXM",
     "cher|||strong enough": "spotify:track:144JMbvbR5txNzoZ112wo4",
     "cher|||the shoop shoop song": "spotify:track:5oV1YjM2rtyZ55txHHsFUu",
@@ -831,14 +832,14 @@
     "zbigniew wodecki|||lubie wracac tam gdzie bylem": "spotify:track:4sHTqR2RQGsH5pSFqtXroU"
   },
   "last_429": {
-    "at": "2026-10-09T23:29:18+00:00",
+    "at": "2026-10-10T21:29:19+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 5770
+    "retry_after": 13585
   },
   "live_day": "2026-10-10",
-  "live_time": "22:26",
+  "live_time": "22:48",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-05",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -854,7 +855,9 @@
     "tabb sound n grace|||na pewno": "2026-10-09"
   },
   "pending_backfill": [],
-  "pending_live": [],
+  "pending_live": [
+    "spotify:track:0pifkqN4kRVux0zXssE517"
+  ],
   "playlist_id": "2aFGEJhzTzE8lCUkzJt5Xs",
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
