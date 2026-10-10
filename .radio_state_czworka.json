@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-10-11T01:15:49+00:00",
   "keys": {
     "1 800 girls|||eye contact": "spotify:track:4i8m2UtuvXx4qntgfcNHjA",
     "1 800 girls|||there 4 u": "spotify:track:2393YgNsuZvNlYVZ73KhsZ",
@@ -1291,11 +1291,11 @@
     "zuta|||okres": "spotify:track:3GWmuARtJ9VRWEf15yNWv6"
   },
   "last_429": {
-    "at": "2026-10-09T23:53:17+00:00",
+    "at": "2026-10-10T21:53:20+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 4331
+    "retry_after": 12144
   },
   "live_day": "2026-10-10",
   "live_time": "19:56",
