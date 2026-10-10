@@ -246,6 +246,7 @@
     "blood sweat tears|||lisa listen to me": "spotify:track:4u2i6dbT4DgGwmQAqw8gnt",
     "blood sweat tears|||my days are numbered": "spotify:track:7czKJTL04SFhBcR3zq4KID",
     "bloodywood|||nu delhi": "spotify:track:7qzEk069ZJct9qjiWGTGbD",
+    "blossoms|||husband": "spotify:track:1cCSwhGE10BeDaze8r7HOD",
     "blossoms|||uma thurman": "spotify:track:5f95i9fRNEaaKgdGfwBYiY",
     "blur|||strange news from another star": "spotify:track:3UI1FsqTeVkv3hLpeh8Pq8",
     "blu|||goodmorning": "spotify:track:6jrlGFcRkCn4CBr1qpw69L",
@@ -1158,6 +1159,7 @@
     "kneecap|||better way to live": "spotify:track:2nlivHG7sBn9C22SBhzuQp",
     "koffie|||bessa": "spotify:track:1GClY6s7tBT9BnSWU1231A",
     "kokoroko|||da du dah": "spotify:track:0VcvKN17fqyvbznfwypjDB",
+    "kool the gang|||celebration": "spotify:track:3K7Q9PHUWPTaknlbFPThn2",
     "kool the gang|||fresh": "spotify:track:1mMYaXpT65iZDtvfRA9EkE",
     "kool the gang|||jungle boogie": "spotify:track:3K0SJUQNbOkUprTFcwwAKN",
     "kool the gang|||let the music take your mind": "spotify:track:43W0g4M4thuWwqvAuoaLID",
@@ -2445,7 +2447,7 @@
     "retry_after": 7197
   },
   "live_day": "2026-10-10",
-  "live_time": "04:04",
+  "live_time": "05:04",
   "misses": {
     "adam nowak|||pod niebem pe nym cudow live artysci dla akademii teatralnej 24 11 2022": "2026-10-03",
     "andy summers|||round midnight": "2026-10-04",
@@ -2457,6 +2459,7 @@
     "bloo zbir|||jak ja chce do domu": "2026-10-05",
     "bread and david gates|||everything i own": "2026-10-04",
     "bread and david gates|||took the last train": "2026-09-18",
+    "brodka jann urbanski|||list": "2026-10-10",
     "calvin harris normani tinashe offset|||new to you": "2026-09-21",
     "cat power iggy pop|||working class hero": "2026-09-19",
     "czerwone gitary|||rytm ziemi": "2026-10-01",
@@ -2557,6 +2560,8 @@
   "playlist_name": "Radio Nowy Świat",
   "source_generation": "odsluchane-multi-v1.1:105",
   "uris": [
+    "spotify:track:3K7Q9PHUWPTaknlbFPThn2",
+    "spotify:track:1cCSwhGE10BeDaze8r7HOD",
     "spotify:track:52LZFA1JbDcoK91uVZNx7I",
     "spotify:track:5GdSPrFUgE6bGpyVYxxqyK",
     "spotify:track:6DLLe3Qn3JoayzxuCX4C6E",
