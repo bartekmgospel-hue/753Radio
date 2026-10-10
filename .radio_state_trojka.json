@@ -589,6 +589,7 @@
     "khruangbin|||maria tambien": "spotify:track:5EvSpCCDpZOJvFwr4ZWSk0",
     "kim carnes|||bette davis eyes": "spotify:track:0odIT9B9BvOCnXfS0e4lB5",
     "kim nowak|||piasek": "spotify:track:7FzhYTVcFRRwY4sawa79hG",
+    "king crimson|||the court of the crimson king": "spotify:track:2nJdSz9kKLORcEwNCNgLya",
     "kingfisha|||highly recommended": "spotify:track:1UrOp9KoPXOW8xN58C0Pr9",
     "kings of leon|||back down south": "spotify:track:6HfFLqjxyFJYx1V0olSKof",
     "kings of leon|||cold blue dawn": "spotify:track:08EqJFDJCaBkDIMLO6Mrw2",
@@ -1618,7 +1619,7 @@
     "retry_after": 26391
   },
   "live_day": "2026-10-10",
-  "live_time": "11:47",
+  "live_time": "11:51",
   "misses": {
     "adam clayton larry mullen jr|||mission impossible": "2026-10-08",
     "armand hammer the alchemist|||falling out the sky": "2026-10-02",
@@ -1712,6 +1713,7 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:2nJdSz9kKLORcEwNCNgLya",
     "spotify:track:0vIdjS2WkkgaF0AN8PV6vZ",
     "spotify:track:3YXOGwZ4StWiMvZl4VewyF",
     "spotify:track:5EiOUB3Hx7FSccfXZESciL",
