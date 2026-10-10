@@ -611,6 +611,7 @@
     "chic|||i want your love": "spotify:track:3gEO96MkIShkDIQuJRry0S",
     "childish gambino|||feels like summer": "spotify:track:7p4vHnYXkxlzvfePJVpcTr",
     "china crisis|||wishful thinking": "spotify:track:11HLyzoCyx8hXKXVmrg1Sy",
+    "chlopcy z placu broni|||cos na droge": "spotify:track:1NsN8N3fvQGvxcQjZXT3dD",
     "chris cornell|||nothing compares 2 u": "spotify:track:65mnqRK6fcQWpgNV2UibqM",
     "chris cornell|||watching the wheels": "spotify:track:1G90xitIQEtzGyiPG1tHJN",
     "chris cornell|||you know my name": "spotify:track:4zEoT7vhBEmAVm6cyZZwQg",
@@ -2004,6 +2005,7 @@
     "manic street preachers|||ready for drowning": "spotify:track:2IwjwHS3lC118Pt8FcXIbh",
     "manic street preachers|||the everlasting": "spotify:track:3KnMN356dGY4CuGhfIdwMF",
     "manic street preachers|||your love alone is not enough": "spotify:track:37pFLuNVnAJQL9ysRoKTdy",
+    "mano negra|||out of time man": "spotify:track:2Ocfrk1syda141tYv7v9lr",
     "manon lisa|||seules ensemble mistral gagnant": "spotify:track:5iCP3wPvrUwIZM0V2kzppV",
     "mapache|||people please": "spotify:track:1KHkAB4ulRvxIZHZk1qrJO",
     "marble sounds|||nothing to get over": "spotify:track:6U3RqAfn6SRChdS8NMzTZp",
@@ -3784,7 +3786,7 @@
     "retry_after": 5665
   },
   "live_day": "2026-10-10",
-  "live_time": "17:54",
+  "live_time": "18:14",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -4079,6 +4081,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:2Ocfrk1syda141tYv7v9lr",
+    "spotify:track:1NsN8N3fvQGvxcQjZXT3dD",
     "spotify:track:5aewKA6EA4WTbp89Mt6C4X",
     "spotify:track:1C69f6EWpqD0Ei9occkhvE",
     "spotify:track:4eUwprTmYFNR9SkbRiWV7x",
