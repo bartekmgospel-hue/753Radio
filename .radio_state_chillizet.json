@@ -739,6 +739,7 @@
     "jelsa|||jak miod": "spotify:track:49cv9cHV08l1HMhsmojmAR",
     "jenevieve|||baby powder": "spotify:track:4Nw7kywWurWS6ceinn1cHK",
     "jennie|||fallen angel": "spotify:track:75QkBCdRc5DGgcyPiVSg4b",
+    "jeremy zucker chelsea cutler|||emily": "spotify:track:1sTtlEZeVeeEnxEztJNkYN",
     "jesse gold|||always been you": "spotify:track:7gWygVJ2P5CJTbSObBLy1M",
     "jessie murph|||bad as the rest": "spotify:track:5PbieFqXACejDMorBL0DVH",
     "jessie murph|||i stay i leave i love i lose": "spotify:track:3NlJEfRVcKNXr44ql6Qn7K",
@@ -1388,6 +1389,7 @@
     "sade|||hang on to your love": "spotify:track:6KIS5YIZAyeiFNx1aE1OhY",
     "sade|||smooth operator": "spotify:track:7pLuEMFougkSHXrPBtNxTR",
     "saint harison|||stuck": "spotify:track:1nEzZ4l1LYmmaDNgWNzVCG",
+    "saint wknd malou clouds|||ridin solo": "spotify:track:4AhDVGfkGxIVOdvQNwAE8P",
     "salute|||drive": "spotify:track:3nQbx8MEoRsxCdoSMVcSmA",
     "sam barber|||better year": "spotify:track:16Dak03vkp5lEuwIFFpeOm",
     "sam fender elton john|||talk to you": "spotify:track:0Oriikd4ETp5qmzek6ZUD5",
@@ -1729,7 +1731,7 @@
     "retry_after": 6487
   },
   "live_day": "2026-10-10",
-  "live_time": "04:16",
+  "live_time": "05:17",
   "misses": {
     "aaron taylor karell gold|||drowning in your love": "2026-10-09",
     "abe parker genesis owusu|||self sabotage": "2026-09-20",
@@ -1854,6 +1856,8 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:1sTtlEZeVeeEnxEztJNkYN",
+    "spotify:track:4AhDVGfkGxIVOdvQNwAE8P",
     "spotify:track:1bKQdPJ9lid6Yg26HAx8Tf",
     "spotify:track:5XOmmOQZFpzeHnWcsFAEiX",
     "spotify:track:51STVTOf9i4UdadXZcjUdk",
