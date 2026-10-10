@@ -1654,6 +1654,7 @@
     "parker millsap|||running on time": "spotify:track:0DsfhBJZjDaF3PYjKFu8ei",
     "parker millsap|||what you ve shown me": "spotify:track:5LZr1EW9E82JGwz2cP7Muj",
     "parliament|||the big bang theory": "spotify:track:4x2mw3JsOBlrMD0uuvYJkj",
+    "pasteur lappe|||more sekele movement papa ni mama": "spotify:track:3z5OAhAIJ5ODAeBLcidYLn",
     "pat thomas kwashibu area band|||onfa nkosi hwee": "spotify:track:1G8h2BbHv7hobEGIrq7O7G",
     "patrice rushen|||feels so real won t let go 12 version": "spotify:track:6OTqMkJyg3dsr0GZU5OyoZ",
     "patrick shiroishi piotr kurek|||lily s trace": "spotify:track:36TWpwxhqjjlaQefoFnyOB",
@@ -2491,7 +2492,7 @@
     "retry_after": 7197
   },
   "live_day": "2026-10-10",
-  "live_time": "12:04",
+  "live_time": "13:05",
   "misses": {
     "adam nowak|||pod niebem pe nym cudow live artysci dla akademii teatralnej 24 11 2022": "2026-10-03",
     "andy summers|||round midnight": "2026-10-04",
@@ -2606,6 +2607,7 @@
   "playlist_name": "Radio Nowy Świat",
   "source_generation": "odsluchane-multi-v1.1:105",
   "uris": [
+    "spotify:track:3z5OAhAIJ5ODAeBLcidYLn",
     "spotify:track:3Sgit2OAwwSJtktbEC61cE",
     "spotify:track:1OxcIUqVmVYxT6427tbhDW",
     "spotify:track:6zC0mpGYwbNTpk9SKwh08f",
