@@ -771,6 +771,7 @@
     "varius manx|||piosenka ksiezycowa": "spotify:track:4PUjh1dS9vniNNIEL7PvLM",
     "varius manx|||poca uj noc do ciebie": "spotify:track:1b7459Md2rTMDkcjwwpsE3",
     "varius manx|||ruchome piaski": "spotify:track:0D49iTPnFuQtYvqDyWvxp2",
+    "varius manx|||zamigota swiat": "spotify:track:0egOSnJoLvRuV0o0E8M4g1",
     "vaya con dios|||nah neh nah": "spotify:track:1fX0h6SaZBXwmr4haRvirQ",
     "velvet|||chemistry": "spotify:track:5J9DOOJA076niGcfCIIyDe",
     "velvet|||fix me": "spotify:track:6KQVv21YaNmwWcnUGvfoyU",
@@ -817,7 +818,7 @@
     "retry_after": 5770
   },
   "live_day": "2026-10-10",
-  "live_time": "10:28",
+  "live_time": "11:29",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-05",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -838,6 +839,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:0egOSnJoLvRuV0o0E8M4g1",
     "spotify:track:2vBiZ7nBe0OqTZKWGP0s4K",
     "spotify:track:27yUNsQo2CPPokNw69M23X",
     "spotify:track:3jWGTfQLWw0tdo2sjYsZuO",
