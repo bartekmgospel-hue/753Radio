@@ -191,6 +191,7 @@
     "chair|||everything everything everything": "spotify:track:7krlB6Pf5yOLyump93RGGL",
     "chair|||when i walk": "spotify:track:0wzq8GdsfL4vf0LTDiqKxm",
     "chai|||ping pong": "spotify:track:3J7aROvcIXinMbZd2LzL3B",
+    "chanel loren|||ring ring": "spotify:track:1mLrKUepZE0AI11JvOwWci",
     "channel tres|||controller": "spotify:track:2FaiD0A1MKQvG4Gyq2LTiv",
     "channel tres|||jet black": "spotify:track:33znDzeke3FVEB3mMFPwvg",
     "channel tres|||walked in the room": "spotify:track:4tPHsS7lFxBCe6zRAOWMSR",
@@ -767,6 +768,7 @@
     "mery spolsky|||santorini": "spotify:track:725GGkOr07ss8F4ta39bc7",
     "metronomy|||everything goes my way": "spotify:track:67wcAJeaNwGm0fcB4HzzYm",
     "metronomy|||heartbreaker french version": "spotify:track:1CEEC1RD3RNioELZ04SXjC",
+    "metronomy|||the bay": "spotify:track:2akjLHnHjDGsgqxuf48VYs",
     "metrowy fankatak|||duszno": "spotify:track:58rfEOSTygPIUMUMbSUeb8",
     "metrowy fankatak|||jak tak mozna": "spotify:track:3baIcBgLzSKEwEyDHLCvgp",
     "mexyk|||tasmy p ona": "spotify:track:5IReAhevOfZBIWCRGc1Z5X",
@@ -1334,7 +1336,7 @@
     "retry_after": 12144
   },
   "live_day": "2026-10-11",
-  "live_time": "12:55",
+  "live_time": "13:58",
   "misses": {
     "4am kru x shout out out out out|||chicken soup for": "2026-10-08",
     "abradab|||emisja spalin igs remix": "2026-10-10",
@@ -1688,6 +1690,8 @@
   "playlist_name": "Czwórka",
   "source_generation": "odsluchane-multi-v1.1:49",
   "uris": [
+    "spotify:track:2akjLHnHjDGsgqxuf48VYs",
+    "spotify:track:1mLrKUepZE0AI11JvOwWci",
     "spotify:track:1mELhA2LJi8xSUhwYfsFcF",
     "spotify:track:4baqpGz3NRtHZ8ye1T6Dhl",
     "spotify:track:4YAhKZrz4S6dH4Ro4WMPdB",
