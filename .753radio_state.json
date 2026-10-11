@@ -1945,6 +1945,7 @@
     "lorde|||liability": "spotify:track:6Kkt27YmFyIFrcX3QXFi2o",
     "lorde|||perfect places": "spotify:track:7ARveOiD31w2Nq0n5FsSf8",
     "lordofon|||francoise hardy": "spotify:track:5E4eQoE3wAaVIgSiY06nrl",
+    "lordofon|||ma a smierc": "spotify:track:36mCKMgMmUMP1LESc4bMQi",
     "lor|||bye bye sun francisco": "spotify:track:60lorvcgBHsZ3p2F1Oiu2o",
     "lor|||p uca": "spotify:track:1rXi26zKZOV3PZTVWEggfo",
     "los bitchos|||the link is about to die": "spotify:track:4IZYR8grCH5snauh6rQFbV",
@@ -3094,6 +3095,7 @@
     "spoon|||hot thoughts": "spotify:track:48yvsxGXnJBxy8nXgGbs4S",
     "spoon|||lucifer on the sofa": "spotify:track:5C5EOBG95uBcP2mmytv8j7",
     "sports team|||bang bang bang": "spotify:track:5UUDgwTJ1ReQnUngHbkxI1",
+    "sports team|||the drop": "spotify:track:6uAyOEs3DGcVk9rM6V22FM",
     "st paul the broken bones|||fall moon": "spotify:track:5akiBXHH4AUUgDpNf2LBvT",
     "st vincent|||pay your way in pain": "spotify:track:1nLaoWVhNRZ38irY0LZjL6",
     "stacha i kisiel|||comfort food": "spotify:track:02XU3nS3TNLJo44d357MqT",
@@ -3861,7 +3863,7 @@
     "retry_after": 15264
   },
   "live_day": "2026-10-11",
-  "live_time": "07:01",
+  "live_time": "07:26",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -4160,6 +4162,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:36mCKMgMmUMP1LESc4bMQi",
+    "spotify:track:6uAyOEs3DGcVk9rM6V22FM",
     "spotify:track:2VmXX54vJ5SLvZzJ9Ak00z",
     "spotify:track:0NeYhtI2vLqaIpvYRQ7E5Y",
     "spotify:track:6Yry0WeE0FRcR0qe8IE8A8",
