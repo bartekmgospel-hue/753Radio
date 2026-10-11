@@ -211,6 +211,7 @@
     "dawid podsiad o|||nie ma fal": "spotify:track:3kWcNl9IThew9vwO8UM3fD",
     "dawid podsiad o|||pieknie p yniesz": "spotify:track:5XIAnKNsdUim7GQsekL3uE",
     "dawid podsiad o|||sezon": "spotify:track:5CvvWZp4Lsw97zYMg30PyL",
+    "dawid podsiad o|||trofea": "spotify:track:3pe05XBTPu2wpWwkVPzuUX",
     "dawid podsiad o|||trojkaty i kwadraty": "spotify:track:3v0fVON6z5CnRlle3SJZU1",
     "de mono|||poki na to czas": "spotify:track:77Xw1YgPiKMdJUGYNDor9G",
     "de mono|||statki na niebie": "spotify:track:6esusFWhp4cAlUkjnplBiA",
@@ -851,7 +852,7 @@
     "retry_after": 13585
   },
   "live_day": "2026-10-11",
-  "live_time": "08:54",
+  "live_time": "10:29",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-05",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -872,6 +873,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:3pe05XBTPu2wpWwkVPzuUX",
     "spotify:track:77CdmLyI4X3aMaIM8tDfAh",
     "spotify:track:4WnJ8tdQhBWGDEHKm6y40h",
     "spotify:track:4p4LHYrCIFi3yWTFMRoHIQ",
