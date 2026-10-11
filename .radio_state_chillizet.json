@@ -631,6 +631,7 @@
     "goldford|||easy does it": "spotify:track:70v1ILapgu1QnTlOyKGrJr",
     "goldroom|||breaks": "spotify:track:6W0roLc9LMJe3LyZuxLoNZ",
     "goldroom|||everybody s lonely": "spotify:track:673yDKICU3szLrEHLpiO8n",
+    "good neighbours|||bloom": "spotify:track:43LlAXHEaslt14UcRQyPtV",
     "good neighbours|||home": "spotify:track:68mOSKT4uBkKddEAhlMO61",
     "good neighbours|||ripple soft version": "spotify:track:1IJHhIpZmkJa90LTGb4xrq",
     "good neighbours|||starry eyed": "spotify:track:3DQRwWVjfmAdXPbY7pntyX",
@@ -928,6 +929,7 @@
     "kraak smaak kosta g|||nothing is forever": "spotify:track:4vCy8WV64YnAAG61QaNTur",
     "kraak smaak satchmode jean tonique|||don t want this to be over": "spotify:track:7siSwrellylOs0GO0xx6xy",
     "kraak smaak the palms|||same blood": "spotify:track:0bNwknIzyUD2NHFsw6WkhT",
+    "kraak smaak|||the future is yours adriatique illusion": "spotify:track:3HHWADtgnlSbA6L6MpwdHT",
     "krol|||nie zrobie nic": "spotify:track:2vGPLslpm9MvURJeh04F3m",
     "kryptogram|||how long have you been away": "spotify:track:1LM3ZXahgznbnRJPjbMrze",
     "kwiat jab oni|||nie nie nie": "spotify:track:1fWKCmzoDwpS5DdG68ival",
@@ -1009,6 +1011,7 @@
     "loony|||either side": "spotify:track:5zsbL78TMgXh1vzt77h5pl",
     "lord huron|||bag of bones": "spotify:track:3mXFTm5tC59wbnLfrQN5BX",
     "lorde|||liobility": "spotify:track:6Kkt27YmFyIFrcX3QXFi2o",
+    "lorde|||perfect places": "spotify:track:7ARveOiD31w2Nq0n5FsSf8",
     "lorde|||royals": "spotify:track:4SDWMFvYJKtK1QPhIOeZhd",
     "lorde|||shapeshifter": "spotify:track:0vtgMfyOVM2Y97DcVVJw3m",
     "lorde|||take me to the river": "spotify:track:1gLUqiJmZxnYAs2uS1RHrM",
@@ -1807,7 +1810,7 @@
     "retry_after": 14304
   },
   "live_day": "2026-10-11",
-  "live_time": "15:17",
+  "live_time": "16:13",
   "misses": {
     "aaron taylor karell gold|||drowning in your love": "2026-10-09",
     "abe parker genesis owusu|||self sabotage": "2026-10-10",
@@ -1934,6 +1937,9 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:3HHWADtgnlSbA6L6MpwdHT",
+    "spotify:track:43LlAXHEaslt14UcRQyPtV",
+    "spotify:track:7ARveOiD31w2Nq0n5FsSf8",
     "spotify:track:0TYNJMOUjuW2JrnxF8SSkR",
     "spotify:track:6NrwVoFmjeNsEtrgZTMo4T",
     "spotify:track:1kGs1ebwe7VBGPsbJgVIx1",
