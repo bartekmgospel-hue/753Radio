@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-10-12T01:17:23+00:00",
   "keys": {
     "15 minut projekt|||soca": "spotify:track:4nb5Saxa9EhQmkSEourUW4",
     "2 plus 1|||hej dogonie lato": "spotify:track:5kThJ36GmE6r925KcKdc4R",
@@ -1742,11 +1742,11 @@
     "zz top|||breakaway": "spotify:track:3k6T3I7uuRGL96rWFTucgb"
   },
   "last_429": {
-    "at": "2026-10-10T21:41:19+00:00",
+    "at": "2026-10-11T20:41:19+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 12865
+    "retry_after": 16559
   },
   "live_day": "2026-10-11",
   "live_time": "18:46",
