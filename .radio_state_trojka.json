@@ -416,6 +416,7 @@
     "fleetwood mac|||dreams": "spotify:track:1lbXEepatjRVjoG8pZMtdp",
     "fleetwood mac|||everywhere": "spotify:track:1prZ0pr6XoRCxcrC3MCL0M",
     "fleetwood mac|||gypsy": "spotify:track:19Ym5Sg0YyOCa6ao21bdoG",
+    "fleetwood mac|||isn t it midnight": "spotify:track:6D8BkkjFumCyE2qi5I7a3D",
     "fleetwood mac|||little lies": "spotify:track:08o75xMKmGrKny6GsXrNJW",
     "fleetwood mac|||the chain": "spotify:track:4zXBdnChYD8wqnsW4vhYBS",
     "fleetwood mac|||you make loving fun": "spotify:track:24HTwhBEeeohReRYPyjaDG",
@@ -709,6 +710,7 @@
     "le birrette|||wanted": "spotify:track:6UvKXbmm0TnKK8t23DjhRw",
     "lech janerka|||rower": "spotify:track:4SzvKGGSSe7sMp1QT9TSHL",
     "led zeppelin|||bron y aur stomp": "spotify:track:1cbylo3xmqFq0MUdAnbB0Y",
+    "led zeppelin|||good times bad times": "spotify:track:0kfjZ0JCXU9sSg99gbQpbJ",
     "led zeppelin|||immigrant song": "spotify:track:3bUMbmI5TQ2a7I9xLukuJb",
     "led zeppelin|||moby dick": "spotify:track:0h2gzJQBt6duqZD6kWiz4s",
     "led zeppelin|||rock and roll": "spotify:track:4PRGxHpCpF2yoOHYKQIEwD",
@@ -1126,6 +1128,7 @@
     "police the|||demolition man": "spotify:track:4cAWzXWGoRIezpTy9ZiDRg",
     "porter band|||ain t got my music": "spotify:track:4XvE1iL1VT2T5L2yTIejOX",
     "porter band|||helicopters": "spotify:track:2TdQZ5u1WR2JIpjImIpxBg",
+    "portugal the man|||live in the moment": "spotify:track:60eOMEt3WNVX1m1jmApmnX",
     "prefab sprout|||bonny": "spotify:track:3x7LTEzj8V3egWqwf43SEF",
     "primal scream|||loaded": "spotify:track:7zxDWJtcsVvXsbMBxxbSba",
     "primal scream|||movin on up": "spotify:track:67ncFJWaIbJdqZl1bpEppz",
@@ -1746,7 +1749,7 @@
     "retry_after": 12865
   },
   "live_day": "2026-10-11",
-  "live_time": "17:53",
+  "live_time": "18:46",
   "misses": {
     "adam clayton larry mullen jr|||mission impossible": "2026-10-08",
     "alina janowska|||copy of okularnicy": "2026-10-11",
@@ -1855,6 +1858,9 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:0kfjZ0JCXU9sSg99gbQpbJ",
+    "spotify:track:6D8BkkjFumCyE2qi5I7a3D",
+    "spotify:track:60eOMEt3WNVX1m1jmApmnX",
     "spotify:track:49F8YlSHRa5ScgxghP9mxS",
     "spotify:track:3toxxSU3TcvzgmeR8LLUiX",
     "spotify:track:1T0CdfKPKb1gJi4vCKpZ9C",
