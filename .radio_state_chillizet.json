@@ -125,6 +125,7 @@
     "aurora|||runaway": "spotify:track:1v1oIWf2Xgh54kIWuKsDf6",
     "austra|||utopia": "spotify:track:0OLWYUpvxIMWkQtFXKfZ82",
     "avalon emerson|||sandrail silhouette": "spotify:track:0d3yrpfIZj4BJUVRdm2llW",
+    "avec|||i don t pray": "spotify:track:2qNOJIfXxLFkERoqhS09yv",
     "azari iii|||into the night": "spotify:track:0vYefpI84RhgZ5EGzEUeDm",
     "baasch|||arystokracja": "spotify:track:5jUXJvtv5goL7wZ5zMJHb5",
     "baasch|||pokojowka": "spotify:track:4XZ3W1bltnKFLbkD6gp9Hr",
@@ -298,6 +299,7 @@
     "charlie jeer cat burns|||small talk": "spotify:track:0X31XuX0pKXW9VaOxowFSr",
     "charlie jeer|||her eyes": "spotify:track:26v8Oqvrztt4DyhhsBjVQ7",
     "charlie jeer|||sun is gone": "spotify:track:0Rkdov9ktWGjqOqy9MQ8XP",
+    "charlie puth|||hero": "spotify:track:5TTyyKNJZHONhjtAiXL1nG",
     "charlotte day wilson syd|||take care of you": "spotify:track:5lYcnEFmVi9yWbU4ZINRyJ",
     "charlotte day wilson|||do u still": "spotify:track:6a0psdgp7sL7LEFYCXpNv4",
     "charlotte day wilson|||selfish": "spotify:track:3atiB68n62bmcq0fnlbdmm",
@@ -1791,7 +1793,7 @@
     "retry_after": 14304
   },
   "live_day": "2026-10-11",
-  "live_time": "07:15",
+  "live_time": "08:16",
   "misses": {
     "aaron taylor karell gold|||drowning in your love": "2026-10-09",
     "abe parker genesis owusu|||self sabotage": "2026-10-10",
@@ -1917,6 +1919,8 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:2qNOJIfXxLFkERoqhS09yv",
+    "spotify:track:5TTyyKNJZHONhjtAiXL1nG",
     "spotify:track:7mo91mH70LRf4NMUs717c3",
     "spotify:track:1kuGVB7EU95pJObxwvfwKS",
     "spotify:track:3se5Q9CtQLv26cFWYOcExQ",
