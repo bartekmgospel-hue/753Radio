@@ -353,6 +353,7 @@
     "coals|||s i t c": "spotify:track:1zsYwJ8yjCxdc5unbHOyYp",
     "coco jones|||here we go uh oh": "spotify:track:5ShqaLCQm38x3Y1K4kQDqm",
     "cogitation|||let go": "spotify:track:5TEq2VkpWj8whssI1tWoHG",
+    "colbie caillat|||bubbly": "spotify:track:1lkvpmrCaXK8QtliFDcHBO",
     "coldplay|||all my love": "spotify:track:6iYxkBHyMpsgVxUgfy5fSx",
     "coldplay|||everglow": "spotify:track:5qfZRNjt2TkHEL12r3sDEU",
     "coldplay|||karate kid": "spotify:track:0cZEkGxb0V9MbpzHzpKp9F",
@@ -690,6 +691,7 @@
     "holly humberstone|||beauty pageant": "spotify:track:5bvK9yntY8XIcNkTKSSNYr",
     "holly humberstone|||cruel world": "spotify:track:35fi0WcdAVM8w2znoNsD2x",
     "holly humberstone|||into your room": "spotify:track:2BsxDdvXBZwXxSB5A3c5iy",
+    "holly humberstone|||sleep tight": "spotify:track:0YAmsr4FqG6on8KNfwxx76",
     "holly humberstone|||the walls are way to thin": "spotify:track:6z3o8dAIjtnkXFNErciWHS",
     "honey dijon danielle ponder adi oasis suni mf|||just friends": "spotify:track:16vvU2dfM73xN57mFlQ9FF",
     "honey dijon greentea peng|||i like it hot": "spotify:track:3Wa4mRR5yEylmoWEtFBJaa",
@@ -766,6 +768,7 @@
     "jann|||what do you want from me": "spotify:track:65kCMKxBUtxl0eRhMcyCsW",
     "japanese brekfast|||be sweet": "spotify:track:4AtBBh8s6KM2orfgl3EYbk",
     "japanese house|||sunshine baby": "spotify:track:7ihVeKd4RjiZ3y12nDhPZO",
+    "jason mraz colbie caillat|||lucky": "spotify:track:0IktbUcnAGrvD03AWnz3Q8",
     "jasper tygner|||all i need": "spotify:track:23DvufvHJAr0OUPfrB7g2J",
     "jazzy m|||jazzin the way you know": "spotify:track:0dXXC5Ks82J4aWI9AHmbQz",
     "jean tonique|||california": "spotify:track:48AIXupyMngnRh0p4VMfDL",
@@ -1810,7 +1813,7 @@
     "retry_after": 14304
   },
   "live_day": "2026-10-11",
-  "live_time": "16:13",
+  "live_time": "17:17",
   "misses": {
     "aaron taylor karell gold|||drowning in your love": "2026-10-09",
     "abe parker genesis owusu|||self sabotage": "2026-10-10",
@@ -1937,6 +1940,9 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:0IktbUcnAGrvD03AWnz3Q8",
+    "spotify:track:0YAmsr4FqG6on8KNfwxx76",
+    "spotify:track:1lkvpmrCaXK8QtliFDcHBO",
     "spotify:track:3HHWADtgnlSbA6L6MpwdHT",
     "spotify:track:43LlAXHEaslt14UcRQyPtV",
     "spotify:track:7ARveOiD31w2Nq0n5FsSf8",
