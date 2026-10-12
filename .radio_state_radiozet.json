@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": "2026-10-12T01:17:24+00:00",
+  "blocked_until": null,
   "keys": {
     "2 unlimited|||no limit": "spotify:track:7voHUmPNDuYZ1SW1mwRu26",
     "3 doors down|||here without you": "spotify:track:3NLrRZoMF0Lx6zTlYqeIo4",
@@ -852,10 +852,10 @@
     "reason": "QUOTA_EXCEEDED",
     "retry_after": 17274
   },
-  "live_day": "2026-10-11",
-  "live_time": "21:32",
+  "live_day": "2026-10-12",
+  "live_time": "02:58",
   "misses": {
-    "artur gadowski|||szczesliwego nowego jorku": "2026-10-05",
+    "artur gadowski|||szczesliwego nowego jorku": "2026-10-12",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
     "californication|||red hot chili peppers": "2026-10-02",
     "coldplay beyonce|||hymn for the weekend": "2026-10-02",
