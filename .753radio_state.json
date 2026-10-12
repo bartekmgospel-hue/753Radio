@@ -1446,6 +1446,7 @@
     "hootie the blowfish|||i only wanna be with you": "spotify:track:1OFKUn2VLafrHj7ybnap0Q",
     "hootie the blowfish|||running from an angel": "spotify:track:4r5MzNSwc73UJWcQ0TYzMU",
     "horse|||the speed of the beat of my heart": "spotify:track:0w7NWXAqCFzwFIfss8ZlpJ",
+    "hot hot heat|||bandages": "spotify:track:75pMEcHJjLRv0O8MHxQvdg",
     "hubert|||swiety spokoj": "spotify:track:04MjU7kkZtqe0NH5Wk66IW",
     "huey lewis the news|||if this is it": "spotify:track:2pAdtQuiEVGr7nOXGiv7t4",
     "huey lewis the news|||the power of love": "spotify:track:2olVm1lHicpveMAo4AUDRB",
@@ -3395,6 +3396,7 @@
     "the b 52 s|||roam": "spotify:track:5fqcIHU6DhQtFKVO5XSdQs",
     "the backseat lovers|||maple syrup": "spotify:track:4MXE6VCvTsQitHWrAxj7Kg",
     "the bangles|||hazy shade of winter": "spotify:track:0P2vAvvWni2tNXOdbH3JFk",
+    "the bangles|||manic monday": "spotify:track:7Di7t9yGoxdZRLAt5a4pi0",
     "the beatles|||and your bird can sing": "spotify:track:4P3VPAvME1i9qVk0MIubTa",
     "the beatles|||day tripper 2023 mix": "spotify:track:2aHIsu5QYQc5tUR2KaN5Ke",
     "the beatles|||drive my car takes 1 and 2 instrumental backing track": "spotify:track:63lVppkZ3Igf1fcXcVq0CK",
@@ -3980,7 +3982,7 @@
     "retry_after": 17175
   },
   "live_day": "2026-10-12",
-  "live_time": "06:01",
+  "live_time": "06:26",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -4283,6 +4285,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:7Di7t9yGoxdZRLAt5a4pi0",
+    "spotify:track:75pMEcHJjLRv0O8MHxQvdg",
     "spotify:track:3qc0JLGerTig55lD2ThaeV",
     "spotify:track:6HUMQEKOWjIvLqFt9ql0pI",
     "spotify:track:1cWte8cS1YBfi7nEGGg9iU",
