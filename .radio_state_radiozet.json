@@ -660,6 +660,7 @@
     "richard marx|||right here waiting": "spotify:track:4LFwNJWoj74Yd71fIr1W8x",
     "ricky martin|||livin la vida loca": "spotify:track:0Ph6L4l8dYUuXFmb71Ajnd",
     "rihanna calvin harris|||we found love": "spotify:track:6qn9YLKt13AGvpq9jfO8py",
+    "rihanna|||diamonds": "spotify:track:6O20JhBJPePEkBdrB5sqRx",
     "rihanna|||only girl": "spotify:track:0AH6WMe3OlAlUb5miXt2FQ",
     "ringside|||tired of being sorry": "spotify:track:2M6ZMFxTe06Ab8H0DbpjgK",
     "rita ora|||anywhere": "spotify:track:6Xy72HZ9nf2jx48dQuF1mA",
@@ -854,7 +855,7 @@
     "retry_after": 17274
   },
   "live_day": "2026-10-12",
-  "live_time": "13:29",
+  "live_time": "14:28",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-12",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -875,6 +876,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:6O20JhBJPePEkBdrB5sqRx",
     "spotify:track:47Slg6LuqLaX0VodpSCvPt",
     "spotify:track:2hwHPUMNlR8WfCGOwBYco0",
     "spotify:track:3pe05XBTPu2wpWwkVPzuUX",
