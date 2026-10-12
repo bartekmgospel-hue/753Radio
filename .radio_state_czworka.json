@@ -713,6 +713,7 @@
     "los b|||kiki you complete me": "spotify:track:16Zp3ctaKIXNiqpbHjhQJD",
     "los b|||talkie talkie charlie charlie": "spotify:track:5rZCmL3GEG95x2BwVw2oTp",
     "lotta|||baza": "spotify:track:7MiclfTQQLum2dNG4aKtxr",
+    "lotta|||cool kids": "spotify:track:6n3VDVUHwwiOf3fuykFtkf",
     "lou hayter|||3am": "spotify:track:4lIxQ6uJxsgscLD7RcbKOx",
     "louis culture|||mannequin": "spotify:track:3MPdPrAI2rKY5uY9qbSOtm",
     "loyle carner|||horcrux": "spotify:track:5mU7sJzTKzLb01QoEouwYS",
@@ -1369,7 +1370,7 @@
     "retry_after": 15839
   },
   "live_day": "2026-10-12",
-  "live_time": "07:57",
+  "live_time": "08:52",
   "misses": {
     "4am kru x shout out out out out|||chicken soup for": "2026-10-08",
     "abradab|||emisja spalin igs remix": "2026-10-10",
@@ -1736,6 +1737,7 @@
   "playlist_name": "Czwórka",
   "source_generation": "odsluchane-multi-v1.1:49",
   "uris": [
+    "spotify:track:6n3VDVUHwwiOf3fuykFtkf",
     "spotify:track:5rydZYFd1zrgRAYH75mupf",
     "spotify:track:2VGTYACEkLtjrxYSuoicIH",
     "spotify:track:10hz5GfBRwCgbBhJ0CXz0B",
