@@ -135,6 +135,7 @@
     "brodka|||miales byc": "spotify:track:7aKwFVDQG0MUBX41I5esiU",
     "brodka|||ten": "spotify:track:7r3SAryC3n7wpfiamkQSL2",
     "brodka|||znam cie na pamiec": "spotify:track:4Wa9xLwIOdletdE8tBZKp5",
+    "bruno mars|||just the way you are": "spotify:track:47Slg6LuqLaX0VodpSCvPt",
     "bruno mars|||locked out of heaven": "spotify:track:3w3y8KPTfNeOKPiqUTakBh",
     "bruno mars|||marry you": "spotify:track:3lzz9rlIb4Ye5A3x1o3dhd",
     "bryan adams|||cloud number 9": "spotify:track:1sdz3nsrkX4Yo42KLPrmYV",
@@ -853,7 +854,7 @@
     "retry_after": 17274
   },
   "live_day": "2026-10-12",
-  "live_time": "09:27",
+  "live_time": "10:27",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-12",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -874,6 +875,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:47Slg6LuqLaX0VodpSCvPt",
     "spotify:track:2hwHPUMNlR8WfCGOwBYco0",
     "spotify:track:3pe05XBTPu2wpWwkVPzuUX",
     "spotify:track:77CdmLyI4X3aMaIM8tDfAh",
