@@ -3083,6 +3083,7 @@
     "simple minds|||alive and kicking": "spotify:track:2x5IXUFOcvvBUtEpnCBNlp",
     "simple minds|||beginner boys": "spotify:track:2CqxSyQsmd2895yviSn6Fy",
     "simple minds|||hypnotised": "spotify:track:3tM4qfZCvkJUbEah5xKIK5",
+    "simple minds|||see the lights": "spotify:track:7EUzbGgfQWeNN5qoTor9At",
     "simple minds|||soul crying out": "spotify:track:56dEXVqjl7A49PGsLAvJSR",
     "simple minds|||your name in lights": "spotify:track:16rYWfhXd2odbloZqmAyBF",
     "simply red|||for your babies": "spotify:track:58zZvqjTZdm98YhZXvsATa",
@@ -3761,6 +3762,7 @@
     "tv on the radio|||happy idiot": "spotify:track:20d1KuBoj4oZUrZhMlEXDU",
     "tv on the radio|||test pilot": "spotify:track:3oYqqEEh7hQJJf95WIHrUb",
     "tv on the radio|||wolf like me": "spotify:track:6Zgd7SomLTZkL1WPh4CUnV",
+    "twenty one pilots|||drum show": "spotify:track:4rPl7ezxtoqshKnI1kk3dX",
     "twin shadow|||old love new love": "spotify:track:0WpySA9xTObxQ5Z9c7I2Bv",
     "two lanes sohn|||shaped with two hands": "spotify:track:6wUfufAVhIDwmiponePlU5",
     "two lanes|||shaped with two hands": "spotify:track:6wUfufAVhIDwmiponePlU5",
@@ -3982,7 +3984,7 @@
     "retry_after": 17175
   },
   "live_day": "2026-10-12",
-  "live_time": "06:26",
+  "live_time": "06:57",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -4285,6 +4287,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:7EUzbGgfQWeNN5qoTor9At",
+    "spotify:track:4rPl7ezxtoqshKnI1kk3dX",
     "spotify:track:7Di7t9yGoxdZRLAt5a4pi0",
     "spotify:track:75pMEcHJjLRv0O8MHxQvdg",
     "spotify:track:3qc0JLGerTig55lD2ThaeV",
