@@ -363,6 +363,7 @@
     "jamal|||policeman": "spotify:track:5bTRw958W3Gf95RwXgJ2ql",
     "james arthur|||impossible": "spotify:track:5yVIlYEHZxQVLyInCdldoS",
     "james blunt|||beside you": "spotify:track:0LQtf5wLfmhOxcOcRRgWgY",
+    "jamie miller|||babydoll": "spotify:track:1o9mAOmNm3wT2NdyGV1Ard",
     "jasiek piwowarczyk|||ob oki": "spotify:track:6D7uM8zuAYJ82Fwatw9rWA",
     "jay z alicia keys|||empire state of mind": "spotify:track:2igwFfvr1OAGX9SKDCPBwO",
     "jeden osiem l|||jak zapomniec": "spotify:track:45pmh0kZvulXSgg4uJGB1X",
@@ -411,6 +412,7 @@
     "ke ha|||tik tok": "spotify:track:0HPD5WQqrq7wPWR7P7Dw1i",
     "kelly clarkson|||behind these hazel eyes": "spotify:track:0AKAxdNkwq9ZxRdW1DN9zW",
     "kelly clarkson|||stronger what doesn t kill you": "spotify:track:1nInOsHbtotAmEOQhtvnzP",
+    "kendji girac|||andalouse": "spotify:track:0fqlz0L5w16uQrELsFxTp0",
     "kombii|||awinion": "spotify:track:1kq7HYAGUDNEdh6K2LpnjW",
     "kombii|||pokolenie": "spotify:track:0KvWatgAJoo6FcPEztFyk5",
     "kombii|||sen sie spelni": "spotify:track:4RJjvFYCUBX6rfzP2QKYc2",
@@ -857,7 +859,7 @@
     "retry_after": 17274
   },
   "live_day": "2026-10-19",
-  "live_time": "18:24",
+  "live_time": "19:27",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-12",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -878,6 +880,8 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:0fqlz0L5w16uQrELsFxTp0",
+    "spotify:track:1o9mAOmNm3wT2NdyGV1Ard",
     "spotify:track:7HsfJdfR8yElu5QjSH3EIc",
     "spotify:track:0FTmksd2dxiE5e3rWyJXs6",
     "spotify:track:6O20JhBJPePEkBdrB5sqRx",
