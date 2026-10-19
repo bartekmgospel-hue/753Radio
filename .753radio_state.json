@@ -41,6 +41,7 @@
     "ac dc|||guns for hire": "spotify:track:31F5kR9fPxI7lBV0Stfl4V",
     "ac dc|||heatseaker": "spotify:track:0h3A3hdDq762DzIOKUoF21",
     "ac dc|||highway to hell": "spotify:track:2zYzyRzz6pRmhPzyfMEC8s",
+    "ac dc|||i put the finger on you": "spotify:track:7KGbYZv593eAMISQjYqTDT",
     "ac dc|||moneytalks": "spotify:track:5u5F7qLDvZjBSktaDp4HxB",
     "ac dc|||ride on": "spotify:track:594ONMYoHlJnqHPEx98t08",
     "ac dc|||shot in the dark": "spotify:track:0sfdiwck2xr4PteGOdyOfz",
@@ -3604,6 +3605,7 @@
     "the darkness|||i believe in a thing called love": "spotify:track:756CJtQRFSxEx9jV4P9hpA",
     "the daughters of eve|||hey lover": "spotify:track:0bhwnn2xqnBUcMZDcXNuII",
     "the daylights|||boy on the moon": "spotify:track:1C69f6EWpqD0Ei9occkhvE",
+    "the divine comedy|||i like": "spotify:track:65m4OnLQi7kJPKgCDGCSKe",
     "the divine comedy|||to the rescue": "spotify:track:4wz93BLsGVtpsgdfgeWXU7",
     "the dixie cups|||iko iko remastered 2022": "spotify:track:4treP3haeSHlwj3ClUfgPj",
     "the doors|||break on through to the other side": "spotify:track:6ToM0uwxtPKo9CMpbPGYvM",
@@ -4129,7 +4131,7 @@
     "retry_after": 17175
   },
   "live_day": "2026-10-19",
-  "live_time": "16:22",
+  "live_time": "16:55",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -4448,6 +4450,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:7KGbYZv593eAMISQjYqTDT",
+    "spotify:track:65m4OnLQi7kJPKgCDGCSKe",
     "spotify:track:6zvw4WgxmE7DnF1zwVKSOQ",
     "spotify:track:6nh3IW4V0mPVMOWrb2metL",
     "spotify:track:58TAh9idZQmRkbrPE8BIIp",
