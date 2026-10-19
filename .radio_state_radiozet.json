@@ -799,6 +799,7 @@
     "toto|||africa": "spotify:track:2374M0fQpWi3dLnB54qaLX",
     "toto|||hold the line": "spotify:track:4aVuWgvD0X63hcOCnZtNFA",
     "tove lo|||2 die 4": "spotify:track:1VYlIU9IpVa4MHUqzKHyOb",
+    "tove lo|||talking body": "spotify:track:7cgu4JBW3hq1GwTM1ilkKQ",
     "train|||drive by": "spotify:track:0KAiuUOrLTIkzkpfpn9jb9",
     "twocolors safri duo chris de sarandy|||cynical": "spotify:track:4fLnoXqsxHZFvGKppc7kCr",
     "twocolors|||heavy metal love": "spotify:track:07VcTAooOBP8hIluuUS5xr",
@@ -859,7 +860,7 @@
     "retry_after": 17274
   },
   "live_day": "2026-10-19",
-  "live_time": "19:27",
+  "live_time": "20:27",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-12",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -880,6 +881,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:7cgu4JBW3hq1GwTM1ilkKQ",
     "spotify:track:0fqlz0L5w16uQrELsFxTp0",
     "spotify:track:1o9mAOmNm3wT2NdyGV1Ard",
     "spotify:track:7HsfJdfR8yElu5QjSH3EIc",
