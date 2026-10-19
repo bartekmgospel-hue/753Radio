@@ -697,6 +697,7 @@
     "sandra|||i ll never be maria magdalena": "spotify:track:7LNP6YNYDeMgBeG4JBfAdq",
     "sarsa|||czy bedziemy sie pamietac": "spotify:track:4WYmfMKeHod1N8Ex321lER",
     "sarsa|||motyle i cmy": "spotify:track:57LqqlBkpcEc6axCbSX6wP",
+    "sarsa|||naucz mnie": "spotify:track:2DiCpRfPgf6dW5uYQiHGO5",
     "savage garden|||to the moon and back": "spotify:track:6FRtjadDsEhZIQIlh1loEM",
     "scorpions|||wind of change": "spotify:track:3ovjw5HZZv43SxTwApooCM",
     "sean paul alexis jordan|||got 2 luv u": "spotify:track:62pSYErgGri97X9aIyBzHm",
@@ -861,7 +862,7 @@
     "retry_after": 17274
   },
   "live_day": "2026-10-19",
-  "live_time": "22:29",
+  "live_time": "23:29",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-12",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -882,6 +883,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:2DiCpRfPgf6dW5uYQiHGO5",
     "spotify:track:1IJIUgWX5Z4WTXz7S7CMB6",
     "spotify:track:7cgu4JBW3hq1GwTM1ilkKQ",
     "spotify:track:0fqlz0L5w16uQrELsFxTp0",
