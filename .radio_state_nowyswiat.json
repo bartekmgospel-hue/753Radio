@@ -1532,6 +1532,7 @@
     "limp bizkit|||rollin air raid vehicle": "spotify:track:3IV4swNduIRunHREK80owz",
     "linda ronstadt|||that ll be the day": "spotify:track:65iBjEuahF9UMaovP6ouX1",
     "linkin park|||friendly fire": "spotify:track:1rAzOr3zpUDRtN2zsqGHiG",
+    "linkin park|||lost": "spotify:track:3RQHAFkEHiFHQ7qmMpKRdv",
     "lionel richie|||dancing on the ceiling": "spotify:track:0snPJPxkk0MbTc0xeUvAPt",
     "lionel richie|||my destiny": "spotify:track:2rdX2dS4KfkpR31qrQanE2",
     "lipstereo|||push the tide": "spotify:track:5Z1mJn6kxPLotwcpCdFz9E",
@@ -2371,6 +2372,7 @@
     "spiety|||kowalski w asnego losu": "spotify:track:0G5DmQrq2pRjWwYIRFGQ9z",
     "spiety|||pan piotrus pan": "spotify:track:58FVEblGAJmAwsDfR295cf",
     "spoon|||she s fine she s mine": "spotify:track:2wb2kUsNMmqzZaDQtxXZ9C",
+    "spoon|||silver girl": "spotify:track:1OcSRuRiQ7QKCGZ0WQTdnV",
     "spoon|||sugar babies": "spotify:track:6V58G3yLOvUNI4TFuJzkbw",
     "sports team|||condensation": "spotify:track:0WoV6h22DryxyReSRgie2E",
     "sprints|||up and comer": "spotify:track:469d5BNae99knRggeaqA0n",
@@ -3000,7 +3002,7 @@
     "retry_after": 15112
   },
   "live_day": "2026-10-20",
-  "live_time": "00:58",
+  "live_time": "01:10",
   "misses": {
     "adam nowak|||pod niebem pe nym cudow live artysci dla akademii teatralnej 24 11 2022": "2026-10-03",
     "andy summers|||round midnight": "2026-10-04",
@@ -3063,7 +3065,7 @@
     "kreha|||niekompletna piosenka": "2026-10-08",
     "krystyna janda|||na zakrecie live artysci dla akademii teatralnej 24 11 2022": "2026-10-09",
     "krzysztof komeda|||tango": "2026-09-19",
-    "lalah hathaway|||47th street": "2026-10-06",
+    "lalah hathaway|||47th street": "2026-10-20",
     "lina|||come to mama": "2026-09-23",
     "loriderens|||the": "2026-10-12",
     "lost horizons|||i woke up with an open heart": "2026-09-25",
@@ -3138,6 +3140,8 @@
   "playlist_name": "Radio Nowy Świat",
   "source_generation": "odsluchane-multi-v1.1:105",
   "uris": [
+    "spotify:track:1OcSRuRiQ7QKCGZ0WQTdnV",
+    "spotify:track:3RQHAFkEHiFHQ7qmMpKRdv",
     "spotify:track:1bKZe5rDiffV1wiTQHUom0",
     "spotify:track:244AvzGQ4Ksa5637JQu5Gy",
     "spotify:track:1exDZN0zsfDpsIKamOqmSz",
