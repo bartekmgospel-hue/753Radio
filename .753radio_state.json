@@ -254,6 +254,7 @@
     "artur rojek|||mowi em ci to juz": "spotify:track:5y3b897OqrN4bfk6A3deE0",
     "artur rojek|||sophia loren s upnej park": "spotify:track:4EhO5qN9yHJsctOsfwd5me",
     "artur rojek|||splatane wlosy": "spotify:track:4tAJN07fRPxWYWowwqL9lu",
+    "artur rojek|||syreny": "spotify:track:5jnPsCxNjmGFmkcWYZ8YCS",
     "artur rojek|||w objeciach": "spotify:track:3kjXg6wHnYuuRjgTQhWZCr",
     "asgeir|||against the current": "spotify:track:3dJWJS8D4pDIGJ1kG8BVH3",
     "ashanti|||only u": "spotify:track:7i2fOjMXzlSFUwyKHMGGS0",
@@ -1997,6 +1998,7 @@
     "lalah hathaway|||every little thing": "spotify:track:5nXnq6s9ZgOwwBlLa58ZLP",
     "lana del rey|||born to die": "spotify:track:4Ouhoi2lAhrLJKFzUqEzwl",
     "lana del rey|||first light": "spotify:track:2vd3HbaEqhEJpvVNHEago8",
+    "lana del rey|||fuck it i love you": "spotify:track:7MtVPRGtZl6rPjMfLoI3Lh",
     "lana del rey|||young and beautiful": "spotify:track:2nMeu6UenVvwUktBCpLMK9",
     "lao che|||hiszpan": "spotify:track:3gfWY5dCdaIBBv5rbDrigf",
     "lao che|||zycie jest jak tramwaj": "spotify:track:0yPLH1clBAMqaCoaVTYefT",
@@ -4161,8 +4163,8 @@
     "reason": "QUOTA_EXCEEDED",
     "retry_after": 17175
   },
-  "live_day": "2026-10-19",
-  "live_time": "23:10",
+  "live_day": "2026-10-20",
+  "live_time": "01:01",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -4489,6 +4491,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:7MtVPRGtZl6rPjMfLoI3Lh",
+    "spotify:track:5jnPsCxNjmGFmkcWYZ8YCS",
     "spotify:track:4SpJZJCQmJ2U9cnTthqj4s",
     "spotify:track:7rSTPw4u5t16HChX3zF1Oq",
     "spotify:track:29QhPSzRietu30MiBvhuJq",
