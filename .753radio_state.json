@@ -1579,6 +1579,7 @@
     "j balvin|||azul": "spotify:track:2lCkncy6bIB0LTMT7kvrD1",
     "j bernardt|||four in the morning": "spotify:track:1LuXRYcbHFPTAmla2hrbQX",
     "j bernardt|||love is on my mind": "spotify:track:4LuP3veDBkqnyLQvgDQpJb",
+    "j bernardt|||remedy": "spotify:track:1XCP81CTkXJCCabEDDwnnr",
     "j cole|||the villest": "spotify:track:5G9eo4UQH4b7foUtFf0HCG",
     "jack garratt|||ready steady go": "spotify:track:44pFuCNOk1FG9NvFu1Dk1b",
     "jack savoretti natalie imbruglia|||ultime parole": "spotify:track:5SiDGefYWpBij1RMHSF7qh",
@@ -2349,6 +2350,7 @@
     "michael kiwanuka|||love hate": "spotify:track:7oOEFDLSQscl0uGulnIEmG",
     "michael kiwanuka|||one more night": "spotify:track:0f2zcrhhHT59aIGQvRlTZ1",
     "michael kiwanuka|||piano joint this kind of love": "spotify:track:1I44zWi6wdcWcnd2B68Hio",
+    "michael kiwanuka|||sing": "spotify:track:4dTf6qu0IVqLROkGCoM2yt",
     "michael kiwanuka|||summer clothes": "spotify:track:1bOnbXldcr1DnseZ7getJp",
     "michael mcdonald|||sweet freedom single version": "spotify:track:4ZsYF5rjUXIwds6KNimPRo",
     "michael nau|||good thing": "spotify:track:3nha3YEXVm0fn9BN7fT80J",
@@ -3545,6 +3547,7 @@
     "the beatles|||something": "spotify:track:3S6N0Wbem9KV3DBcYNfXuv",
     "the beatles|||think for yourself": "spotify:track:23vzVaXOIZ3epCoFYRKpX0",
     "the beatles|||we can work it out 2023 mix": "spotify:track:6v4jPxoVe7vlh0WxZ81qKL",
+    "the beatles|||while my guitar gently weeps": "spotify:track:0FzGKD3N0jK6nNOyOJBvNG",
     "the beautiful south|||don t marry her": "spotify:track:20abcpNIRjDmyFoAbFozil",
     "the bee gees|||nights on broadway": "spotify:track:4JjcCdm0RSPuvQWnZyrNkm",
     "the bible|||glorybound": "spotify:track:196EFWqMsgdRmW25MC8O9k",
@@ -4140,7 +4143,7 @@
     "retry_after": 17175
   },
   "live_day": "2026-10-19",
-  "live_time": "19:01",
+  "live_time": "19:28",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -4460,6 +4463,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:0FzGKD3N0jK6nNOyOJBvNG",
+    "spotify:track:4dTf6qu0IVqLROkGCoM2yt",
+    "spotify:track:1XCP81CTkXJCCabEDDwnnr",
     "spotify:track:0R9R2fD4C8yGHN2BdBA6hm",
     "spotify:track:0GkUyGCLewjgand5EEfCOO",
     "spotify:track:2DwjENs3MJCa7mgwTVeDLu",
