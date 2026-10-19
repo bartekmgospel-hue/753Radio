@@ -369,6 +369,7 @@
     "jeden osiem l|||jak zapomniec": "spotify:track:45pmh0kZvulXSgg4uJGB1X",
     "jennifer lopez pitbull|||on the floor": "spotify:track:3C0nOe05EIt1390bVABLyN",
     "jennifer paige|||crush": "spotify:track:7aOGFnnVDivtRO1PrYhx64",
+    "jeremi sikorski|||a jak": "spotify:track:1IJIUgWX5Z4WTXz7S7CMB6",
     "jeremi sikorski|||wracam": "spotify:track:5GYd7snaxD4knd8vPfHMDB",
     "jermaine jackson pia zadora|||when the rain begins to fall": "spotify:track:030RDC2ayPOUM32F9IH7eE",
     "joan jett the blackhearts|||i love rock n roll": "spotify:track:4jTqsgDaffdNH0BMBwhjFv",
@@ -860,7 +861,7 @@
     "retry_after": 17274
   },
   "live_day": "2026-10-19",
-  "live_time": "20:27",
+  "live_time": "21:29",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-12",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -881,6 +882,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:1IJIUgWX5Z4WTXz7S7CMB6",
     "spotify:track:7cgu4JBW3hq1GwTM1ilkKQ",
     "spotify:track:0fqlz0L5w16uQrELsFxTp0",
     "spotify:track:1o9mAOmNm3wT2NdyGV1Ard",
