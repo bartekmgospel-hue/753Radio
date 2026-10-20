@@ -571,6 +571,7 @@
     "bryan adams|||on a day like today": "spotify:track:1g2tPIP5isX44SNeDeqLsz",
     "bryan adams|||somebody": "spotify:track:3KTxIOIZIE7UM6vwCX4Ofv",
     "bryan adams|||the ballad of terry fox": "spotify:track:1OvkfOMOTNHsnfgVgGWWbQ",
+    "bryan adams|||the only thing that looks good on me is you": "spotify:track:4XcNoJ4W4Qa4uuqxa2KRsm",
     "bryan adams|||there will never be another tonight": "spotify:track:2pRa17WsuJOGVdsTCDtKgl",
     "bryan adams|||you belong to me": "spotify:track:2v5dNDM0ocydZH84V3ctl9",
     "bryan ferry|||kiss and tell": "spotify:track:0QKMpeUWAGPg8165wmah1T",
@@ -1212,6 +1213,7 @@
     "field medic|||coffee in the morning": "spotify:track:7z2OUqaCOGNaecWy0zFmyN",
     "filter|||fades like a photograph dead angel": "spotify:track:5sEg22a5hd2AWIzMmLbTy0",
     "filter|||take a picture": "spotify:track:6q4aoWgTQ8td2AvqQXuFqm",
+    "fine young cannibals|||good thing": "spotify:track:6lRkdG1HurVS72F9GoBeWJ",
     "fink michael wollny tim lefebvre maggie bjorklund nicky hustinx guy sternberg|||atmosphere": "spotify:track:1LlRHmJzGSweuv5VQF4EmM",
     "fink|||atmosphere": "spotify:track:1LlRHmJzGSweuv5VQF4EmM",
     "fink|||the garden": "spotify:track:61Ens7qO9efEwwPcIV4YYC",
@@ -4243,7 +4245,7 @@
     "retry_after": 24722
   },
   "live_day": "2026-10-20",
-  "live_time": "15:56",
+  "live_time": "16:25",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -4576,6 +4578,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:6lRkdG1HurVS72F9GoBeWJ",
+    "spotify:track:4XcNoJ4W4Qa4uuqxa2KRsm",
     "spotify:track:5VOo3oqCFzAypHXMHd551d",
     "spotify:track:7tkVtE5Tf2vM2W4oZD0hqd",
     "spotify:track:4HQyX6OyDXNus0f7aPrHpw",
