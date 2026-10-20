@@ -814,6 +814,7 @@
     "daria ze slaska|||falstart albo faul": "spotify:track:08jXB2Jkn4wxr2mtvWG4Nq",
     "daria ze slaska|||plastelina": "spotify:track:7cxb4tW2mdCRhzg1K5BQwo",
     "daria ze slaska|||tancz": "spotify:track:7yQodNLZKwxHTvc7V72icZ",
+    "daria ze slaska|||trudno jest byc soba": "spotify:track:6h7SgDDqa2g3FtRCLSzHoB",
     "daryl braithwaite|||one summer": "spotify:track:3cU8I44fRvC1b2MD8pClL9",
     "daryl hall john oates|||maneater": "spotify:track:7j74lucZ59vqN67Ipe2ZcY",
     "daryl hall john oates|||maneater live at the troubadour": "spotify:track:1qfGRXou0qNKxNn1zwmhMa",
@@ -872,6 +873,7 @@
     "dean martin|||everybody loves somebody": "spotify:track:5I9sHwLDX28tLtzVgKLtpr",
     "death and vanilla|||out for magic": "spotify:track:5OqA9QnaJYRsflqPZ4I3nM",
     "death cab for cutie|||waterfalls": "spotify:track:6p8ZhmQS4fia0j93S2M3Fj",
+    "declan mckenna|||nothing works": "spotify:track:0AdQEPTVO8F7QAu1eDIpll",
     "deee lite|||groove is in the heart": "spotify:track:2He3NOyqtLNE3RQPpeDdSb",
     "deep purple|||blind": "spotify:track:57BgQAFuhPXVFxbmndMlyj",
     "deep purple|||child in time superhuman stranger things version": "spotify:track:0H4GqAsdLZWRR4uytEBrNl",
@@ -2773,6 +2775,7 @@
     "patryk pietrzak|||wciaz bardziej obcy": "spotify:track:3eI24uioULmidHFTXTTtYY",
     "patsy cline|||crazy": "spotify:track:5UIq2zbapMbSU7Z2SEq8j0",
     "patti smith|||because the night": "spotify:track:0lIoY4ZQsdn5QzhraM9o9u",
+    "patti smith|||gloria in excelsis deo": "spotify:track:272Z4tzaSMMcgrZ0R494S2",
     "paul anka odia coates|||one man woman one woman man": "spotify:track:218AiunmmYDSPVKgCTa4Q7",
     "paul anka|||put your head on my shoulder": "spotify:track:2DpJ9T2RVRanZcYFHKOAfA",
     "paul brady|||nobody knows": "spotify:track:23hQpags3ZUskJwguQY7fs",
@@ -4179,7 +4182,7 @@
     "retry_after": 17175
   },
   "live_day": "2026-10-20",
-  "live_time": "05:29",
+  "live_time": "05:56",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -4508,6 +4511,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:272Z4tzaSMMcgrZ0R494S2",
+    "spotify:track:6h7SgDDqa2g3FtRCLSzHoB",
+    "spotify:track:0AdQEPTVO8F7QAu1eDIpll",
     "spotify:track:1MG8GsL0IfjpsQtPDJMxK6",
     "spotify:track:2HkChZdoDx5M9gsehAiCeE",
     "spotify:track:5Wmo9uaHJHhq042LgrtA0A",
