@@ -943,6 +943,7 @@
     "karolina artymowicz|||dalej": "spotify:track:2dT3Q963P48EWVSOFoIqZq",
     "karolina charko|||hamak": "spotify:track:1Lqb61qdxy5rtAPIURYSsJ",
     "kasia klich|||lepszy model": "spotify:track:4jWVMq7RtqLXTXGRynGO1W",
+    "kasia lins pezet|||sto zyc": "spotify:track:44GIhCbTHFHiTEee4UaydE",
     "kaska sochacka kortez|||dla mnie to juz koniec": "spotify:track:7soiSBsRqE7g5oVZQhaKNL",
     "kaska sochacka|||boje sie o ciebie": "spotify:track:29Jbc1j3COXzrYd3e0sGKU",
     "kaska sochacka|||ego": "spotify:track:0UiNf799aj06bNcse4GjDA",
@@ -1216,6 +1217,7 @@
     "men i trust|||another stone": "spotify:track:5RHhmGMV3FKxRa63AIfIgZ",
     "men i trust|||carried away": "spotify:track:50ASFow3YrVJJpqdzaM1YD",
     "men i trust|||lauren": "spotify:track:62zFcDLa1CjCY9yp6VO4ga",
+    "men i trust|||ring of past": "spotify:track:11sfRkHdvsop5DdHVmGpt1",
     "men i trust|||show me how": "spotify:track:75IQVo8hqI1iwVZyvkN2VT",
     "meshell ndegeocello cat power|||don t you want me": "spotify:track:5sbCqST9M4Q1sRSJM6L6oT",
     "meshell ndegeocello robert glasper|||don t stop the music": "spotify:track:582a1u4ziN01BgLtXDacQb",
@@ -1337,6 +1339,7 @@
     "neil frances|||dancing": "spotify:track:2blNIRZz1KKV4fAC5OgI1o",
     "neil frances|||games": "spotify:track:0kFvkwicbdsC2ML55qmV8V",
     "neil frances|||on the lookout": "spotify:track:4MDgmDaVN9UPyZ41Cxb3NV",
+    "neil frances|||tuesday": "spotify:track:5LjKOTy2cNgmcmXVVMWGZe",
     "nelly furtado|||all good things come to an end": "spotify:track:6kEpjptnAwt11Atr4cEMe1",
     "nel|||in case you change your mind": "spotify:track:4vQX86Bp8IbudBmnbaJ1fj",
     "nemo|||this body": "spotify:track:1Wc3ivNymtI73jl0AcDIDz",
@@ -1983,7 +1986,7 @@
     "retry_after": 17998
   },
   "live_day": "2026-10-20",
-  "live_time": "04:17",
+  "live_time": "05:15",
   "misses": {
     "aaron taylor karell gold|||drowning in your love": "2026-10-09",
     "abe parker genesis owusu|||self sabotage": "2026-10-10",
@@ -2113,6 +2116,9 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:11sfRkHdvsop5DdHVmGpt1",
+    "spotify:track:44GIhCbTHFHiTEee4UaydE",
+    "spotify:track:5LjKOTy2cNgmcmXVVMWGZe",
     "spotify:track:5nOBZ3g7aYzelcmEd73EGb",
     "spotify:track:6bEM4AwDfNxe9oT6pa3DaH",
     "spotify:track:4h5u360XT98KsVWi7ZgG82",
