@@ -4098,6 +4098,7 @@
     "van morrison|||deep blue sea": "spotify:track:06kWfJXPGmRQned0eKp76X",
     "van morrison|||rock me baby": "spotify:track:3DMND9loKpbSj2t8DJTYao",
     "vanessa williams|||colors of the wind": "spotify:track:4qjrCkcVbsYlitCqbBkeKe",
+    "vangelis|||conquest of paradise": "spotify:track:5avVpUakfMHD6qGpaH26CF",
     "vanishing twin|||oral tradition": "spotify:track:4TLimuzTNgLamb5H3ClGV8",
     "variete|||sycylia": "spotify:track:6sg2gRg0NvxAVSYcttwnDY",
     "varius manx|||or a cien live": "spotify:track:7Hqq9gMv0xDndVBoZhov5E",
@@ -4273,7 +4274,7 @@
     "retry_after": 24722
   },
   "live_day": "2026-10-20",
-  "live_time": "21:02",
+  "live_time": "21:57",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -4612,6 +4613,7 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:5avVpUakfMHD6qGpaH26CF",
     "spotify:track:0p43j9GDrlnA7dbHZMTH60",
     "spotify:track:1iaaVZOoNt4SKq1gYqde7p",
     "spotify:track:6GWJTy4PNRk6VXul2gjC14",
