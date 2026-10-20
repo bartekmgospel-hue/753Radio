@@ -681,6 +681,7 @@
     "good neighbours|||ripple soft version": "spotify:track:1IJHhIpZmkJa90LTGb4xrq",
     "good neighbours|||starry eyed": "spotify:track:3DQRwWVjfmAdXPbY7pntyX",
     "gorillaz|||humility": "spotify:track:3NeiYiBn3rQBgurfVk92Zm",
+    "gotan project|||santa maria del buen ayre": "spotify:track:65MDo5mxRY45IHpyVkLEU5",
     "gotan project|||una musica brutal": "spotify:track:1JdVxOvbPCpgzT3mP2Y4WF",
     "gotts street park celeste|||easy": "spotify:track:4phV08Ytfo4eSiHqahFhJo",
     "gotts street park olive jones|||wake me up": "spotify:track:1PADgJaScdTMTCfjxVXfhZ",
@@ -743,6 +744,7 @@
     "holly humberstone|||the walls are way to thin": "spotify:track:6z3o8dAIjtnkXFNErciWHS",
     "honey dijon danielle ponder adi oasis suni mf|||just friends": "spotify:track:16vvU2dfM73xN57mFlQ9FF",
     "honey dijon greentea peng|||i like it hot": "spotify:track:3Wa4mRR5yEylmoWEtFBJaa",
+    "honne jordan rakei|||la la la that s how it goes": "spotify:track:1N1s75g3zd1hDqDtwROlAA",
     "honne|||coastal love": "spotify:track:44zf5NYcYHYzkSsRLARemm",
     "honne|||girl in the orchestra": "spotify:track:2a96zdKA8ijTOCyp0MQke7",
     "honne|||songs in my head": "spotify:track:2WDjdbFkcSLuJOzvz7cvjf",
@@ -1978,7 +1980,7 @@
     "retry_after": 17998
   },
   "live_day": "2026-10-20",
-  "live_time": "02:19",
+  "live_time": "03:17",
   "misses": {
     "aaron taylor karell gold|||drowning in your love": "2026-10-09",
     "abe parker genesis owusu|||self sabotage": "2026-10-10",
@@ -2066,7 +2068,7 @@
     "ojerime|||much pride intrelude": "2026-09-21",
     "parcels alex matric|||lighten up": "2026-09-20",
     "patric alavi|||how much that means to me": "2026-09-20",
-    "paul russell|||eat pray love free nationals rmx": "2026-09-22",
+    "paul russell|||eat pray love free nationals rmx": "2026-10-20",
     "peggy lee|||you re getting to be a habbit with me": "2026-10-05",
     "pictures of the sea|||barck prommer": "2026-10-03",
     "priya tagu little dragon|||good love 2 0": "2026-10-07",
@@ -2108,6 +2110,8 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:1N1s75g3zd1hDqDtwROlAA",
+    "spotify:track:65MDo5mxRY45IHpyVkLEU5",
     "spotify:track:16vv6cjcgbGiq5mohy5ht7",
     "spotify:track:4zB07gwVuovDWGoJJlwLEo",
     "spotify:track:31rPCuV4YhUR2s7aCu0Qym",
