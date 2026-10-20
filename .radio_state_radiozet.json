@@ -778,6 +778,7 @@
     "teddy swims|||lose control": "spotify:track:6usohdchdzW9oML7VC4Uhk",
     "teddy swims|||mr know it all": "spotify:track:2g5kPQh1EexoG8kGZH2nOZ",
     "teddy swims|||perfect man": "spotify:track:6Gf8utzDFG6eImqetkF0Px",
+    "temper city|||reverse psychology": "spotify:track:0SN26lNl4kDUjil8Z7yLjq",
     "temper city|||self aware": "spotify:track:4qW3BbQAwZsrnu8a3ZRdyT",
     "texas|||summer son": "spotify:track:4CfmAinsGt7f9IUvQ3XBGW",
     "the calling|||wherever you will go": "spotify:track:5QpaGzWp0hwB5faV8dkbAz",
@@ -867,7 +868,7 @@
     "retry_after": 19442
   },
   "live_day": "2026-10-20",
-  "live_time": "18:24",
+  "live_time": "19:27",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-12",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -888,6 +889,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:0SN26lNl4kDUjil8Z7yLjq",
     "spotify:track:2ELSVi4kwWOXgxiIC592tJ",
     "spotify:track:5GdFPcbGDQqtbVO2jl6Ez5",
     "spotify:track:3Wrjm47oTz2sjIgck11l5e",
