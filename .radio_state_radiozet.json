@@ -692,6 +692,7 @@
     "roxette|||the big l": "spotify:track:7nDAcK5ZJnfDyNXAWNAhCZ",
     "roxie favst|||na szeroka wode": "spotify:track:377YrfXWzy5s3JVUveRITI",
     "roxie|||b ekit": "spotify:track:2MCf7Lv6OKjbozB5U1YdNC",
+    "roxie|||jesien trwa bez konca": "spotify:track:50GX2voMa5qtdAi1DO3D8h",
     "roy orbison|||you got it": "spotify:track:0RteYQqW1AOq3JNL0yMWYt",
     "sabrina carpenter|||espresso": "spotify:track:2qSkIjg1o9h3YT9RAgYN75",
     "sam feldt vize aloe blacc mc4d|||hey son": "spotify:track:0ejh5drIyEX3wC4U53OCKk",
@@ -769,6 +770,7 @@
     "take that michael patrick kelly|||feel my love": "spotify:track:6bu09h9svqGjpo7Qi3Xscn",
     "tame impala|||dracula jennie remix": "spotify:track:5yvVYFDUpbnjcnRBgjwTzM",
     "tasmin archer|||sleeping satellite": "spotify:track:3WSyYBhLZRLbQo2tJgFvSR",
+    "tate mcrae|||housewife": "spotify:track:2sFepQNyl1WjpROruP8bJ0",
     "taylor swift|||blank space": "spotify:track:1u8c2t2Cy7UBoG4ArRcF5g",
     "taylor swift|||opalite": "spotify:track:3yWuTOYDztXjZxdE2cIRUa",
     "taylor swift|||patient zero": "spotify:track:11hcBLPtbMp4aQI6zGQLub",
@@ -868,7 +870,7 @@
     "retry_after": 19442
   },
   "live_day": "2026-10-20",
-  "live_time": "19:27",
+  "live_time": "20:23",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-12",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -889,6 +891,8 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:2sFepQNyl1WjpROruP8bJ0",
+    "spotify:track:50GX2voMa5qtdAi1DO3D8h",
     "spotify:track:0SN26lNl4kDUjil8Z7yLjq",
     "spotify:track:2ELSVi4kwWOXgxiIC592tJ",
     "spotify:track:5GdFPcbGDQqtbVO2jl6Ez5",
