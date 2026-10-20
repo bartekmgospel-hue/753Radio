@@ -346,6 +346,7 @@
     "huntr x ejae audrey nuna rei ami kpop demon hunters cast|||golden": "spotify:track:5Cp75TUMrHF6c8xbhdligS",
     "hurts|||wonderful life": "spotify:track:2pxpJ9lmbqPEIk3M7ezLR0",
     "icona pop charli xcx|||i love it": "spotify:track:3VZQshi4COChhXaz7cLP02",
+    "ignacy|||czekam na znak": "spotify:track:5fjcRpwg94xQ2hrSqw6x06",
     "igor herbut|||wkreceni nie ufaj mi": "spotify:track:4Wjdk72dzEOynrdTQGBac8",
     "igo|||bruce": "spotify:track:1huxW5YUwPYVlVNj3bUKns",
     "igo|||cud": "spotify:track:5hhMCMRnKXW8IaUgKt4TZd",
@@ -738,6 +739,7 @@
     "sound n grace filip lato|||100": "spotify:track:19xIWdabzDqCXmfjSYhhlK",
     "spice girls|||wannabe": "spotify:track:7qpvLstF3L1UgyEDBV4pjx",
     "spin doctors|||two princes": "spotify:track:4ePP9So5xRzspjLFVVbj90",
+    "stan zapalny|||ego": "spotify:track:1EJYHhX9MloPmwZUkZ7t4a",
     "stanislaw soyka|||tolerancja na mily bog": "spotify:track:3OdBNP9XFecCwsDteynBBh",
     "status quo|||in the army now": "spotify:track:6QLspHLCLftSGPa6vNzKuo",
     "sting|||englishman in new york": "spotify:track:4KFM3A5QF2IMcc6nHsu3Wp",
@@ -862,7 +864,7 @@
     "retry_after": 17274
   },
   "live_day": "2026-10-20",
-  "live_time": "01:29",
+  "live_time": "02:18",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-12",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -883,6 +885,8 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:1EJYHhX9MloPmwZUkZ7t4a",
+    "spotify:track:5fjcRpwg94xQ2hrSqw6x06",
     "spotify:track:2DiCpRfPgf6dW5uYQiHGO5",
     "spotify:track:1IJIUgWX5Z4WTXz7S7CMB6",
     "spotify:track:7cgu4JBW3hq1GwTM1ilkKQ",
