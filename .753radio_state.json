@@ -1737,6 +1737,7 @@
     "jitka zelenkova|||mam chut psat roman": "spotify:track:6WawsVlq20RAt43lmWr4cX",
     "joakim berg|||moderna tider": "spotify:track:1TR2P4Q2GeMdQd3EBQL9zZ",
     "joan armatrading|||love and affection": "spotify:track:6Mnne5V9ZifNID59dswUcZ",
+    "joan jett the blackhearts|||i love rock n roll": "spotify:track:4jTqsgDaffdNH0BMBwhjFv",
     "joan thiele|||eco": "spotify:track:3ycj36w66i2rIGJli4Ruhi",
     "joe cocker|||feelin alright": "spotify:track:0Jl5bIEve3A4axcjY3EgDZ",
     "joe cocker|||first we take manhattan": "spotify:track:1a8NJ8zBS7zNH9j9GzVmZO",
@@ -4248,7 +4249,7 @@
     "retry_after": 24722
   },
   "live_day": "2026-10-20",
-  "live_time": "16:58",
+  "live_time": "17:28",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -4294,6 +4295,7 @@
     "benjamin drees|||la chimera": "2026-09-14",
     "bistro|||09 59": "2026-09-12",
     "blackout|||anna": "2026-09-17",
+    "blur|||fool s day": "2026-10-20",
     "bndk|||glamston": "2026-09-12",
     "bonobo|||can t you see": "2026-09-15",
     "bonobo|||stay the same": "2026-09-12",
@@ -4581,6 +4583,7 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:4jTqsgDaffdNH0BMBwhjFv",
     "spotify:track:7rQiW2mJDbP77h2RLlASTw",
     "spotify:track:792UwI6utk5DMQUT1KXa5E",
     "spotify:track:3SEZEyvEALlomED5xFeqOs",
