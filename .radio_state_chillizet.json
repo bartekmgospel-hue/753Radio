@@ -1012,6 +1012,7 @@
     "kllo|||under lie": "spotify:track:5bX63RDm5L5pB9zhL7XwBE",
     "klyne|||water flow": "spotify:track:1gcbDj7nfYolTr09LklGlr",
     "kodaline|||all i ll ever need": "spotify:track:7bb3TCpMOV3HC4Mo5WGRQP",
+    "kodaline|||high hopes": "spotify:track:6KkyuDhrEhR5nJVKtv9mCf",
     "kofi stone mahalia|||sicily": "spotify:track:2kqq6QETCXotvmP0lPxJYG",
     "kofi stone maverick sabre|||arlissa": "spotify:track:1TRkYXwjX3sna7F0xZNxWz",
     "kojaque biig piig|||woof": "spotify:track:1x28zxdv6XBU3a6oiCBp17",
@@ -1164,6 +1165,7 @@
     "madeline kenney|||plain boring disaster": "spotify:track:4znnZ04zDfKVQ7D070bHvy",
     "madonna|||danceteria": "spotify:track:3a49TEtsbeAgzZAQH9WiDZ",
     "madonna|||frozen": "spotify:track:2II03llydk4YnkBBvoYB3B",
+    "madonna|||rain": "spotify:track:3b3PnE1ROIZzILjmCGjVib",
     "maeta|||dj got me": "spotify:track:531rua0OW2hsGzt2vckbwi",
     "magdalena bay|||all you do": "spotify:track:40yKQDApvz2juObGlI2hcC",
     "maggie rogers|||burning": "spotify:track:68vxG1i6RSmrsY9mRdqDgG",
@@ -2023,7 +2025,7 @@
     "retry_after": 23761
   },
   "live_day": "2026-10-20",
-  "live_time": "18:15",
+  "live_time": "19:15",
   "misses": {
     "aaron taylor karell gold|||drowning in your love": "2026-10-09",
     "abe parker genesis owusu|||self sabotage": "2026-10-10",
@@ -2154,6 +2156,8 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:6KkyuDhrEhR5nJVKtv9mCf",
+    "spotify:track:3b3PnE1ROIZzILjmCGjVib",
     "spotify:track:4rvT5iZVOCJeXZrDvy6JFK",
     "spotify:track:1dXz3W52yl5aRqW2nbc2kk",
     "spotify:track:2m6f43saHDwPQfa4jVowoj",
