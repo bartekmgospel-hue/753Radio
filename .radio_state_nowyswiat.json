@@ -614,6 +614,7 @@
     "de phazz pit baumgartner oli rubow|||rag n jazz": "spotify:track:1W86Lxbkm4vIBapMNCcPe0",
     "de staat|||devil s blood": "spotify:track:2iriA5bnQm1KNKzwdWNTLi",
     "dead bob|||punk rock a rama": "spotify:track:2ThsJoEgU6gN6fDavKPHRm",
+    "dead poet society|||i hope you hate me": "spotify:track:2I6sRKSNmGPAyHdYnlalVN",
     "dead poet society|||uto": "spotify:track:30s8okRLYZmSEEHegXmDad",
     "dean lewis|||into the breeze": "spotify:track:5YKcRCFEWIhKLPsO7ckHgQ",
     "death cab for cutie|||pepper": "spotify:track:5p0bEz7DNsULez2X9yrNGa",
@@ -3150,7 +3151,7 @@
     "retry_after": 24469
   },
   "live_day": "2026-10-21",
-  "live_time": "01:04",
+  "live_time": "01:09",
   "misses": {
     "adam nowak|||pod niebem pe nym cudow live artysci dla akademii teatralnej 24 11 2022": "2026-10-20",
     "andy summers|||round midnight": "2026-10-04",
@@ -3290,6 +3291,7 @@
   "playlist_name": "Radio Nowy Świat",
   "source_generation": "odsluchane-multi-v1.1:105",
   "uris": [
+    "spotify:track:2I6sRKSNmGPAyHdYnlalVN",
     "spotify:track:5HwyIGJ82WAAC49zsFoI8i",
     "spotify:track:58QNyQZknkVyXhxrkhmQPZ",
     "spotify:track:0vzLb0PpVkVozVRZxsCcQU",
