@@ -121,6 +121,7 @@
     "ballady i romanse|||ozimina": "spotify:track:2GodNfTN4EDg5w4Q90OwVj",
     "ballady i romanse|||przysz am do miasta": "spotify:track:5LtwNwADdcgrp6uqAP7FH1",
     "banaszak hanna|||samba przed rozstaniem": "spotify:track:5oKgsHVcjXFnq7y2SWgfr6",
+    "bang on a can all stars|||rain": "spotify:track:3UtpVdZoWv3dKFThTVkmHS",
     "barbara wronska|||pochwa a codziennosci": "spotify:track:6P80hDRQgg1jOHrKLhYuYE",
     "barbara wronska|||tylko z toba": "spotify:track:1Eg2ZoGNrDustj2XGx6nbk",
     "barbra streisand barry gibb|||guilty": "spotify:track:60mGckXEG1EzR4VmjYLfEW",
@@ -1094,6 +1095,7 @@
     "new order|||here to stay": "spotify:track:5qODdo5pr25z8ULx9WXVpN",
     "new order|||primitive notion": "spotify:track:3lhPSC4KH7Hn9CFpnksEd2",
     "new radicals|||you get what you give": "spotify:track:1Cwsd5xI8CajJz795oy4XF",
+    "nianio ksiezyc|||duchy": "spotify:track:1irAPXTJ7ck4zlS0e5Pp6f",
     "nick cave and the bad seeds and kylie minogue|||where the wild roses grow": "spotify:track:4LK8kGGY0FGSGIAk2GwI30",
     "nick cave the bad seeds|||frogs": "spotify:track:4Ojpf3xHb6ZmyW1zFgVOCi",
     "nick cave the bad seeds|||nature boy": "spotify:track:6pmDHODsAiR8PZtlJZnJmC",
@@ -1944,7 +1946,8 @@
     "yugopolis maciej malenczuk|||gdzie sa przyjaciele moi": "spotify:track:73knNyRNaI4jNbKYYdcsKd",
     "zaho de sagazan|||zu asche zu staub": "spotify:track:2QzqOr7kOQz7k3e6uJ4wcr",
     "zbigniew wodecki mitch mitch|||rzuc to wszystko co zle": "spotify:track:11iQIrOyUNjzH6jJtC3NIb",
-    "zz top|||breakaway": "spotify:track:3k6T3I7uuRGL96rWFTucgb"
+    "zz top|||breakaway": "spotify:track:3k6T3I7uuRGL96rWFTucgb",
+    "|||earthly love": "spotify:track:01CxHg2OVWa7Oxh8qV0E1p"
   },
   "last_429": {
     "at": "2026-10-20T06:41:24+00:00",
@@ -1954,7 +1957,7 @@
     "retry_after": 22315
   },
   "live_day": "2026-10-20",
-  "live_time": "20:49",
+  "live_time": "22:42",
   "misses": {
     "adam clayton larry mullen jr|||mission impossible": "2026-10-08",
     "aleman gera mx|||plaza con prada": "2026-10-20",
@@ -2005,6 +2008,7 @@
     "lone ark meets the 18th parallel|||ammunition": "2026-10-11",
     "lone ark meets the 18th parallel|||money": "2026-10-11",
     "lone ark meets the 18th parallel|||serenity": "2026-10-11",
+    "lotto|||out here": "2026-10-20",
     "ma gorzata hoppe|||imagination i": "2026-10-03",
     "ma gorzata hoppe|||imagination vii": "2026-10-03",
     "maga bo|||saye mbott": "2026-10-10",
@@ -2080,6 +2084,9 @@
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
   "uris": [
+    "spotify:track:3UtpVdZoWv3dKFThTVkmHS",
+    "spotify:track:01CxHg2OVWa7Oxh8qV0E1p",
+    "spotify:track:1irAPXTJ7ck4zlS0e5Pp6f",
     "spotify:track:3Z61GLo4anor1Bdox4hwob",
     "spotify:track:4i8nOlXgPPFPFn8LOsC4Hx",
     "spotify:track:08pfYyVLbShND9LP3CklWo",
