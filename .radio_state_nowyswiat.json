@@ -2450,6 +2450,7 @@
     "smierc kliniczna|||nienormalny swiat": "spotify:track:560oBLPotD3SfL4N5s9gGs",
     "smokie|||oh carol": "spotify:track:24JcvexK0aBumwpEHcnfka",
     "smolik kev fox|||5 days": "spotify:track:2C7qkpSk7YI0VAYn8dbdzL",
+    "smolik|||50 tysiecy 881": "spotify:track:3CHqsQ4WLSbkBJ0P56XSdp",
     "smolik|||i will come running": "spotify:track:7z1iKmLndeTflpmV7zHAnz",
     "smolik|||kremowa rewolucja": "spotify:track:4vRcaRYDq1g6j28Qk3DX6F",
     "snak the ripper|||born alone die alone": "spotify:track:3pJ0JwhfZCQjWOC4f5Jem4",
@@ -3136,8 +3137,8 @@
     "reason": "QUOTA_EXCEEDED",
     "retry_after": 24469
   },
-  "live_day": "2026-10-20",
-  "live_time": "18:32",
+  "live_day": "2026-10-21",
+  "live_time": "00:04",
   "misses": {
     "adam nowak|||pod niebem pe nym cudow live artysci dla akademii teatralnej 24 11 2022": "2026-10-20",
     "andy summers|||round midnight": "2026-10-04",
@@ -3277,6 +3278,7 @@
   "playlist_name": "Radio Nowy Świat",
   "source_generation": "odsluchane-multi-v1.1:105",
   "uris": [
+    "spotify:track:3CHqsQ4WLSbkBJ0P56XSdp",
     "spotify:track:34VDj911PQh8B1BXYoOMLq",
     "spotify:track:37dEWKlKY3EQIo5JYdJh0L",
     "spotify:track:2SGkIE5YRgm8znklaCArE4",
