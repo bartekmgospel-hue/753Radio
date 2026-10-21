@@ -1996,6 +1996,7 @@
     "kayah|||spij kochanie spij": "spotify:track:77ppwEoKPhNZx8h3Nskr7H",
     "kayah|||testosteron": "spotify:track:4E2Bg0ui1bMfAsvXiMMymy",
     "kazik edyta bartosiewicz|||cztery pokoje": "spotify:track:1WYcxUfqJmmmduS7F6qImy",
+    "kazik na zywo|||andrzej go ota": "spotify:track:0FDtmeZzLj7wP9xZlg5Ete",
     "kc the sunshine band|||i m your boogie man": "spotify:track:3Hya20ZNnlLzGLCpzJR6bv",
     "kc the sunshine band|||that s the way i like it": "spotify:track:7s3FSodLpnKMzeMj17G5d0",
     "keane|||bend break": "spotify:track:4mPiTSD96K4Dha1irhqpW3",
@@ -4410,7 +4411,7 @@
     "retry_after": 30617
   },
   "live_day": "2026-10-21",
-  "live_time": "17:54",
+  "live_time": "19:01",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -4760,6 +4761,7 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:0FDtmeZzLj7wP9xZlg5Ete",
     "spotify:track:70feOCLfnrEhI4Zff5QYFh",
     "spotify:track:0HoMdjB1XwwMlyPfTV7DEj",
     "spotify:track:5oRG4KJFamOaLASrNaL5Zo",
