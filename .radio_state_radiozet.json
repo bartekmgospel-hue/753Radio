@@ -859,6 +859,7 @@
     "younotus michael schulte|||bye bye bye": "spotify:track:72AbCBCbe5cYOLQy2nZdWA",
     "yugopolis pawe kukiz|||miasto budzi sie": "spotify:track:68ecWfWnxo2rP1wzvGjwbf",
     "zakopower|||boso": "spotify:track:2kcQMkj0nztimTpqWlVrof",
+    "zakopower|||chwila": "spotify:track:1pvEoKARjB3DZnxz8HyEQM",
     "zalia lackluster|||plany": "spotify:track:2HD7SiOdUucNKoTkMVGBMr",
     "zalia|||tylko kochaj mnie": "spotify:track:5cYTaKj5sd6gQLqsLptOsQ",
     "zbigniew wodecki|||lubie wracac tam gdzie bylem": "spotify:track:4sHTqR2RQGsH5pSFqtXroU"
@@ -871,7 +872,7 @@
     "retry_after": 19442
   },
   "live_day": "2026-10-21",
-  "live_time": "01:28",
+  "live_time": "02:19",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-12",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -892,6 +893,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:1pvEoKARjB3DZnxz8HyEQM",
     "spotify:track:26m4l5G7Uw92v6vmmtlwhi",
     "spotify:track:2sFepQNyl1WjpROruP8bJ0",
     "spotify:track:50GX2voMa5qtdAi1DO3D8h",
