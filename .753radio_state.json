@@ -904,6 +904,7 @@
     "david soul|||silver lady": "spotify:track:3gxcggTXkZXnIF34jhwuUK",
     "david sylvian|||orpheus": "spotify:track:3boUavIi1pXlifQ4VPHMg5",
     "dawid podsiad o|||pieknie p yniesz": "spotify:track:5XIAnKNsdUim7GQsekL3uE",
+    "dawid podsiad o|||post": "spotify:track:7u3Nx6lqDYahtcAZ3T2XeY",
     "dawid podsiad o|||sezon": "spotify:track:5CvvWZp4Lsw97zYMg30PyL",
     "dawid podsiad o|||ulek i dawcia": "spotify:track:5T8U0S9VDlzyVOKb4pRRPP",
     "dawid tyszkowski|||kosci": "spotify:track:38i3N8imvLXRlMrxVU5qNk",
@@ -4427,7 +4428,7 @@
     "retry_after": 30617
   },
   "live_day": "2026-10-21",
-  "live_time": "21:06",
+  "live_time": "21:56",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -4780,6 +4781,7 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:7u3Nx6lqDYahtcAZ3T2XeY",
     "spotify:track:1b7459Md2rTMDkcjwwpsE3",
     "spotify:track:0nqoYyWxGkRryitNIninai",
     "spotify:track:0HnHyXrivCaldaL2JzXz0Z",
