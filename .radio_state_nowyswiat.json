@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-10-21T13:01:23+00:00",
   "keys": {
     "19 34|||highway glow": "spotify:track:6MauQb2FZxs9Egqm93ZK6j",
     "49th main|||mangos": "spotify:track:42j4w485h8gESuACqReXYp",
@@ -915,6 +915,7 @@
     "foo fighters|||rescued": "spotify:track:3nDstVXtr6xbCZKs5Ka2rZ",
     "foo fighters|||rest": "spotify:track:2IgxiiF1VdAj9ZfQMTORAb",
     "foo fighters|||show me how": "spotify:track:0ypVld5cYlBkFQqh5KR9kn",
+    "foo fighters|||under you": "spotify:track:6vWu5uWlox5TVDPl3LvoG3",
     "ford trio|||radub": "spotify:track:0rpOdjjyXzR0M8oPx0TzJV",
     "foreigner|||feels like the first time": "spotify:track:3DHWxeWr4uh19MklWjLpR0",
     "foreigner|||tooth and nail": "spotify:track:0SJ2IMAwwihmPd7NlQgsmJ",
@@ -1627,6 +1628,7 @@
     "lfay|||hands are for holding": "spotify:track:3IbHYeEfFF6SZ1BLZnuk0t",
     "liam gallagher john squire|||raise your hands": "spotify:track:1WAgMzQu2hQcJlmRu3P6Cp",
     "liam gallagher|||c mon you know": "spotify:track:5uhYRnjYFjNBXzFL2dp9gu",
+    "liam gallagher|||diamond in the dark": "spotify:track:6cWSuPDQT56oPVqWSsNSee",
     "lianne la havas|||green gold": "spotify:track:4HCcvFdHfwR2u3WPPPVRv6",
     "lianne la havas|||please don t make me cry": "spotify:track:45RztUROkc4H1pHoCtRR6c",
     "lil julez|||blunder": "spotify:track:4V0qu2xov614703czOrDq8",
@@ -2110,6 +2112,7 @@
     "ozzy osbourne|||dead and gone": "spotify:track:1z45ntJaP7rI8atlFWBbN2",
     "p nk|||irrelevant": "spotify:track:5Oz15cyQP3TMDDXKWm4tYH",
     "p unity|||hole": "spotify:track:6ROQkNtO4DJEJTXEGWrvF9",
+    "p unity|||lovers disappearance": "spotify:track:4I9BrpQ3toi6pnkai8nFxL",
     "pablopavo i ludziki|||ostatki": "spotify:track:5X245K3go9XqDvcnHSx1R3",
     "pablopavo i ludziki|||prowadzimy czynnosci": "spotify:track:0wc1YkUfK9OsLsy1dmqYtx",
     "pablopavo i ludziki|||styl warszawski": "spotify:track:0F7buUmecHtWXZjgmP2rnH",
@@ -3189,14 +3192,14 @@
     "|||one girl one boy": "spotify:track:7pskYSHhRTH1TFtVdQevG5"
   },
   "last_429": {
-    "at": "2026-10-20T06:05:30+00:00",
+    "at": "2026-10-21T04:05:27+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 24469
+    "retry_after": 32151
   },
   "live_day": "2026-10-21",
-  "live_time": "04:40",
+  "live_time": "04:51",
   "misses": {
     "adam nowak|||pod niebem pe nym cudow live artysci dla akademii teatralnej 24 11 2022": "2026-10-20",
     "andy summers|||round midnight": "2026-10-04",
@@ -3331,7 +3334,11 @@
     "|||practical arrangement": "2026-10-04"
   },
   "pending_backfill": [],
-  "pending_live": [],
+  "pending_live": [
+    "spotify:track:6cWSuPDQT56oPVqWSsNSee",
+    "spotify:track:4I9BrpQ3toi6pnkai8nFxL",
+    "spotify:track:6vWu5uWlox5TVDPl3LvoG3"
+  ],
   "playlist_id": "7s0pll2O5qPHdRDNZ5egAJ",
   "playlist_name": "Radio Nowy Świat",
   "source_generation": "odsluchane-multi-v1.1:105",
