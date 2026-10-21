@@ -310,6 +310,7 @@
     "bajm|||plomien z nieba": "spotify:track:0oW7Y60bZ7Kg55Z2npu88z",
     "balu brigada|||backseat": "spotify:track:7yT4NJt5rgmVoMJMGPULcj",
     "bananarama|||venus": "spotify:track:4XX1pFUkQOZTYp6Hb6a6Ae",
+    "band of horses|||the funeral": "spotify:track:5lRzWDEe7UuedU2QPsFg0K",
     "banderas|||this is your life": "spotify:track:36m3Oa3hP5L7zMpgSERRNJ",
     "bar italia|||cowbella": "spotify:track:6YFrPFpWtluSdbafipRxiS",
     "bar italia|||fundraiser": "spotify:track:1IBsWEOUwPCDJLwyzsbiBP",
@@ -1544,6 +1545,7 @@
     "happysad|||mgla na torach": "spotify:track:3PL5ltmpKlONS7hSQwu19W",
     "happysad|||py": "spotify:track:7amCqBtdtEct0TsVWnjMVB",
     "hard fi|||don t need you": "spotify:track:1taSXrzC6NlRs9iRrwrKx2",
+    "hard fi|||they ain t your friends": "spotify:track:5OYgnuOAe53BMJmCPAG2Zc",
     "harpo|||moviestar": "spotify:track:4t9EUCjCPbdfqtOH25k8AU",
     "harriet nauer|||murky waters": "spotify:track:4Bc8BAcvWZoPsQm0rJYAeh",
     "harriet nauer|||raven": "spotify:track:7AF2UzVYXqxdJLKzKuKq1U",
@@ -2198,6 +2200,7 @@
     "lola young|||from down here": "spotify:track:7Hg7l5aOygIHuaNDVFp3ox",
     "lombard|||kto mi zaplaci za lzy": "spotify:track:6rlrtBAS8HdwkOI8nZtfAk",
     "london grammar|||wasting my young years": "spotify:track:0CzKeBPCiBrGZRV9eLzzBo",
+    "lone assembly|||you re pulling at the same strings": "spotify:track:2tV5OHJ87RiiROZwFGRpmh",
     "lonely robot|||the river": "spotify:track:4I3XhUu5kcexFNQJ6NqAnp",
     "lorde|||liability": "spotify:track:6Kkt27YmFyIFrcX3QXFi2o",
     "lorde|||perfect places": "spotify:track:7ARveOiD31w2Nq0n5FsSf8",
@@ -4337,7 +4340,7 @@
     "retry_after": 24722
   },
   "live_day": "2026-10-21",
-  "live_time": "05:26",
+  "live_time": "06:01",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -4681,6 +4684,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:5lRzWDEe7UuedU2QPsFg0K",
+    "spotify:track:5OYgnuOAe53BMJmCPAG2Zc",
+    "spotify:track:2tV5OHJ87RiiROZwFGRpmh",
     "spotify:track:38i3N8imvLXRlMrxVU5qNk",
     "spotify:track:3bwAS8cN7Xtzvv5UurJOOX",
     "spotify:track:2O6IG0D422OZTuxZeB3Juh",
