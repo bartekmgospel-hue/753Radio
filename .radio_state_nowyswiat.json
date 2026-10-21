@@ -1922,6 +1922,7 @@
     "mick jagger|||god gave me everything": "spotify:track:020X55mawvXGASoewg14Dj",
     "mick jagger|||hang on to me tonight": "spotify:track:2RB5nCl5udCxc5hgomNrmg",
     "mick jagger|||just another night": "spotify:track:4pVTneBibGa5HU7HzAOvY8",
+    "midlake john grant|||you don t get to": "spotify:track:2OSg2xAPTDeFNLIXtsu3rA",
     "midnight oil|||dreamworld": "spotify:track:13ssHxjcCyy8uPcrnvkvR7",
     "mike hight and the rhythmnaires bill pollard|||nite spot rock": "spotify:track:4mKsXrQTebaQ4NZU1trmT4",
     "mike oldfield|||moonlight shadow": "spotify:track:4WpmwEdc4RBos8W8icSSxW",
@@ -3246,6 +3247,7 @@
     "wojciech m ynarski|||ile ja dop acam": "spotify:track:0R21esWi8BqwFVrPnbxn24",
     "wojciech m ynarski|||jeszcze w zielone gramy": "spotify:track:4FJlMFJ2vyUwVb4Am1cB6T",
     "wojtek mazolewski quintet fisz|||syrop": "spotify:track:3dXW8XZ9u209UrCIx1vGY8",
+    "wojtek mazolewski|||czas odrodzenia": "spotify:track:0G8gFOySMz3xpjSUEXz30b",
     "wojtek mazolewski|||czasem": "spotify:track:2VSZyCM09YNXezQSNICgaQ",
     "wojtek mazolewski|||nagi": "spotify:track:15gssWvJ7Awz0eVDzkiaIE",
     "wolfbrigade|||when dogs cry": "spotify:track:7uKBWzyN9UYHzB7GE05mHm",
@@ -3311,7 +3313,7 @@
     "retry_after": 32151
   },
   "live_day": "2026-10-22",
-  "live_time": "00:57",
+  "live_time": "01:09",
   "misses": {
     "adam nowak|||pod niebem pe nym cudow live artysci dla akademii teatralnej 24 11 2022": "2026-10-20",
     "andy summers|||round midnight": "2026-10-04",
@@ -3454,6 +3456,8 @@
   "playlist_name": "Radio Nowy Świat",
   "source_generation": "odsluchane-multi-v1.1:105",
   "uris": [
+    "spotify:track:0G8gFOySMz3xpjSUEXz30b",
+    "spotify:track:2OSg2xAPTDeFNLIXtsu3rA",
     "spotify:track:4CNZbr3dSioXNk5bJE46XQ",
     "spotify:track:1Qv1K2UaXTyCjppspCtNoS",
     "spotify:track:1Wb09hTo6O41UzdOq7Pd2i",
