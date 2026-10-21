@@ -488,6 +488,7 @@
     "lp|||lost on you": "spotify:track:40x5K8xyIWVmSeUrYjj0os",
     "luis fonsi demi lovato|||echame la culpa": "spotify:track:0mlAOSILGRys2IbvyOT5VJ",
     "lukasz zagrobelny|||nieprawda": "spotify:track:6nc8pvVJlEAz1UFpfQ9oHt",
+    "luna|||a moze": "spotify:track:4LN6Yc7911kZjA1BpfKFLo",
     "lutricia mcneal|||someone loves you honey": "spotify:track:7d9M7srndKOH0bwdQjHcZE",
     "lykke li|||i follow rivers": "spotify:track:3WlVUkLgGYByiGj8gF4erq",
     "maanam|||cykady na cykladach": "spotify:track:6Uk3pnkFa0eohjMEl95Iz8",
@@ -855,6 +856,7 @@
     "wiktoria kida ksiega zywio ow|||naiwna ja": "spotify:track:4x9GZTzFsErAMCDBNw6C6v",
     "wiktoria kida ksiega zywiolow|||oj dziewczyno": "spotify:track:4962ajMOnZSbhN80G0Ogk4",
     "wilki|||bohema": "spotify:track:1sQg4fEZ1WeZos9zRI02DQ",
+    "wilki|||na krawedzi zycia": "spotify:track:0LV3JNeXb7dmtzbQghHlMt",
     "wilki|||na zawsze i na wiecznosc": "spotify:track:4Dw3fQrWGRteHRDeCAIrIY",
     "wilki|||urke": "spotify:track:0DXi34kEIXj6YPxrEfsFa7",
     "yearboox|||graceland": "spotify:track:0UrAgB7p2pNB7lzdWEWw8V",
@@ -874,8 +876,8 @@
     "reason": "QUOTA_EXCEEDED",
     "retry_after": 12718
   },
-  "live_day": "2026-10-21",
-  "live_time": "23:27",
+  "live_day": "2026-10-22",
+  "live_time": "00:29",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-12",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -896,6 +898,8 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:0LV3JNeXb7dmtzbQghHlMt",
+    "spotify:track:4LN6Yc7911kZjA1BpfKFLo",
     "spotify:track:4HCOHRCSQelz2GPX8iTamO",
     "spotify:track:7AHD7OnsLGYfOKGVL1rbzM",
     "spotify:track:0SiywuOBRcynK0uKGWdCnn",
