@@ -96,6 +96,7 @@
     "baranovski|||czule miejsce": "spotify:track:0aT3lifHLChDNpkVasIHPR",
     "baranovski|||dym": "spotify:track:5VqyBEf4496NUsXs5OdEpM",
     "baranovski|||lubie byc z nia": "spotify:track:5SOFAkRZQqDn0NveCTkGxU",
+    "baranovski|||nie mamy nic": "spotify:track:0XAwk4X34e2BC0Rk1RFh9G",
     "bastille|||things we lost in the fire": "spotify:track:6qOxF7JKKNegcuocn14ukr",
     "beata kozidrak|||blizej": "spotify:track:0jA9ooo0BSySfFrxSnF9KW",
     "beatfreakz|||somebody s watching me": "spotify:track:4H0IEbAy9oJEYjd4UL6q4c",
@@ -461,6 +462,7 @@
     "lana del rey|||summertime sadness": "spotify:track:3BJe4B8zGnqEdQPMvfVjuS",
     "lanberry tribbs|||dzieki ze jestes": "spotify:track:5Qw74vxmtJzAEYjy1wfVCk",
     "lanberry|||co ja robie tu": "spotify:track:0ZtsZGN84NYbQoBu7VMfDq",
+    "lanberry|||piatek": "spotify:track:1w50goPGfSC4GGy7TMPRdQ",
     "latto lu kala|||lottery": "spotify:track:1JUtrCqYzJ80tcAzMbCvir",
     "laura branigan|||self control": "spotify:track:6efSiDvnrUxhUMPGssgOlV",
     "lawson|||juliet": "spotify:track:2zw1kicCAYcKaVg6isxH4F",
@@ -820,6 +822,7 @@
     "twocolors|||heavy metal love": "spotify:track:07VcTAooOBP8hIluuUS5xr",
     "twocolors|||primadonna": "spotify:track:0RFCJKLEIk9FBtyP8XlBHe",
     "twoface|||fire in your eyes": "spotify:track:31Z7bPUGrjdNw9dGzqnaNX",
+    "ukasz zagrobelny|||zycie na czekanie": "spotify:track:78AJbrRBCWDb4aYtXfUBcs",
     "uniting nations|||ai no corrida": "spotify:track:5Dg1sV8glk2ylbUbwvU5hx",
     "uniting nations|||out of touch": "spotify:track:61tuhfTN2wIockEGGbZnis",
     "urszula|||rysa na szkle": "spotify:track:5AjiFflkiZd6h3sBQ9f4vP",
@@ -877,7 +880,7 @@
     "retry_after": 12718
   },
   "live_day": "2026-10-22",
-  "live_time": "00:29",
+  "live_time": "01:27",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-12",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -898,6 +901,9 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:1w50goPGfSC4GGy7TMPRdQ",
+    "spotify:track:0XAwk4X34e2BC0Rk1RFh9G",
+    "spotify:track:78AJbrRBCWDb4aYtXfUBcs",
     "spotify:track:0LV3JNeXb7dmtzbQghHlMt",
     "spotify:track:4LN6Yc7911kZjA1BpfKFLo",
     "spotify:track:4HCOHRCSQelz2GPX8iTamO",
