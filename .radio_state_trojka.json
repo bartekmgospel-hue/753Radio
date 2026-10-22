@@ -1,6 +1,6 @@
 {
   "backfill_last_completed": null,
-  "blocked_until": null,
+  "blocked_until": "2026-10-22T13:05:34+00:00",
   "keys": {
     "113|||clando": "spotify:track:0Ks8EBMLiFZISEI7TF9Fgx",
     "15 minut projekt|||soca": "spotify:track:4nb5Saxa9EhQmkSEourUW4",
@@ -284,6 +284,7 @@
     "coldplay|||every teardrop is a waterfall": "spotify:track:2U8g9wVcUu9wsg6i7sFSv8",
     "coldplay|||god put a smile upon your face": "spotify:track:4hf0hL4kWyjWztZzVsM39V",
     "coldplay|||in my place": "spotify:track:2nvC4i2aMo4CzRjRflysah",
+    "coldplay|||politik": "spotify:track:0u35Dpz37TY2M2j20RUdMf",
     "coldplay|||talk": "spotify:track:4wzt5Rrk3W98pHXAqutuJw",
     "coldplay|||viva la vida": "spotify:track:1mea3bSkSGXuIRvnydlB5b",
     "coldplay|||yellow": "spotify:track:3AJwUDP919kvQ9QcozQPxg",
@@ -609,6 +610,7 @@
     "hey|||a ty": "spotify:track:5h9skvE12rAxa3eIWUFQ1r",
     "hey|||anio": "spotify:track:1639cSm4V70HTF2WU8msR1",
     "hey|||bezruch": "spotify:track:1wi803YpJn9jTkpUxawGN5",
+    "hey|||cudzoziemka w raju kobiet": "spotify:track:52z9gYlMBvl4v3bEJ1nUEX",
     "hey|||czas spe nienia": "spotify:track:5MCiJgrbXyO7qU1KmrpBxS",
     "hey|||eksperyment": "spotify:track:3TOMZWDllt0ffIVLMB8qeq",
     "hey|||historie": "spotify:track:4GrHpEPPBjggrO2YpdkFct",
@@ -616,7 +618,9 @@
     "hey|||ja sowa": "spotify:track:0uULuSoQjSYe5aYarNxHRu",
     "hey|||kto tam kto jest w srodku": "spotify:track:52rY8OgUFZZRcYwybgGTA7",
     "hey|||list": "spotify:track:3fYB4ptzaZxBKM6eZyUEKU",
+    "hey|||mimo wszystko": "spotify:track:7moJD0KpZeO0HVD99chZLw",
     "hey|||misie": "spotify:track:7oovRWMR9CAMLKXuSXCSvt",
+    "hey|||mru mru": "spotify:track:4yZkbplPf21GPfJTgbBWYu",
     "hey|||niekoniecznie o mezczyznie": "spotify:track:2skWRKEw5MRwy38AeWYhUB",
     "hey|||teksanski": "spotify:track:1yuX7XjM3l9Gz0grQwxDIl",
     "hey|||wczesna jesien": "spotify:track:3hAKoTdyEQ2r6MHolTLtiv",
@@ -1282,7 +1286,9 @@
     "pearl jam|||daughter": "spotify:track:0t1jS1E4wsxk6GMT4Q0iFD",
     "pearl jam|||dissident": "spotify:track:0vIdjS2WkkgaF0AN8PV6vZ",
     "pearl jam|||even flow": "spotify:track:6QewNVIDKdSl8Y3ycuHIei",
+    "pearl jam|||i am mine": "spotify:track:79pY2Z5eFvXMt9bSdHLrnA",
     "pearl jam|||jeremy": "spotify:track:62nQ8UZVqR2RMvkJHkcO2o",
+    "pearl jam|||nothing as it seems": "spotify:track:1pNSYQkmeFSqsSOGwwxs5L",
     "pearl jam|||sirens": "spotify:track:1cAMXz9mnvrqyQLSG4KeeE",
     "pearl jam|||w m a": "spotify:track:75hNkUuQAjHJhgWX0zqnJN",
     "pearl jam|||wreckage": "spotify:track:083LM23MmqS8HTTYZQrYxG",
@@ -2076,14 +2082,14 @@
     "|||earthly love": "spotify:track:01CxHg2OVWa7Oxh8qV0E1p"
   },
   "last_429": {
-    "at": "2026-10-21T04:41:19+00:00",
+    "at": "2026-10-22T04:41:21+00:00",
     "message": "Too many requests",
     "mode": "live",
     "reason": "QUOTA_EXCEEDED",
-    "retry_after": 29999
+    "retry_after": 30248
   },
   "live_day": "2026-10-22",
-  "live_time": "03:58",
+  "live_time": "02:30",
   "misses": {
     "01|||on the ifness kinfy": "2026-10-21",
     "adam clayton larry mullen jr|||mission impossible": "2026-10-08",
@@ -2206,7 +2212,14 @@
     "zespo kabaretowy tapima|||z ota piosenka": "2026-09-19"
   },
   "pending_backfill": [],
-  "pending_live": [],
+  "pending_live": [
+    "spotify:track:0u35Dpz37TY2M2j20RUdMf",
+    "spotify:track:52z9gYlMBvl4v3bEJ1nUEX",
+    "spotify:track:4yZkbplPf21GPfJTgbBWYu",
+    "spotify:track:7moJD0KpZeO0HVD99chZLw",
+    "spotify:track:1pNSYQkmeFSqsSOGwwxs5L",
+    "spotify:track:79pY2Z5eFvXMt9bSdHLrnA"
+  ],
   "playlist_id": "78FchE0GI5vKwev0iHw12y",
   "playlist_name": "Trójka",
   "source_generation": "odsluchane-multi-v1.1:48",
