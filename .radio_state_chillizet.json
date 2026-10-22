@@ -1143,6 +1143,7 @@
     "krol|||nie zrobie nic": "spotify:track:2vGPLslpm9MvURJeh04F3m",
     "kryptogram|||how long have you been away": "spotify:track:1LM3ZXahgznbnRJPjbMrze",
     "kse|||skopje": "spotify:track:5XWvYalCs7NDNN7jzIQtzH",
+    "kuba wiecek|||me my present reason": "spotify:track:7ihssk4redz7fjEUTpFJXL",
     "kwiat jab oni|||nie nie nie": "spotify:track:1fWKCmzoDwpS5DdG68ival",
     "kwiat jab oni|||poprosze wiecej siebie": "spotify:track:53LjYUbwHKVBxyqsMYVLTG",
     "kwiat jabloni|||przezroczysty swiat": "spotify:track:7FsDLGESYrAuqB9ofJiRpD",
@@ -2236,8 +2237,8 @@
     "reason": "QUOTA_EXCEEDED",
     "retry_after": 24492
   },
-  "live_day": "2026-10-22",
-  "live_time": "23:08",
+  "live_day": "2026-10-23",
+  "live_time": "00:14",
   "misses": {
     "aaron taylor karell gold|||drowning in your love": "2026-10-09",
     "abe parker genesis owusu|||self sabotage": "2026-10-10",
@@ -2376,6 +2377,7 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:7ihssk4redz7fjEUTpFJXL",
     "spotify:track:0q03Lp0y3Cl3HVLYxKZ5xu",
     "spotify:track:3PG7BAJG9WkmNOJOlc4uAo",
     "spotify:track:43zdsphuZLzwA9k4DJhU0I",
