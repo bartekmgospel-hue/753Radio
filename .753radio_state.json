@@ -279,6 +279,7 @@
     "artur rojek|||sophia loren s upnej park": "spotify:track:4EhO5qN9yHJsctOsfwd5me",
     "artur rojek|||splatane wlosy": "spotify:track:4tAJN07fRPxWYWowwqL9lu",
     "artur rojek|||syreny": "spotify:track:5jnPsCxNjmGFmkcWYZ8YCS",
+    "artur rojek|||w dziale na s": "spotify:track:6FMQvAhWw7jLanJZIGgXM3",
     "artur rojek|||w objeciach": "spotify:track:3kjXg6wHnYuuRjgTQhWZCr",
     "asaf avidan|||love it or leave it": "spotify:track:6WfRECVMB5ktwlFWQp2LMP",
     "asgeir|||against the current": "spotify:track:3dJWJS8D4pDIGJ1kG8BVH3",
@@ -1046,6 +1047,7 @@
     "dom la nena|||valsa": "spotify:track:0qsA5r3p1ISvQHClrR1zT4",
     "domenico modugno|||volare": "spotify:track:71hIekopkrYCGgggsBOpVG",
     "dominique a|||eleor": "spotify:track:32QErOT7sMFzEGGb9HrpUb",
+    "don henley|||johnny can t read": "spotify:track:1q6Zj5chgK6Z2C6IkQYjiZ",
     "don henley|||the end of the innocence": "spotify:track:2vny7GArzMVheG4Ovd7Bbk",
     "don henley|||the end of the innocence remastered 2025": "spotify:track:10i569FFhhw66dD2nQGcHr",
     "don mclean|||american pie": "spotify:track:1fDsrQ23eTAVFElUMaf38X",
@@ -1734,6 +1736,7 @@
     "inxs|||disappear": "spotify:track:2wg6RV3N9GoUMURfhxMJ3P",
     "inxs|||just keep walking": "spotify:track:3MRWEvBp57nenyY0jFwk20",
     "inxs|||need you tonight": "spotify:track:3h04eZTnmFLRMjZajbrp2R",
+    "inxs|||on my way": "spotify:track:69VIEA3VyBnpAMBjsTuaGT",
     "inxs|||suicide blonde": "spotify:track:3dISHe66tFlOKqmom5Qr2n",
     "inxs|||the stairs": "spotify:track:1DpycJ9AYIgz04qr32p1hg",
     "ira|||nadzieja": "spotify:track:4S81mARVgP200Z7WTXsYYa",
@@ -4526,7 +4529,7 @@
     "retry_after": 29053
   },
   "live_day": "2026-10-22",
-  "live_time": "16:21",
+  "live_time": "17:27",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -4890,6 +4893,9 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:69VIEA3VyBnpAMBjsTuaGT",
+    "spotify:track:1q6Zj5chgK6Z2C6IkQYjiZ",
+    "spotify:track:6FMQvAhWw7jLanJZIGgXM3",
     "spotify:track:4nZvaW6zy00vYwNXzbOkNH",
     "spotify:track:1xPT6G4npjOaAv4bWOm0Wk",
     "spotify:track:5AhRNIjYPBleR1lfHphcrE",
