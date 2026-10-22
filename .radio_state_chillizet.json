@@ -558,6 +558,7 @@
     "dusky|||fruit bats": "spotify:track:7k2rjMxPGMWt6npBjpi612",
     "ed leigh|||tequila": "spotify:track:2NOQXe8bbSGlgMXNyvlp8C",
     "ed sheeran|||the a team": "spotify:track:1VdZ0vKfR5jneCmWIUAMxK",
+    "edapollo akacia|||gold light": "spotify:track:6Jg4uLIr5FD9Fj0EFwgdXo",
     "edyta bartosiewicz|||ostatni": "spotify:track:0IZ26aAErwbYaRqawB2nSL",
     "efe|||garden": "spotify:track:38uqIeoKKlFxm2aH6SL73v",
     "ego ella may|||take it easy miles song": "spotify:track:4EHMndrbnEWCxRBhwMQWpm",
@@ -2161,7 +2162,7 @@
     "retry_after": 31441
   },
   "live_day": "2026-10-22",
-  "live_time": "05:15",
+  "live_time": "06:15",
   "misses": {
     "aaron taylor karell gold|||drowning in your love": "2026-10-09",
     "abe parker genesis owusu|||self sabotage": "2026-10-10",
@@ -2186,7 +2187,7 @@
     "charlie haden quartet|||unlucky": "2026-10-20",
     "charlote day wilson|||i can only whisper": "2026-10-21",
     "charlote day wilson|||if i could": "2026-10-10",
-    "charlote day wilson|||mountains": "2026-10-03",
+    "charlote day wilson|||mountains": "2026-10-22",
     "chris botti|||contiego en la distancia": "2026-10-21",
     "city park|||night never ends": "2026-10-07",
     "cri our odile mytrill|||why i love you": "2026-09-23",
@@ -2300,6 +2301,7 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:6Jg4uLIr5FD9Fj0EFwgdXo",
     "spotify:track:06OpgygkcUcuMXDjdagmwh",
     "spotify:track:4sUAFt1Wgd5X3Ug8UCUtlE",
     "spotify:track:7b5aB8lmP4IRyETOQWueXk",
