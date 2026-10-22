@@ -1040,6 +1040,7 @@
     "kaska sochacka|||spaleni s oncem": "spotify:track:1sHiBwgaWVwNhNP778uss4",
     "kaska sochacka|||spokojnie": "spotify:track:2uELILxlzWaIbP376JuISf",
     "kaska sochacka|||szum": "spotify:track:4dbp2q4IPbDvmDlECn3Xii",
+    "kaska sochacka|||wisnia": "spotify:track:06OpgygkcUcuMXDjdagmwh",
     "kaska sochacka|||wisnia live": "spotify:track:3Rhw2D4jquz3jTQrxkcPSi",
     "kaska sochacka|||wszystko": "spotify:track:41M788bs1tKn4mm3vWXDhu",
     "kathia|||wszystko jedno": "spotify:track:3PwObD0w22aaIClsZVrWGH",
@@ -2160,7 +2161,7 @@
     "retry_after": 31441
   },
   "live_day": "2026-10-22",
-  "live_time": "04:17",
+  "live_time": "05:15",
   "misses": {
     "aaron taylor karell gold|||drowning in your love": "2026-10-09",
     "abe parker genesis owusu|||self sabotage": "2026-10-10",
@@ -2299,6 +2300,7 @@
   "playlist_name": "Chillizet",
   "source_generation": "odsluchane-multi-v1.1:40",
   "uris": [
+    "spotify:track:06OpgygkcUcuMXDjdagmwh",
     "spotify:track:4sUAFt1Wgd5X3Ug8UCUtlE",
     "spotify:track:7b5aB8lmP4IRyETOQWueXk",
     "spotify:track:7fHzB5CK4GW7UH8LCjENWq",
