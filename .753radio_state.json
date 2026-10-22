@@ -2249,6 +2249,7 @@
     "liza minnelli|||losing my mind": "spotify:track:2loMPlz3JWjFGF6fPoiSoo",
     "lizz wright|||singing in my soul": "spotify:track:3BlwNNhMoNy3kJJQkotssv",
     "lizzo|||blame it on your love": "spotify:track:2RCUr24WkEe2r5Vv4oDKlN",
+    "lizzo|||still bad": "spotify:track:5UpdcedkGcuishA7jlnH8W",
     "lizzo|||truth hurts": "spotify:track:3HWzoMvoF3TQfYg4UPszDq",
     "ll cool j|||i can t live without my radio": "spotify:track:2qfTGzETefwtBWKDThZjnU",
     "lo moon|||camouflage": "spotify:track:1kco0TRj4VNCP3s22hgX9T",
@@ -4006,6 +4007,7 @@
     "the raconteurs|||steady as she goes": "spotify:track:4xlEKYv7HmC8zXoJIbpZKM",
     "the ramona flowers|||brighter": "spotify:track:2n0OaCDQGsDrDTU1EJObCz",
     "the raveonettes|||heartbreak stroll": "spotify:track:1VoohZVlueQqVq01QkFXD2",
+    "the raveonettes|||last dance": "spotify:track:1wkDtPvigXJsadOm87RG8S",
     "the raveonettes|||recharge revolt": "spotify:track:5DH87mAbfJTKeMNN7DWomr",
     "the red clay strays|||wanna be loved": "spotify:track:4boa7Bv0VijpxoP1SHjjUb",
     "the regrettes|||i dare you": "spotify:track:6N3aShaAM8V6valfHIFVOr",
@@ -4454,7 +4456,7 @@
     "retry_after": 30617
   },
   "live_day": "2026-10-22",
-  "live_time": "05:28",
+  "live_time": "06:01",
   "misses": {
     "2 plus 1|||hej czy ja ciebie czasem nie znam": "2026-09-24",
     "2 plus 1|||tyle ptakow do z apania": "2026-09-24",
@@ -4522,7 +4524,7 @@
     "co panstwo na to|||12 55": "2026-10-19",
     "co panstwo na to|||12 57": "2026-10-20",
     "co panstwo na to|||12 58": "2026-09-14",
-    "cocorosie|||end of the freak show": "2026-09-21",
+    "cocorosie|||end of the freak show": "2026-10-22",
     "cool kid of jazz|||22 43": "2026-09-14",
     "daph veil|||don t look away": "2026-09-26",
     "david cassidy|||romance let your heart go": "2026-09-15",
@@ -4809,6 +4811,8 @@
   "playlist_name": "753Radio",
   "source_generation": "odsluchane-v1",
   "uris": [
+    "spotify:track:1wkDtPvigXJsadOm87RG8S",
+    "spotify:track:5UpdcedkGcuishA7jlnH8W",
     "spotify:track:2Mkhimqjo6VlQ1k6bVxM0A",
     "spotify:track:13Fk9amPlwYh5Wqs1Zy9cv",
     "spotify:track:0qqOZcLqriEbeUPYWyIaRO",
