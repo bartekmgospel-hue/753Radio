@@ -861,6 +861,7 @@
     "wiktor waligora|||nie umiem kochac": "spotify:track:11bRjv4HeXGINazFrkOdh4",
     "wiktor waligora|||to jest to": "spotify:track:1I7nEa7aWULffUDCJrkhVp",
     "wiktoria kida ksiega zywio ow|||naiwna ja": "spotify:track:4x9GZTzFsErAMCDBNw6C6v",
+    "wiktoria kida ksiega zywio ow|||oceany": "spotify:track:0mEBiQh0MJ6YRQYwWCempf",
     "wiktoria kida ksiega zywiolow|||oj dziewczyno": "spotify:track:4962ajMOnZSbhN80G0Ogk4",
     "wilki|||bohema": "spotify:track:1sQg4fEZ1WeZos9zRI02DQ",
     "wilki|||na krawedzi zycia": "spotify:track:0LV3JNeXb7dmtzbQghHlMt",
@@ -884,7 +885,7 @@
     "retry_after": 5771
   },
   "live_day": "2026-10-22",
-  "live_time": "19:29",
+  "live_time": "20:28",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-22",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -905,6 +906,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:0mEBiQh0MJ6YRQYwWCempf",
     "spotify:track:2rx5kbzeXkov5weGUxib4N",
     "spotify:track:7CKApXE4IObF2h8TyQ6Ibr",
     "spotify:track:2RChe0r2cMoyOvuKobZy44",
