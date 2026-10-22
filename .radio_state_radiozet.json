@@ -886,7 +886,7 @@
     "retry_after": 5771
   },
   "live_day": "2026-10-23",
-  "live_time": "00:28",
+  "live_time": "01:29",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-22",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -896,10 +896,10 @@
     "kaska sochacka kortez|||jak my": "2026-10-19",
     "kukiz i piersi|||caluj mnie": "2026-10-23",
     "morandi|||angels": "2026-10-21",
-    "roksana wegiel|||miasto": "2026-10-05",
+    "roksana wegiel|||miasto": "2026-10-23",
     "szymon wydra carpe diem|||teraz wiem": "2026-10-03",
     "tabb sound n grace|||dach": "2026-10-19",
-    "tabb sound n grace|||na pewno": "2026-10-09"
+    "tabb sound n grace|||na pewno": "2026-10-23"
   },
   "pending_backfill": [],
   "pending_live": [],
