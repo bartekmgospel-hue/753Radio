@@ -52,6 +52,7 @@
     "andrzej piaseczny robert chojnacki|||niecierpliwi": "spotify:track:7yd53nDAObS48pGBkP4qeb",
     "andrzej piaseczny|||chodz przytul przebacz": "spotify:track:5eYQ4VtpaITG5fMmLBPYZi",
     "andrzej piaseczny|||prawie do nieba": "spotify:track:7odmSIfeJidNKvGf58hE7C",
+    "andrzej piaseczny|||rysowane tobie": "spotify:track:3f4MRCuBl9n6n1BiwGvOH6",
     "andy dust charis|||zokaria": "spotify:track:75hse8udckfJFdQhRo4BNP",
     "ania dabrowska|||nieprawda gromee remix": "spotify:track:2yCLbfLmrBwhHrwrxSvuZH",
     "ania dabrowska|||nigdy wiecej nie tancz ze mna": "spotify:track:5aO79RThrj934okvwVaRBJ",
@@ -884,8 +885,8 @@
     "reason": "QUOTA_EXCEEDED",
     "retry_after": 5771
   },
-  "live_day": "2026-10-22",
-  "live_time": "23:29",
+  "live_day": "2026-10-23",
+  "live_time": "00:28",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-22",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -893,7 +894,7 @@
     "coldplay beyonce|||hymn for the weekend": "2026-10-02",
     "golden life|||oprocz": "2026-09-26",
     "kaska sochacka kortez|||jak my": "2026-10-19",
-    "kukiz i piersi|||caluj mnie": "2026-09-20",
+    "kukiz i piersi|||caluj mnie": "2026-10-23",
     "morandi|||angels": "2026-10-21",
     "roksana wegiel|||miasto": "2026-10-05",
     "szymon wydra carpe diem|||teraz wiem": "2026-10-03",
@@ -906,6 +907,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:3f4MRCuBl9n6n1BiwGvOH6",
     "spotify:track:0mEBiQh0MJ6YRQYwWCempf",
     "spotify:track:2rx5kbzeXkov5weGUxib4N",
     "spotify:track:7CKApXE4IObF2h8TyQ6Ibr",
