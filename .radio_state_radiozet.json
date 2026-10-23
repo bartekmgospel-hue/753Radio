@@ -101,6 +101,7 @@
     "baranovski|||nie mamy nic": "spotify:track:0XAwk4X34e2BC0Rk1RFh9G",
     "bastille|||things we lost in the fire": "spotify:track:6qOxF7JKKNegcuocn14ukr",
     "beata kozidrak|||blizej": "spotify:track:0jA9ooo0BSySfFrxSnF9KW",
+    "beata kozidrak|||siedze i mysle": "spotify:track:0FCecoRE7gxDnZGc05fvJB",
     "beatfreakz|||somebody s watching me": "spotify:track:4H0IEbAy9oJEYjd4UL6q4c",
     "bebe rexha faithless|||new religion": "spotify:track:2Lb9ww5vZAnveWnrFQfAKR",
     "belinda carlisle|||heaven is a place on eart": "spotify:track:1ryT9eOWD1JuxPD5ew53SJ",
@@ -886,7 +887,7 @@
     "retry_after": 5771
   },
   "live_day": "2026-10-23",
-  "live_time": "01:29",
+  "live_time": "02:17",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-22",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -897,7 +898,7 @@
     "kukiz i piersi|||caluj mnie": "2026-10-23",
     "morandi|||angels": "2026-10-21",
     "roksana wegiel|||miasto": "2026-10-23",
-    "szymon wydra carpe diem|||teraz wiem": "2026-10-03",
+    "szymon wydra carpe diem|||teraz wiem": "2026-10-23",
     "tabb sound n grace|||dach": "2026-10-19",
     "tabb sound n grace|||na pewno": "2026-10-23"
   },
@@ -907,6 +908,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:0FCecoRE7gxDnZGc05fvJB",
     "spotify:track:3f4MRCuBl9n6n1BiwGvOH6",
     "spotify:track:0mEBiQh0MJ6YRQYwWCempf",
     "spotify:track:2rx5kbzeXkov5weGUxib4N",
