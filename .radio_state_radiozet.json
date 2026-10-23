@@ -418,6 +418,7 @@
     "katy perry|||roar": "spotify:track:27tNWlhdAryQY04Gb2ZhUI",
     "kayah grzegorz hyzy|||podatek od mi osci": "spotify:track:45x83mkNFLb41OkQBiu4Q8",
     "kayah idan raichel|||po co": "spotify:track:0WIzHu11aUhxbFrOaUoYkM",
+    "kayah|||supermenka": "spotify:track:4Wqyw8CrKc3KR1SdpbOIP2",
     "kayah|||testosteron": "spotify:track:4E2Bg0ui1bMfAsvXiMMymy",
     "kazik yugoton|||malcziki": "spotify:track:6nhEv1y5OboIWD8gtTVijB",
     "ke ha|||tik tok": "spotify:track:0HPD5WQqrq7wPWR7P7Dw1i",
@@ -887,7 +888,7 @@
     "retry_after": 5771
   },
   "live_day": "2026-10-23",
-  "live_time": "02:17",
+  "live_time": "02:58",
   "misses": {
     "artur gadowski|||szczesliwego nowego jorku": "2026-10-22",
     "borysewicz kukiz|||bo tutaj jest jak jest": "2026-10-04",
@@ -908,6 +909,7 @@
   "playlist_name": "Radio ZET",
   "source_generation": "odsluchane-multi-v1.1:1",
   "uris": [
+    "spotify:track:4Wqyw8CrKc3KR1SdpbOIP2",
     "spotify:track:0FCecoRE7gxDnZGc05fvJB",
     "spotify:track:3f4MRCuBl9n6n1BiwGvOH6",
     "spotify:track:0mEBiQh0MJ6YRQYwWCempf",
