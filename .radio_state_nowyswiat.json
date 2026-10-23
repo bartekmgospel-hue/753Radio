@@ -2220,6 +2220,7 @@
     "nothing but thieves|||oh no he said what": "spotify:track:5vcLmtmm2oVtdsOX0E1zeZ",
     "nothing but thieves|||trip switch": "spotify:track:13QI6bq0U8HMK7gUpAwFBK",
     "nouvelle vague|||only you": "spotify:track:3S9pMl1m8uxdYqgprfpKwb",
+    "novika|||sk ama am": "spotify:track:4DfsipFEt8RzG3jaDYAwHH",
     "noze|||heliocentryzm": "spotify:track:3dl2fK8YUkwGRRtIRWEzAH",
     "ntjam rosie|||fefel osoe by streams of water": "spotify:track:3GYzNeLQKbPaQWT39D7dMJ",
     "nu genea|||ma tu che bbuo": "spotify:track:5sMx4Sv0ieA8sBUcM62BNV",
@@ -3452,7 +3453,7 @@
     "retry_after": 28802
   },
   "live_day": "2026-10-23",
-  "live_time": "02:04",
+  "live_time": "03:03",
   "misses": {
     "adam nowak|||pod niebem pe nym cudow live artysci dla akademii teatralnej 24 11 2022": "2026-10-20",
     "andy summers|||round midnight": "2026-10-04",
@@ -3475,7 +3476,7 @@
     "coleman hawkins|||you were meant for me 12 10 47": "2026-10-11",
     "czerwone gitary|||rytm ziemi": "2026-10-01",
     "daft punk|||prime": "2026-10-05",
-    "david bowie|||right": "2026-10-04",
+    "david bowie|||right": "2026-10-23",
     "dawid tyszkowski|||tlen live artysci dla akademii teatralnej 24 11 2022": "2026-10-07",
     "diamanda galas john paul jones|||dark end of the street": "2026-10-07",
     "dogs in a pile|||boogie on reggae woman the ruins hood river": "2026-10-04",
@@ -3599,6 +3600,7 @@
   "playlist_name": "Radio Nowy Świat",
   "source_generation": "odsluchane-multi-v1.1:105",
   "uris": [
+    "spotify:track:4DfsipFEt8RzG3jaDYAwHH",
     "spotify:track:2fgktVdVpJnMcsrCtkzGm0",
     "spotify:track:7tVxe7cfmx0jeFgGxoD3Jm",
     "spotify:track:1YxQjXz51Yb9QJOAQJnven",
